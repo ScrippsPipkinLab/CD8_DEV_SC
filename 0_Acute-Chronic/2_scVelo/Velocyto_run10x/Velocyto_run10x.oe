@@ -1,0 +1,1224 @@
+2020-03-26 22:43:44,277 - ERROR - This is an older version of cellranger, cannot check if the output are ready, make sure of this yourself
+2020-03-26 22:43:44,278 - DEBUG - Using logic: Default
+2020-03-26 22:43:44,301 - INFO - Read 18353 cell barcodes from /media/pipkin/ROCKET-PRO/Exp391/outs/filtered_feature_bc_matrix/barcodes.tsv.gz
+2020-03-26 22:43:44,301 - DEBUG - Example of barcode: AAACCCAAGAGGCGTT and cell_id: Exp391:AAACCCAAGAGGCGTT-1
+2020-03-26 22:43:44,335 - DEBUG - Peeking into /media/pipkin/ROCKET-PRO/Exp391/outs/possorted_genome_bam.bam
+2020-03-26 22:43:44,595 - WARNING - Not found cell and umi barcode in entry 48 of the bam file
+2020-03-26 22:43:44,595 - WARNING - Not found cell and umi barcode in entry 68 of the bam file
+2020-03-26 22:43:44,595 - WARNING - Not found cell and umi barcode in entry 79 of the bam file
+2020-03-26 22:43:44,595 - WARNING - Not found cell and umi barcode in entry 104 of the bam file
+2020-03-26 22:43:44,595 - WARNING - Not found cell and umi barcode in entry 107 of the bam file
+2020-03-26 22:43:44,595 - WARNING - Not found cell and umi barcode in entry 118 of the bam file
+2020-03-26 22:43:44,595 - WARNING - Not found cell and umi barcode in entry 134 of the bam file
+2020-03-26 22:43:44,595 - WARNING - Not found cell and umi barcode in entry 135 of the bam file
+2020-03-26 22:43:44,595 - WARNING - Not found cell and umi barcode in entry 136 of the bam file
+2020-03-26 22:43:44,595 - WARNING - Not found cell and umi barcode in entry 146 of the bam file
+2020-03-26 22:43:44,595 - WARNING - Not found cell and umi barcode in entry 164 of the bam file
+2020-03-26 22:43:44,595 - WARNING - Not found cell and umi barcode in entry 188 of the bam file
+2020-03-26 22:43:44,596 - WARNING - Not found cell and umi barcode in entry 189 of the bam file
+2020-03-26 22:43:44,596 - WARNING - Not found cell and umi barcode in entry 235 of the bam file
+2020-03-26 22:43:44,596 - WARNING - Not found cell and umi barcode in entry 373 of the bam file
+2020-03-26 22:43:44,596 - WARNING - Not found cell and umi barcode in entry 389 of the bam file
+2020-03-26 22:43:44,596 - WARNING - Not found cell and umi barcode in entry 417 of the bam file
+2020-03-26 22:43:44,596 - WARNING - Not found cell and umi barcode in entry 455 of the bam file
+2020-03-26 22:43:44,596 - WARNING - Not found cell and umi barcode in entry 471 of the bam file
+2020-03-26 22:43:44,596 - WARNING - Not found cell and umi barcode in entry 480 of the bam file
+2020-03-26 22:43:44,596 - WARNING - Not found cell and umi barcode in entry 485 of the bam file
+2020-03-26 22:43:44,597 - WARNING - Not found cell and umi barcode in entry 578 of the bam file
+2020-03-26 22:43:44,597 - WARNING - Not found cell and umi barcode in entry 616 of the bam file
+2020-03-26 22:43:44,597 - WARNING - Not found cell and umi barcode in entry 683 of the bam file
+2020-03-26 22:43:44,597 - WARNING - Not found cell and umi barcode in entry 685 of the bam file
+2020-03-26 22:43:44,597 - WARNING - Not found cell and umi barcode in entry 687 of the bam file
+2020-03-26 22:43:44,597 - WARNING - Not found cell and umi barcode in entry 709 of the bam file
+2020-03-26 22:43:44,597 - WARNING - Not found cell and umi barcode in entry 717 of the bam file
+2020-03-26 22:43:44,597 - WARNING - Not found cell and umi barcode in entry 743 of the bam file
+2020-03-26 22:43:44,597 - WARNING - Not found cell and umi barcode in entry 746 of the bam file
+2020-03-26 22:43:44,598 - WARNING - Not found cell and umi barcode in entry 824 of the bam file
+2020-03-26 22:43:44,598 - WARNING - Not found cell and umi barcode in entry 825 of the bam file
+2020-03-26 22:43:44,598 - WARNING - Not found cell and umi barcode in entry 882 of the bam file
+2020-03-26 22:43:44,598 - WARNING - Not found cell and umi barcode in entry 891 of the bam file
+2020-03-26 22:43:44,598 - WARNING - Not found cell and umi barcode in entry 916 of the bam file
+2020-03-26 22:43:44,598 - WARNING - Not found cell and umi barcode in entry 917 of the bam file
+2020-03-26 22:43:44,598 - WARNING - Not found cell and umi barcode in entry 968 of the bam file
+2020-03-26 22:43:44,599 - WARNING - Not found cell and umi barcode in entry 1007 of the bam file
+2020-03-26 22:43:44,624 - INFO - Starting the sorting process of /media/pipkin/ROCKET-PRO/Exp391/outs/possorted_genome_bam.bam the output will be at: /media/pipkin/ROCKET-PRO/Exp391/outs/cellsorted_possorted_genome_bam.bam
+2020-03-26 22:43:44,624 - INFO - Command being run is: samtools sort -l 7 -m 2048M -t CB -O BAM -@ 12 -o /media/pipkin/ROCKET-PRO/Exp391/outs/cellsorted_possorted_genome_bam.bam /media/pipkin/ROCKET-PRO/Exp391/outs/possorted_genome_bam.bam
+2020-03-26 22:43:44,624 - INFO - While the bam sorting happens do other things...
+2020-03-26 22:43:44,624 - INFO - Load the annotation from /home/pipkin/references/GRCm38/genes/genes.gtf
+2020-03-26 22:43:53,044 - DEBUG - Parsing Chromosome 1 strand - [line 0]
+2020-03-26 22:43:53,335 - DEBUG - Done with 1- [line 54318]
+2020-03-26 22:43:53,335 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:53,339 - DEBUG - Seen 596 genes until now
+2020-03-26 22:43:53,340 - DEBUG - Parsing Chromosome 1 strand + [line 54319]
+2020-03-26 22:43:53,516 - DEBUG - Done with 1+ [line 107245]
+2020-03-26 22:43:53,517 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:53,521 - DEBUG - Seen 1212 genes until now
+2020-03-26 22:43:53,521 - DEBUG - Parsing Chromosome 10 strand - [line 107246]
+2020-03-26 22:43:53,782 - DEBUG - Done with 10- [line 145634]
+2020-03-26 22:43:53,782 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:53,785 - DEBUG - Seen 1711 genes until now
+2020-03-26 22:43:53,785 - DEBUG - Parsing Chromosome 10 strand + [line 145635]
+2020-03-26 22:43:53,925 - DEBUG - Done with 10+ [line 186660]
+2020-03-26 22:43:53,925 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:53,929 - DEBUG - Seen 2223 genes until now
+2020-03-26 22:43:53,929 - DEBUG - Parsing Chromosome 11 strand - [line 186661]
+2020-03-26 22:43:54,264 - DEBUG - Done with 11- [line 247848]
+2020-03-26 22:43:54,265 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:54,270 - DEBUG - Seen 3062 genes until now
+2020-03-26 22:43:54,270 - DEBUG - Parsing Chromosome 11 strand + [line 247849]
+2020-03-26 22:43:54,463 - DEBUG - Done with 11+ [line 309034]
+2020-03-26 22:43:54,463 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:54,468 - DEBUG - Seen 3844 genes until now
+2020-03-26 22:43:54,468 - DEBUG - Parsing Chromosome 12 strand - [line 309035]
+2020-03-26 22:43:54,541 - DEBUG - Done with 12- [line 332766]
+2020-03-26 22:43:54,541 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:54,547 - DEBUG - Seen 4365 genes until now
+2020-03-26 22:43:54,547 - DEBUG - Parsing Chromosome 12 strand + [line 332767]
+2020-03-26 22:43:54,827 - DEBUG - Done with 12+ [line 365185]
+2020-03-26 22:43:54,827 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:54,830 - DEBUG - Seen 4711 genes until now
+2020-03-26 22:43:54,830 - DEBUG - Parsing Chromosome 13 strand - [line 365186]
+2020-03-26 22:43:54,935 - DEBUG - Done with 13- [line 397829]
+2020-03-26 22:43:54,935 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:54,938 - DEBUG - Seen 5167 genes until now
+2020-03-26 22:43:54,938 - DEBUG - Parsing Chromosome 13 strand + [line 397830]
+2020-03-26 22:43:55,016 - DEBUG - Done with 13+ [line 422561]
+2020-03-26 22:43:55,016 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:55,019 - DEBUG - Seen 5560 genes until now
+2020-03-26 22:43:55,019 - DEBUG - Parsing Chromosome 14 strand - [line 422562]
+2020-03-26 22:43:55,135 - DEBUG - Done with 14- [line 458005]
+2020-03-26 22:43:55,135 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:55,139 - DEBUG - Seen 6041 genes until now
+2020-03-26 22:43:55,139 - DEBUG - Parsing Chromosome 14 strand + [line 458006]
+2020-03-26 22:43:55,412 - DEBUG - Done with 14+ [line 489995]
+2020-03-26 22:43:55,412 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:55,415 - DEBUG - Seen 6658 genes until now
+2020-03-26 22:43:55,415 - DEBUG - Parsing Chromosome 15 strand - [line 489996]
+2020-03-26 22:43:55,529 - DEBUG - Done with 15- [line 525489]
+2020-03-26 22:43:55,529 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:55,532 - DEBUG - Seen 7084 genes until now
+2020-03-26 22:43:55,532 - DEBUG - Parsing Chromosome 15 strand + [line 525490]
+2020-03-26 22:43:55,629 - DEBUG - Done with 15+ [line 555346]
+2020-03-26 22:43:55,629 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:55,632 - DEBUG - Seen 7442 genes until now
+2020-03-26 22:43:55,632 - DEBUG - Parsing Chromosome 16 strand - [line 555347]
+2020-03-26 22:43:55,714 - DEBUG - Done with 16- [line 581422]
+2020-03-26 22:43:55,714 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:55,716 - DEBUG - Seen 7807 genes until now
+2020-03-26 22:43:55,717 - DEBUG - Parsing Chromosome 16 strand + [line 581423]
+2020-03-26 22:43:55,813 - DEBUG - Done with 16+ [line 611253]
+2020-03-26 22:43:55,813 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:55,815 - DEBUG - Seen 8119 genes until now
+2020-03-26 22:43:55,815 - DEBUG - Parsing Chromosome 17 strand - [line 611254]
+2020-03-26 22:43:55,947 - DEBUG - Done with 17- [line 653580]
+2020-03-26 22:43:55,947 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:55,951 - DEBUG - Seen 8641 genes until now
+2020-03-26 22:43:55,951 - DEBUG - Parsing Chromosome 17 strand + [line 653581]
+2020-03-26 22:43:56,298 - DEBUG - Done with 17+ [line 699576]
+2020-03-26 22:43:56,299 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:56,303 - DEBUG - Seen 9176 genes until now
+2020-03-26 22:43:56,303 - DEBUG - Parsing Chromosome 18 strand - [line 699577]
+2020-03-26 22:43:56,359 - DEBUG - Done with 18- [line 717153]
+2020-03-26 22:43:56,359 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:56,361 - DEBUG - Seen 9387 genes until now
+2020-03-26 22:43:56,361 - DEBUG - Parsing Chromosome 18 strand + [line 717154]
+2020-03-26 22:43:56,439 - DEBUG - Done with 18+ [line 742154]
+2020-03-26 22:43:56,439 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:56,441 - DEBUG - Seen 9690 genes until now
+2020-03-26 22:43:56,441 - DEBUG - Parsing Chromosome 19 strand - [line 742155]
+2020-03-26 22:43:56,543 - DEBUG - Done with 19- [line 773672]
+2020-03-26 22:43:56,543 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:56,546 - DEBUG - Seen 10049 genes until now
+2020-03-26 22:43:56,546 - DEBUG - Parsing Chromosome 19 strand + [line 773673]
+2020-03-26 22:43:56,628 - DEBUG - Done with 19+ [line 800798]
+2020-03-26 22:43:56,628 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:56,631 - DEBUG - Seen 10411 genes until now
+2020-03-26 22:43:56,631 - DEBUG - Parsing Chromosome 2 strand - [line 800799]
+2020-03-26 22:43:56,886 - DEBUG - Done with 2- [line 875579]
+2020-03-26 22:43:56,886 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:56,893 - DEBUG - Seen 11331 genes until now
+2020-03-26 22:43:56,893 - DEBUG - Parsing Chromosome 2 strand + [line 875580]
+2020-03-26 22:43:57,344 - DEBUG - Done with 2+ [line 944815]
+2020-03-26 22:43:57,344 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:57,351 - DEBUG - Seen 12248 genes until now
+2020-03-26 22:43:57,352 - DEBUG - Parsing Chromosome 3 strand - [line 944816]
+2020-03-26 22:43:57,501 - DEBUG - Done with 3- [line 982438]
+2020-03-26 22:43:57,502 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:57,507 - DEBUG - Seen 12752 genes until now
+2020-03-26 22:43:57,507 - DEBUG - Parsing Chromosome 3 strand + [line 982439]
+2020-03-26 22:43:57,651 - DEBUG - Done with 3+ [line 1024576]
+2020-03-26 22:43:57,651 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:57,657 - DEBUG - Seen 13254 genes until now
+2020-03-26 22:43:57,657 - DEBUG - Parsing Chromosome 4 strand - [line 1024577]
+2020-03-26 22:43:57,838 - DEBUG - Done with 4- [line 1075317]
+2020-03-26 22:43:57,838 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:57,842 - DEBUG - Seen 13917 genes until now
+2020-03-26 22:43:57,842 - DEBUG - Parsing Chromosome 4 strand + [line 1075318]
+2020-03-26 22:43:57,998 - DEBUG - Done with 4+ [line 1123732]
+2020-03-26 22:43:57,998 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:58,003 - DEBUG - Seen 14563 genes until now
+2020-03-26 22:43:58,003 - DEBUG - Parsing Chromosome 5 strand - [line 1123733]
+2020-03-26 22:43:58,455 - DEBUG - Done with 5- [line 1180192]
+2020-03-26 22:43:58,456 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:58,461 - DEBUG - Seen 15183 genes until now
+2020-03-26 22:43:58,461 - DEBUG - Parsing Chromosome 5 strand + [line 1180193]
+2020-03-26 22:43:58,641 - DEBUG - Done with 5+ [line 1237397]
+2020-03-26 22:43:58,641 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:58,646 - DEBUG - Seen 15820 genes until now
+2020-03-26 22:43:58,646 - DEBUG - Parsing Chromosome 6 strand - [line 1237398]
+2020-03-26 22:43:58,785 - DEBUG - Done with 6- [line 1281512]
+2020-03-26 22:43:58,786 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:58,790 - DEBUG - Seen 16465 genes until now
+2020-03-26 22:43:58,790 - DEBUG - Parsing Chromosome 6 strand + [line 1281513]
+2020-03-26 22:43:58,937 - DEBUG - Done with 6+ [line 1328071]
+2020-03-26 22:43:58,937 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:58,942 - DEBUG - Seen 17170 genes until now
+2020-03-26 22:43:58,942 - DEBUG - Parsing Chromosome 7 strand - [line 1328072]
+2020-03-26 22:43:59,160 - DEBUG - Done with 7- [line 1400102]
+2020-03-26 22:43:59,160 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:59,167 - DEBUG - Seen 18248 genes until now
+2020-03-26 22:43:59,168 - DEBUG - Parsing Chromosome 7 strand + [line 1400103]
+2020-03-26 22:43:59,385 - DEBUG - Done with 7+ [line 1469537]
+2020-03-26 22:43:59,385 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:59,391 - DEBUG - Seen 19195 genes until now
+2020-03-26 22:43:59,391 - DEBUG - Parsing Chromosome 8 strand - [line 1469538]
+2020-03-26 22:43:59,814 - DEBUG - Done with 8- [line 1503848]
+2020-03-26 22:43:59,814 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:59,817 - DEBUG - Seen 19674 genes until now
+2020-03-26 22:43:59,817 - DEBUG - Parsing Chromosome 8 strand + [line 1503849]
+2020-03-26 22:43:59,959 - DEBUG - Done with 8+ [line 1549344]
+2020-03-26 22:43:59,959 - DEBUG - Assigning indexes to genes
+2020-03-26 22:43:59,963 - DEBUG - Seen 20229 genes until now
+2020-03-26 22:43:59,963 - DEBUG - Parsing Chromosome 9 strand - [line 1549345]
+2020-03-26 22:44:00,119 - DEBUG - Done with 9- [line 1598668]
+2020-03-26 22:44:00,119 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,123 - DEBUG - Seen 20800 genes until now
+2020-03-26 22:44:00,124 - DEBUG - Parsing Chromosome 9 strand + [line 1598669]
+2020-03-26 22:44:00,282 - DEBUG - Done with 9+ [line 1650113]
+2020-03-26 22:44:00,282 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,287 - DEBUG - Seen 21435 genes until now
+2020-03-26 22:44:00,287 - DEBUG - Parsing Chromosome GL456210.1 strand - [line 1650114]
+2020-03-26 22:44:00,287 - DEBUG - Done with GL456210.1- [line 1650140]
+2020-03-26 22:44:00,287 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,287 - DEBUG - Seen 21438 genes until now
+2020-03-26 22:44:00,287 - DEBUG - Parsing Chromosome GL456210.1 strand + [line 1650141]
+2020-03-26 22:44:00,287 - DEBUG - Done with GL456210.1+ [line 1650155]
+2020-03-26 22:44:00,288 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,288 - DEBUG - Seen 21440 genes until now
+2020-03-26 22:44:00,288 - DEBUG - Parsing Chromosome GL456211.1 strand - [line 1650156]
+2020-03-26 22:44:00,288 - DEBUG - Done with GL456211.1- [line 1650183]
+2020-03-26 22:44:00,288 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,288 - DEBUG - Seen 21444 genes until now
+2020-03-26 22:44:00,288 - DEBUG - Parsing Chromosome GL456211.1 strand + [line 1650184]
+2020-03-26 22:44:00,288 - DEBUG - Done with GL456211.1+ [line 1650209]
+2020-03-26 22:44:00,288 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,288 - DEBUG - Seen 21446 genes until now
+2020-03-26 22:44:00,288 - DEBUG - Parsing Chromosome GL456212.1 strand - [line 1650210]
+2020-03-26 22:44:00,288 - DEBUG - Done with GL456212.1- [line 1650245]
+2020-03-26 22:44:00,288 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,288 - DEBUG - Seen 21448 genes until now
+2020-03-26 22:44:00,289 - DEBUG - Parsing Chromosome GL456216.1 strand + [line 1650246]
+2020-03-26 22:44:00,289 - DEBUG - Done with GL456216.1+ [line 1650265]
+2020-03-26 22:44:00,289 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,289 - DEBUG - Seen 21449 genes until now
+2020-03-26 22:44:00,289 - DEBUG - Parsing Chromosome GL456219.1 strand - [line 1650266]
+2020-03-26 22:44:00,289 - DEBUG - Done with GL456219.1- [line 1650277]
+2020-03-26 22:44:00,289 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,289 - DEBUG - Seen 21451 genes until now
+2020-03-26 22:44:00,289 - DEBUG - Parsing Chromosome GL456221.1 strand - [line 1650278]
+2020-03-26 22:44:00,290 - DEBUG - Done with GL456221.1- [line 1650321]
+2020-03-26 22:44:00,290 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,290 - DEBUG - Seen 21455 genes until now
+2020-03-26 22:44:00,290 - DEBUG - Parsing Chromosome GL456221.1 strand + [line 1650322]
+2020-03-26 22:44:00,290 - DEBUG - Done with GL456221.1+ [line 1650340]
+2020-03-26 22:44:00,290 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,290 - DEBUG - Seen 21458 genes until now
+2020-03-26 22:44:00,290 - DEBUG - Parsing Chromosome GL456233.1 strand - [line 1650341]
+2020-03-26 22:44:00,290 - DEBUG - Done with GL456233.1- [line 1650372]
+2020-03-26 22:44:00,290 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,290 - DEBUG - Seen 21460 genes until now
+2020-03-26 22:44:00,290 - DEBUG - Parsing Chromosome GL456233.1 strand + [line 1650373]
+2020-03-26 22:44:00,290 - DEBUG - Done with GL456233.1+ [line 1650403]
+2020-03-26 22:44:00,290 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,291 - DEBUG - Seen 21462 genes until now
+2020-03-26 22:44:00,291 - DEBUG - Parsing Chromosome GL456350.1 strand - [line 1650404]
+2020-03-26 22:44:00,291 - DEBUG - Done with GL456350.1- [line 1650463]
+2020-03-26 22:44:00,292 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,292 - DEBUG - Seen 21467 genes until now
+2020-03-26 22:44:00,292 - DEBUG - Parsing Chromosome GL456354.1 strand - [line 1650464]
+2020-03-26 22:44:00,292 - DEBUG - Done with GL456354.1- [line 1650496]
+2020-03-26 22:44:00,292 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,292 - DEBUG - Seen 21470 genes until now
+2020-03-26 22:44:00,293 - DEBUG - Parsing Chromosome GL456354.1 strand + [line 1650497]
+2020-03-26 22:44:00,293 - DEBUG - Done with GL456354.1+ [line 1650516]
+2020-03-26 22:44:00,293 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,293 - DEBUG - Seen 21472 genes until now
+2020-03-26 22:44:00,293 - DEBUG - Parsing Chromosome JH584292.1 strand + [line 1650517]
+2020-03-26 22:44:00,294 - DEBUG - Done with JH584292.1+ [line 1650592]
+2020-03-26 22:44:00,294 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,294 - DEBUG - Seen 21473 genes until now
+2020-03-26 22:44:00,294 - DEBUG - Parsing Chromosome JH584293.1 strand - [line 1650593]
+2020-03-26 22:44:00,295 - DEBUG - Done with JH584293.1- [line 1650659]
+2020-03-26 22:44:00,295 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,296 - DEBUG - Seen 21479 genes until now
+2020-03-26 22:44:00,296 - DEBUG - Parsing Chromosome JH584293.1 strand + [line 1650660]
+2020-03-26 22:44:00,296 - DEBUG - Done with JH584293.1+ [line 1650701]
+2020-03-26 22:44:00,297 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,297 - DEBUG - Seen 21482 genes until now
+2020-03-26 22:44:00,297 - DEBUG - Parsing Chromosome JH584294.1 strand - [line 1650702]
+2020-03-26 22:44:00,297 - DEBUG - Done with JH584294.1- [line 1650766]
+2020-03-26 22:44:00,297 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,297 - DEBUG - Seen 21486 genes until now
+2020-03-26 22:44:00,297 - DEBUG - Parsing Chromosome JH584294.1 strand + [line 1650767]
+2020-03-26 22:44:00,297 - DEBUG - Done with JH584294.1+ [line 1650790]
+2020-03-26 22:44:00,297 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,297 - DEBUG - Seen 21488 genes until now
+2020-03-26 22:44:00,297 - DEBUG - Parsing Chromosome JH584295.1 strand - [line 1650791]
+2020-03-26 22:44:00,297 - DEBUG - Done with JH584295.1- [line 1650806]
+2020-03-26 22:44:00,297 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,297 - DEBUG - Seen 21489 genes until now
+2020-03-26 22:44:00,298 - DEBUG - Parsing Chromosome JH584296.1 strand - [line 1650807]
+2020-03-26 22:44:00,298 - DEBUG - Done with JH584296.1- [line 1650834]
+2020-03-26 22:44:00,298 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,298 - DEBUG - Seen 21492 genes until now
+2020-03-26 22:44:00,298 - DEBUG - Parsing Chromosome JH584297.1 strand - [line 1650835]
+2020-03-26 22:44:00,298 - DEBUG - Done with JH584297.1- [line 1650853]
+2020-03-26 22:44:00,298 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,298 - DEBUG - Seen 21494 genes until now
+2020-03-26 22:44:00,298 - DEBUG - Parsing Chromosome JH584297.1 strand + [line 1650854]
+2020-03-26 22:44:00,298 - DEBUG - Done with JH584297.1+ [line 1650862]
+2020-03-26 22:44:00,298 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,299 - DEBUG - Seen 21495 genes until now
+2020-03-26 22:44:00,299 - DEBUG - Parsing Chromosome JH584298.1 strand - [line 1650863]
+2020-03-26 22:44:00,299 - DEBUG - Done with JH584298.1- [line 1650873]
+2020-03-26 22:44:00,299 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,299 - DEBUG - Seen 21496 genes until now
+2020-03-26 22:44:00,299 - DEBUG - Parsing Chromosome JH584298.1 strand + [line 1650874]
+2020-03-26 22:44:00,299 - DEBUG - Done with JH584298.1+ [line 1650894]
+2020-03-26 22:44:00,299 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,299 - DEBUG - Seen 21498 genes until now
+2020-03-26 22:44:00,299 - DEBUG - Parsing Chromosome JH584299.1 strand - [line 1650895]
+2020-03-26 22:44:00,299 - DEBUG - Done with JH584299.1- [line 1650904]
+2020-03-26 22:44:00,299 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,299 - DEBUG - Seen 21499 genes until now
+2020-03-26 22:44:00,299 - DEBUG - Parsing Chromosome JH584299.1 strand + [line 1650905]
+2020-03-26 22:44:00,300 - DEBUG - Done with JH584299.1+ [line 1651016]
+2020-03-26 22:44:00,300 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,300 - DEBUG - Seen 21510 genes until now
+2020-03-26 22:44:00,300 - DEBUG - Parsing Chromosome JH584303.1 strand + [line 1651017]
+2020-03-26 22:44:00,300 - DEBUG - Done with JH584303.1+ [line 1651021]
+2020-03-26 22:44:00,300 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,300 - DEBUG - Seen 21511 genes until now
+2020-03-26 22:44:00,300 - DEBUG - Parsing Chromosome JH584304.1 strand - [line 1651022]
+2020-03-26 22:44:00,300 - DEBUG - Done with JH584304.1- [line 1651054]
+2020-03-26 22:44:00,300 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,300 - DEBUG - Seen 21512 genes until now
+2020-03-26 22:44:00,300 - DEBUG - Parsing Chromosome MT strand - [line 1651055]
+2020-03-26 22:44:00,300 - DEBUG - Done with MT- [line 1651060]
+2020-03-26 22:44:00,301 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,301 - DEBUG - Seen 21513 genes until now
+2020-03-26 22:44:00,301 - DEBUG - Parsing Chromosome MT strand + [line 1651061]
+2020-03-26 22:44:00,301 - DEBUG - Done with MT+ [line 1651129]
+2020-03-26 22:44:00,301 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,301 - DEBUG - Seen 21525 genes until now
+2020-03-26 22:44:00,301 - DEBUG - Parsing Chromosome X strand - [line 1651130]
+2020-03-26 22:44:00,390 - DEBUG - Done with X- [line 1677768]
+2020-03-26 22:44:00,390 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,394 - DEBUG - Seen 21969 genes until now
+2020-03-26 22:44:00,394 - DEBUG - Parsing Chromosome X strand + [line 1677769]
+2020-03-26 22:44:00,495 - DEBUG - Done with X+ [line 1707957]
+2020-03-26 22:44:00,495 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,497 - DEBUG - Seen 22458 genes until now
+2020-03-26 22:44:00,498 - DEBUG - Parsing Chromosome Y strand - [line 1707958]
+2020-03-26 22:44:00,505 - DEBUG - Done with Y- [line 1710353]
+2020-03-26 22:44:00,505 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,505 - DEBUG - Seen 22538 genes until now
+2020-03-26 22:44:00,505 - DEBUG - Parsing Chromosome Y strand + [line 1710354]
+2020-03-26 22:44:00,513 - DEBUG - Assigning indexes to genes
+2020-03-26 22:44:00,514 - DEBUG - Done with Y+ [line 1713128]
+2020-03-26 22:44:00,514 - DEBUG - Fixing corner cases of transcript models containg intron longer than 1000Kbp
+2020-03-26 22:44:01,267 - DEBUG - Generated 1419491 features corresponding to 103153 transcript models from /home/pipkin/references/GRCm38/genes/genes.gtf
+2020-03-26 22:44:01,282 - INFO - Scan /media/pipkin/ROCKET-PRO/Exp391/outs/possorted_genome_bam.bam to validate intron intervals
+2020-03-26 22:44:02,897 - DEBUG - Reading /media/pipkin/ROCKET-PRO/Exp391/outs/possorted_genome_bam.bam
+2020-03-26 22:44:02,910 - DEBUG - Read first 0 million reads
+2020-03-26 22:44:02,910 - DEBUG - Marking up chromosome 1
+2020-03-26 22:44:58,132 - DEBUG - Read first 10 million reads
+2020-03-26 22:45:14,758 - DEBUG - Read first 20 million reads
+2020-03-26 22:45:30,422 - DEBUG - Read first 30 million reads
+2020-03-26 22:45:52,410 - DEBUG - Read first 40 million reads
+2020-03-26 22:47:18,788 - DEBUG - Read first 50 million reads
+2020-03-26 22:49:02,701 - DEBUG - Read first 60 million reads
+2020-03-26 22:50:50,179 - DEBUG - Read first 70 million reads
+2020-03-26 22:52:44,341 - DEBUG - Read first 80 million reads
+2020-03-26 22:54:26,964 - DEBUG - Read first 90 million reads
+2020-03-26 22:56:31,816 - DEBUG - Read first 100 million reads
+2020-03-26 22:58:46,067 - DEBUG - Read first 110 million reads
+2020-03-26 23:01:00,122 - DEBUG - Read first 120 million reads
+2020-03-26 23:02:55,765 - DEBUG - Marking up chromosome 10
+2020-03-26 23:03:11,590 - DEBUG - Read first 130 million reads
+2020-03-26 23:05:32,551 - DEBUG - Read first 140 million reads
+2020-03-26 23:07:49,567 - DEBUG - Read first 150 million reads
+2020-03-26 23:10:16,404 - DEBUG - Read first 160 million reads
+2020-03-26 23:12:53,819 - DEBUG - Read first 170 million reads
+2020-03-26 23:15:32,081 - DEBUG - Read first 180 million reads
+2020-03-26 23:18:10,430 - DEBUG - Read first 190 million reads
+2020-03-26 23:20:58,445 - DEBUG - Read first 200 million reads
+2020-03-26 23:21:20,315 - DEBUG - Marking up chromosome 11
+2020-03-26 23:23:27,102 - DEBUG - Read first 210 million reads
+2020-03-26 23:25:58,327 - DEBUG - Read first 220 million reads
+2020-03-26 23:28:44,911 - DEBUG - Read first 230 million reads
+2020-03-26 23:31:34,994 - DEBUG - Read first 240 million reads
+2020-03-26 23:34:45,870 - DEBUG - Read first 250 million reads
+2020-03-26 23:38:08,099 - DEBUG - Read first 260 million reads
+2020-03-26 23:41:31,412 - DEBUG - Read first 270 million reads
+2020-03-26 23:45:05,606 - DEBUG - Read first 280 million reads
+2020-03-26 23:48:27,391 - DEBUG - Read first 290 million reads
+2020-03-26 23:51:15,631 - DEBUG - Read first 300 million reads
+2020-03-26 23:54:37,224 - DEBUG - Read first 310 million reads
+2020-03-26 23:58:11,149 - DEBUG - Read first 320 million reads
+2020-03-27 00:02:10,750 - DEBUG - Read first 330 million reads
+2020-03-27 00:05:02,713 - DEBUG - Read first 340 million reads
+2020-03-27 00:05:11,936 - DEBUG - Marking up chromosome 12
+2020-03-27 00:08:11,918 - WARNING - Trashing read, too long span
+NS500124:192:HNJ53BGXC:4:13606:2518:19514	0	12	17985193	255	68M3281978N23M	*	0	0	TGTTCCTGTTAGAANGCTATGCAGCATATTATATACTATGCTCATGTTATGAAATACATAATAAAAAATTTTAAAAAAAAAAAAAAAAAAA	AAAAAEEEEEEEAE#AAEEEEEEEEEEEE6EAAA6A//A/A/////<//A////////</////6666//////6/6/////////////6	NH:i:1	HI:i:1	AS:i:75	nM:i:1	RE:A:I	xf:i:0	li:i:1	CR:Z:TATGTTCGTTTGGCTA	CY:Z:AAAAAEEEEEEEEAEE	CB:Z:TATGTTCGTTTGGCTA-1	UR:Z:TACACCTGGGGT	UY:Z:EEEEEAEAAEEE	UB:Z:TACACCTGGGGT	RG:Z:Exp391_count:1:1:HNJ53BGXC:4
+2020-03-27 00:09:05,337 - DEBUG - Read first 350 million reads
+2020-03-27 00:13:19,367 - DEBUG - Read first 360 million reads
+2020-03-27 00:17:11,901 - DEBUG - Read first 370 million reads
+2020-03-27 00:21:26,539 - DEBUG - Read first 380 million reads
+2020-03-27 00:24:55,115 - DEBUG - Read first 390 million reads
+2020-03-27 00:28:07,139 - DEBUG - Marking up chromosome 13
+2020-03-27 00:29:42,211 - DEBUG - Read first 400 million reads
+2020-03-27 00:33:40,818 - DEBUG - Read first 410 million reads
+2020-03-27 00:38:01,694 - DEBUG - Read first 420 million reads
+2020-03-27 00:42:21,688 - DEBUG - Read first 430 million reads
+2020-03-27 00:46:57,321 - DEBUG - Read first 440 million reads
+2020-03-27 00:51:48,132 - DEBUG - Read first 450 million reads
+2020-03-27 00:56:34,638 - DEBUG - Read first 460 million reads
+2020-03-27 00:56:37,749 - DEBUG - Marking up chromosome 14
+2020-03-27 00:59:03,637 - DEBUG - Read first 470 million reads
+2020-03-27 01:04:21,352 - DEBUG - Read first 480 million reads
+2020-03-27 01:08:43,831 - DEBUG - Read first 490 million reads
+2020-03-27 01:13:50,316 - DEBUG - Read first 500 million reads
+2020-03-27 01:18:58,495 - DEBUG - Read first 510 million reads
+2020-03-27 01:22:47,513 - DEBUG - Read first 520 million reads
+2020-03-27 01:27:18,896 - DEBUG - Marking up chromosome 15
+2020-03-27 01:28:07,070 - DEBUG - Read first 530 million reads
+2020-03-27 01:34:13,833 - DEBUG - Read first 540 million reads
+2020-03-27 01:40:32,290 - DEBUG - Read first 550 million reads
+2020-03-27 01:45:48,712 - DEBUG - Read first 560 million reads
+2020-03-27 01:52:35,990 - DEBUG - Read first 570 million reads
+2020-03-27 01:58:55,194 - DEBUG - Read first 580 million reads
+2020-03-27 02:04:55,378 - DEBUG - Read first 590 million reads
+2020-03-27 02:07:24,774 - DEBUG - Marking up chromosome 16
+2020-03-27 02:11:06,766 - DEBUG - Read first 600 million reads
+2020-03-27 02:16:44,816 - DEBUG - Read first 610 million reads
+2020-03-27 02:24:12,711 - DEBUG - Read first 620 million reads
+2020-03-27 02:31:23,854 - DEBUG - Read first 630 million reads
+2020-03-27 02:34:14,063 - DEBUG - Marking up chromosome 17
+2020-03-27 02:38:05,842 - DEBUG - Read first 640 million reads
+2020-03-27 02:42:46,295 - DEBUG - Read first 650 million reads
+2020-03-27 02:50:31,230 - DEBUG - Read first 660 million reads
+2020-03-27 02:58:00,594 - DEBUG - Read first 670 million reads
+2020-03-27 03:06:02,086 - DEBUG - Read first 680 million reads
+2020-03-27 03:14:16,276 - DEBUG - Read first 690 million reads
+2020-03-27 03:22:05,588 - DEBUG - Read first 700 million reads
+2020-03-27 03:30:02,654 - DEBUG - Read first 710 million reads
+2020-03-27 03:38:48,333 - DEBUG - Read first 720 million reads
+2020-03-27 03:40:01,126 - DEBUG - Marking up chromosome 18
+2020-03-27 03:46:47,589 - DEBUG - Read first 730 million reads
+2020-03-27 03:53:02,929 - DEBUG - Read first 740 million reads
+2020-03-27 04:00:55,150 - DEBUG - Read first 750 million reads
+2020-03-27 04:09:57,421 - DEBUG - Read first 760 million reads
+2020-03-27 04:11:31,707 - DEBUG - Marking up chromosome 19
+2020-03-27 04:18:13,926 - DEBUG - Read first 770 million reads
+2020-03-27 04:27:33,713 - DEBUG - Read first 780 million reads
+2020-03-27 04:34:30,885 - DEBUG - Read first 790 million reads
+2020-03-27 04:43:56,316 - DEBUG - Read first 800 million reads
+2020-03-27 04:52:51,189 - DEBUG - Read first 810 million reads
+2020-03-27 05:02:13,245 - DEBUG - Read first 820 million reads
+2020-03-27 05:04:03,690 - DEBUG - Marking up chromosome 2
+2020-03-27 05:11:09,390 - DEBUG - Read first 830 million reads
+2020-03-27 05:18:52,572 - DEBUG - Read first 840 million reads
+2020-03-27 05:28:31,742 - DEBUG - Read first 850 million reads
+2020-03-27 05:36:16,570 - DEBUG - Read first 860 million reads
+2020-03-27 05:46:05,426 - DEBUG - Read first 870 million reads
+2020-03-27 05:52:00,886 - DEBUG - Read first 880 million reads
+2020-03-27 06:01:41,202 - DEBUG - Read first 890 million reads
+2020-03-27 06:11:38,835 - DEBUG - Read first 900 million reads
+2020-03-27 06:22:01,391 - DEBUG - Read first 910 million reads
+2020-03-27 06:33:01,983 - DEBUG - Read first 920 million reads
+2020-03-27 06:40:08,545 - DEBUG - Read first 930 million reads
+2020-03-27 06:41:18,404 - DEBUG - Marking up chromosome 3
+2020-03-27 06:48:28,751 - DEBUG - Read first 940 million reads
+2020-03-27 06:57:35,330 - DEBUG - Read first 950 million reads
+2020-03-27 07:08:23,145 - DEBUG - Read first 960 million reads
+2020-03-27 07:19:18,439 - DEBUG - Read first 970 million reads
+2020-03-27 07:29:42,471 - DEBUG - Read first 980 million reads
+2020-03-27 07:37:28,005 - DEBUG - Read first 990 million reads
+2020-03-27 07:48:48,958 - DEBUG - Read first 1000 million reads
+2020-03-27 07:59:06,262 - DEBUG - Read first 1010 million reads
+2020-03-27 08:01:08,392 - DEBUG - Marking up chromosome 4
+2020-03-27 08:09:43,642 - DEBUG - Read first 1020 million reads
+2020-03-27 08:13:00,664 - DEBUG - Read first 1030 million reads
+2020-03-27 08:24:55,117 - DEBUG - Read first 1040 million reads
+2020-03-27 08:36:58,613 - DEBUG - Read first 1050 million reads
+2020-03-27 08:46:50,955 - DEBUG - Read first 1060 million reads
+2020-03-27 08:59:29,531 - DEBUG - Read first 1070 million reads
+2020-03-27 09:08:06,681 - DEBUG - Read first 1080 million reads
+2020-03-27 09:19:56,224 - DEBUG - Read first 1090 million reads
+2020-03-27 09:32:34,995 - DEBUG - Read first 1100 million reads
+2020-03-27 09:44:44,963 - DEBUG - Read first 1110 million reads
+2020-03-27 09:51:39,145 - DEBUG - Marking up chromosome 5
+2020-03-27 09:56:19,531 - DEBUG - Read first 1120 million reads
+2020-03-27 10:02:59,612 - DEBUG - Read first 1130 million reads
+2020-03-27 10:13:58,329 - DEBUG - Read first 1140 million reads
+2020-03-27 10:26:13,906 - DEBUG - Read first 1150 million reads
+2020-03-27 10:38:21,772 - DEBUG - Read first 1160 million reads
+2020-03-27 10:46:22,074 - DEBUG - Read first 1170 million reads
+2020-03-27 10:59:29,448 - DEBUG - Read first 1180 million reads
+2020-03-27 11:13:00,387 - DEBUG - Read first 1190 million reads
+2020-03-27 11:26:13,987 - DEBUG - Read first 1200 million reads
+2020-03-27 11:39:48,116 - DEBUG - Read first 1210 million reads
+2020-03-27 11:52:36,737 - DEBUG - Read first 1220 million reads
+2020-03-27 11:56:50,068 - DEBUG - Marking up chromosome 6
+2020-03-27 12:02:29,495 - DEBUG - Read first 1230 million reads
+2020-03-27 12:16:05,396 - DEBUG - Read first 1240 million reads
+2020-03-27 12:29:17,845 - DEBUG - Read first 1250 million reads
+2020-03-27 12:43:36,348 - DEBUG - Read first 1260 million reads
+2020-03-27 12:54:23,257 - DEBUG - Read first 1270 million reads
+2020-03-27 13:04:55,982 - DEBUG - Read first 1280 million reads
+2020-03-27 13:18:21,673 - DEBUG - Read first 1290 million reads
+2020-03-27 13:31:52,390 - DEBUG - Read first 1300 million reads
+2020-03-27 13:41:29,439 - DEBUG - Marking up chromosome 7
+2020-03-27 13:43:01,225 - DEBUG - Read first 1310 million reads
+2020-03-27 13:50:38,915 - DEBUG - Read first 1320 million reads
+2020-03-27 14:05:28,444 - DEBUG - Read first 1330 million reads
+2020-03-27 14:20:44,870 - DEBUG - Read first 1340 million reads
+2020-03-27 14:35:30,336 - DEBUG - Read first 1350 million reads
+2020-03-27 14:50:26,600 - DEBUG - Read first 1360 million reads
+2020-03-27 14:57:56,448 - DEBUG - Read first 1370 million reads
+2020-03-27 15:12:42,153 - DEBUG - Read first 1380 million reads
+2020-03-27 15:26:13,016 - DEBUG - Read first 1390 million reads
+2020-03-27 15:42:17,325 - DEBUG - Read first 1400 million reads
+2020-03-27 15:57:59,801 - DEBUG - Read first 1410 million reads
+2020-03-27 16:07:33,761 - DEBUG - Read first 1420 million reads
+2020-03-27 16:22:52,223 - DEBUG - Read first 1430 million reads
+2020-03-27 16:30:45,882 - DEBUG - Marking up chromosome 8
+2020-03-27 16:37:29,189 - DEBUG - Read first 1440 million reads
+2020-03-27 16:52:56,427 - DEBUG - Read first 1450 million reads
+2020-03-27 17:08:23,152 - DEBUG - Read first 1460 million reads
+2020-03-27 17:24:55,464 - DEBUG - Read first 1470 million reads
+2020-03-27 17:38:40,732 - DEBUG - Read first 1480 million reads
+2020-03-27 17:48:45,575 - DEBUG - Read first 1490 million reads
+2020-03-27 18:04:54,980 - DEBUG - Read first 1500 million reads
+2020-03-27 18:21:07,044 - DEBUG - Read first 1510 million reads
+2020-03-27 18:23:58,177 - DEBUG - Marking up chromosome 9
+2020-03-27 18:37:11,472 - DEBUG - Read first 1520 million reads
+2020-03-27 18:51:10,921 - DEBUG - Read first 1530 million reads
+2020-03-27 19:07:17,693 - DEBUG - Read first 1540 million reads
+2020-03-27 19:19:29,471 - DEBUG - Read first 1550 million reads
+2020-03-27 19:36:22,918 - DEBUG - Read first 1560 million reads
+2020-03-27 19:49:15,365 - DEBUG - Read first 1570 million reads
+2020-03-27 20:05:22,284 - DEBUG - Read first 1580 million reads
+[bam_sort_core] merging from 432 files and 12 in-memory blocks...
+2020-03-27 20:09:04,072 - DEBUG - Read first 1590 million reads
+2020-03-27 20:10:51,699 - DEBUG - Read first 1600 million reads
+2020-03-27 20:12:09,973 - DEBUG - Read first 1610 million reads
+2020-03-27 20:12:16,450 - DEBUG - Marking up chromosome MT
+2020-03-27 20:13:42,674 - DEBUG - Read first 1620 million reads
+2020-03-27 20:14:19,030 - DEBUG - Read first 1630 million reads
+2020-03-27 20:14:41,212 - DEBUG - Read first 1640 million reads
+2020-03-27 20:15:03,038 - DEBUG - Read first 1650 million reads
+2020-03-27 20:15:52,891 - DEBUG - Read first 1660 million reads
+2020-03-27 20:16:18,209 - DEBUG - Marking up chromosome X
+2020-03-27 20:17:05,879 - DEBUG - Read first 1670 million reads
+2020-03-27 20:18:11,516 - DEBUG - Read first 1680 million reads
+2020-03-27 20:19:17,577 - DEBUG - Read first 1690 million reads
+2020-03-27 20:20:21,675 - DEBUG - Read first 1700 million reads
+2020-03-27 20:21:29,631 - DEBUG - Read first 1710 million reads
+2020-03-27 20:22:58,138 - DEBUG - Read first 1720 million reads
+2020-03-27 20:24:51,369 - DEBUG - Read first 1730 million reads
+2020-03-27 20:26:21,885 - DEBUG - Marking up chromosome Y
+2020-03-27 20:26:32,327 - DEBUG - Read first 1740 million reads
+2020-03-27 20:26:45,125 - DEBUG - Marking up chromosome JH584299.1
+2020-03-27 20:26:45,139 - DEBUG - Marking up chromosome GL456233.1
+2020-03-27 20:26:45,579 - DEBUG - Marking up chromosome JH584301.1
+2020-03-27 20:26:45,579 - WARNING - The .bam file refers to a chromosome 'JH584301.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:45,579 - WARNING - The .bam file refers to a chromosome 'JH584301.1-' not present in the annotation (.gtf) file
+2020-03-27 20:26:45,589 - DEBUG - Marking up chromosome GL456211.1
+2020-03-27 20:26:45,670 - DEBUG - Marking up chromosome GL456350.1
+2020-03-27 20:26:45,670 - WARNING - The .bam file refers to a chromosome 'GL456350.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:45,691 - DEBUG - Marking up chromosome GL456221.1
+2020-03-27 20:26:45,854 - DEBUG - Marking up chromosome JH584297.1
+2020-03-27 20:26:46,067 - DEBUG - Marking up chromosome JH584296.1
+2020-03-27 20:26:46,067 - WARNING - The .bam file refers to a chromosome 'JH584296.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:46,097 - DEBUG - Marking up chromosome GL456354.1
+2020-03-27 20:26:46,106 - DEBUG - Marking up chromosome JH584294.1
+2020-03-27 20:26:46,107 - DEBUG - Marking up chromosome JH584298.1
+2020-03-27 20:26:46,109 - DEBUG - Marking up chromosome JH584300.1
+2020-03-27 20:26:46,109 - WARNING - The .bam file refers to a chromosome 'JH584300.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:46,109 - WARNING - The .bam file refers to a chromosome 'JH584300.1-' not present in the annotation (.gtf) file
+2020-03-27 20:26:46,334 - DEBUG - Marking up chromosome GL456219.1
+2020-03-27 20:26:46,334 - WARNING - The .bam file refers to a chromosome 'GL456219.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:46,336 - DEBUG - Marking up chromosome GL456210.1
+2020-03-27 20:26:46,420 - DEBUG - Marking up chromosome JH584302.1
+2020-03-27 20:26:46,420 - WARNING - The .bam file refers to a chromosome 'JH584302.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:46,421 - WARNING - The .bam file refers to a chromosome 'JH584302.1-' not present in the annotation (.gtf) file
+2020-03-27 20:26:46,426 - DEBUG - Marking up chromosome GL456212.1
+2020-03-27 20:26:46,426 - WARNING - The .bam file refers to a chromosome 'GL456212.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:46,511 - DEBUG - Marking up chromosome JH584304.1
+2020-03-27 20:26:46,511 - WARNING - The .bam file refers to a chromosome 'JH584304.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:47,458 - DEBUG - Marking up chromosome GL456379.1
+2020-03-27 20:26:47,458 - WARNING - The .bam file refers to a chromosome 'GL456379.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:47,458 - WARNING - The .bam file refers to a chromosome 'GL456379.1-' not present in the annotation (.gtf) file
+2020-03-27 20:26:47,698 - DEBUG - Marking up chromosome GL456216.1
+2020-03-27 20:26:47,698 - WARNING - The .bam file refers to a chromosome 'GL456216.1-' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,395 - DEBUG - Marking up chromosome GL456393.1
+2020-03-27 20:26:48,395 - WARNING - The .bam file refers to a chromosome 'GL456393.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,395 - WARNING - The .bam file refers to a chromosome 'GL456393.1-' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,396 - DEBUG - Marking up chromosome GL456366.1
+2020-03-27 20:26:48,396 - WARNING - The .bam file refers to a chromosome 'GL456366.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,397 - WARNING - The .bam file refers to a chromosome 'GL456366.1-' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,400 - DEBUG - Marking up chromosome GL456367.1
+2020-03-27 20:26:48,400 - WARNING - The .bam file refers to a chromosome 'GL456367.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,400 - WARNING - The .bam file refers to a chromosome 'GL456367.1-' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,403 - DEBUG - Marking up chromosome GL456239.1
+2020-03-27 20:26:48,403 - WARNING - The .bam file refers to a chromosome 'GL456239.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,403 - WARNING - The .bam file refers to a chromosome 'GL456239.1-' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,403 - DEBUG - Marking up chromosome GL456213.1
+2020-03-27 20:26:48,404 - WARNING - The .bam file refers to a chromosome 'GL456213.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,404 - WARNING - The .bam file refers to a chromosome 'GL456213.1-' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,408 - DEBUG - Marking up chromosome GL456383.1
+2020-03-27 20:26:48,409 - WARNING - The .bam file refers to a chromosome 'GL456383.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,409 - WARNING - The .bam file refers to a chromosome 'GL456383.1-' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,410 - DEBUG - Marking up chromosome GL456360.1
+2020-03-27 20:26:48,410 - WARNING - The .bam file refers to a chromosome 'GL456360.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,410 - WARNING - The .bam file refers to a chromosome 'GL456360.1-' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,410 - DEBUG - Marking up chromosome GL456378.1
+2020-03-27 20:26:48,411 - WARNING - The .bam file refers to a chromosome 'GL456378.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,411 - WARNING - The .bam file refers to a chromosome 'GL456378.1-' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,437 - DEBUG - Marking up chromosome GL456389.1
+2020-03-27 20:26:48,437 - WARNING - The .bam file refers to a chromosome 'GL456389.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,437 - WARNING - The .bam file refers to a chromosome 'GL456389.1-' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,438 - DEBUG - Marking up chromosome GL456372.1
+2020-03-27 20:26:48,438 - WARNING - The .bam file refers to a chromosome 'GL456372.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,438 - WARNING - The .bam file refers to a chromosome 'GL456372.1-' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,474 - DEBUG - Marking up chromosome GL456370.1
+2020-03-27 20:26:48,474 - WARNING - The .bam file refers to a chromosome 'GL456370.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,474 - WARNING - The .bam file refers to a chromosome 'GL456370.1-' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,577 - DEBUG - Marking up chromosome GL456387.1
+2020-03-27 20:26:48,577 - WARNING - The .bam file refers to a chromosome 'GL456387.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,577 - WARNING - The .bam file refers to a chromosome 'GL456387.1-' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,577 - DEBUG - Marking up chromosome GL456390.1
+2020-03-27 20:26:48,577 - WARNING - The .bam file refers to a chromosome 'GL456390.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,578 - WARNING - The .bam file refers to a chromosome 'GL456390.1-' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,579 - DEBUG - Marking up chromosome GL456394.1
+2020-03-27 20:26:48,579 - WARNING - The .bam file refers to a chromosome 'GL456394.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,579 - WARNING - The .bam file refers to a chromosome 'GL456394.1-' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,580 - DEBUG - Marking up chromosome GL456392.1
+2020-03-27 20:26:48,580 - WARNING - The .bam file refers to a chromosome 'GL456392.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,580 - WARNING - The .bam file refers to a chromosome 'GL456392.1-' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,581 - DEBUG - Marking up chromosome GL456382.1
+2020-03-27 20:26:48,581 - WARNING - The .bam file refers to a chromosome 'GL456382.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:48,581 - WARNING - The .bam file refers to a chromosome 'GL456382.1-' not present in the annotation (.gtf) file
+2020-03-27 20:26:50,527 - DEBUG - Marking up chromosome GL456359.1
+2020-03-27 20:26:50,527 - WARNING - The .bam file refers to a chromosome 'GL456359.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:50,527 - WARNING - The .bam file refers to a chromosome 'GL456359.1-' not present in the annotation (.gtf) file
+2020-03-27 20:26:50,528 - DEBUG - Marking up chromosome GL456396.1
+2020-03-27 20:26:50,529 - WARNING - The .bam file refers to a chromosome 'GL456396.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:50,529 - WARNING - The .bam file refers to a chromosome 'GL456396.1-' not present in the annotation (.gtf) file
+2020-03-27 20:26:50,530 - DEBUG - Marking up chromosome GL456368.1
+2020-03-27 20:26:50,530 - WARNING - The .bam file refers to a chromosome 'GL456368.1+' not present in the annotation (.gtf) file
+2020-03-27 20:26:50,530 - WARNING - The .bam file refers to a chromosome 'GL456368.1-' not present in the annotation (.gtf) file
+2020-03-27 20:26:50,532 - DEBUG - Marking up chromosome JH584295.1
+2020-03-27 20:26:50,532 - WARNING - The .bam file refers to a chromosome 'JH584295.1+' not present in the annotation (.gtf) file
+2020-03-27 20:27:02,486 - DEBUG - Read first 1750 million reads
+2020-03-27 20:27:21,705 - DEBUG - Read first 1760 million reads
+2020-03-27 20:27:41,185 - DEBUG - Read first 1770 million reads
+2020-03-27 20:28:00,391 - DEBUG - Read first 1780 million reads
+2020-03-27 20:28:19,585 - DEBUG - Read first 1790 million reads
+2020-03-27 20:28:39,184 - DEBUG - Read first 1800 million reads
+2020-03-27 20:28:58,363 - DEBUG - Read first 1810 million reads
+2020-03-27 20:29:17,459 - DEBUG - Read first 1820 million reads
+2020-03-27 20:29:36,876 - DEBUG - Read first 1830 million reads
+2020-03-27 20:29:55,895 - DEBUG - Read first 1840 million reads
+2020-03-27 20:30:15,306 - DEBUG - Read first 1850 million reads
+2020-03-27 20:30:34,634 - DEBUG - Read first 1860 million reads
+2020-03-27 20:30:53,744 - DEBUG - Read first 1870 million reads
+2020-03-27 20:31:12,920 - DEBUG - Read first 1880 million reads
+2020-03-27 20:31:29,060 - DEBUG - End of file. Reset index: start scanning from initial position.
+2020-03-27 20:31:29,060 - DEBUG - 28169147 reads were skipped because no apropiate cell or umi barcode was found
+2020-03-27 20:31:29,061 - INFO - Now just waiting that the bam sorting process terminates
+2020-03-27 21:01:25,036 - INFO - bam file #0 has been sorted
+2020-03-27 21:01:26,922 - DEBUG - Start molecule counting!
+2020-03-27 21:01:28,478 - DEBUG - Features available for chromosomes : ['1-', '1+', '10-', '10+', '11-', '11+', '12-', '12+', '13-', '13+', '14-', '14+', '15-', '15+', '16-', '16+', '17-', '17+', '18-', '18+', '19-', '19+', '2-', '2+', '3-', '3+', '4-', '4+', '5-', '5+', '6-', '6+', '7-', '7+', '8-', '8+', '9-', '9+', 'GL456210.1-', 'GL456210.1+', 'GL456211.1-', 'GL456211.1+', 'GL456212.1-', 'GL456216.1+', 'GL456219.1-', 'GL456221.1-', 'GL456221.1+', 'GL456233.1-', 'GL456233.1+', 'GL456350.1-', 'GL456354.1-', 'GL456354.1+', 'JH584292.1+', 'JH584293.1-', 'JH584293.1+', 'JH584294.1-', 'JH584294.1+', 'JH584295.1-', 'JH584296.1-', 'JH584297.1-', 'JH584297.1+', 'JH584298.1-', 'JH584298.1+', 'JH584299.1-', 'JH584299.1+', 'JH584303.1+', 'JH584304.1-', 'MT-', 'MT+', 'X-', 'X+', 'Y-', 'Y+']
+2020-03-27 21:01:28,479 - DEBUG - Mask available for chromosomes : []
+2020-03-27 21:01:28,479 - DEBUG - Summarizing the results of intron validation.
+2020-03-27 21:01:28,815 - DEBUG - Validated 364968 introns (of which unique intervals 131928) out of 658169 total possible introns (considering each possible transcript models).
+2020-03-27 21:01:28,815 - DEBUG - Reading /media/pipkin/ROCKET-PRO/Exp391/outs/cellsorted_possorted_genome_bam.bam
+2020-03-27 21:01:29,123 - DEBUG - Read first 0 million reads
+2020-03-27 21:01:55,328 - DEBUG - Read first 10 million reads
+2020-03-27 21:02:21,779 - DEBUG - Read first 20 million reads
+2020-03-27 21:02:43,649 - DEBUG - Read first 30 million reads
+2020-03-27 21:03:36,325 - DEBUG - Read first 40 million reads
+2020-03-27 21:03:52,599 - DEBUG - Counting for batch 1, containing 100 cells and 6593829 reads
+2020-03-27 21:06:28,383 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 21:07:38,246 - DEBUG - Read first 50 million reads
+2020-03-27 21:07:58,404 - DEBUG - Counting for batch 2, containing 100 cells and 5741234 reads
+2020-03-27 21:10:18,082 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 21:11:17,321 - DEBUG - Read first 60 million reads
+2020-03-27 21:11:43,973 - DEBUG - Counting for batch 3, containing 100 cells and 6390867 reads
+2020-03-27 21:14:15,318 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 21:15:10,061 - DEBUG - Read first 70 million reads
+2020-03-27 21:15:43,500 - DEBUG - Counting for batch 4, containing 100 cells and 5948997 reads
+2020-03-27 21:18:06,452 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 21:18:55,335 - DEBUG - Read first 80 million reads
+2020-03-27 21:19:30,304 - DEBUG - Counting for batch 5, containing 100 cells and 6128986 reads
+2020-03-27 21:21:53,497 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 21:22:37,438 - DEBUG - Read first 90 million reads
+2020-03-27 21:23:18,560 - DEBUG - Counting for batch 6, containing 100 cells and 5608480 reads
+2020-03-27 21:25:27,710 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 21:26:08,731 - DEBUG - Read first 100 million reads
+2020-03-27 21:26:53,136 - DEBUG - Counting for batch 7, containing 100 cells and 5894362 reads
+2020-03-27 21:29:12,025 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 21:29:49,592 - DEBUG - Read first 110 million reads
+2020-03-27 21:30:30,658 - DEBUG - Counting for batch 8, containing 100 cells and 5187405 reads
+2020-03-27 21:32:28,915 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 21:33:07,894 - DEBUG - Read first 120 million reads
+2020-03-27 21:34:01,212 - DEBUG - Counting for batch 9, containing 100 cells and 6438422 reads
+2020-03-27 21:36:26,210 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 21:37:01,650 - DEBUG - Read first 130 million reads
+2020-03-27 21:37:57,665 - DEBUG - Read first 140 million reads
+2020-03-27 21:38:04,282 - DEBUG - Counting for batch 10, containing 100 cells and 6431250 reads
+2020-03-27 21:40:30,103 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 21:41:52,908 - DEBUG - Read first 150 million reads
+2020-03-27 21:42:02,117 - DEBUG - Counting for batch 11, containing 100 cells and 6129636 reads
+2020-03-27 21:44:23,501 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 21:45:37,106 - DEBUG - Read first 160 million reads
+2020-03-27 21:45:59,137 - DEBUG - Counting for batch 12, containing 100 cells and 6567694 reads
+2020-03-27 21:48:27,272 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 21:49:34,173 - DEBUG - Read first 170 million reads
+2020-03-27 21:50:07,298 - DEBUG - Counting for batch 13, containing 100 cells and 6752614 reads
+2020-03-27 21:52:47,391 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 21:53:40,932 - DEBUG - Read first 180 million reads
+2020-03-27 21:54:01,124 - DEBUG - Counting for batch 14, containing 100 cells and 4721624 reads
+2020-03-27 21:55:53,902 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 21:56:44,164 - DEBUG - Read first 190 million reads
+2020-03-27 21:57:11,318 - DEBUG - Counting for batch 15, containing 100 cells and 5902944 reads
+2020-03-27 21:59:31,062 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 22:00:25,894 - DEBUG - Read first 200 million reads
+2020-03-27 22:00:55,667 - DEBUG - Counting for batch 16, containing 100 cells and 5837155 reads
+2020-03-27 22:03:12,467 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 22:04:04,761 - DEBUG - Read first 210 million reads
+2020-03-27 22:04:32,487 - DEBUG - Counting for batch 17, containing 100 cells and 5329775 reads
+2020-03-27 22:06:38,969 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 22:07:29,295 - DEBUG - Read first 220 million reads
+2020-03-27 22:08:03,160 - DEBUG - Counting for batch 18, containing 100 cells and 6078707 reads
+2020-03-27 22:10:27,489 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 22:11:17,951 - DEBUG - Read first 230 million reads
+2020-03-27 22:11:52,944 - DEBUG - Counting for batch 19, containing 100 cells and 5768396 reads
+2020-03-27 22:14:10,321 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 22:14:57,119 - DEBUG - Read first 240 million reads
+2020-03-27 22:15:29,934 - DEBUG - Counting for batch 20, containing 100 cells and 5459284 reads
+2020-03-27 22:17:39,404 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 22:18:35,252 - DEBUG - Read first 250 million reads
+2020-03-27 22:19:29,243 - DEBUG - Counting for batch 21, containing 100 cells and 6438702 reads
+2020-03-27 22:22:28,893 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 22:23:20,654 - DEBUG - Read first 260 million reads
+2020-03-27 22:24:43,102 - DEBUG - Counting for batch 22, containing 100 cells and 6032119 reads
+2020-03-27 22:27:20,104 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 22:28:05,035 - DEBUG - Read first 270 million reads
+2020-03-27 22:29:40,978 - DEBUG - Counting for batch 23, containing 100 cells and 5420402 reads
+2020-03-27 22:32:01,245 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 22:32:41,078 - DEBUG - Read first 280 million reads
+2020-03-27 22:33:34,841 - DEBUG - Counting for batch 24, containing 100 cells and 5207023 reads
+2020-03-27 22:35:47,706 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 22:36:42,156 - DEBUG - Read first 290 million reads
+2020-03-27 22:38:39,134 - DEBUG - Counting for batch 25, containing 100 cells and 5777253 reads
+2020-03-27 22:41:13,012 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 22:42:03,949 - DEBUG - Read first 300 million reads
+2020-03-27 22:44:12,622 - DEBUG - Counting for batch 26, containing 100 cells and 5272239 reads
+2020-03-27 22:46:24,251 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 22:47:26,574 - DEBUG - Read first 310 million reads
+2020-03-27 22:49:52,446 - DEBUG - Counting for batch 27, containing 100 cells and 6353528 reads
+2020-03-27 22:52:37,031 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 22:53:21,841 - DEBUG - Read first 320 million reads
+2020-03-27 22:56:09,221 - DEBUG - Counting for batch 28, containing 100 cells and 5199969 reads
+2020-03-27 22:58:13,436 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 22:59:08,156 - DEBUG - Read first 330 million reads
+2020-03-27 23:01:19,809 - DEBUG - Counting for batch 29, containing 100 cells and 5745626 reads
+2020-03-27 23:03:41,626 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 23:04:24,165 - DEBUG - Read first 340 million reads
+2020-03-27 23:07:56,927 - DEBUG - Read first 350 million reads
+2020-03-27 23:08:20,871 - DEBUG - Counting for batch 30, containing 100 cells and 6481838 reads
+2020-03-27 23:11:03,942 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 23:13:57,973 - DEBUG - Read first 360 million reads
+2020-03-27 23:14:05,402 - DEBUG - Counting for batch 31, containing 100 cells and 5364831 reads
+2020-03-27 23:16:21,237 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 23:20:44,799 - DEBUG - Read first 370 million reads
+2020-03-27 23:20:57,458 - DEBUG - Counting for batch 32, containing 100 cells and 5181466 reads
+2020-03-27 23:23:05,290 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 23:26:47,344 - DEBUG - Read first 380 million reads
+2020-03-27 23:27:01,395 - DEBUG - Counting for batch 33, containing 100 cells and 6501787 reads
+2020-03-27 23:29:47,572 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 23:33:54,720 - DEBUG - Read first 390 million reads
+2020-03-27 23:35:26,610 - DEBUG - Counting for batch 34, containing 100 cells and 6589565 reads
+2020-03-27 23:38:08,092 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 23:41:30,047 - DEBUG - Read first 400 million reads
+2020-03-27 23:42:07,414 - DEBUG - Counting for batch 35, containing 100 cells and 5702860 reads
+2020-03-27 23:44:26,767 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 23:47:40,278 - DEBUG - Read first 410 million reads
+2020-03-27 23:49:29,434 - DEBUG - Counting for batch 36, containing 100 cells and 5340623 reads
+2020-03-27 23:51:39,488 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-27 23:54:55,904 - DEBUG - Read first 420 million reads
+2020-03-27 23:56:39,967 - DEBUG - Counting for batch 37, containing 100 cells and 5284696 reads
+2020-03-27 23:58:51,131 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 00:00:48,223 - DEBUG - Read first 430 million reads
+2020-03-28 00:02:29,816 - DEBUG - Counting for batch 38, containing 100 cells and 5756302 reads
+2020-03-28 00:04:50,761 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 00:08:07,552 - DEBUG - Read first 440 million reads
+2020-03-28 00:10:35,627 - DEBUG - Counting for batch 39, containing 100 cells and 6663308 reads
+2020-03-28 00:13:14,069 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 00:14:19,336 - DEBUG - Read first 450 million reads
+2020-03-28 00:15:04,911 - DEBUG - Counting for batch 40, containing 100 cells and 6090747 reads
+2020-03-28 00:17:34,925 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 00:19:49,363 - DEBUG - Read first 460 million reads
+2020-03-28 00:23:58,721 - DEBUG - Counting for batch 41, containing 100 cells and 6697602 reads
+2020-03-28 00:26:35,198 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 00:28:06,110 - DEBUG - Read first 470 million reads
+2020-03-28 00:30:51,567 - DEBUG - Counting for batch 42, containing 100 cells and 5700754 reads
+2020-03-28 00:33:14,154 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 00:34:29,204 - DEBUG - Read first 480 million reads
+2020-03-28 00:38:32,376 - DEBUG - Counting for batch 43, containing 100 cells and 5243347 reads
+2020-03-28 00:40:40,471 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 00:42:11,820 - DEBUG - Read first 490 million reads
+2020-03-28 00:45:51,769 - DEBUG - Counting for batch 44, containing 100 cells and 5206629 reads
+2020-03-28 00:48:00,325 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 00:48:48,248 - DEBUG - Read first 500 million reads
+2020-03-28 00:49:35,678 - DEBUG - Counting for batch 45, containing 100 cells and 5870727 reads
+2020-03-28 00:52:01,943 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 00:53:30,932 - DEBUG - Read first 510 million reads
+2020-03-28 00:58:46,324 - DEBUG - Read first 520 million reads
+2020-03-28 00:59:07,945 - DEBUG - Counting for batch 46, containing 100 cells and 7053276 reads
+2020-03-28 01:01:59,772 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 01:07:13,546 - DEBUG - Read first 530 million reads
+2020-03-28 01:07:22,281 - DEBUG - Counting for batch 47, containing 100 cells and 5829770 reads
+2020-03-28 01:09:44,831 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 01:15:14,749 - DEBUG - Read first 540 million reads
+2020-03-28 01:16:26,224 - DEBUG - Counting for batch 48, containing 100 cells and 6087951 reads
+2020-03-28 01:18:48,653 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 01:23:51,163 - DEBUG - Read first 550 million reads
+2020-03-28 01:24:56,056 - DEBUG - Counting for batch 49, containing 100 cells and 5415994 reads
+2020-03-28 01:27:08,196 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 01:28:27,127 - DEBUG - Read first 560 million reads
+2020-03-28 01:28:48,506 - DEBUG - Counting for batch 50, containing 100 cells and 6180742 reads
+2020-03-28 01:31:23,836 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 01:36:03,898 - DEBUG - Read first 570 million reads
+2020-03-28 01:38:22,823 - DEBUG - Counting for batch 51, containing 100 cells and 6163791 reads
+2020-03-28 01:40:50,728 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 01:45:12,263 - DEBUG - Read first 580 million reads
+2020-03-28 01:47:09,665 - DEBUG - Counting for batch 52, containing 100 cells and 5011686 reads
+2020-03-28 01:49:05,897 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 01:50:28,561 - DEBUG - Read first 590 million reads
+2020-03-28 01:51:01,641 - DEBUG - Counting for batch 53, containing 100 cells and 6450865 reads
+2020-03-28 01:53:41,354 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 01:57:23,076 - DEBUG - Read first 600 million reads
+2020-03-28 01:59:38,501 - DEBUG - Counting for batch 54, containing 100 cells and 5082379 reads
+2020-03-28 02:01:37,201 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 02:06:02,010 - DEBUG - Read first 610 million reads
+2020-03-28 02:08:15,028 - DEBUG - Counting for batch 55, containing 100 cells and 5379823 reads
+2020-03-28 02:10:20,053 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 02:12:31,855 - DEBUG - Read first 620 million reads
+2020-03-28 02:12:56,524 - DEBUG - Counting for batch 56, containing 100 cells and 5829747 reads
+2020-03-28 02:15:18,833 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 02:20:21,013 - DEBUG - Read first 630 million reads
+2020-03-28 02:23:15,962 - DEBUG - Counting for batch 57, containing 100 cells and 6081602 reads
+2020-03-28 02:25:42,377 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 02:29:27,035 - DEBUG - Read first 640 million reads
+2020-03-28 02:32:26,569 - DEBUG - Counting for batch 58, containing 100 cells and 5594060 reads
+2020-03-28 02:34:40,165 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 02:36:35,970 - DEBUG - Read first 650 million reads
+2020-03-28 02:37:04,803 - DEBUG - Counting for batch 59, containing 100 cells and 5498089 reads
+2020-03-28 02:39:23,365 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 02:43:49,238 - DEBUG - Read first 660 million reads
+2020-03-28 02:47:43,638 - DEBUG - Counting for batch 60, containing 100 cells and 6220862 reads
+2020-03-28 02:50:09,336 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 02:53:47,491 - DEBUG - Read first 670 million reads
+2020-03-28 02:57:32,715 - DEBUG - Counting for batch 61, containing 100 cells and 5175744 reads
+2020-03-28 02:59:45,153 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 03:00:46,414 - DEBUG - Read first 680 million reads
+2020-03-28 03:02:19,028 - DEBUG - Counting for batch 62, containing 100 cells and 4976113 reads
+2020-03-28 03:04:21,615 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 03:09:02,404 - DEBUG - Read first 690 million reads
+2020-03-28 03:11:00,032 - DEBUG - Counting for batch 63, containing 100 cells and 4809834 reads
+2020-03-28 03:12:58,961 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 03:19:11,927 - DEBUG - Read first 700 million reads
+2020-03-28 03:21:59,587 - DEBUG - Counting for batch 64, containing 100 cells and 6267570 reads
+2020-03-28 03:24:46,291 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 03:29:49,594 - DEBUG - Read first 710 million reads
+2020-03-28 03:33:30,185 - DEBUG - Counting for batch 65, containing 100 cells and 6061084 reads
+2020-03-28 03:35:56,405 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 03:40:27,799 - DEBUG - Read first 720 million reads
+2020-03-28 03:43:51,265 - DEBUG - Counting for batch 66, containing 100 cells and 5413508 reads
+2020-03-28 03:46:02,237 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 03:49:16,607 - DEBUG - Read first 730 million reads
+2020-03-28 03:49:53,241 - DEBUG - Counting for batch 67, containing 100 cells and 6083935 reads
+2020-03-28 03:52:29,230 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 03:56:50,148 - DEBUG - Read first 740 million reads
+2020-03-28 04:00:14,365 - DEBUG - Counting for batch 68, containing 100 cells and 5124259 reads
+2020-03-28 04:02:14,130 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 04:07:12,582 - DEBUG - Read first 750 million reads
+2020-03-28 04:11:12,693 - DEBUG - Counting for batch 69, containing 100 cells and 5960195 reads
+2020-03-28 04:13:40,829 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 04:17:34,642 - DEBUG - Read first 760 million reads
+2020-03-28 04:18:08,591 - DEBUG - Counting for batch 70, containing 100 cells and 5346712 reads
+2020-03-28 04:20:29,156 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 04:25:00,132 - DEBUG - Read first 770 million reads
+2020-03-28 04:27:57,989 - DEBUG - Counting for batch 71, containing 100 cells and 4779928 reads
+2020-03-28 04:29:50,479 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 04:35:21,140 - DEBUG - Read first 780 million reads
+2020-03-28 04:37:20,599 - DEBUG - Counting for batch 72, containing 100 cells and 4766762 reads
+2020-03-28 04:39:16,530 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 04:45:58,835 - DEBUG - Read first 790 million reads
+2020-03-28 04:46:14,620 - DEBUG - Counting for batch 73, containing 100 cells and 4705692 reads
+2020-03-28 04:48:24,150 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 04:54:56,150 - DEBUG - Counting for batch 74, containing 100 cells and 4073159 reads
+2020-03-28 04:56:35,213 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 04:58:15,281 - DEBUG - Read first 800 million reads
+2020-03-28 05:07:12,333 - DEBUG - Read first 810 million reads
+2020-03-28 05:07:15,783 - DEBUG - Counting for batch 75, containing 100 cells and 6576048 reads
+2020-03-28 05:09:55,719 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 05:17:00,321 - DEBUG - Read first 820 million reads
+2020-03-28 05:17:05,737 - DEBUG - Counting for batch 76, containing 100 cells and 6152988 reads
+2020-03-28 05:19:43,021 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 05:27:54,918 - DEBUG - Read first 830 million reads
+2020-03-28 05:28:26,542 - DEBUG - Counting for batch 77, containing 100 cells and 5410551 reads
+2020-03-28 05:30:35,015 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 05:40:41,464 - DEBUG - Read first 840 million reads
+2020-03-28 05:40:46,434 - DEBUG - Counting for batch 78, containing 100 cells and 5302252 reads
+2020-03-28 05:42:52,614 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 05:51:43,592 - DEBUG - Read first 850 million reads
+2020-03-28 05:52:24,798 - DEBUG - Counting for batch 79, containing 100 cells and 6145338 reads
+2020-03-28 05:55:01,796 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 06:03:39,477 - DEBUG - Read first 860 million reads
+2020-03-28 06:05:39,767 - DEBUG - Counting for batch 80, containing 100 cells and 6316481 reads
+2020-03-28 06:08:03,545 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 06:16:27,386 - DEBUG - Read first 870 million reads
+2020-03-28 06:18:42,491 - DEBUG - Counting for batch 81, containing 100 cells and 5986490 reads
+2020-03-28 06:21:07,742 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 06:28:13,367 - DEBUG - Read first 880 million reads
+2020-03-28 06:31:50,509 - DEBUG - Counting for batch 82, containing 100 cells and 6582788 reads
+2020-03-28 06:34:39,172 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 06:40:01,079 - DEBUG - Read first 890 million reads
+2020-03-28 06:43:37,742 - DEBUG - Counting for batch 83, containing 100 cells and 5280879 reads
+2020-03-28 06:45:46,684 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 06:51:40,145 - DEBUG - Read first 900 million reads
+2020-03-28 06:55:57,867 - DEBUG - Counting for batch 84, containing 100 cells and 5694499 reads
+2020-03-28 06:58:51,750 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 07:00:05,715 - DEBUG - Read first 910 million reads
+2020-03-28 07:00:46,033 - DEBUG - Counting for batch 85, containing 100 cells and 6030329 reads
+2020-03-28 07:03:51,729 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 07:05:09,019 - DEBUG - Read first 920 million reads
+2020-03-28 07:05:42,681 - DEBUG - Counting for batch 86, containing 100 cells and 5091382 reads
+2020-03-28 07:08:18,540 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 07:09:33,154 - DEBUG - Read first 930 million reads
+2020-03-28 07:10:25,301 - DEBUG - Counting for batch 87, containing 100 cells and 7181760 reads
+2020-03-28 07:14:05,015 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 07:15:16,707 - DEBUG - Read first 940 million reads
+2020-03-28 07:16:19,721 - DEBUG - Counting for batch 88, containing 100 cells and 6314439 reads
+2020-03-28 07:19:33,497 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 07:20:26,321 - DEBUG - Read first 950 million reads
+2020-03-28 07:21:32,043 - DEBUG - Counting for batch 89, containing 100 cells and 5846096 reads
+2020-03-28 07:24:37,937 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 07:25:22,369 - DEBUG - Read first 960 million reads
+2020-03-28 07:26:33,611 - DEBUG - Read first 970 million reads
+2020-03-28 07:26:39,000 - DEBUG - Counting for batch 90, containing 100 cells and 6429018 reads
+2020-03-28 07:30:03,771 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 07:31:53,091 - DEBUG - Read first 980 million reads
+2020-03-28 07:31:56,292 - DEBUG - Counting for batch 91, containing 100 cells and 5364771 reads
+2020-03-28 07:34:53,144 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 07:36:28,876 - DEBUG - Counting for batch 92, containing 100 cells and 5072614 reads
+2020-03-28 07:39:10,579 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 07:40:03,517 - DEBUG - Read first 990 million reads
+2020-03-28 07:41:12,861 - DEBUG - Counting for batch 93, containing 100 cells and 5669852 reads
+2020-03-28 07:43:53,185 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 07:44:21,774 - DEBUG - Read first 1000 million reads
+2020-03-28 07:45:15,968 - DEBUG - Read first 1010 million reads
+2020-03-28 07:45:16,605 - DEBUG - Counting for batch 94, containing 100 cells and 5612712 reads
+2020-03-28 07:47:35,198 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 07:48:46,954 - DEBUG - Counting for batch 95, containing 100 cells and 4829792 reads
+2020-03-28 07:50:39,985 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 07:51:09,214 - DEBUG - Read first 1020 million reads
+2020-03-28 07:51:56,290 - DEBUG - Counting for batch 96, containing 100 cells and 5102993 reads
+2020-03-28 07:53:54,723 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 07:54:30,503 - DEBUG - Read first 1030 million reads
+2020-03-28 07:55:23,374 - DEBUG - Counting for batch 97, containing 100 cells and 6053979 reads
+2020-03-28 07:57:43,161 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 07:58:18,981 - DEBUG - Read first 1040 million reads
+2020-03-28 07:59:05,244 - DEBUG - Counting for batch 98, containing 100 cells and 4994304 reads
+2020-03-28 08:01:00,903 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 08:01:35,778 - DEBUG - Read first 1050 million reads
+2020-03-28 08:02:19,893 - DEBUG - Counting for batch 99, containing 100 cells and 5401095 reads
+2020-03-28 08:04:30,223 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 08:05:07,927 - DEBUG - Read first 1060 million reads
+2020-03-28 08:05:53,231 - DEBUG - Counting for batch 100, containing 100 cells and 6038875 reads
+2020-03-28 08:08:16,738 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 08:08:52,946 - DEBUG - Read first 1070 million reads
+2020-03-28 08:09:39,021 - DEBUG - Counting for batch 101, containing 100 cells and 5337732 reads
+2020-03-28 08:11:48,841 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 08:12:23,397 - DEBUG - Read first 1080 million reads
+2020-03-28 08:12:58,476 - DEBUG - Counting for batch 102, containing 100 cells and 4752011 reads
+2020-03-28 08:14:53,186 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 08:15:31,278 - DEBUG - Read first 1090 million reads
+2020-03-28 08:16:04,204 - DEBUG - Counting for batch 103, containing 100 cells and 4999793 reads
+2020-03-28 08:18:08,429 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 08:18:52,510 - DEBUG - Read first 1100 million reads
+2020-03-28 08:19:22,271 - DEBUG - Counting for batch 104, containing 100 cells and 5371069 reads
+2020-03-28 08:21:33,321 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 08:22:21,107 - DEBUG - Read first 1110 million reads
+2020-03-28 08:22:56,678 - DEBUG - Counting for batch 105, containing 100 cells and 5788140 reads
+2020-03-28 08:25:11,692 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 08:26:02,775 - DEBUG - Read first 1120 million reads
+2020-03-28 08:26:41,582 - DEBUG - Counting for batch 106, containing 100 cells and 5793855 reads
+2020-03-28 08:28:55,530 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 08:29:44,543 - DEBUG - Read first 1130 million reads
+2020-03-28 08:30:14,070 - DEBUG - Counting for batch 107, containing 100 cells and 4764294 reads
+2020-03-28 08:32:10,688 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 08:32:57,908 - DEBUG - Read first 1140 million reads
+2020-03-28 08:33:32,457 - DEBUG - Counting for batch 108, containing 100 cells and 5931238 reads
+2020-03-28 08:36:00,460 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 08:36:49,190 - DEBUG - Read first 1150 million reads
+2020-03-28 08:37:10,629 - DEBUG - Counting for batch 109, containing 100 cells and 4633199 reads
+2020-03-28 08:39:03,910 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 08:39:53,231 - DEBUG - Read first 1160 million reads
+2020-03-28 08:40:16,257 - DEBUG - Counting for batch 110, containing 100 cells and 5279610 reads
+2020-03-28 08:42:23,979 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 08:43:22,594 - DEBUG - Read first 1170 million reads
+2020-03-28 08:43:48,353 - DEBUG - Counting for batch 111, containing 100 cells and 5870816 reads
+2020-03-28 08:46:10,654 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 08:47:08,011 - DEBUG - Read first 1180 million reads
+2020-03-28 08:47:25,449 - DEBUG - Counting for batch 112, containing 100 cells and 4779349 reads
+2020-03-28 08:49:21,432 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 08:50:19,465 - DEBUG - Read first 1190 million reads
+2020-03-28 08:50:32,077 - DEBUG - Counting for batch 113, containing 100 cells and 4973140 reads
+2020-03-28 08:52:31,428 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 08:53:39,712 - DEBUG - Read first 1200 million reads
+2020-03-28 08:53:45,638 - DEBUG - Counting for batch 114, containing 100 cells and 4978743 reads
+2020-03-28 08:55:45,559 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 08:56:58,118 - DEBUG - Read first 1210 million reads
+2020-03-28 08:57:04,507 - DEBUG - Counting for batch 115, containing 100 cells and 5576715 reads
+2020-03-28 08:59:18,124 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 09:00:33,081 - DEBUG - Read first 1220 million reads
+2020-03-28 09:00:34,530 - DEBUG - Counting for batch 116, containing 100 cells and 4989344 reads
+2020-03-28 09:02:36,277 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 09:03:51,586 - DEBUG - Counting for batch 117, containing 100 cells and 5332249 reads
+2020-03-28 09:05:55,926 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 09:06:23,463 - DEBUG - Read first 1230 million reads
+2020-03-28 09:07:16,472 - DEBUG - Counting for batch 118, containing 100 cells and 5322384 reads
+2020-03-28 09:09:26,924 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 09:09:55,666 - DEBUG - Read first 1240 million reads
+2020-03-28 09:10:44,479 - DEBUG - Counting for batch 119, containing 100 cells and 5617662 reads
+2020-03-28 09:13:02,114 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 09:13:31,556 - DEBUG - Read first 1250 million reads
+2020-03-28 09:14:17,469 - DEBUG - Counting for batch 120, containing 100 cells and 5171742 reads
+2020-03-28 09:16:16,963 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 09:16:47,921 - DEBUG - Read first 1260 million reads
+2020-03-28 09:17:39,946 - DEBUG - Counting for batch 121, containing 100 cells and 5396809 reads
+2020-03-28 09:19:53,183 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 09:20:25,553 - DEBUG - Read first 1270 million reads
+2020-03-28 09:21:07,780 - DEBUG - Counting for batch 122, containing 100 cells and 5213318 reads
+2020-03-28 09:23:13,778 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 09:23:48,216 - DEBUG - Read first 1280 million reads
+2020-03-28 09:24:20,371 - DEBUG - Counting for batch 123, containing 100 cells and 4209771 reads
+2020-03-28 09:26:00,014 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 09:26:45,259 - DEBUG - Read first 1290 million reads
+2020-03-28 09:27:11,084 - DEBUG - Counting for batch 124, containing 100 cells and 4867055 reads
+2020-03-28 09:29:08,633 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 09:30:00,135 - DEBUG - Read first 1300 million reads
+2020-03-28 09:30:25,111 - DEBUG - Counting for batch 125, containing 100 cells and 5352020 reads
+2020-03-28 09:32:35,094 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 09:33:28,580 - DEBUG - Read first 1310 million reads
+2020-03-28 09:33:43,258 - DEBUG - Counting for batch 126, containing 100 cells and 4530006 reads
+2020-03-28 09:35:33,904 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 09:36:33,469 - DEBUG - Read first 1320 million reads
+2020-03-28 09:36:45,579 - DEBUG - Counting for batch 127, containing 100 cells and 5177729 reads
+2020-03-28 09:38:50,544 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 09:39:59,348 - DEBUG - Read first 1330 million reads
+2020-03-28 09:40:05,448 - DEBUG - Counting for batch 128, containing 100 cells and 5033208 reads
+2020-03-28 09:42:07,857 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 09:43:19,061 - DEBUG - Read first 1340 million reads
+2020-03-28 09:43:34,062 - DEBUG - Counting for batch 129, containing 100 cells and 6332827 reads
+2020-03-28 09:46:07,754 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 09:47:17,334 - DEBUG - Read first 1350 million reads
+2020-03-28 09:47:34,876 - DEBUG - Counting for batch 130, containing 100 cells and 5706895 reads
+2020-03-28 09:49:47,433 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 09:50:55,805 - DEBUG - Read first 1360 million reads
+2020-03-28 09:51:13,956 - DEBUG - Counting for batch 131, containing 100 cells and 5609132 reads
+2020-03-28 09:53:25,303 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 09:54:34,717 - DEBUG - Read first 1370 million reads
+2020-03-28 09:54:54,615 - DEBUG - Counting for batch 132, containing 100 cells and 5995810 reads
+2020-03-28 09:57:17,836 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 09:58:21,466 - DEBUG - Read first 1380 million reads
+2020-03-28 09:58:43,584 - DEBUG - Counting for batch 133, containing 100 cells and 5576667 reads
+2020-03-28 10:00:58,370 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 10:01:55,962 - DEBUG - Read first 1390 million reads
+2020-03-28 10:02:16,522 - DEBUG - Counting for batch 134, containing 100 cells and 5375446 reads
+2020-03-28 10:04:20,050 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 10:05:24,021 - DEBUG - Read first 1400 million reads
+2020-03-28 10:05:49,378 - DEBUG - Counting for batch 135, containing 100 cells and 6084175 reads
+2020-03-28 10:08:17,263 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 10:09:15,062 - DEBUG - Read first 1410 million reads
+2020-03-28 10:09:46,014 - DEBUG - Counting for batch 136, containing 100 cells and 6055133 reads
+2020-03-28 10:12:15,781 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 10:13:09,784 - DEBUG - Read first 1420 million reads
+2020-03-28 10:13:44,092 - DEBUG - Counting for batch 137, containing 100 cells and 6357962 reads
+2020-03-28 10:16:20,355 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 10:17:08,865 - DEBUG - Read first 1430 million reads
+2020-03-28 10:17:44,644 - DEBUG - Counting for batch 138, containing 100 cells and 5740023 reads
+2020-03-28 10:20:05,227 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 10:20:48,197 - DEBUG - Read first 1440 million reads
+2020-03-28 10:21:20,082 - DEBUG - Counting for batch 139, containing 100 cells and 5080081 reads
+2020-03-28 10:23:17,793 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 10:24:03,953 - DEBUG - Read first 1450 million reads
+2020-03-28 10:24:37,209 - DEBUG - Counting for batch 140, containing 100 cells and 5387329 reads
+2020-03-28 10:26:46,376 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 10:27:17,168 - WARNING - Trashing read, too long span
+NS500124:192:HNJ53BGXC:4:13606:2518:19514	0	12	17985193	255	68M3281978N23M	*	0	0	TGTTCCTGTTAGAANGCTATGCAGCATATTATATACTATGCTCATGTTATGAAATACATAATAAAAAATTTTAAAAAAAAAAAAAAAAAAA	AAAAAEEEEEEEAE#AAEEEEEEEEEEEE6EAAA6A//A/A/////<//A////////</////6666//////6/6/////////////6	NH:i:1	HI:i:1	AS:i:75	nM:i:1	RE:A:I	xf:i:0	li:i:1	CR:Z:TATGTTCGTTTGGCTA	CY:Z:AAAAAEEEEEEEEAEE	CB:Z:TATGTTCGTTTGGCTA-1	UR:Z:TACACCTGGGGT	UY:Z:EEEEEAEAAEEE	UB:Z:TACACCTGGGGT	RG:Z:Exp391_count:1:1:HNJ53BGXC:4
+2020-03-28 10:27:33,927 - DEBUG - Read first 1460 million reads
+2020-03-28 10:28:16,683 - DEBUG - Counting for batch 141, containing 100 cells and 6274995 reads
+2020-03-28 10:30:42,764 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 10:31:29,325 - DEBUG - Read first 1470 million reads
+2020-03-28 10:32:06,366 - DEBUG - Counting for batch 142, containing 100 cells and 5172356 reads
+2020-03-28 10:34:10,255 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 10:34:52,383 - DEBUG - Read first 1480 million reads
+2020-03-28 10:35:43,928 - DEBUG - Counting for batch 143, containing 100 cells and 6811502 reads
+2020-03-28 10:38:29,842 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 10:39:09,951 - DEBUG - Read first 1490 million reads
+2020-03-28 10:40:03,056 - DEBUG - Read first 1500 million reads
+2020-03-28 10:40:07,739 - DEBUG - Counting for batch 144, containing 100 cells and 6776951 reads
+2020-03-28 10:42:53,580 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 10:44:10,354 - DEBUG - Counting for batch 145, containing 100 cells and 4963296 reads
+2020-03-28 10:46:07,635 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 10:46:32,101 - DEBUG - Read first 1510 million reads
+2020-03-28 10:47:19,713 - DEBUG - Counting for batch 146, containing 100 cells and 4976842 reads
+2020-03-28 10:49:20,853 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 10:49:50,856 - DEBUG - Read first 1520 million reads
+2020-03-28 10:50:42,389 - DEBUG - Counting for batch 147, containing 100 cells and 5951993 reads
+2020-03-28 10:53:05,514 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 10:53:37,545 - DEBUG - Read first 1530 million reads
+2020-03-28 10:54:29,461 - DEBUG - Read first 1540 million reads
+2020-03-28 10:54:36,438 - DEBUG - Counting for batch 148, containing 100 cells and 6408448 reads
+2020-03-28 10:57:04,821 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 10:58:28,430 - DEBUG - Counting for batch 149, containing 100 cells and 5003329 reads
+2020-03-28 11:00:29,256 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 11:00:54,474 - DEBUG - Read first 1550 million reads
+2020-03-28 11:01:45,611 - DEBUG - Counting for batch 150, containing 100 cells and 5346179 reads
+2020-03-28 11:03:48,548 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 11:04:18,342 - DEBUG - Read first 1560 million reads
+2020-03-28 11:05:17,704 - DEBUG - Read first 1570 million reads
+2020-03-28 11:05:22,839 - DEBUG - Counting for batch 151, containing 100 cells and 6660115 reads
+2020-03-28 11:07:59,698 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 11:09:24,120 - DEBUG - Read first 1580 million reads
+2020-03-28 11:09:31,360 - DEBUG - Counting for batch 152, containing 100 cells and 5842998 reads
+2020-03-28 11:11:52,107 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 11:13:05,851 - DEBUG - Counting for batch 153, containing 100 cells and 4497779 reads
+2020-03-28 11:14:50,611 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 11:15:15,390 - DEBUG - Read first 1590 million reads
+2020-03-28 11:16:03,841 - DEBUG - Counting for batch 154, containing 100 cells and 4988463 reads
+2020-03-28 11:18:06,865 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 11:18:39,646 - DEBUG - Read first 1600 million reads
+2020-03-28 11:19:22,716 - DEBUG - Counting for batch 155, containing 100 cells and 5280778 reads
+2020-03-28 11:21:24,921 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 11:22:01,785 - DEBUG - Read first 1610 million reads
+2020-03-28 11:22:47,439 - DEBUG - Counting for batch 156, containing 100 cells and 5618044 reads
+2020-03-28 11:25:02,999 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 11:25:41,090 - DEBUG - Read first 1620 million reads
+2020-03-28 11:26:21,539 - DEBUG - Counting for batch 157, containing 100 cells and 5184952 reads
+2020-03-28 11:28:28,021 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 11:29:07,362 - DEBUG - Read first 1630 million reads
+2020-03-28 11:29:41,151 - DEBUG - Counting for batch 158, containing 100 cells and 5163898 reads
+2020-03-28 11:31:44,469 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 11:32:25,762 - DEBUG - Read first 1640 million reads
+2020-03-28 11:33:16,647 - DEBUG - Counting for batch 159, containing 100 cells and 6643611 reads
+2020-03-28 11:36:02,303 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 11:36:42,075 - DEBUG - Read first 1650 million reads
+2020-03-28 11:37:21,860 - DEBUG - Counting for batch 160, containing 100 cells and 5273942 reads
+2020-03-28 11:39:31,213 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 11:40:05,374 - DEBUG - Read first 1660 million reads
+2020-03-28 11:40:49,851 - DEBUG - Counting for batch 161, containing 100 cells and 5573023 reads
+2020-03-28 11:43:06,516 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 11:43:41,848 - DEBUG - Read first 1670 million reads
+2020-03-28 11:44:20,715 - DEBUG - Counting for batch 162, containing 100 cells and 5124533 reads
+2020-03-28 11:46:20,115 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 11:46:56,990 - DEBUG - Read first 1680 million reads
+2020-03-28 11:47:45,060 - DEBUG - Counting for batch 163, containing 100 cells and 6022501 reads
+2020-03-28 11:50:09,754 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 11:50:47,733 - DEBUG - Read first 1690 million reads
+2020-03-28 11:51:33,292 - DEBUG - Counting for batch 164, containing 100 cells and 5256915 reads
+2020-03-28 11:53:36,122 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 11:54:14,802 - DEBUG - Read first 1700 million reads
+2020-03-28 11:54:55,122 - DEBUG - Counting for batch 165, containing 100 cells and 5060151 reads
+2020-03-28 11:56:59,692 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 11:57:39,501 - DEBUG - Read first 1710 million reads
+2020-03-28 11:58:07,838 - DEBUG - Counting for batch 166, containing 100 cells and 4740597 reads
+2020-03-28 11:59:57,882 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 12:00:48,993 - DEBUG - Read first 1720 million reads
+2020-03-28 12:01:17,108 - DEBUG - Counting for batch 167, containing 100 cells and 5333454 reads
+2020-03-28 12:03:26,040 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 12:04:17,753 - DEBUG - Read first 1730 million reads
+2020-03-28 12:04:46,959 - DEBUG - Counting for batch 168, containing 100 cells and 5635034 reads
+2020-03-28 12:07:01,363 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 12:07:54,498 - DEBUG - Read first 1740 million reads
+2020-03-28 12:08:22,688 - DEBUG - Counting for batch 169, containing 100 cells and 5422226 reads
+2020-03-28 12:10:33,799 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 12:11:24,036 - DEBUG - Read first 1750 million reads
+2020-03-28 12:11:56,181 - DEBUG - Counting for batch 170, containing 100 cells and 5698016 reads
+2020-03-28 12:14:08,769 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 12:15:14,828 - DEBUG - Read first 1760 million reads
+2020-03-28 12:15:41,905 - DEBUG - Counting for batch 171, containing 100 cells and 5032783 reads
+2020-03-28 12:17:39,023 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 12:18:35,612 - DEBUG - Read first 1770 million reads
+2020-03-28 12:19:07,948 - DEBUG - Counting for batch 172, containing 100 cells and 6044107 reads
+2020-03-28 12:21:36,031 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 12:22:27,651 - DEBUG - Read first 1780 million reads
+2020-03-28 12:22:48,747 - DEBUG - Counting for batch 173, containing 100 cells and 4942346 reads
+2020-03-28 12:24:47,987 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 12:25:39,472 - DEBUG - Read first 1790 million reads
+2020-03-28 12:26:03,047 - DEBUG - Counting for batch 174, containing 100 cells and 5422182 reads
+2020-03-28 12:28:12,721 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 12:29:10,637 - DEBUG - Read first 1800 million reads
+2020-03-28 12:29:35,345 - DEBUG - Counting for batch 175, containing 100 cells and 5694412 reads
+2020-03-28 12:31:52,035 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 12:32:48,517 - DEBUG - Read first 1810 million reads
+2020-03-28 12:33:21,468 - DEBUG - Counting for batch 176, containing 100 cells and 6248426 reads
+2020-03-28 12:35:47,629 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 12:36:46,286 - DEBUG - Read first 1820 million reads
+2020-03-28 12:37:28,516 - DEBUG - Counting for batch 177, containing 100 cells and 6646529 reads
+2020-03-28 12:40:00,774 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 12:40:51,726 - DEBUG - Read first 1830 million reads
+2020-03-28 12:41:24,298 - DEBUG - Counting for batch 178, containing 100 cells and 4880638 reads
+2020-03-28 12:43:21,545 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 12:44:07,503 - DEBUG - Read first 1840 million reads
+2020-03-28 12:44:39,494 - DEBUG - Counting for batch 179, containing 100 cells and 5459241 reads
+2020-03-28 12:46:52,545 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 12:47:41,769 - DEBUG - Read first 1850 million reads
+2020-03-28 12:48:00,930 - DEBUG - Counting for batch 180, containing 100 cells and 4491272 reads
+2020-03-28 12:49:49,710 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 12:50:44,063 - DEBUG - Read first 1860 million reads
+2020-03-28 12:51:06,285 - DEBUG - Counting for batch 181, containing 100 cells and 5561242 reads
+2020-03-28 12:53:14,734 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 12:54:18,136 - DEBUG - Read first 1870 million reads
+2020-03-28 12:54:34,207 - DEBUG - Counting for batch 182, containing 100 cells and 5143647 reads
+2020-03-28 12:56:37,644 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 12:57:42,349 - DEBUG - Read first 1880 million reads
+2020-03-28 12:58:02,893 - DEBUG - Counting for batch 183, containing 100 cells and 6136669 reads
+2020-03-28 13:00:29,697 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 13:01:24,725 - DEBUG - Counting for batch 184, containing 53 cells and 2631794 reads
+2020-03-28 13:02:27,542 - DEBUG - 0 reads not considered because fully enclosed in repeat masked regions
+2020-03-28 13:02:40,677 - DEBUG - 28169147 reads were skipped because no apropiate cell or umi barcode was found
+2020-03-28 13:02:40,677 - DEBUG - Counting done!
+2020-03-28 13:02:40,719 - DEBUG - Generating output file /media/pipkin/ROCKET-PRO/Exp391/velocyto/Exp391.loom
+2020-03-28 13:02:40,719 - DEBUG - Collecting row attributes
+2020-03-28 13:02:40,773 - DEBUG - Generating data table
+2020-03-28 13:02:43,544 - DEBUG - Writing loom file
+2020-03-28 13:03:20,096 - DEBUG - Terminated Succesfully!
