@@ -19,7 +19,9 @@ __pycache__/
 *.hdf5
 *.feathre
 *.h5ad
-/*_sep/
+
+# Seperated GSEA outputs
+*/1_Scanpy/*/3_GSEA/*_sep/
 
 # Other large files
 *XL_file*
