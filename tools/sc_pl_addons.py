@@ -9,6 +9,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib as mpl
 from matplotlib.patches import Patch
+import re
 sc.settings.verbosity = 1
 
 def sc_scatter(adata, basis, obs_keys, save, plt_size=[12,4], dot_size=5, alpha=1):
@@ -49,9 +50,14 @@ def count_pctg_stack_bars(adata, key1, key2, count, select_key, select_vals, ax,
     sum_df = obs_df.groupby([key1, key2]).count()[[count]].unstack(key1)
     sum_df.columns = [x[1] for x in sum_df.columns.values] 
     sum_df[np.isnan(sum_df)] = 0
-
+    
     for i in sum_df.columns:
         sum_df[i] = sum_df[i] / sum(sum_df[i]) * 100
+        
+    ###----- Order columns by numeric order
+    colnames = sum_df.columns.tolist()
+    new_colnames = sorted(colnames, key=lambda x: int(re.findall("\d+", x)[0]))
+    sum_df = sum_df[new_colnames]
     
     ###----- Plot
     sum_df.T.plot(kind="bar", stacked=True, width=0.4, color=cols_use, ax=ax)
@@ -90,12 +96,16 @@ def count_pctg_bars(adata, key1, key2, count, select_key, select_vals, ax, cols_
     # If digital use numeric order
     if all([x.isdigit() for x in xlabels]):
         xlabels.sort(key=int)
-    sns.barplot(x=key1, y='Pctg', hue=key2, data=sum_df, ax=ax, palette=cols_use, order=xlabels)
+    else:
+        xlabels = sorted(xlabels, key=lambda x: int(re.findall("\d+", x)[0]))
+    
+    g = sns.barplot(x=key1, y='Pctg', hue=key2, data=sum_df, ax=ax, palette=cols_use, order=xlabels)
     ax.legend(bbox_to_anchor=(1.4,1)) 
     if not legend:
         ax.legend().set_visible(False)
     if select_key != None:
         ax.set_title(select_key + ": " + select_vals)
+    g.set_xticklabels(g.get_xticklabels(), rotation=90)
     
     return(sum_df)
 
