@@ -2,4 +2,4 @@
 # CD8 development trajectory
 
 ## Update slides
-[Slides](CD8_DEV_SC/x_update_slides/)
+[Slides](x_update_slides/)
