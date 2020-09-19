@@ -3,7 +3,7 @@
 
 # Results:
 
-### 1. Scanpy <br>
+## 1. Scanpy <br>
    > With filtered resampled cells (capped 1250 cells / category) <br>
    
    #### 1.1 Scanpy & PAGA 
@@ -27,7 +27,7 @@
    - [Notebook](0_Acute-Chronic/codes_local/2_0_GSEA_resampled_avg_expr.ipynb)
    - [Output](0_Acute-Chronic/1_Scanpy/0_Scanpy_out_resampled/3_GSEA/)
    
-### 2. scVelo <br>
+## 2. scVelo <br>
 
    #### 2.1 scVelo with all resampled cells
    - [Notebook](0_Acute-Chronic/codes_local/3_0_scVelo_Analysis_resampled.ipynb)
