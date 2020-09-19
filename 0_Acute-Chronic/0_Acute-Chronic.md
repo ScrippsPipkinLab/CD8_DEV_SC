@@ -22,6 +22,35 @@
      - [Each type v.s. other types (Naive, A5T, A5P, etc.)](0_Acute-Chronic/1_Scanpy/0_Scanpy_out_resampled/2_DE/celltype_vs_celltype/)
      - [Per cluster: Armstrong v.s. Clone13](0_Acute-Chronic/1_Scanpy/0_Scanpy_out_resampled/2_DE/perCluster_Arm_vs_Cl13)
      - [Per day: Armstrong v.s. Clone13](0_Acute-Chronic/1_Scanpy/0_Scanpy_out_resampled/2_DE/perTimepoint_Arm_vs_Cl13/)
+   
+   #### 1.3 GSEA per condition (based on avg expression)
+   - [Notebook](0_Acute-Chronic/codes_local/2_0_GSEA_resampled_avg_expr.ipynb)
+   - [Output](0_Acute-Chronic/1_Scanpy/0_Scanpy_out_resampled/3_GSEA/)
+   
+### 2. scVelo <br>
+
+   #### 2.1 scVelo with all resampled cells
+   - [Notebook](0_Acute-Chronic/codes_local/3_0_scVelo_Analysis_resampled.ipynb)
+   = [Data output](0_Acute-Chronic/2_scVelo/0_scVelo_out_resampled/)
+   
+   #### 2.2 scVelo with only activated (no naive)
+   - [Notebook](0_Acute-Chronic/codes_local/3_1_scVelo_Analysis_ACTonly.ipynb)
+   - [Data output](0_Acute-Chronic/2_scVelo/1_scVelo_out_ACTonly/
+   
+   #### 2.3 scVelo with naive & Armstrong
+   - [Notebook](0_Acute-Chronic/codes_local/3_2_scVelo_Analysis_ARMonly.ipynb)
+   - [Data output](0_Acute-Chronic/2_scVelo/2_scVelo_out_ARMonly/)
+
+   #### 2.4 scVelo with naive & Clone13
+   - [Notebook](0_Acute-Chronic/codes_local/3_3_scVelo_Analysis_CL13only.ipynb)
+   - [Data output](0_Acute-Chronic/2_scVelo/3_scVelo_out_CL13only/)
+   
+   #### 2.5 scVelo with selected comparisons
+   > Each cluster v.s. other clusters <br>
+   > In Armstrong & Naive only: Each cluster v.s. other clusters <br>
+   > In Clone13 & Naive only: Each cluster v.s. other clusters <br>
+   - [Notebook](0_Acute-Chronic/codes_local/3_4_scVelo_Analysis_LouvainCluster.ipynb)
+   - [Data output](0_Acute-Chronic/2_scVelo/4_scVelo_out_LouvainCluster/)
 
 ```                                                                      
                         ┌────────────────┐                                  
