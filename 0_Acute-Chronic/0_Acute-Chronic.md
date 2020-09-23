@@ -9,7 +9,7 @@
    > With filtered resampled cells (capped 1250 cells / category) <br>
    
    #### 1.1 Scanpy & PAGA 
-   - [Notebook](0_Acute-Chronic/codes_local/1_0-0_SCANPY_PAGA_resampled.ipynb)
+   - [Notebook](codes_local/1_0-0_SCANPY_PAGA_resampled.ipynb)
    - [Data output](0_Acute-Chronic/1_Scanpy/0_Scanpy_out_resampled/0_Acute-Chronic_paga/)
    - [Summary output](0_Acute-Chronic/1_Scanpy/0_Scanpy_out_resampled/0_sum/)
    - [Per category average expression](0_Acute-Chronic/1_Scanpy/0_Scanpy_out_resampled/1_avg_expr/)
