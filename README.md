@@ -27,3 +27,5 @@
 1. [Exp391: Acute v.s. Chronic infection](0_Acute-Chronic/0_Acute-Chronic.md)
 2. [Exp334: Il2raKO]()
 3. [Exp392: shCRF]()
+
+![Best](https://www.researchgate.net/profile/Michael_Dustin/publication/279840489/figure/fig1/AS:409936333950985@1474747847703/Gene-expression-profiles-associated-with-the-activation-and-memory-formation-of-CD8-T.png)
