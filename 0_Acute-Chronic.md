@@ -33,7 +33,7 @@
 
    #### 2.1 scVelo with all resampled cells
    - [Notebook](0_Acute-Chronic/codes_local/3_0_scVelo_Analysis_resampled.ipynb)
-   = [Data output](0_Acute-Chronic/2_scVelo/0_scVelo_out_resampled/)
+   - [Data output](0_Acute-Chronic/2_scVelo/0_scVelo_out_resampled/)
    
    #### 2.2 scVelo with only activated (no naive)
    - [Notebook](0_Acute-Chronic/codes_local/3_1_scVelo_Analysis_ACTonly.ipynb)
