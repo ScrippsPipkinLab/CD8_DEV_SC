@@ -24,7 +24,7 @@
     - [Scribe-py](https://github.com/Yolanda-HT/Scribe-py)
 
 ## Results
-1. [Exp391: Acute v.s. Chronic infection](0_Acute-Chronic/0_Acute-Chronic.md)
+1. [Exp391: Acute v.s. Chronic infection](0_Acute-Chronic.md)
 2. [Exp334: Il2raKO]()
 3. [Exp392: shCRF]()
 
