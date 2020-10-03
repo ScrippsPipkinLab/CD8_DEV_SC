@@ -82,12 +82,14 @@ conn_plot <- function(paga.pos.tb, paga.conn.tb, out_name_root, var_name = "NES"
     theme(panel.grid.major = element_blank(),
           panel.grid.minor = element_blank(),
           panel.background = element_rect(fill = fillcol),
-          axis.title.x=element_blank(),
-          axis.text.x=element_blank(),
-          axis.title.y=element_blank(),
-          axis.text.y=element_blank(),
-          axis.line.x = element_line(color="black", size = 0.25),
-          axis.line.y = element_line(color="black", size = 0.25))
+          axis.title.x = element_blank(),
+          axis.text.x = element_blank(),
+          axis.title.y = element_blank(),
+          axis.text.y = element_blank(),
+          axis.line.x = element_blank(), # element_line(color="black", size = 0.25)
+          axis.line.y = element_blank(), # element_line(color="black", size = 0.25)
+          axis.ticks = element_blank()
+         )
   
   if (!mute) {
     conn.plot.nolegend <- conn.plot +
