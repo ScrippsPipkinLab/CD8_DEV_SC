@@ -105,3 +105,41 @@ conn_plot <- function(paga.pos.tb, paga.conn.tb, out_name_root, var_name = "NES"
   conn.plot <- conn.plot + ggtitle(out_name_root) + theme(plot.title = element_text(face="bold", hjust = 0.5))
   return(conn.plot)
 }
+
+
+###----- Volcano plot
+volcano_plot <- function(comp_df, h_genes, log2fc_c, nlog10p_c) {
+    #--- Assign categories for plotting
+    volcano_df <- comp_df %>% mutate(highlight = ifelse(gene_name %in% h_genes, "yes", "no")) %>%
+        mutate(log2fc_sig = ifelse(abs(log2fc) >= log2fc_c, TRUE, FALSE))
+    volcano_df <- volcano_df %>%
+        mutate(pval_sig = ifelse(nlog10pval >= nlog10p_c, TRUE, FALSE)) %>% 
+        mutate(both_sig = ifelse(log2fc_sig & pval_sig, TRUE, FALSE)) %>%
+        mutate(category = ifelse(log2fc > 0, "G1", "G2")) %>%
+        unite(new_cat, c(highlight, both_sig, category), remove = FALSE)
+    
+    volcano_df$new_cat <- mapvalues(volcano_df$new_cat, from=c("yes_FALSE_G1", "yes_FALSE_G2", "yes_TRUE_G1", "yes_TRUE_G2",
+                                                     "no_FALSE_G1", "no_FALSE_G2", "no_TRUE_G1", "no_TRUE_G2"), 
+                             to=c("HL_nonesig", "HL_nonesig", "HL_G1", "HL_G2",
+                                  "noHL_nonesig",  "noHL_nonesig",  "HL_G1", "HL_G2"))
+    h_df <- volcano_df %>% filter(new_cat != "noHL_nonesig")
+    
+    #--- Plotting
+    ggplot(volcano_df, aes(alpha=factor(new_cat), size=factor(new_cat), color=factor(new_cat))) +
+      geom_point(aes(x=log2fc, y=nlog10pval)) +
+      scale_alpha_manual(values = c("HL_nonesig"=0.8, "HL_G1"=0.8, "HL_G2"=0.8, "noHL_nonesig"=0.05), guide = 'none') +
+      scale_size_manual(values = c("HL_nonesig"=3, "HL_G1"=3, "HL_G2"=3, "noHL_nonesig"=2), guide = 'none') +
+      scale_color_manual(values = c("HL_nonesig"="black", "HL_G1"="firebrick3", "HL_G2"="dodgerblue2", "noHL_nonesig"="gray20"), guide = 'none') +
+      geom_vline(xintercept=0) +
+      geom_hline(yintercept=0) +
+      geom_text_repel(data=h_df, size=7.5, aes(x=log2fc, y=nlog10pval, label=gene_name)) +
+      theme(plot.title = element_text(hjust = 0.5),
+            panel.grid.major = element_line(color="gray25", size=0.2),
+            panel.grid.minor = element_line(color="gray25", size=0.1),
+            panel.background = element_rect(fill = 'white', colour = 'white'),
+            axis.title.x = element_blank(),
+            axis.title.y = element_blank()) +
+      scale_y_sqrt() +
+      coord_cartesian(xlim=c(-6,6)) # will not remove dots that are out of scale
+      #ggtitle("G1 v.s. G2 \n Differential gene expression") 
+}
