@@ -164,7 +164,7 @@ conn_plot_comp <- function(paga.pos.tb, paga.conn.tb, comparison, fillcol="grey"
 
 
 ###----- Volcano plot
-volcano_plot <- function(comp_df, h_genes, log2fc_c, nlog10p_c) {
+volcano_plot <- function(comp_df, h_genes, log2fc_c, nlog10p_c, log2fc_range=c(-6,6)) {
     #--- Assign categories for plotting
     volcano_df <- comp_df %>% mutate(highlight = ifelse(gene_name %in% h_genes, "yes", "no")) %>%
         mutate(log2fc_sig = ifelse(abs(log2fc) >= log2fc_c, TRUE, FALSE))
@@ -196,6 +196,7 @@ volcano_plot <- function(comp_df, h_genes, log2fc_c, nlog10p_c) {
             axis.title.x = element_blank(),
             axis.title.y = element_blank()) +
       scale_y_sqrt() +
-      coord_cartesian(xlim=c(-6,6)) # will not remove dots that are out of scale
+      coord_cartesian(xlim=log2fc_range
+) # will not remove dots that are out of scale
       #ggtitle("G1 v.s. G2 \n Differential gene expression") 
 }
