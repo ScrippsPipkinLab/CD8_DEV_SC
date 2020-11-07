@@ -1,9 +1,8 @@
 wilcoxon,t-test,t-test_overestim_var
-mt-Cytb,mt-Co3,Xist
-mt-Co3,Xist,mt-Co3
-mt-Atp6,mt-Atp6,mt-Atp6
-mt-Co1,mt-Cytb,mt-Cytb
-Xist,mt-Co1,mt-Co1
+mt-Cytb,mt-Co3,mt-Co3
+mt-Co3,mt-Atp6,mt-Atp6
+mt-Atp6,mt-Cytb,mt-Cytb
+mt-Co1,mt-Co1,mt-Co1
 mt-Co2,mt-Co2,mt-Co2
 Rpl22l1,Trdc,Trdc
 mt-Nd1,mt-Nd1,Rpl22l1
@@ -34,8 +33,8 @@ Rflnb,Peli1,Rps17
 Stk38,Trbv13-3,Btg1
 Lef1,Klf2,Peli1
 Arhgef1,Stk38,Gm47283
-Rgs10,Gm12840,Gm12840
-Emb,Gm47283,Stk38
+Rgs10,Gm12840,
+Emb,Gm47283,
 Ybx1,Zfp24,
 Malat1,Gnas,
 Scp2,Bnip3l,
@@ -58,7 +57,7 @@ Mdh1,Crlf3,
 Sept1,Phip,
 H3f3a,Nxf1,
 Ppia,Phf20l1,
-Cd47,Marc2,
+Cd47,,
 Plac8,,
 Cd37,,
 Luc7l2,,
