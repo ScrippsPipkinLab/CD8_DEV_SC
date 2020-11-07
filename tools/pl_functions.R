@@ -214,7 +214,7 @@ conn_plot_col_size <- function(paga.pos.tb, paga.conn.tb, out_name_root, fillcol
 
 
 ###----- Volcano plot
-volcano_plot <- function(comp_df, h_genes, log2fc_c, nlog10p_c, log2fc_range=c(-6,6)) {
+volcano_plot <- function(comp_df, h_genes, log2fc_c, nlog10p_c, log2fc_range=c(-6,6), nlog10pval_max=300) {
     #--- Assign categories for plotting
     volcano_df <- comp_df %>% mutate(highlight = ifelse(gene_name %in% h_genes, "yes", "no")) %>%
         mutate(log2fc_sig = ifelse(abs(log2fc) >= log2fc_c, TRUE, FALSE))
@@ -228,7 +228,7 @@ volcano_plot <- function(comp_df, h_genes, log2fc_c, nlog10p_c, log2fc_range=c(-
                                                      "no_FALSE_G1", "no_FALSE_G2", "no_TRUE_G1", "no_TRUE_G2"), 
                              to=c("HL_nonesig", "HL_nonesig", "HL_G1", "HL_G2",
                                   "noHL_nonesig",  "noHL_nonesig",  "HL_G1", "HL_G2"))
-    h_df <- volcano_df %>% filter(new_cat != "noHL_nonesig")
+    h_df <- volcano_df %>% filter(new_cat != "noHL_nonesig") %>% filter( ! gene_name %in% c("Xist", "Tsix", "Eif2s3y", "Ddx3y")) 
     
     #--- Plotting
     ggplot(volcano_df, aes(alpha=factor(new_cat), size=factor(new_cat), color=factor(new_cat))) +
@@ -246,7 +246,6 @@ volcano_plot <- function(comp_df, h_genes, log2fc_c, nlog10p_c, log2fc_range=c(-
             axis.title.x = element_blank(),
             axis.title.y = element_blank()) +
       scale_y_sqrt() +
-      coord_cartesian(xlim=log2fc_range
-) # will not remove dots that are out of scale
+      coord_cartesian(xlim=log2fc_range, ylim=c(0, nlog10pval_max)) # will not remove dots that are out of scale
       #ggtitle("G1 v.s. G2 \n Differential gene expression") 
 }
