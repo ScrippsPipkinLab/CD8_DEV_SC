@@ -1,4 +1,4 @@
-# Anti-viral CD8 T cell early developmental trajectory inference with single cell RNA-seq
+## Anti-viral CD8 T cell developmental trajectory inference with single cell RNA-seq
 
 > Huitian Diao (Yolanda)<br/>
 > Matthew Pipkin
