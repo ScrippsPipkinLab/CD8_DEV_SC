@@ -3,7 +3,12 @@
 > Huitian Diao (Yolanda)<br/>
 > Matthew Pipkin
 
-- *Manuscript progress*: [GSuite](https://drive.google.com/drive/folders/1lQkHaRpWIaQ0S_ir95EF-ODGVYXxwww4?usp=sharing); [Dropbox](https://www.dropbox.com/sh/lrswxf2msgenqcj/AADE3R-FuQcxOk59wkrtzQ5Ja?dl=0)
+- *Manuscript & Figure Update*: 
+  - Gsuite:
+    - [Figures](https://drive.google.com/drive/folders/1lQkHaRpWIaQ0S_ir95EF-ODGVYXxwww4?usp=sharing)
+    - [Manuscript](https://drive.google.com/drive/u/3/folders/15PG7NO1zRFm01DPHKPbrINJkG89dSN63)
+    - [Slides](https://drive.google.com/drive/u/3/folders/16Gbu4cf33Xl_uLvjU3RqlltJXUA9DPFU)
+  - [Dropbox](https://www.dropbox.com/sh/lrswxf2msgenqcj/AADE3R-FuQcxOk59wkrtzQ5Ja?dl=0)
 - *Original sequencing data*: 
   - [pipkinngs/Exp391_Acute-Chronic_SC]
   - []
