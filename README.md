@@ -5,7 +5,7 @@
 
 - *Manuscript & Figure Update*: 
   - Gsuite:
-    - [Figures](https://drive.google.com/drive/folders/1lQkHaRpWIaQ0S_ir95EF-ODGVYXxwww4?usp=sharing)
+    - [Figures](https://drive.google.com/drive/u/3/folders/1Kr3CcGrgpDkKyVSKLc07pOF6-YuIbmRi)
     - [Manuscript](https://drive.google.com/drive/u/3/folders/15PG7NO1zRFm01DPHKPbrINJkG89dSN63)
     - [Slides](https://drive.google.com/drive/u/3/folders/16Gbu4cf33Xl_uLvjU3RqlltJXUA9DPFU)
   - [Dropbox](https://www.dropbox.com/sh/lrswxf2msgenqcj/AADE3R-FuQcxOk59wkrtzQ5Ja?dl=0)
