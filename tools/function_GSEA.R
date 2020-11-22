@@ -72,23 +72,56 @@ GSEA_analysis <- function(in.file, use.group, out_name, gs_file, zscore_cutoff) 
   
 }
 
-GSEA_sum <- function(file_list, outname, wid, hei, comp_use_order, comp_order_vec, path_use_order, path_order_vec) {
-  #file_list <- d5.gsea.files
+GSEA_sum <- function(file_list, outname, wid, hei, 
+                     comp_use_order, comp_order_vec, path_use_order, path_order_vec,
+                     filesimp_use_selfdefined, filesimp_selfdefined, use_pval) {
+  ########## Parameters ##########
+  ### file_list: list of gsea output csv files
+  #-- comparison names derive from file names automatically
+    
+  ### outname: base of output name
+  ### wid: width of output plot
+  ### hei: height of output plot
+    
+  ### comp_use_order: if using custom order for comparisons
+  #-- comp_order_vec: the order of comparisons
+  
+  ### path_use_order: if using custom order for pathways
+  #-- path_order_vec: the order of pathways to use
+  
+  ### filesimp_use_selfdefined: if using custom defined simplified file names
+  #-- filesimp_selfdefined: self defined simplified file names
+  
+  ### use_pval: if using pvalue instead of padj
+  
+  ########## Output ##########
+  ### Returns summary table
+  #-- comparison, pathway, NES, padj, leadingEdge_signal, mlog10padj
+    
+  ### Save summary bubble plot
+  #-- size=mlog10padj, color=NES
+  #-- ordered by specified comparison & pathway
+    
   cp.vec <- c()
   pw.vec <- c()
   nes.vec <- c()
   padj.vec <- c()
+  pval.vec <- c()
   le.sig.vec <- c()
-  for (filex in file_list) {
-    #filex <- gsea.files.use[1]
+  for (x in c(1:length(file_list))) {
+    filex <- file_list[x]
     filex.name.simp <- basename(filex)
     filex.name.simp <- filename_simp(filex.name.simp)
+    if (filesimp_use_selfdefined) {
+        filex.name.simp  <- filesimp_selfdefined[x]
+    }
     
     filex.tb <- read_csv(filex)
     cp.vec <- c(cp.vec, rep(filex.name.simp, nrow(filex.tb)))
     pw.vec <- c(pw.vec, filex.tb$ID)
     nes.vec <- c(nes.vec, filex.tb$NES)
     padj.vec <- c(padj.vec, filex.tb$p.adjust)
+    pval.vec <- c(pval.vec, filex.tb$pvalue)
     le.x <- filex.tb$leading_edge
     le.sig.x <- le_to_le_sig(le.x)
     le.sig.vec <- c(le.sig.vec, le.sig.x)
@@ -98,8 +131,10 @@ GSEA_sum <- function(file_list, outname, wid, hei, comp_use_order, comp_order_ve
                     pathway=pw.vec,
                     NES=nes.vec,
                     padj=padj.vec,
+                    pval=pval.vec,
                     leadingEdge_signal=le.sig.vec)
   plot.tb$mlog10padj <- -log10(plot.tb$padj)
+  plot.tb$mlog10pval <- -log10(plot.tb$pval)
     
   print(head(plot.tb))
   
@@ -112,10 +147,18 @@ GSEA_sum <- function(file_list, outname, wid, hei, comp_use_order, comp_order_ve
     plot.tb$pathway <- new.factor
   }
   
-  bbplot <- ggplot(plot.tb, aes(pathway, comparison)) +
+  if (! use_pval) {
+    bbplot <- ggplot(plot.tb, aes(pathway, comparison)) +
     geom_point(aes(size=mlog10padj, color=NES)) +
     scale_color_gradient2(low="blue", mid="white", high="red", midpoint=0) +
     theme(axis.text.x = element_text(angle = 90, hjust = 1))
+  } else {
+    bbplot <- ggplot(plot.tb, aes(pathway, comparison)) +
+    geom_point(aes(size=mlog10pval, color=NES)) +
+    scale_color_gradient2(low="blue", mid="white", high="red", midpoint=0) +
+    theme(axis.text.x = element_text(angle = 90, hjust = 1))
+  }
+
   
   outname_csv <- paste(outname, ".csv", sep="")
   outname_pdf <- paste(outname, ".pdf", sep="")
