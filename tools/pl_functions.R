@@ -249,3 +249,52 @@ volcano_plot <- function(comp_df, h_genes, log2fc_c, nlog10p_c, log2fc_range=c(-
       coord_cartesian(xlim=log2fc_range, ylim=c(0, nlog10pval_max)) # will not remove dots that are out of scale
       #ggtitle("G1 v.s. G2 \n Differential gene expression") 
 }
+
+###----- Volcano plot - highlight GSEA
+volcano_plot_highlightGSEA <- function(comp_df, h_genes, gsea_genes, log2fc_c, nlog10p_c, 
+                                       log2fc_range=c(-6,6), nlog10pval_max=300) {
+    ########## Parameters ##########
+    # comp_df: differential output (gene_name, log2fc, padj, nlog10pval)
+    # h_genes: genes to highlight (show text)
+    # gsea_genes: genes to color & calculate number
+    # log2fc_c / nlog10p_c: log2fc cutoff for significance, -log10pvalue cutoff for significance
+    # log2fc_range / nlog10pval_max: plotting range
+    
+    
+    #--- Assign categories for plotting
+    volcano_df <- comp_df  %>% filter( ! gene_name %in% c("Xist", "Tsix", "Eif2s3y", "Ddx3y")) 
+    h_df <- volcano_df %>% filter(gene_name %in% h_genes)
+    gsea_df <- volcano_df %>% filter(gene_name %in% gsea_genes)
+    gsea_sig_df <- gsea_df %>% filter( abs(log2fc) >= log2fc_c ) %>% filter( nlog10pval >= nlog10p_c)
+    
+    #--- Plotting
+    # All genes
+    vol_gsea_plot <- ggplot(volcano_df, aes(x=log2fc, y=nlog10pval)) +
+      geom_point(size=1, alpha=0.5, color="gray") +
+      geom_vline(xintercept=0, size=0.8) +
+      geom_hline(yintercept=0, size=0.8) +
+      geom_vline(xintercept=-log2fc_c, size=0.4) +
+      geom_vline(xintercept=log2fc_c, size=0.4) +
+      geom_hline(yintercept=nlog10p_c, size=0.4) + 
+      theme(plot.title = element_text(hjust = 0.5),
+            panel.grid.major = element_line(color="gray25", size=0.2),
+            panel.grid.minor = element_line(color="gray25", size=0.1),
+            panel.background = element_rect(fill = 'white', colour = 'white'),
+            axis.title.x = element_blank(),
+            axis.title.y = element_blank()) +
+      scale_y_sqrt() +
+      coord_cartesian(xlim=log2fc_range, ylim=c(0, nlog10pval_max)) # will not remove dots that are out of scale
+    # Genes to annotate
+    vol_gsea_plot <- vol_gsea_plot +
+      geom_point(data=h_df, size=2, alpha=1, color="black")
+    # Genes in GSEA
+    vol_gsea_plot <- vol_gsea_plot + 
+      geom_point(data=gsea_df, size=3, alpha=0.5, color="darkorange")
+    vol_gsea_plot <- vol_gsea_plot +
+      geom_point(data=gsea_sig_df, size=3, alpha=1, color="darkorange3")
+    # Text anno
+    vol_gsea_plot <- vol_gsea_plot + 
+      geom_text_repel(data=h_df, size=7.5, aes(x=log2fc, y=nlog10pval, label=gene_name))
+    
+    return(vol_gsea_plot)
+}
