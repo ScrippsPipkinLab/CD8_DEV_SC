@@ -250,22 +250,46 @@ volcano_plot <- function(comp_df, h_genes, log2fc_c, nlog10p_c, log2fc_range=c(-
       #ggtitle("G1 v.s. G2 \n Differential gene expression") 
 }
 
+##########---------- Get named lists of signature genes based on abbreviations of gene signatures
+gs.anno.file <- '/media/pipkin/ROCKET-PRO/T_cell_signature_Reference/Y_annotated/anno_plotuse_gs_20200928.csv'
+gs.anno.df <- read_csv(gs.anno.file) %>% filter(plot_use != "NA")
+all.gs.file <- '/media/pipkin/ROCKET-PRO/T_cell_signature_Reference/X_GeneSignatures_mm/all_mouse_T_cell_signatures.csv'
+all.gs.df <- read_csv(all.gs.file)
+get_gs_genes <- function(gs_use=c(" ")) {
+    if (paste(gs_use, collapse="") != " ") {
+        gs_list <- list()
+        for (gs_i in gs_use){
+            gs_fullname_i <- gs.anno.df %>% filter(abbr == gs_i) %>% .$gs_name
+            gs_genes_i <- all.gs.df %>% filter(gs_name == gs_fullname_i) %>% .$gene_symbol
+            gs_list[[gs_i]] <- gs_genes_i
+        }
+        return(gs_list)
+    } else {
+        print("Possible signatures for using:")
+        print(gs.anno.df$abbr)
+    }  
+}
+
 ###----- Volcano plot - highlight GSEA
-volcano_plot_highlightGSEA <- function(comp_df, h_genes, gsea_genes, log2fc_c, nlog10p_c, 
-                                       log2fc_range=c(-6,6), nlog10pval_max=300) {
+volcano_plot_highlightGSEA <- function(comp_df, h_genes, gs_vec, gs_col_vec,
+                                       log2fc_c, nlog10p_c, log2fc_range=c(-6,6), nlog10pval_max=300) {
     ########## Parameters ##########
     # comp_df: differential output (gene_name, log2fc, padj, nlog10pval)
     # h_genes: genes to highlight (show text)
-    # gsea_genes: genes to color & calculate number
+    # gs_vec: abbreviations of gene signature sets to use
+    #     use get_gs_genes function to creat gs_genes_list:
+    #     list("gs1"=("geneA", "geneB"), "gs2"=("geneC", "geneD"))
+    # gs_col_vec: colors for gene signature sets
     # log2fc_c / nlog10p_c: log2fc cutoff for significance, -log10pvalue cutoff for significance
     # log2fc_range / nlog10pval_max: plotting range
     
+    gsea_genes_list <- get_gs_genes(gs_vec)
+    
+    sig_nu_sum_df <- data.frame("side"=c("up", "dn")) # summary of sig. diff. gene # in GSEA
     
     #--- Assign categories for plotting
     volcano_df <- comp_df  %>% filter( ! gene_name %in% c("Xist", "Tsix", "Eif2s3y", "Ddx3y")) 
     h_df <- volcano_df %>% filter(gene_name %in% h_genes)
-    gsea_df <- volcano_df %>% filter(gene_name %in% gsea_genes)
-    gsea_sig_df <- gsea_df %>% filter( abs(log2fc) >= log2fc_c ) %>% filter( nlog10pval >= nlog10p_c)
     
     #--- Plotting
     # All genes
@@ -287,14 +311,42 @@ volcano_plot_highlightGSEA <- function(comp_df, h_genes, gsea_genes, log2fc_c, n
     # Genes to annotate
     vol_gsea_plot <- vol_gsea_plot +
       geom_point(data=h_df, size=2, alpha=1, color="black")
-    # Genes in GSEA
-    vol_gsea_plot <- vol_gsea_plot + 
-      geom_point(data=gsea_df, size=3, alpha=0.5, color="darkorange")
-    vol_gsea_plot <- vol_gsea_plot +
-      geom_point(data=gsea_sig_df, size=3, alpha=1, color="darkorange3")
-    # Text anno
-    vol_gsea_plot <- vol_gsea_plot + 
-      geom_text_repel(data=h_df, size=7.5, aes(x=log2fc, y=nlog10pval, label=gene_name))
+    # Add each GSEA set
+    for (i in c(1:length(gs_vec))) {
+        gs_i <- gs_vec[i]
+        gsea_genes <- unlist(gsea_genes_list[gs_i])
+        gsea_df <- volcano_df %>% filter(gene_name %in% gsea_genes)
+        gsea_sig_df <- gsea_df %>% filter( abs(log2fc) >= log2fc_c ) %>% filter( nlog10pval >= nlog10p_c)
+        gsea_sig_df_up <- gsea_sig_df %>% filter(log2fc > 0)
+        gsea_sig_df_dn <- gsea_sig_df %>% filter(log2fc < 0)
+        
+        # Add in hightlight scatter plot
+        vol_gsea_plot <- vol_gsea_plot + 
+          geom_point(data=gsea_df, size=3, alpha=0.5, color=gs_col_vec[i])
+        vol_gsea_plot <- vol_gsea_plot +
+          geom_point(data=gsea_sig_df, size=3, alpha=1, color=gs_col_vec[i])
+        
+        # Add in summary
+        gs_i_sum_nu <- c(nrow(gsea_sig_df_up), nrow(gsea_sig_df_dn))
+        sig_nu_sum_df[gs_i] <- gs_i_sum_nu
+        
+        # Create text annotations
+        padding <- paste(rep("\n",i-1), collapse="")
+        text_with_padding <- paste(padding, as.character(gs_i_sum_nu), sep="")
+        annotations <- data.frame(xpos = c(Inf,-Inf), 
+                                  ypos =  c(Inf,Inf),
+                                  annotateText = text_with_padding,
+                                  hjustvar = c(1,0),
+                                  vjustvar = c(1,1))
+        vol_gsea_plot <- vol_gsea_plot +
+          geom_text(data=annotations,aes(x=xpos,y=ypos,hjust=hjustvar,vjust=vjustvar,
+                                         label=annotateText), size=7.5, color=gs_col_vec[i])
+        
+    }
     
-    return(vol_gsea_plot)
+    print(sig_nu_sum_df)
+    # Gene name text anno
+    vol_gsea_plot <- vol_gsea_plot + 
+      geom_text_repel(data=h_df, size=7.5, nudge_y=-1.5, aes(x=log2fc, y=nlog10pval, label=gene_name))
+    return(list("plot"=vol_gsea_plot, "sum"=sig_nu_sum_df))
 }
