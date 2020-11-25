@@ -110,7 +110,7 @@ conn_plot <- function(paga.pos.tb, paga.conn.tb, out_name_root, var_name = "NES"
 conn_plot_comp <- function(paga.pos.tb, paga.conn.tb, comparison, fillcol="grey", mute=TRUE) {
   # paga.pos.tb: [x, y, Group]
   # paga.conn.tb: [x1, y1, x2, y2, Conn]
-    out_name_root <- paste(comparison, collapse="_vs_")
+  out_name_root <- paste(comparison, collapse="_vs_")
 
   paga.pos.tb.g1 <- paga.pos.tb %>% filter(Group == comparison[1])
   paga.pos.tb.g2 <- paga.pos.tb %>% filter(Group == comparison[2])
