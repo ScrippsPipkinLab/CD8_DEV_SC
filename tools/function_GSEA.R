@@ -44,7 +44,7 @@ GSEA_analysis <- function(in.file, use.group, out_name, gs_file, zscore_cutoff) 
   names(gene.list) <- as.character(use.tb$gene_name)
   gene.list <- sort(gene.list, decreasing = TRUE)
   deg.list <- names(gene.list)[abs(gene.list) > zscore_cutoff]
-  length(deg.list)
+  print(length(deg.list))
   
   #####---------- Read GSEA reference dataset
   gs.tb <- read_csv(gs_file)
