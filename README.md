@@ -5,9 +5,9 @@
 
 - *Manuscript & Figure Update*: 
   - Gsuite:
-    - [Figures](https://drive.google.com/drive/u/3/folders/1Kr3CcGrgpDkKyVSKLc07pOF6-YuIbmRi)
-    - [Manuscript](https://drive.google.com/drive/u/3/folders/15PG7NO1zRFm01DPHKPbrINJkG89dSN63)
-    - [Slides](https://drive.google.com/drive/u/3/folders/16Gbu4cf33Xl_uLvjU3RqlltJXUA9DPFU)
+    - [Figures](https://drive.google.com/drive/folders/1a3ZAHna3BRwikHiOBOHLk-nxJNz5t076?usp=sharing)
+    - [Manuscript](https://drive.google.com/drive/folders/1H5hCcD-f-DKY9Gsr309r0NCCHH4vL4h3?usp=sharing)
+    - [Slides](https://drive.google.com/drive/folders/1-FMAa7kR0APNTA1pJ0ZcNdUFxjSL5J0K?usp=sharing)
   - [Dropbox](https://www.dropbox.com/sh/lrswxf2msgenqcj/AADE3R-FuQcxOk59wkrtzQ5Ja?dl=0)
 - *Original sequencing data*: 
   - [pipkinngs/Exp391_Acute-Chronic_SC]
