@@ -16,16 +16,16 @@ google_updateManuscript=${google_dir}/z_update_manuscript
 google_updateSlides=${google_dir}/z_update_slides
 
 cd $git_repo_figures
-cp -r -n * $google_figures
+rsync -r * $google_figures
 
 cd $git_repo_updateFigures
-cp -r -n * $google_updateFigures
+rsync -r * $google_updateFigures
 
 cd $git_repo_updateManuscript
-cp -r -n * $google_updateManuscript
+rsync -r * $google_updateManuscript
 
 cd $git_repo_updateSlides
-cp -r * $google_updateSlides
+rsync -r * $google_updateSlides
 
 python $check_update_py $git_repo_updateFigures
 python $check_update_py $google_updateFigures
