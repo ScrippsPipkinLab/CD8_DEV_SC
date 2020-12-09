@@ -33,6 +33,19 @@ filename_simp <- function(in_filename) {
 }
 
 GSEA_analysis <- function(in.file, use.group, out_name, gs_file, zscore_cutoff) {
+  ########## Paramaters ##########
+  ### in.file: differential analysis output / rank output
+  #-- containes columns: gene_name / gene_names, and column specified by use.group
+    
+  ### use.group: column name that indicate log2fc / z-score or similar paramter in diff output
+  ### out_name: the base name of output
+    
+  ### gs_file: file containing gene signatures
+  #--- contains columns: gs_name, gene_symbol
+  
+  ### zscore_cutoff: cutoff for log2fc / z-score or other parameter specified by use.group
+  
+ 
   file.name.simp <- out_name
   in.tb <- read_csv(in.file)
   use.col <- c("gene_name", "gene_names", use.group)
@@ -169,45 +182,71 @@ GSEA_sum <- function(file_list, outname, wid, hei,
   return(plot.tb)
 }
 
-GO_run <- function(z_file, z_cutoff){
-  #z.file <- "/Volumes/Yolanda/Exp392_shCRF_SC/1_1_SCANPY_PAGA/shCRF-numSlt/1_norm_counts/all_norm_counts_named_c10_nbPctl_Z_naOmit--louvain_avg_z.csv"
-  #z_cutoff <- 1 # For testing
+GO_run <- function(z_file, use.group, out_name, z_cutoff, subdirs){
+  ########## Paramaters ##########
+  ### z_file: differential analysis output / rank output
+  #-- containes columns: gene_name / gene_names, and column specified by use.group
+    
+  ### use.group: column name that indicate log2fc / z-score or similar paramter in diff output
+  ### out_name: the base name of output
+    
+  ### gs_file: file containing gene signatures
+  #--- contains columns: gs_name, gene_symbol
   
-  tab.i <- read_csv(z.file)
-  conds <- colnames(tab.i)[2:length(colnames(tab.i))]
-  for (i.cond in conds) {
-    i <- as.character(i.cond)
-    genes.i <- tab.i %>% filter(tab.i[i.cond] > z_cutoff) %>% .$gene_name
-    print(paste(as.character(i.cond), "    Gene number: ", as.character(length(genes.i)), sep=""))
-    genes.i.id <- AnnotationDbi::select(org.Mm.eg.db, genes.i, c("ENTREZID"), "ALIAS")
+  ### z_cutoff: cutoff for log2fc / z-score or other parameter specified by use.group
     
-    egoBP <- enrichGO(gene = genes.i.id$ENTREZID, keyType = 'ENTREZID', OrgDb = org.Mm.eg.db, ont = "BP", pAdjustMethod = "none", pvalueCutoff = 0.05, readable = TRUE)
-    egoCC <- enrichGO(gene = genes.i.id$ENTREZID, keyType = 'ENTREZID', OrgDb = org.Mm.eg.db, ont = "CC", pAdjustMethod = "none", pvalueCutoff = 0.05, readable = TRUE)
-    egoMF <- enrichGO(gene = genes.i.id$ENTREZID, keyType = 'ENTREZID', OrgDb = org.Mm.eg.db, ont = "MF", pAdjustMethod = "none", pvalueCutoff = 0.05, readable = TRUE)
+  ### subdirs: if TRUE, create "BP", "MF", "CC" subdirs
     
-    # Dotplot visualization
-    if (!is.null(egoBP)){
-      pdf.name <- paste(i,"_BP_dotplot.pdf",sep="")
-      csv.name <- paste(i,"_BP_dotplot.csv",sep="")
+  tab.i <- read_csv(z_file)
+  use.col <- c("gene_name", "gene_names", use.group)
+  tab.i <- tab.i %>% dplyr::select(one_of(use.col))
+  colnames(tab.i) <- c("gene_name", "z")
+    
+  genes.i <- tab.i %>% filter(z > z_cutoff) %>% .$gene_name
+  print(paste(as.character(out_name), "    Gene number: ", as.character(length(genes.i)), sep=""))
+  genes.i.id <- AnnotationDbi::select(org.Mm.eg.db, genes.i, c("ENTREZID"), "ALIAS")
+    
+  egoBP <- enrichGO(gene = genes.i.id$ENTREZID, keyType = 'ENTREZID', OrgDb = org.Mm.eg.db, ont = "BP", pAdjustMethod = "none", pvalueCutoff = 0.05, readable = TRUE)
+  egoCC <- enrichGO(gene = genes.i.id$ENTREZID, keyType = 'ENTREZID', OrgDb = org.Mm.eg.db, ont = "CC", pAdjustMethod = "none", pvalueCutoff = 0.05, readable = TRUE)
+  egoMF <- enrichGO(gene = genes.i.id$ENTREZID, keyType = 'ENTREZID', OrgDb = org.Mm.eg.db, ont = "MF", pAdjustMethod = "none", pvalueCutoff = 0.05, readable = TRUE)
+    
+  # Dotplot visualization
+  if (!is.null(egoBP)){
+      csv.name <- paste(out_name,"_BP_dotplot.csv",sep="")
+      pdf.name <- paste(out_name,"_BP_dotplot.pdf",sep="")
+      if (subdirs){
+          dir.create("BP", showWarnings = FALSE, recursive=TRUE)
+          csv.name <- file.path("BP", csv.name)
+          pdf.name <- file.path("BP", pdf.name)
+      }
       write.csv(egoBP@result, file=csv.name, row.names=FALSE)
       egoBP.dotplot <- dotplot(egoBP, showCategory=25)
-      ggsave(pdf.name, egoBP.dotplot, device = "pdf", width = 30, height = 20, units = "cm")  
+      ggsave(pdf.name, egoBP.dotplot, device = "pdf", width = 50, height = 20, units = "cm")  
       
-    }
-    if(!is.null(egoCC)){
-      csv.name <- paste(i,"_CC_dotplot.csv",sep="")
-      pdf.name <- paste(i,"_CC_dotplot.pdf",sep="")
+  }
+  if(!is.null(egoCC)){
+      csv.name <- paste(out_name,"_CC_dotplot.csv",sep="")
+      pdf.name <- paste(out_name,"_CC_dotplot.pdf",sep="")
+      if (subdirs){
+          dir.create("CC", showWarnings = FALSE, recursive=TRUE)
+          csv.name <- file.path("CC", csv.name)
+          pdf.name <- file.path("CC", pdf.name)
+      }
       write.csv(egoCC@result, file=csv.name, row.names=FALSE)
       egoCC.dotplot <- dotplot(egoCC, showCategory=25)
-      ggsave(pdf.name, egoCC.dotplot, device = "pdf", width = 30, height = 20, units = "cm")  
-    }
-    if(!is.null(egoMF)){
-      csv.name <- paste(i,"_MF_dotplot.csv",sep="")
-      pdf.name <- paste(i,"_MF_dotplot.pdf",sep="")
+      ggsave(pdf.name, egoCC.dotplot, device = "pdf", width = 50, height = 20, units = "cm")  
+  }
+  if(!is.null(egoMF)){
+      csv.name <- paste(out_name,"_MF_dotplot.csv",sep="")
+      pdf.name <- paste(out_name,"_MF_dotplot.pdf",sep="")
+      if (subdirs){
+          dir.create("MF", showWarnings = FALSE, recursive=TRUE)
+          csv.name <- file.path("MF", csv.name)
+          pdf.name <- file.path("MF", pdf.name)
+      }
       write.csv(egoMF@result, file=csv.name, row.names=FALSE)
       egoMF.dotplot <- dotplot(egoMF, showCategory=25)
-      ggsave(paste(i,"_MF_dotplot.pdf",sep=""), egoMF.dotplot, device = "pdf", width = 30, height = 20, units = "cm")  
-    }
+      ggsave(pdf.name, egoMF.dotplot, device = "pdf", width = 50, height = 20, units = "cm")  
   }
 }
 

@@ -1,0 +1,963 @@
+"ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0140097","catalytic activity, acting on DNA","63/1565","190/22710",6.03522938181882e-27,6.03522938181882e-27,5.12041566499575e-24,"Rev1/Zranb3/Mcm6/Exo1/Rad51/Pcna/Gins1/Pola1/Ercc6l/Rad54b/Pole3/Rad54l/Mutyh/Helq/Pole/Ung/Rfc5/Rfc2/Mcm7/Rfc3/Pole4/Aplf/Mcm2/Rad18/Mbd4/Lig1/Pold1/Blm/Pold3/Eri2/Dna2/Ptges3/Gins4/Primpol/Neil3/Mcm5/Gins2/Dnmt1/Pif1/Pold2/Rad50/Brip1/Rad51c/Eme1/Top2a/Tdp2/Gen1/Pole2/Xrcc3/Dscc1/Recql4/Mcm4/Cdc45/Rfc4/Polq/Chtf18/Polh/Rbbp8/Rad9a/Pola2/Fen1/Anxa1/Dclre1a",63
+"GO:0008094","DNA-dependent ATPase activity","30/1565","72/22710",1.03922173821905e-16,1.03922173821905e-16,4.40848800528712e-14,"Zranb3/Mcm6/Rad51/Ercc6l/Rad54b/Rad54l/Xrcc2/Rfc1/Helq/Rfc5/Rfc2/Mcm7/Rfc3/Mcm2/Rad18/Blm/Dna2/Mcm5/Pif1/Rad51c/Top2a/Rad51b/Xrcc3/Dscc1/Rfc4/Polq/Chtf18/Msh5/Msh6/Anxa1",30
+"GO:0004003","ATP-dependent DNA helicase activity","17/1565","22/22710",3.10271066250865e-16,3.10271066250865e-16,5.26481009259362e-14,"Mcm6/Rad51/Helq/Rfc5/Rfc2/Mcm7/Rfc3/Mcm2/Rad18/Dna2/Mcm5/Pif1/Dscc1/Rfc4/Polq/Chtf18/Anxa1",17
+"GO:0008026","ATP-dependent helicase activity","17/1565","22/22710",3.10271066250865e-16,3.10271066250865e-16,5.26481009259362e-14,"Mcm6/Rad51/Helq/Rfc5/Rfc2/Mcm7/Rfc3/Mcm2/Rad18/Dna2/Mcm5/Pif1/Dscc1/Rfc4/Polq/Chtf18/Anxa1",17
+"GO:0070035","purine NTP-dependent helicase activity","17/1565","22/22710",3.10271066250865e-16,3.10271066250865e-16,5.26481009259362e-14,"Mcm6/Rad51/Helq/Rfc5/Rfc2/Mcm7/Rfc3/Mcm2/Rad18/Dna2/Mcm5/Pif1/Dscc1/Rfc4/Polq/Chtf18/Anxa1",17
+"GO:0003678","DNA helicase activity","27/1565","61/22710",5.54077410745904e-16,5.54077410745904e-16,7.83484900107366e-14,"Zranb3/Mcm6/Rad51/Gins1/Helq/Rfc5/Rfc2/Mcm7/Rfc3/Mcm2/Rad18/Blm/Dna2/Gins4/Mcm5/Gins2/Pif1/Rad50/Brip1/Dscc1/Recql4/Mcm4/Cdc45/Rfc4/Polq/Chtf18/Anxa1",27
+"GO:0017116","single-stranded DNA-dependent ATP-dependent DNA helicase activity","16/1565","20/22710",8.94592268368156e-16,8.94592268368156e-16,9.48738642506229e-14,"Mcm6/Rad51/Helq/Rfc5/Rfc2/Mcm7/Rfc3/Mcm2/Rad18/Dna2/Mcm5/Pif1/Dscc1/Rfc4/Polq/Chtf18",16
+"GO:0043142","single-stranded DNA-dependent ATPase activity","16/1565","20/22710",8.94592268368156e-16,8.94592268368156e-16,9.48738642506229e-14,"Mcm6/Rad51/Helq/Rfc5/Rfc2/Mcm7/Rfc3/Mcm2/Rad18/Dna2/Mcm5/Pif1/Dscc1/Rfc4/Polq/Chtf18",16
+"GO:0016887","ATPase activity","69/1565","379/22710",8.88165396803039e-14,8.88165396803039e-14,8.37264689851754e-12,"Zranb3/Mcm6/Kif14/Atp6v1g3/Atp1b1/Atp1a2/Dnah14/Entpd2/Kif18a/Rad51/Kif4/Ercc6l/Cenpe/Rad54b/Kif24/Rad54l/Kif2c/Xrcc2/Rfc1/Helq/Rfc5/Rfc2/Mcm7/Pms2/Katnal1/Rfc3/Mcm2/Rad18/Abcc9/Atp1a3/Blm/Kif22/Dna2/Mcm5/Kif23/Pif1/Kif15/Fignl1/Rad50/Myh10/Atp1b2/Atad5/Myo1d/Rad51c/Dynll2/Top2a/Atp6v0a1/Kif18b/Rad51b/Xrcc3/Dnah11/Dscc1/Atad2/Rfc4/Polq/Cpox/Abcb1a/Chtf18/Kifc5b/Kifc1/Hspa1l/Msh5/Msh6/Kif20a/Katnal2/Anxa1/Kif20b/Kif11/Entpd1",69
+"GO:0042623","ATPase activity, coupled","55/1565","282/22710",1.74042020836228e-12,1.74042020836228e-12,1.47660914519999e-10,"Zranb3/Mcm6/Kif14/Atp6v1g3/Atp1b1/Atp1a2/Dnah14/Kif18a/Rad51/Ercc6l/Rad54b/Rad54l/Xrcc2/Rfc1/Helq/Rfc5/Rfc2/Mcm7/Katnal1/Rfc3/Mcm2/Rad18/Abcc9/Atp1a3/Blm/Dna2/Mcm5/Pif1/Fignl1/Myh10/Atp1b2/Atad5/Myo1d/Rad51c/Dynll2/Top2a/Atp6v0a1/Kif18b/Rad51b/Xrcc3/Dnah11/Dscc1/Rfc4/Polq/Cpox/Abcb1a/Chtf18/Kifc1/Hspa1l/Msh5/Msh6/Katnal2/Anxa1/Kif20b/Kif11",55
+"GO:0003697","single-stranded DNA binding","29/1565","111/22710",2.63747716563084e-10,2.63747716563084e-10,2.03426468468752e-08,"Mcm3/Mcm6/Nucks1/Mcm10/Rad51/Mcm8/Pola1/Smc2/Rpa2/Mcm7/Pms2/Brca2/Rpa3/Mcm2/Rad18/Rad51ap1/Blm/Prim1/Neil3/Mcm5/Rad50/Ctc1/Alyref/Tdp2/Rad51b/Mcm4/Cdc45/Rbbp8/Anxa1",29
+"GO:0003688","DNA replication origin binding","13/1565","23/22710",4.48354574706528e-10,4.48354574706528e-10,2.9534306019972e-08,"Mcm3/Mcm6/Mcm10/Mcm8/Pola1/Orc1/Mcm7/Mcm2/Mcm5/Orc6/Cdc6/Mcm4/Cdc45",13
+"GO:0004386","helicase activity","35/1565","157/22710",4.52541785789894e-10,4.52541785789894e-10,2.9534306019972e-08,"Mcm3/Zranb3/Mcm6/Rad51/Mcm8/Gins1/Ercc6l/Ddx20/Rad54l/Helq/Rfc5/Rfc2/Mcm7/Rfc3/Mcm2/Rad18/Blm/Dna2/Gins4/Mcm5/Gins2/Pif1/Ddx43/Rad50/Brip1/Fancm/Dscc1/Recql4/Mcm4/Cdc45/Rfc4/Polq/Chtf18/Anxa1/Hells",35
+"GO:0000217","DNA secondary structure binding","13/1565","24/22710",9.16314244899702e-10,9.16314244899702e-10,5.55300211570797e-08,"Clspn/Xrcc2/Hmgb1/Rad18/Blm/Neil3/Rad51c/Gen1/Rad51b/Xrcc3/Recql4/Msh6/Rbbp8",13
+"GO:0008017","microtubule binding","44/1565","239/22710",1.91416187437947e-09,1.91416187437947e-09,1.08267682157884e-07,"Kif14/Dnm3/Kif18a/Nusap1/Map1a/Spef1/Fam83d/Haus7/Kif4/S100a9/Cgn/Cenpe/Kif24/Mast2/Kif2c/Mtus2/Katnal1/Prc1/Plk1/Kif22/Spef1l/Tubgcp2/Gas2l3/Mdm1/Camsap3/Ccsap/Haus4/Cep57/Kif23/Kif15/Fam161a/Ccdc88a/Spag5/Ska2/Kif18b/Birc5/Racgap1/Tiam1/Kifc5b/Kifc1/Kif20a/Ska1/Kif20b/Kif11",44
+"GO:0003887","DNA-directed DNA polymerase activity","13/1565","26/22710",3.35020594580968e-09,3.35020594580968e-09,1.77649078442277e-07,"Rev1/Pola1/Pole3/Pole/Pole4/Pold1/Pold3/Primpol/Pold2/Pole2/Polq/Polh/Pola2",13
+"GO:0034061","DNA polymerase activity","14/1565","33/22710",1.21148911472767e-08,1.21148911472767e-08,6.04619335275852e-07,"Rev1/Pola1/Pole3/Pole/Pole4/Pold1/Pold3/Ptges3/Primpol/Pold2/Pole2/Polq/Polh/Pola2",14
+"GO:0003684","damaged DNA binding","18/1565","56/22710",1.89809225314519e-08,1.89809225314519e-08,8.94656348558492e-07,"Rev1/Pcna/Mutyh/Rpa2/Aunip/Ung/Rpa3/Pold1/Blm/Neil3/Hmgb2/H2afx/Brca1/Recql4/Polh/Msh6/Rbbp8/Dclre1a",18
+"GO:0015631","tubulin binding","51/1565","336/22710",8.62755710678891e-08,8.62755710678891e-08,3.85252688535837e-06,"Kif14/Dnm3/Kif18a/Nusap1/Map1a/Spef1/Fam83d/Haus7/Kif4/Stmn2/S100a9/Cgn/Cenpe/Kif24/Mast2/Kif2c/Stmn1/Mtus2/Katnal1/Brca2/Prc1/Plk1/Kif22/Spef1l/Tubgcp2/Gas2l3/Mdm1/Camsap3/Tppp3/Ccsap/Haus4/Cenpj/Cep57/Kif23/Kif15/Fam161a/Ccdc88a/Spag5/Ska2/Kif18b/Birc5/Racgap1/Tiam1/Kifc5b/Kifc1/Kif20a/Trim36/Ska1/Kif20b/Kif11/Smc3",51
+"GO:0043138","3'-5' DNA helicase activity","10/1565","21/22710",4.09652872400382e-07,4.09652872400382e-07,1.73779060607741e-05,"Mcm6/Gins1/Mcm7/Mcm2/Blm/Gins4/Mcm5/Gins2/Recql4/Cdc45",10
+"GO:0004536","deoxyribonuclease activity","16/1565","58/22710",1.19972462211385e-06,1.19972462211385e-06,4.84700774648505e-05,"Zranb3/Exo1/Pole/Aplf/Pold1/Eri2/Dna2/Rad50/Rad51c/Eme1/Gen1/Xrcc3/Rbbp8/Rad9a/Fen1/Dclre1a",16
+"GO:0042393","histone binding","37/1565","233/22710",1.65899119658577e-06,1.65899119658577e-06,6.39783207869919e-05,"Ptma/Hjurp/Ing5/Ipo9/Wdr5/Phf19/Hat1/Ssrp1/Gk/Cks1b/Anp32e/Anp32b/Nasp/Rcc1/Baz1b/Mcm2/Ncapd2/Dpf1/Hpf1/Asf1b/Cks1brt/Sfmbt1/Ncapd3/H2afx/Suz12/Cbx2/Dek/Cks2/Ncapg2/Atad2/Tonsl/Cbx5/Rnf168/Chaf1b/Gm28043/Uhrf1/Msh6",37
+"GO:0000400","four-way junction DNA binding","8/1565","16/22710",3.89754359199722e-06,3.89754359199722e-06,0.000143772088565206,"Xrcc2/Hmgb1/Blm/Rad51c/Gen1/Rad51b/Xrcc3/Msh6",8
+"GO:0035173","histone kinase activity","8/1565","17/22710",6.91609128796175e-06,6.91609128796175e-06,0.000244489893776192,"Aurka/Baz1b/Cdk1/Cdk2/Chek1/Aurkb/Haspin/Ccnb1",8
+"GO:0016538","cyclin-dependent protein serine/threonine kinase regulator activity","13/1565","46/22710",8.91954416630222e-06,8.91954416630222e-06,0.00030270116202272,"Ccna2/Cks1b/Ccne2/Cdkn2a/Cdkn2c/Ccne1/Cks1brt/Ccnb2/Cks2/Ccnb1/Ccno/Ccnf/Cdkn1a",13
+"GO:0003777","microtubule motor activity","18/1565","82/22710",9.375901183121e-06,9.375901183121e-06,0.000305950459659738,"Kif14/Dnah14/Kif18a/Kif4/Cenpe/Kif24/Kif2c/Kif22/Kif23/Kif15/Dynll2/Kif18b/Dnah11/Kifc5b/Kifc1/Kif20a/Kif20b/Kif11",18
+"GO:0016493","C-C chemokine receptor activity","9/1565","24/22710",1.7336457208008e-05,1.7336457208008e-05,0.000525307688332874,"Cxcr2/Cx3cr1/Ccr9/Cxcr6/Xcr1/Ccr1/Ccr2/Ccr5/Ccr10",9
+"GO:0031492","nucleosomal DNA binding","9/1565","24/22710",1.7336457208008e-05,1.7336457208008e-05,0.000525307688332874,"Rcc1/H1f10/H1f8/H1f5/H3c8/H1f3/H1f4/H3c2/H1f1",9
+"GO:0004518","nuclease activity","30/1565","193/22710",2.35279469629208e-05,2.35279469629208e-05,0.000674336450007104,"Zranb3/Exo1/Pole/Pms2/Aplf/Pold1/Eri2/Rexo5/Enpp3/Dna2/Eri1/Ankle1/Rnaseh2b/Dis3/Rexo2/Dbr1/Rad50/Rad51c/Eme1/Tdp2/Gen1/Fancm/Angel1/Xrcc3/Dgcr8/Rbbp8/Rad9a/Fen1/Rpp30/Dclre1a",30
+"GO:0001637","G protein-coupled chemoattractant receptor activity","9/1565","25/22710",2.54340298761985e-05,2.54340298761985e-05,0.000674336450007104,"Cxcr2/Cx3cr1/Ccr9/Cxcr6/Xcr1/Ccr1/Ccr2/Ccr5/Ccr10",9
+"GO:0004950","chemokine receptor activity","9/1565","25/22710",2.54340298761985e-05,2.54340298761985e-05,0.000674336450007104,"Cxcr2/Cx3cr1/Ccr9/Cxcr6/Xcr1/Ccr1/Ccr2/Ccr5/Ccr10",9
+"GO:0019957","C-C chemokine binding","9/1565","25/22710",2.54340298761985e-05,2.54340298761985e-05,0.000674336450007104,"Cxcr2/Cx3cr1/Ccr9/Cxcr6/Xcr1/Ccr1/Ccr2/Ccr5/Ccr10",9
+"GO:0004527","exonuclease activity","16/1565","74/22710",3.53474511052271e-05,3.53474511052271e-05,0.00090877338407697,"Exo1/Pole/Aplf/Pold1/Eri2/Rexo5/Enpp3/Eri1/Dis3/Rexo2/Rad50/Gen1/Angel1/Rad9a/Fen1/Dclre1a",16
+"GO:0004674","protein serine/threonine kinase activity","55/1565","456/22710",3.71267256151027e-05,3.71267256151027e-05,0.000926443989033213,"Pask/Map3k19/Dyrk3/Nuak2/Akt3/Nek2/Mastl/Nek6/Map3k20/Bub1b/Itpka/Bub1/Aurka/Cask/Rps6ka6/Plk4/Dclk2/Melk/Tgfbr1/Mast2/Cdk14/Dbf4/Cdc7/Chek2/Cit/Mapkapk5/Camkk2/Sbk2/Dmpk/Hipk4/Lmtk3/Alpk3/Pak1/Plk1/Sbk1/Stk32c/Cdk1/Irak3/Cdk2/Pbk/Chek1/Dapk2/Ttk/Aurkb/Camkk1/Haspin/Cdk20/Mapk15/Nrbp2/Acvr1b/Map3k13/Tnk2/Pkmyt1/Prkce/Cdc42bpg",55
+"GO:0004520","endodeoxyribonuclease activity","11/1565","40/22710",5.75736408809241e-05,5.75736408809241e-05,0.00136412768517258,"Zranb3/Exo1/Aplf/Dna2/Rad50/Rad51c/Eme1/Gen1/Xrcc3/Rbbp8/Fen1",11
+"GO:0031491","nucleosome binding","13/1565","54/22710",5.78823409837495e-05,5.78823409837495e-05,0.00136412768517258,"Phf19/Ssrp1/Rcc1/H1f10/H1f8/H1f5/H3c8/H1f3/H1f4/H3c2/H1f1/Rnf168/Uhrf1",13
+"GO:0003774","motor activity","22/1565","131/22710",8.6635349517972e-05,8.6635349517972e-05,0.00198657444413899,"Kif14/Dnah14/Kif18a/Kif4/Cgn/Cenpe/Kif24/Kif2c/Kif22/Kif23/Kif15/Myh10/Myo1d/Dynll2/Kif18b/Dnah11/Myo10/Kifc5b/Kifc1/Kif20a/Kif20b/Kif11",22
+"GO:0060589","nucleoside-triphosphatase regulator activity","38/1565","295/22710",0.000148727035526071,0.000148727035526071,0.00332060915883693,"Sh3bp4/Atp1b1/Dab2ip/Chn1/Arhgap11a/Ncaph/Rp2/Ect2/Fnip2/Gpsm2/Depdc1a/Tbc1d2/Rasal1/Agfg2/Adap1/Chn2/Rtkn/Arhgap33/Mtss2/Sipa1l2/Arhgap22/Dock5/Arhgap32/Thy1/Arhgap44/Atp1b2/Adap2/Rgs9/Tbc1d16/Depdc1b/Asap2/Ranbp3l/Prr5/Racgap1/Ranbp1/Tbc1d24/Arhgdig/Arhgap19",38
+"GO:0000287","magnesium ion binding","28/1565","194/22710",0.000161974403274392,0.000161974403274392,0.00352365368526748,"Dyrk3/Nuak2/Nek6/Map3k20/Dut/Rp2/Gck/Rps6ka6/Mast2/Gnai1/Dck/Ran/Wee1/Plk1/Dctpp1/Irak3/Cdk2/Cib2/Pif1/Top2a/Idi1/Tdp2/Gen1/Pdxp/Pgp/Msh6/Cdc42bpg/Fen1",28
+"GO:0030695","GTPase regulator activity","34/1565","256/22710",0.000180949757980748,0.000180949757980748,0.00383803960348638,"Sh3bp4/Dab2ip/Chn1/Arhgap11a/Rp2/Ect2/Gpsm2/Depdc1a/Tbc1d2/Rasal1/Agfg2/Adap1/Chn2/Rtkn/Arhgap33/Mtss2/Sipa1l2/Arhgap22/Dock5/Arhgap32/Thy1/Arhgap44/Adap2/Rgs9/Tbc1d16/Depdc1b/Asap2/Ranbp3l/Prr5/Racgap1/Ranbp1/Tbc1d24/Arhgdig/Arhgap19",34
+"GO:0019955","cytokine binding","21/1565","129/22710",0.000194927839739826,0.000194927839739826,0.00403368007266495,"Il17f/Il1r1/Cxcr2/Il2ra/Il12a/Tgfbr1/Nbl1/Il12rb2/Ifngr1/Il22ra2/Crlf1/Cx3cr1/Ccr9/Cxcr6/Xcr1/Ccr1/Ccr2/Ccr5/Trim16/Ccr10/Il31ra",21
+"GO:0005518","collagen binding","14/1565","69/22710",0.000219345717479149,0.000219345717479149,0.00443089344080687,"Gpc1/Map1a/Ctsk/Itga10/Antxr1/Pak1/Adgrg1/Aebp1/Dspp/Aspn/Itga2/Itga1/Coch/Ddr1",14
+"GO:0019956","chemokine binding","9/1565","32/22710",0.000224960538273875,0.000224960538273875,0.00443863387634622,"Cxcr2/Cx3cr1/Ccr9/Cxcr6/Xcr1/Ccr1/Ccr2/Ccr5/Ccr10",9
+"GO:0008536","Ran GTPase binding","9/1565","35/22710",0.000469390872032653,0.000469390872032653,0.00803382408122303,"Mycbp2/Ipo9/Nxt1/Cse1l/Rcc1/Ranbp17/Birc5/Ranbp3l/Ranbp1",9
+"GO:0005096","GTPase activator activity","31/1565","238/22710",0.000478643151494828,0.000478643151494828,0.00803382408122303,"Dab2ip/Chn1/Arhgap11a/Rp2/Ect2/Depdc1a/Tbc1d2/Rasal1/Agfg2/Adap1/Chn2/Arhgap33/Mtss2/Sipa1l2/Arhgap22/Dock5/Arhgap32/Thy1/Arhgap44/Adap2/Rgs9/Tbc1d16/Depdc1b/Asap2/Ranbp3l/Prr5/Racgap1/Ranbp1/Tbc1d24/Arhgdig/Arhgap19",31
+"GO:0016796","exonuclease activity, active with either ribo- or deoxyribonucleic acids and producing 5'-phosphomonoesters","11/1565","50/22710",0.000492087265045841,0.000492087265045841,0.00803382408122303,"Exo1/Pole/Pold1/Eri2/Eri1/Dis3/Rexo2/Gen1/Angel1/Rad9a/Dclre1a",11
+"GO:0016895","exodeoxyribonuclease activity, producing 5'-phosphomonoesters","7/1565","22/22710",0.000494379208246611,0.000494379208246611,0.00803382408122303,"Exo1/Pole/Pold1/Eri2/Gen1/Rad9a/Dclre1a",7
+"GO:0017056","structural constituent of nuclear pore","7/1565","22/22710",0.000494379208246611,0.000494379208246611,0.00803382408122303,"Nup160/Ndc1/Nup62/Nup107/Nup133/Nup85/Nup155",7
+"GO:0004519","endonuclease activity","19/1565","119/22710",0.000494634940551184,0.000494634940551184,0.00803382408122303,"Zranb3/Exo1/Pms2/Aplf/Dna2/Ankle1/Rnaseh2b/Dis3/Dbr1/Rad50/Rad51c/Eme1/Tdp2/Gen1/Xrcc3/Dgcr8/Rbbp8/Fen1/Rpp30",19
+"GO:0005391","sodium:potassium-exchanging ATPase activity","5/1565","11/22710",0.00050186481698459,0.00050186481698459,0.00803382408122303,"Atp1b1/Atp1a2/Atp1a3/Atp1b2/Cpox",5
+"GO:0008556","potassium-transporting ATPase activity","5/1565","11/22710",0.00050186481698459,0.00050186481698459,0.00803382408122303,"Atp1b1/Atp1a2/Atp1a3/Atp1b2/Cpox",5
+"GO:0030983","mismatched DNA binding","5/1565","11/22710",0.00050186481698459,0.00050186481698459,0.00803382408122303,"Pcna/Mutyh/Pms2/Msh5/Msh6",5
+"GO:0032404","mismatch repair complex binding","5/1565","11/22710",0.00050186481698459,0.00050186481698459,0.00803382408122303,"Pcna/Mcm8/Mutyh/Pms2/Msh6",5
+"GO:0008047","enzyme activator activity","50/1565","452/22710",0.000646054411492553,0.000646054411492553,0.0101504845158479,"Atp1b1/Dab2ip/Chn1/Arhgap11a/Ncaph/Rp2/Ect2/Cks1b/Depdc1a/Casp8ap2/Tbc1d2/Dbf4/Rasal1/Agfg2/Adap1/Hmgb1/Chn2/Arhgap33/Nupr1/Cd24a/Gas6/Cks1brt/Mtss2/Sipa1l2/Arhgap22/Dock5/Arhgap32/Thy1/Etaa1/Arhgap44/Atp1b2/Adap2/Ccl5/Rgs9/Tbc1d16/Cks2/Ccnb1/Depdc1b/Asap2/Ranbp3l/Prr5/Racgap1/Ranbp1/Tbc1d24/Arhgdig/Clps/Cdkn1a/Prkce/Arhgap19/Afap1l2",50
+"GO:0008301","DNA binding, bending","6/1565","17/22710",0.000677101241304615,0.000677101241304615,0.0104448535979238,"Hmgb3/Hmgb1/Hmgb2/Top2a/Foxc1/Foxd1",6
+"GO:0016779","nucleotidyltransferase activity","19/1565","123/22710",0.000751565438628269,0.000751565438628269,0.0113864989386163,"Prim2/Rev1/Uap1/Pola1/Pole3/Coasy/Pole/Pole4/Pold1/Pold3/Prim1/Ptges3/Primpol/Cgas/Pold2/Pole2/Polq/Polh/Pola2",19
+"GO:0004529","exodeoxyribonuclease activity","7/1565","24/22710",0.000888289098654874,0.000888289098654874,0.0132218100372268,"Exo1/Pole/Pold1/Eri2/Gen1/Rad9a/Dclre1a",7
+"GO:0004896","cytokine receptor activity","16/1565","97/22710",0.000931863940715955,0.000931863940715955,0.0135288781378036,"Il1r1/Cxcr2/Il2ra/Il12rb2/Ifngr1/Il22ra2/Crlf1/Cx3cr1/Ccr9/Cxcr6/Xcr1/Ccr1/Ccr2/Ccr5/Ccr10/Il31ra",16
+"GO:0070182","DNA polymerase binding","6/1565","18/22710",0.000956756890638718,0.000956756890638718,0.0135288781378036,"Rad51/Pcna/Fancd2/Fanci/Ptges3/Cdt1",6
+"GO:0070402","NADPH binding","6/1565","18/22710",0.000956756890638718,0.000956756890638718,0.0135288781378036,"Lbr/Kcnab1/Nos1/Srd5a1/Dhfr/Cbr3",6
+"GO:0005200","structural constituent of cytoskeleton","12/1565","63/22710",0.00109527806113441,0.00109527806113441,0.015233720746753,"Tuba4a/Vim/Tubb4b/Tpm2/Crocc/Tube1/Tubb3/Tubg1/Tuba1b/Tuba1c/Tubb5/Ina",12
+"GO:0019104","DNA N-glycosylase activity","5/1565","13/22710",0.00124426553419743,0.00124426553419743,0.0167565249885235,"Pcna/Mutyh/Ung/Mbd4/Neil3",5
+"GO:0097617","annealing activity","5/1565","13/22710",0.00124426553419743,0.00124426553419743,0.0167565249885235,"Zranb3/Rad54l/Blm/Recql4/Anxa1",5
+"GO:0008408","3'-5' exonuclease activity","10/1565","48/22710",0.00137280491828653,0.00137280491828653,0.018198696778601,"Pole/Aplf/Pold1/Eri2/Eri1/Dis3/Rexo2/Rad50/Angel1/Rad9a",10
+"GO:0003779","actin binding","46/1565","428/22710",0.0018656900642017,0.0018656900642017,0.0243521650485274,"Neb/Ermn/Kif18a/Sptbn5/Map1a/Snta1/Trpc5/Tpm2/Coro2a/Ctnnal1/Ipp/Crocc/Tmem201/Nos3/Ywhah/Fscn1/Baiap2l1/Antxr1/Tlnrd1/Mical2/Gas2l3/Pawr/Camsap3/Mtss2/Spire2/Synpo2l/Diaph3/Anln/Tmod2/Vill/Ccr5/Smtn/Ccdc88a/Mprip/Myh10/Myo1d/Tns4/Myl4/Clmn/Myo10/Fmnl3/Afdn/Tulp1/Prkce/Actn3/Nrap",46
+"GO:0019887","protein kinase regulator activity","22/1565","164/22710",0.00204459034978878,0.00204459034978878,0.0262829317692146,"Pkig/Ccna2/Cks1b/Ccne2/Cdkn2a/Cdkn2c/Dbf4/Hmgb1/Ccne1/Cd24a/Gas6/Cks1brt/Ccnb2/Etaa1/Ccl5/Cks2/Ccnb1/Ccno/Camk2n2/Ccnf/Cdkn1a/Afap1l2",22
+"GO:0016799","hydrolase activity, hydrolyzing N-glycosyl compounds","6/1565","22/22710",0.00303086733986649,0.00303086733986649,0.0378154655717088,"Pcna/Mutyh/Ung/Mbd4/Neil3/Dnph1",6
+"GO:0090079","translation regulator activity, nucleic acid binding","6/1565","22/22710",0.00303086733986649,0.00303086733986649,0.0378154655717088,"Boll/Dazl/Tyms/Shmt1/Dhfr/Ctif",6
+"GO:0032356","oxidized DNA binding","4/1565","10/22710",0.003367997796766,0.003367997796766,0.0408211462284722,"Mutyh/Blm/Recql4/Msh6",4
+"GO:0061575","cyclin-dependent protein serine/threonine kinase activator activity","4/1565","10/22710",0.003367997796766,0.003367997796766,0.0408211462284722,"Cks1b/Cks1brt/Cks2/Ccnb1",4
+"GO:0050661","NADP binding","9/1565","46/22710",0.00369594873931994,0.00369594873931994,0.0441650805617772,"Lbr/Kcnab1/Nos3/Nos1/Gsr/Srd5a1/Dhfr/Nnt/Cbr3",9
+"GO:1990939","ATP-dependent microtubule motor activity","9/1565","47/22710",0.00429722716125213,0.00429722716125213,0.0506369165492576,"Kif14/Dnah14/Kif18a/Dynll2/Kif18b/Dnah11/Kifc1/Kif20b/Kif11",9
+"GO:0016893","endonuclease activity, active with either ribo- or deoxyribonucleic acids and producing 5'-phosphomonoesters","8/1565","39/22710",0.00449373228826011,0.00449373228826011,0.0522270832637008,"Exo1/Dna2/Rnaseh2b/Dbr1/Gen1/Dgcr8/Fen1/Rpp30",8
+"GO:0046873","metal ion transmembrane transporter activity","44/1565","426/22710",0.00481290476700575,0.00481290476700575,0.0551806720086292,"Slc40a1/Tmem37/Cacna1s/Atp1b1/Atp1a2/Kcna4/Slc12a5/Slc6a8/Trpc5/Kcnab1/Kcnd3/Slc39a8/Kcnh2/Abcc9/Atp1a3/Kcnk7/Kcnk6/Scn1b/Slc17a7/Grin2d/Xntrpc/Gm5134/Hcn2/Gas6/Slc9a5/Slc12a4/Pkd1l3/Kcnk1/Slc39a2/Trpc1/Trf/Slc6a20a/Kcnab3/Atp1b2/Slc18a1/Slc10a1/Cacna1i/Cacnb3/Cpox/Slc23a1/Slc23a2/Kcnk4/Slc1a1/Kcnip2",44
+"GO:0016889","endodeoxyribonuclease activity, producing 3'-phosphomonoesters","4/1565","11/22710",0.00500578807092683,0.00500578807092683,0.0566268797918179,"Rad51c/Eme1/Gen1/Xrcc3",4
+"GO:0031490","chromatin DNA binding","14/1565","95/22710",0.00545680200216555,0.00545680200216555,0.0609166539299922,"Rxra/Insm1/Rcc1/Ezh2/H1f10/H1f8/Prdm1/Suz12/H1f5/H3c8/H1f3/H1f4/H3c2/H1f1",14
+"GO:0019894","kinesin binding","9/1565","49/22710",0.00572632925593579,0.00572632925593579,0.0624182192218196,"Stau2/Nek6/Sptbn5/Fam83d/Lrp8/Crocc/Nup62/Prc1/Kif18b",9
+"GO:0015079","potassium ion transmembrane transporter activity","20/1565","157/22710",0.00573844918652213,0.00573844918652213,0.0624182192218196,"Atp1b1/Atp1a2/Kcna4/Slc12a5/Kcnab1/Kcnd3/Kcnh2/Abcc9/Atp1a3/Kcnk7/Kcnk6/Hcn2/Slc9a5/Slc12a4/Kcnk1/Kcnab3/Atp1b2/Cpox/Kcnk4/Kcnip2",20
+"GO:0051011","microtubule minus-end binding","4/1565","12/22710",0.00710288331172665,0.00710288331172665,0.0762814650133469,"Haus7/Tubgcp2/Camsap3/Haus4",4
+"GO:0140104","molecular carrier activity","9/1565","51/22710",0.00749662693323521,0.00749662693323521,0.0795037014235208,"Ipo9/Cse1l/Kpna3/Trf/Hba-a1/Ranbp17/Kpna2/Ngb/Fxn",9
+"GO:0019207","kinase regulator activity","23/1565","194/22710",0.00772259148218998,0.00772259148218998,0.0808890023995468,"Pkig/Ccna2/Cks1b/Ccne2/Cdkn2a/Cdkn2c/Dbf4/Hmgb1/Ccne1/Cd24a/Socs2/Gas6/Cks1brt/Ccnb2/Etaa1/Ccl5/Cks2/Ccnb1/Ccno/Camk2n2/Ccnf/Cdkn1a/Afap1l2",23
+"GO:0008528","G protein-coupled peptide receptor activity","18/1565","141/22710",0.00830225551420077,0.00830225551420077,0.0859001019826165,"Cxcr2/Avpr2/Sigmar1/Kiss1r/F2rl3/Mc1r/Ltb4r1/Cx3cr1/Ccr9/Cxcr6/Xcr1/Ccr1/Ccr2/Ccr5/Ccr10/F2rl2/Tshr/Glp1r",18
+"GO:0030295","protein kinase activator activity","12/1565","80/22710",0.00842714119715449,0.00842714119715449,0.086141735001985,"Cks1b/Dbf4/Hmgb1/Cd24a/Gas6/Cks1brt/Etaa1/Ccl5/Cks2/Ccnb1/Cdkn1a/Afap1l2",12
+"GO:0008574","ATP-dependent microtubule motor activity, plus-end-directed","6/1565","27/22710",0.0089487360176786,0.0089487360176786,0.0896484940932281,"Kif14/Kif18a/Dynll2/Kif18b/Kif20b/Kif11",6
+"GO:0097110","scaffold protein binding","11/1565","71/22710",0.00898153337224339,0.00898153337224339,0.0896484940932281,"Nck2/Vim/P2ry1/Dlgap3/Kcnh2/Nos3/Cit/Nos1/Cav2/Dynll2/Dsp",11
+"GO:0015081","sodium ion transmembrane transporter activity","18/1565","143/22710",0.00955926179194174,0.00955926179194174,0.0941690602306707,"Atp1b1/Atp1a2/Slc6a8/Atp1a3/Scn1b/Slc17a7/Gm5134/Hcn2/Slc9a5/Kcnk1/Slc6a20a/Atp1b2/Slc18a1/Slc10a1/Cpox/Slc23a1/Slc23a2/Slc1a1",18
+"GO:1990841","promoter-specific chromatin binding","9/1565","53/22710",0.00965641790082498,0.00965641790082498,0.0941690602306707,"Rbl1/Ezh2/Prdm1/Dnmt1/Suz12/Pcgf2/Zfp750/Foxc1/Runx1",9
+"GO:0019902","phosphatase binding","24/1565","213/22710",0.0120713746635685,0.0120713746635685,0.116381913622443,"Cnst/Nek2/Vim/Dab2ip/Gck/Mast2/Rpa2/Anapc5/Styxl1/Pvrig/Sytl2/Hsp90b1/Pawr/Hsf4/Nol3/Lgals3/Ncam1/Fbxl2/Cpd/Jup/Vcan/Itga1/Nptxr/Slc9a3r2",24
+"GO:0016667","oxidoreductase activity, acting on a sulfur group of donors","9/1565","55/22710",0.0122547950167357,0.0122547950167357,0.116822765032395,"Sqor/Srxn1/Txnrd3/Gsr/Nxn/Glrx/Pdia6/Pcyox1l/Gsto2",9
+"GO:0019200","carbohydrate kinase activity","5/1565","21/22710",0.0124003529575232,0.0124003529575232,0.116896894546944,"Pfkfb2/Galk1/Gck/Pfkfb1/Xylb",5
+"GO:0015037","peptide disulfide oxidoreductase activity","4/1565","14/22710",0.0128588885918409,0.0128588885918409,0.11884782944296,"Gsr/Glrx/Pdia6/Gsto2",4
+"GO:0051536","iron-sulfur cluster binding","10/1565","65/22710",0.0130275505350937,0.0130275505350937,0.11884782944296,"Prim2/Aox1/Pola1/Mutyh/Pole/Pold1/Dna2/Cisd1/Brip1/Fxn",10
+"GO:0051540","metal cluster binding","10/1565","65/22710",0.0130275505350937,0.0130275505350937,0.11884782944296,"Prim2/Aox1/Pola1/Mutyh/Pole/Pold1/Dna2/Cisd1/Brip1/Fxn",10
+"GO:0004842","ubiquitin-protein transferase activity","38/1565","380/22710",0.0136160906651003,0.0136160906651003,0.122895510370334,"Bard1/Mycbp2/Ube2t/Dtl/Ube2e3/Pdzd4/Siah1b/Med18/Fbxo44/Fbxo2/Anapc5/Rad18/March8/Ube2s/Cblc/Nccrp1/Fancf/Rfwd3/Ccnb1ip1/Rnf26/Traip/Fbxl2/Fancl/Trim37/Brca1/Trim47/Anapc11/Hecw1/Rnf144b/Rnf144a/Skp2/Rnf168/Fbxo40/Fbxl16/Gm28043/Uhrf1/Trim36/March3",38
+"GO:0019209","kinase activator activity","12/1565","86/22710",0.0146718413508526,0.0146718413508526,0.131030516662462,"Cks1b/Dbf4/Hmgb1/Cd24a/Gas6/Cks1brt/Etaa1/Ccl5/Cks2/Ccnb1/Cdkn1a/Afap1l2",12
+"GO:0001653","peptide receptor activity","18/1565","150/22710",0.0151977959535329,0.0151977959535329,0.134313854589337,"Cxcr2/Avpr2/Sigmar1/Kiss1r/F2rl3/Mc1r/Ltb4r1/Cx3cr1/Ccr9/Cxcr6/Xcr1/Ccr1/Ccr2/Ccr5/Ccr10/F2rl2/Tshr/Glp1r",18
+"GO:0030674","protein binding, bridging","16/1565","129/22710",0.0159628752347199,0.0159628752347199,0.138512456737551,"Nck2/Map1a/Ptpn11/Ddx20/Cntln/Stx1a/Sh2b2/Fscn1/Cav2/Socs2/Gas6/Rad50/Evpl/Cbx5/Actn3/Anxa1",16
+"GO:0051539","4 iron, 4 sulfur cluster binding","7/1565","39/22710",0.0159993917149702,0.0159993917149702,0.138512456737551,"Prim2/Pola1/Mutyh/Pole/Pold1/Dna2/Brip1",7
+"GO:0005092","GDP-dissociation inhibitor activity","4/1565","15/22710",0.0165948176587813,0.0165948176587813,0.139399927389033,"Sh3bp4/Gpsm2/Ranbp1/Arhgdig",4
+"GO:0016888","endodeoxyribonuclease activity, producing 5'-phosphomonoesters","4/1565","15/22710",0.0165948176587813,0.0165948176587813,0.139399927389033,"Exo1/Dna2/Gen1/Fen1",4
+"GO:0022841","potassium ion leak channel activity","4/1565","15/22710",0.0165948176587813,0.0165948176587813,0.139399927389033,"Kcnk7/Kcnk6/Kcnk1/Kcnk4",4
+"GO:0019787","ubiquitin-like protein transferase activity","39/1565","401/22710",0.0189378984715799,0.0189378984715799,0.15752266427341,"Bard1/Mycbp2/Ube2t/Dtl/Ube2e3/Pdzd4/Siah1b/Cdkn2a/Med18/Fbxo44/Fbxo2/Anapc5/Rad18/March8/Ube2s/Cblc/Nccrp1/Fancf/Rfwd3/Ccnb1ip1/Rnf26/Traip/Fbxl2/Fancl/Trim37/Brca1/Trim47/Anapc11/Hecw1/Rnf144b/Rnf144a/Skp2/Rnf168/Fbxo40/Fbxl16/Gm28043/Uhrf1/Trim36/March3",39
+"GO:0061630","ubiquitin protein ligase activity","25/1565","234/22710",0.0195270996101402,0.0195270996101402,0.160846625301717,"Mycbp2/Pdzd4/Siah1b/Med18/Fbxo44/Fbxo2/Anapc5/Rad18/March8/Cblc/Nccrp1/Fancf/Ccnb1ip1/Rnf26/Traip/Fancl/Trim37/Anapc11/Hecw1/Rnf144b/Rnf144a/Skp2/Fbxo40/Gm28043/Uhrf1",25
+"GO:0030332","cyclin binding","6/1565","32/22710",0.0204391364653229,0.0204391364653229,0.166740323796055,"Insm1/Cdk14/Cdk1/Cdk2/Usp2/Cdkn1a",6
+"GO:0016894","endonuclease activity, active with either ribo- or deoxyribonucleic acids and producing 3'-phosphomonoesters","4/1565","16/22710",0.0209435246923084,0.0209435246923084,0.167631389294941,"Rad51c/Eme1/Gen1/Xrcc3",4
+"GO:0030296","protein tyrosine kinase activator activity","4/1565","16/22710",0.0209435246923084,0.0209435246923084,0.167631389294941,"Cd24a/Gas6/Ccl5/Afap1l2",4
+"GO:0015026","coreceptor activity","5/1565","24/22710",0.0218283835182704,0.0218283835182704,0.173080935717914,"Lrp1/Tdgf1/Cxcr6/Rgmb/Lrp5",5
+"GO:0005212","structural constituent of eye lens","5/1565","25/22710",0.025779544935703,0.025779544935703,0.197018098740102,"Vim/Bfsp1/Crybb1/Mip/Cpox",5
+"GO:0005343","organic acid:sodium symporter activity","5/1565","25/22710",0.025779544935703,0.025779544935703,0.197018098740102,"Slc6a8/Slc10a1/Slc23a1/Slc23a2/Slc1a1",5
+"GO:0008409","5'-3' exonuclease activity","4/1565","17/22710",0.0259276262570475,0.0259276262570475,0.197018098740102,"Exo1/Gen1/Fen1/Dclre1a",4
+"GO:0016646","oxidoreductase activity, acting on the CH-NH group of donors, NAD or NADP as acceptor","4/1565","17/22710",0.0259276262570475,0.0259276262570475,0.197018098740102,"Mthfd1l/Pycr1/Dhfr/Mthfd1",4
+"GO:0097718","disordered domain specific binding","6/1565","34/22710",0.027000136579697,0.027000136579697,0.197018098740102,"Gja5/Cdkn2a/Tead2/Rrm1/Rb1/Ppil1",6
+"GO:0008020","G protein-coupled photoreceptor activity","3/1565","10/22710",0.027169431358514,0.027169431358514,0.197018098740102,"Opn3/Rrh/Opn1sw",3
+"GO:0008494","translation activator activity","3/1565","10/22710",0.027169431358514,0.027169431358514,0.197018098740102,"Boll/Dazl/Ctif",3
+"GO:0016668","oxidoreductase activity, acting on a sulfur group of donors, NAD(P) as acceptor","3/1565","10/22710",0.027169431358514,0.027169431358514,0.197018098740102,"Txnrd3/Gsr/Nxn",3
+"GO:0047429","nucleoside-triphosphate diphosphatase activity","3/1565","10/22710",0.027169431358514,0.027169431358514,0.197018098740102,"Dut/Dctpp1/Enpp3",3
+"GO:0097371","MDM2/MDM4 family protein binding","3/1565","10/22710",0.027169431358514,0.027169431358514,0.197018098740102,"Cdkn2a/Trp73/Rfwd3",3
+"GO:0061659","ubiquitin-like protein ligase activity","25/1565","242/22710",0.0281217400839144,0.0281217400839144,0.202195562066325,"Mycbp2/Pdzd4/Siah1b/Med18/Fbxo44/Fbxo2/Anapc5/Rad18/March8/Cblc/Nccrp1/Fancf/Ccnb1ip1/Rnf26/Traip/Fancl/Trim37/Anapc11/Hecw1/Rnf144b/Rnf144a/Skp2/Fbxo40/Gm28043/Uhrf1",25
+"GO:0048018","receptor ligand activity","45/1565","489/22710",0.0294005550886964,0.0294005550886964,0.209613864674828,"Il17a/Il17f/Nppc/Erfe/Il10/Fasl/Lefty1/Apln/Il12a/Sema4a/Tafa3/Prok1/Enho/Bmp8a/Wnt4/Nbl1/Cort/Uts2/Pf4/Hmgb1/Il11/Calca/Ccn6/Pmch/Retn/Gas6/Hmgb2/Crlf1/Lgals3/Trh/Ucn2/Tdgf1/Cmtm7/Cxcl16/Ccl1/Ccl5/Ccl3/Ccl4/Jag2/Metrn/Vegfa/Nrtn/Hbegf/Insl6/Il33",45
+"GO:0030547","receptor inhibitor activity","5/1565","26/22710",0.0301598405444683,0.0301598405444683,0.213235363849486,"Dut/Gm20594/Dkkl1/Ccl5/Lynx1",5
+"GO:0004402","histone acetyltransferase activity","9/1565","64/22710",0.0306581800039047,0.0306581800039047,0.213831899016324,"Wdr5/Hat1/Pole3/Meaf6/Brca2/Dpf1/Tada2a/Naa40/Taf5",9
+"GO:0004435","phosphatidylinositol phospholipase C activity","4/1565","18/22710",0.0315634377487067,0.0315634377487067,0.213831899016324,"Plcd4/Ccr1/Ccl5/Plcd3",4
+"GO:0004629","phospholipase C activity","4/1565","18/22710",0.0315634377487067,0.0315634377487067,0.213831899016324,"Plcd4/Ccr1/Ccl5/Plcd3",4
+"GO:0022840","leak channel activity","4/1565","18/22710",0.0315634377487067,0.0315634377487067,0.213831899016324,"Kcnk7/Kcnk6/Kcnk1/Kcnk4",4
+"GO:0022842","narrow pore channel activity","4/1565","18/22710",0.0315634377487067,0.0315634377487067,0.213831899016324,"Kcnk7/Kcnk6/Kcnk1/Kcnk4",4
+"GO:0001664","G protein-coupled receptor binding","29/1565","293/22710",0.0317564247050297,0.0317564247050297,0.213831899016324,"Dnm3/a/Ptpn11/Apln/P2ry1/S100a14/Magi3/Prok2/Prok1/Wnt4/Cort/Gnai1/Uchl1/Pf4/Cav2/Atp1a3/Aplp1/Calca/Pmch/Gnao1/Ucn2/Cxcl16/Ccl1/Ccl5/Ccl3/Ccl4/Nup85/Bambi/Reep2",29
+"GO:0016209","antioxidant activity","11/1565","86/22710",0.0338020477003244,0.0338020477003244,0.225813928275685,"Mgst3/Ptgs1/Srxn1/Prdx4/S100a9/Txnrd3/Gsr/Hba-a1/Nxn/Gpx8/Gsto2",11
+"GO:0016891","endoribonuclease activity, producing 5'-phosphomonoesters","5/1565","27/22710",0.0349805461187387,0.0349805461187387,0.229791264432587,"Rnaseh2b/Dbr1/Dgcr8/Fen1/Rpp30",5
+"GO:0008061","chitin binding","3/1565","11/22710",0.0354807975913592,0.0354807975913592,0.229791264432587,"Chit1/Chil5/Chia1",3
+"GO:0019103","pyrimidine nucleotide binding","3/1565","11/22710",0.0354807975913592,0.0354807975913592,0.229791264432587,"Dut/Pola1/Dctpp1",3
+"GO:0042285","xylosyltransferase activity","3/1565","11/22710",0.0354807975913592,0.0354807975913592,0.229791264432587,"Gxylt2/Xylt1/Large1",3
+"GO:0061733","peptide-lysine-N-acetyltransferase activity","9/1565","66/22710",0.0365008283664267,0.0365008283664267,0.234606600186124,"Wdr5/Hat1/Pole3/Meaf6/Brca2/Dpf1/Tada2a/Naa40/Taf5",9
+"GO:0099186","structural constituent of postsynapse","4/1565","19/22710",0.0378611814097459,0.0378611814097459,0.241520476582946,"Dnm3/Mpp2/Dlgap1/Ina",4
+"GO:0008201","heparin binding","17/1565","155/22710",0.038695540666123,0.038695540666123,0.243380987985896,"Nrp2/Lgr4/Pla2g2d/Pf4/Aplp1/Itgam/Ccn6/Prss57/Adgrg1/Ncam1/Col23a1/Rtn4rl1/Ccl5/H1f1/Vegfa/Hbegf/Lipg",17
+"GO:0015077","monovalent inorganic cation transmembrane transporter activity","34/1565","360/22710",0.0387265653960188,0.0387265653960188,0.243380987985896,"Atp6v1g3/Atp1b1/Atp1a2/Kcna4/AA467197/Cox4i2/Slc12a5/Slc6a8/Kcnab1/Kcnd3/Kcnh2/Abcc9/Atp1a3/Kcnk7/Kcnk6/Scn1b/Slc17a7/Gm5134/Hcn2/Slc9a5/Slc12a4/Kcnk1/Slc6a20a/Kcnab3/Atp1b2/Atp6v0a1/Slc18a1/Slc10a1/Cpox/Slc23a1/Slc23a2/Kcnk4/Slc1a1/Kcnip2",34
+"GO:0000175","3'-5'-exoribonuclease activity","5/1565","28/22710",0.0402504372339455,0.0402504372339455,0.247585252871475,"Eri2/Eri1/Dis3/Rexo2/Angel1",5
+"GO:0140142","nucleocytoplasmic carrier activity","5/1565","28/22710",0.0402504372339455,0.0402504372339455,0.247585252871475,"Ipo9/Cse1l/Kpna3/Ranbp17/Kpna2",5
+"GO:0005244","voltage-gated ion channel activity","20/1565","192/22710",0.0425319900038951,0.0425319900038951,0.247585252871475,"Tmem37/Cacna1s/Clic3/Kcna4/Kcnab1/Kcnd3/Kcnh2/Kcnk7/Scn1b/Grin2d/Hcn2/Gas6/Kcnk1/Kcnab3/Cacna1i/Cacnb3/Clic5/Kcnk4/Tmem109/Kcnip2",20
+"GO:0022832","voltage-gated channel activity","20/1565","192/22710",0.0425319900038951,0.0425319900038951,0.247585252871475,"Tmem37/Cacna1s/Clic3/Kcna4/Kcnab1/Kcnd3/Kcnh2/Kcnk7/Scn1b/Grin2d/Hcn2/Gas6/Kcnk1/Kcnab3/Cacna1i/Cacnb3/Clic5/Kcnk4/Tmem109/Kcnip2",20
+"GO:0015662","ATPase activity, coupled to transmembrane movement of ions, phosphorylative mechanism","6/1565","38/22710",0.0439665783127716,0.0439665783127716,0.247585252871475,"Atp6v1g3/Atp1b1/Atp1a2/Atp1a3/Atp1b2/Cpox",6
+"GO:0019205","nucleobase-containing compound kinase activity","6/1565","38/22710",0.0439665783127716,0.0439665783127716,0.247585252871475,"Dtymk/Dck/Mpp6/Nme6/Rad50/Tk1",6
+"GO:0032794","GTPase activating protein binding","4/1565","20/22710",0.0448252727554266,0.0448252727554266,0.247585252871475,"Gnai1/Gnao1/Fmnl3/Tubb5",4
+"GO:0051861","glycolipid binding","4/1565","20/22710",0.0448252727554266,0.0448252727554266,0.247585252871475,"Lamc1/Gltp/Thy1/Gpaa1",4
+"GO:0000900","translation repressor activity, mRNA regulatory element binding","3/1565","12/22710",0.0449401023512368,0.0449401023512368,0.247585252871475,"Tyms/Shmt1/Dhfr",3
+"GO:0001608","G protein-coupled nucleotide receptor activity","3/1565","12/22710",0.0449401023512368,0.0449401023512368,0.247585252871475,"P2ry13/P2ry12/P2ry1",3
+"GO:0004861","cyclin-dependent protein serine/threonine kinase inhibitor activity","3/1565","12/22710",0.0449401023512368,0.0449401023512368,0.247585252871475,"Cdkn2a/Cdkn2c/Cdkn1a",3
+"GO:0008296","3'-5'-exodeoxyribonuclease activity","3/1565","12/22710",0.0449401023512368,0.0449401023512368,0.247585252871475,"Pole/Pold1/Eri2",3
+"GO:0009881","photoreceptor activity","3/1565","12/22710",0.0449401023512368,0.0449401023512368,0.247585252871475,"Opn3/Rrh/Opn1sw",3
+"GO:0017154","semaphorin receptor activity","3/1565","12/22710",0.0449401023512368,0.0449401023512368,0.247585252871475,"Nrp2/Plxnd1/Plxnb2",3
+"GO:0030955","potassium ion binding","3/1565","12/22710",0.0449401023512368,0.0449401023512368,0.247585252871475,"Atp1b1/Atp1a2/Kcna4",3
+"GO:0032036","myosin heavy chain binding","3/1565","12/22710",0.0449401023512368,0.0449401023512368,0.247585252871475,"Sptbn5/Stx1a/Nkd2",3
+"GO:0043047","single-stranded telomeric DNA binding","3/1565","12/22710",0.0449401023512368,0.0449401023512368,0.247585252871475,"Rpa2/Rad50/Ctc1",3
+"GO:0045028","G protein-coupled purinergic nucleotide receptor activity","3/1565","12/22710",0.0449401023512368,0.0449401023512368,0.247585252871475,"P2ry13/P2ry12/P2ry1",3
+"GO:0048185","activin binding","3/1565","12/22710",0.0449401023512368,0.0449401023512368,0.247585252871475,"Tgfbr1/Fstl3/Acvr1b",3
+"GO:0043015","gamma-tubulin binding","5/1565","29/22710",0.04597578832694,0.04597578832694,0.251656946631671,"Brca2/Tubgcp2/Cenpj/Cep57/Racgap1",5
+"GO:0042578","phosphoric ester hydrolase activity","33/1565","355/22710",0.049438222792821,0.049438222792821,0.268874545013588,"Plcd4/Pfkfb2/Ptpn14/Lpin3/Ptpn11/Pfkfb1/Dnajc6/Ptpru/Alpl/Ppp2r2c/Plcxd1/Tulp2/Ptpn5/Pde8a/Enpp3/Ptprk/Nt5dc3/Ppp1r3b/Nt5dc2/Dlgap5/Pxylp1/Cdc25a/Ctdspl/Ccr1/Ccl5/Dusp3/Plcd3/Tdp2/Pdxp/Tns2/Pgp/Pde9a/Cdc25c",33
+"GO:0015370","solute:sodium symporter activity","9/1565","70/22710",0.050371213439489,0.050371213439489,0.269389205699728,"Slc6a8/Slc17a7/Gm5134/Slc6a20a/Slc18a1/Slc10a1/Slc23a1/Slc23a2/Slc1a1",9
+"GO:0070491","repressing transcription factor binding","9/1565","70/22710",0.050371213439489,0.050371213439489,0.269389205699728,"Ddx20/Tle1/Tle2/Tle6/Kpna2/Gmnn/Cbx5/Runx1/Rbbp8",9
+"GO:0016829","lyase activity","19/1565","184/22710",0.0506646239168479,0.0506646239168479,0.269389205699728,"Pam/Mgst3/Chac1/Car13/Cth/Alad/Paics/Aplf/Cyp2s1/Hal/Neil3/Car5a/Adcy4/Acod1/Hmbs/Shmt1/L3hypdh/Umps/Polq",19
+"GO:0005543","phospholipid binding","38/1565","419/22710",0.0508029271294773,0.0508029271294773,0.269389205699728,"Pask/Syt14/Dab2ip/Zfyve9/Pla2g2d/Gltp/Rasal1/Scarb1/Adap1/Hmgb1/Cpne9/Arhgap33/Plekhf1/Nup62/Plekha4/Sytl2/Gas6/Mtss2/Cpne7/Arhgap32/Thy1/C2cd2l/Cgas/Ccdc88a/Arhgap44/Adap2/Pctp/Plek2/Gpaa1/Pacsin2/Racgap1/Sept5/Tiam1/Snx9/Tulp1/Cpne5/Snx15/Anxa1",38
+"GO:0016896","exoribonuclease activity, producing 5'-phosphomonoesters","5/1565","30/22710",0.0521603993628184,0.0521603993628184,0.273172721809172,"Eri2/Eri1/Dis3/Rexo2/Angel1",5
+"GO:0071855","neuropeptide receptor binding","5/1565","30/22710",0.0521603993628184,0.0521603993628184,0.273172721809172,"a/Apln/Pmch/Gnao1/Ucn2",5
+"GO:0015036","disulfide oxidoreductase activity","6/1565","40/22710",0.0544831551133666,0.0544831551133666,0.278674281750391,"Txnrd3/Gsr/Nxn/Glrx/Pdia6/Gsto2",6
+"GO:0016859","cis-trans isomerase activity","6/1565","40/22710",0.0544831551133666,0.0544831551133666,0.278674281750391,"Ppih/Bco1/Aipl1/Fkbp5/Ppil1/Fkbp2",6
+"GO:0017016","Ras GTPase binding","37/1565","409/22710",0.0549531973112893,0.0549531973112893,0.278674281750391,"Sh3bp4/Mycbp2/Ipo9/Itpka/Nxt1/Cse1l/Fgd1/Ect2/Iqgap3/Dennd2c/Tbc1d2/Rims3/Rcc1/Rtkn/Sbk2/Sytl2/Pak1/Dennd5a/Mtss2/Diaph3/Anln/Ranbp17/Arhgap44/Birc5/Tbc1d16/Plekhg3/Rapgef5/Ranbp3l/Dennd3/Fmnl3/Ranbp1/Tiam1/Afdn/Arhgdig/Lsm2/Arhgef33/Pard6g",37
+"GO:0015279","store-operated calcium channel activity","3/1565","13/22710",0.0555101190260859,0.0555101190260859,0.278674281750391,"Trpc5/Xntrpc/Trpc1",3
+"GO:0016840","carbon-nitrogen lyase activity","3/1565","13/22710",0.0555101190260859,0.0555101190260859,0.278674281750391,"Pam/Chac1/Hal",3
+"GO:0031748","D1 dopamine receptor binding","3/1565","13/22710",0.0555101190260859,0.0555101190260859,0.278674281750391,"Ptpn11/Cav2/Atp1a3",3
+"GO:0046624","sphingolipid transporter activity","3/1565","13/22710",0.0555101190260859,0.0555101190260859,0.278674281750391,"Gltp/Mfsd2b/Abcb1a",3
+"GO:0031267","small GTPase binding","38/1565","424/22710",0.0585972097139369,0.0585972097139369,0.291765782581474,"Sh3bp4/Mycbp2/Ipo9/Itpka/Nxt1/Cse1l/Fgd1/Ect2/Iqgap3/Dennd2c/Tbc1d2/Rims3/Rcc1/Rtkn/Sbk2/Sytl2/Pak1/Dennd5a/Gga2/Mtss2/Diaph3/Anln/Ranbp17/Arhgap44/Birc5/Tbc1d16/Plekhg3/Rapgef5/Ranbp3l/Dennd3/Fmnl3/Ranbp1/Tiam1/Afdn/Arhgdig/Lsm2/Arhgef33/Pard6g",38
+"GO:0004532","exoribonuclease activity","5/1565","31/22710",0.0588056468738964,0.0588056468738964,0.291765782581474,"Eri2/Eri1/Dis3/Rexo2/Angel1",5
+"GO:0051015","actin filament binding","20/1565","200/22710",0.0601929251281901,0.0601929251281901,0.296912470338563,"Neb/Ermn/Sptbn5/Tpm2/Coro2a/Ctnnal1/Tmem201/Fscn1/Antxr1/Camsap3/Vill/Myh10/Myo1d/Myl4/Clmn/Myo10/Afdn/Tulp1/Actn3/Nrap",20
+"GO:0060090","molecular adaptor activity","22/1565","225/22710",0.0618148067013368,0.0618148067013368,0.303150192888819,"Nck2/Dab2ip/Map1a/Ptpn11/Magi3/Ddx20/Cntln/Dlgap3/Stx1a/Sh2b2/Fscn1/Cav2/Hcn2/Socs2/Gas6/Rad50/Evpl/Cbx5/Slc9a3r2/Actn3/Anxa1/Afap1l2",22
+"GO:0030971","receptor tyrosine kinase binding","9/1565","73/22710",0.0627862527006595,0.0627862527006595,0.306144704638424,"Ptpn14/Pcna/Ptpn11/Sh2b2/Cblc/Itgax/Gas6/Dusp3/Tiam1",9
+"GO:0005516","calmodulin binding","19/1565","190/22710",0.0656560605411602,0.0656560605411602,0.310666130434543,"Cacna1s/Aspm/Itpka/Snta1/Cask/Iqgap3/Cth/Nos3/Nos1/Mapkapk5/Camkk2/Camsap3/Dapk2/Fbxl2/Aebp1/Myh10/Camkk1/Myo1d/Myo10",19
+"GO:0017048","Rho GTPase binding","17/1565","166/22710",0.0658387943353582,0.0658387943353582,0.310666130434543,"Itpka/Fgd1/Ect2/Iqgap3/Rtkn/Sbk2/Pak1/Mtss2/Diaph3/Anln/Arhgap44/Plekhg3/Fmnl3/Tiam1/Arhgdig/Arhgef33/Pard6g",17
+"GO:0019903","protein phosphatase binding","17/1565","166/22710",0.0658387943353582,0.0658387943353582,0.310666130434543,"Nek2/Vim/Dab2ip/Gck/Rpa2/Anapc5/Styxl1/Hsp90b1/Pawr/Hsf4/Lgals3/Fbxl2/Cpd/Jup/Vcan/Itga1/Nptxr",17
+"GO:0008519","ammonium transmembrane transporter activity","5/1565","32/22710",0.0659105562088174,0.0659105562088174,0.310666130434543,"Slc12a5/Slc6a8/Rhd/Rhcg/Slc18a1",5
+"GO:0045505","dynein intermediate chain binding","5/1565","32/22710",0.0659105562088174,0.0659105562088174,0.310666130434543,"Dnah14/Sptbn5/Ran/Dynll2/Dnah11",5
+"GO:0097472","cyclin-dependent protein kinase activity","5/1565","32/22710",0.0659105562088174,0.0659105562088174,0.310666130434543,"Ccna2/Cdk14/Cdk1/Cdk2/Cdk20",5
+"GO:0005545","1-phosphatidylinositol binding","3/1565","14/22710",0.06714227278088,0.06714227278088,0.312994053565005,"Zfyve9/Adap2/Snx9",3
+"GO:0098847","sequence-specific single stranded DNA binding","3/1565","14/22710",0.06714227278088,0.06714227278088,0.312994053565005,"Rpa2/Rad50/Ctc1",3
+"GO:0010485","H4 histone acetyltransferase activity","4/1565","23/22710",0.0696802134968513,0.0696802134968513,0.32305005509613,"Wdr5/Hat1/Brca2/Naa40",4
+"GO:0034212","peptide N-acetyltransferase activity","9/1565","75/22710",0.0720540228151181,0.0720540228151181,0.332239945017078,"Wdr5/Hat1/Pole3/Meaf6/Brca2/Dpf1/Tada2a/Naa40/Taf5",9
+"GO:0018024","histone-lysine N-methyltransferase activity","6/1565","43/22710",0.0728752985104971,0.0728752985104971,0.334210472827657,"Suv39h2/Wdr5/Suv39h1/Nsd2/Ezh2/Suz12",6
+"GO:0016776","phosphotransferase activity, phosphate group as acceptor","5/1565","33/22710",0.0734718919443881,0.0734718919443881,0.335134945711244,"Dtymk/Ppip5k1/Mpp6/Nme6/Rad50",5
+"GO:0008081","phosphoric diester hydrolase activity","10/1565","87/22710",0.0758569617860484,0.0758569617860484,0.344163868277821,"Plcd4/Plcxd1/Tulp2/Pde8a/Enpp3/Ccr1/Ccl5/Plcd3/Tdp2/Pde9a",10
+"GO:0015294","solute:cation symporter activity","11/1565","99/22710",0.0785128627028893,0.0785128627028893,0.354318966061191,"Slc12a5/Slc6a8/Slc17a7/Gm5134/Slc12a4/Slc6a20a/Slc18a1/Slc10a1/Slc23a1/Slc23a2/Slc1a1",11
+"GO:0008009","chemokine activity","6/1565","44/22710",0.0797042945728134,0.0797042945728134,0.354378528897725,"Pf4/Cxcl16/Ccl1/Ccl5/Ccl3/Ccl4",6
+"GO:0017110","nucleoside-diphosphatase activity","3/1565","15/22710",0.0797791365614047,0.0797791365614047,0.354378528897725,"Entpd2/Entpd5/Entpd1",3
+"GO:0070679","inositol 1,4,5 trisphosphate binding","3/1565","15/22710",0.0797791365614047,0.0797791365614047,0.354378528897725,"Trpc5/Xntrpc/Trpc1",3
+"GO:0016836","hydro-lyase activity","7/1565","55/22710",0.0823450566451285,0.0823450566451285,0.362252782890752,"Car13/Alad/Cyp2s1/Car5a/Acod1/Hmbs/L3hypdh",7
+"GO:0005539","glycosaminoglycan binding","20/1565","208/22710",0.0824057664305451,0.0824057664305451,0.362252782890752,"Nrp2/Lgr4/Pla2g2d/Pf4/Aplp1/Itgam/Ccn6/Prss57/Adgrg1/Ncam1/Hmmr/Col23a1/Rtn4rl1/Ccl5/H1f1/Vcan/Vegfa/Hbegf/Dpysl3/Lipg",20
+"GO:0004715","non-membrane spanning protein tyrosine kinase activity","6/1565","45/22710",0.0868788758105437,0.0868788758105437,0.379947769415617,"Srms/Melk/Baz1b/Styk1/Wee1/Tnk2",6
+"GO:0016835","carbon-oxygen lyase activity","8/1565","67/22710",0.088734389992314,0.088734389992314,0.384102676336225,"Car13/Alad/Cyp2s1/Car5a/Acod1/Hmbs/L3hypdh/Polq",8
+"GO:0042379","chemokine receptor binding","8/1565","67/22710",0.088734389992314,0.088734389992314,0.384102676336225,"S100a14/Pf4/Cxcl16/Ccl1/Ccl5/Ccl3/Ccl4/Nup85",8
+"GO:0072509","divalent inorganic cation transmembrane transporter activity","4/1565","25/22710",0.0894355384557798,0.0894355384557798,0.385172556747841,"Slc40a1/Slc39a8/Slc41a2/Slc39a2",4
+"GO:0042162","telomeric DNA binding","5/1565","35/22710",0.0899402436355375,0.0899402436355375,0.385389879692946,"Rpa2/Tinf2/Pif1/Rad50/Ctc1",5
+"GO:0005123","death receptor binding","3/1565","16/22710",0.0933565854542731,0.0933565854542731,0.394058171647783,"Fasl/Dab2ip/Nol3",3
+"GO:0030228","lipoprotein particle receptor activity","3/1565","16/22710",0.0933565854542731,0.0933565854542731,0.394058171647783,"Lrp8/Scarb1/Cxcl16",3
+"GO:0048019","receptor antagonist activity","3/1565","16/22710",0.0933565854542731,0.0933565854542731,0.394058171647783,"Gm20594/Dkkl1/Ccl5",3
+"GO:0016879","ligase activity, forming carbon-nitrogen bonds","6/1565","46/22710",0.0943950924685619,0.0943950924685619,0.396469226314022,"Ctps/Paics/Mthfd1l/Pfas/Mthfd1/Ttll8",6
+"GO:0051117","ATPase binding","10/1565","91/22710",0.0957660632866374,0.0957660632866374,0.400246030640549,"Atp6v1g3/Atp1b1/Snta1/Trpc5/Nkain1/Nos1/Atp1b2/Atp6v0a1/Nkd2/Sdf2l1",10
+"GO:1901681","sulfur compound binding","23/1565","250/22710",0.0964109722493686,0.0964109722493686,0.400966169416878,"Nrp2/Suv39h2/Lgr4/Gstm5/Rcc1/Pla2g2d/Pf4/Atp1a3/Aplp1/Itgam/Ccn6/Prss57/Gsr/Adgrg1/Ncam1/Col23a1/Rtn4rl1/Ccl5/H1f1/Vegfa/Hbegf/Dpysl3/Lipg",23
+"GO:0016407","acetyltransferase activity","12/1565","115/22710",0.0983048425334645,0.0983048425334645,0.406848282834261,"Wdr5/Hat1/Pole3/Meaf6/Brca2/Dpf1/Esco2/Tada2a/Gcat/Acat2/Naa40/Taf5",12
+"GO:0003755","peptidyl-prolyl cis-trans isomerase activity","5/1565","36/22710",0.0988304960466347,0.0988304960466347,0.407038220815471,"Ppih/Aipl1/Fkbp5/Ppil1/Fkbp2",5
+"GO:0005328","neurotransmitter:sodium symporter activity","4/1565","26/22710",0.100212938076018,0.100212938076018,0.408763300046916,"Slc6a8/Slc6a20a/Slc18a1/Slc1a1",4
+"GO:0015145","monosaccharide transmembrane transporter activity","4/1565","26/22710",0.100212938076018,0.100212938076018,0.408763300046916,"Mfsd4b5/Gm5134/Slc23a1/Slc23a2",4
+"GO:0005179","hormone activity","13/1565","128/22710",0.103170576893592,0.103170576893592,0.418813825113245,"Nppc/Erfe/Apln/Enho/Cort/Uts2/Calca/Pmch/Retn/Trh/Ucn2/Metrn/Insl6",13
+"GO:0016853","isomerase activity","15/1565","153/22710",0.106259566088318,0.106259566088318,0.425416658018852,"Ppih/Katnal1/Cyp2s1/Pgm2l1/Ptges3/Bco1/Dct/Aipl1/Top2a/Idi1/Pdia6/Fkbp5/Ppil1/Katnal2/Fkbp2",15
+"GO:0008080","N-acetyltransferase activity","10/1565","93/22710",0.106773998678571,0.106773998678571,0.425416658018852,"Wdr5/Hat1/Pole3/Meaf6/Brca2/Dpf1/Esco2/Tada2a/Naa40/Taf5",10
+"GO:0004551","nucleotide diphosphatase activity","3/1565","17/22710",0.107805648139393,0.107805648139393,0.425416658018852,"Enpp3/Enpp4/Nudt12",3
+"GO:0015377","cation:chloride symporter activity","3/1565","17/22710",0.107805648139393,0.107805648139393,0.425416658018852,"Slc12a5/Slc12a4/Slc18a1",3
+"GO:0030275","LRR domain binding","3/1565","17/22710",0.107805648139393,0.107805648139393,0.425416658018852,"Pmf1/Pawr/Ncam1",3
+"GO:0034185","apolipoprotein binding","3/1565","17/22710",0.107805648139393,0.107805648139393,0.425416658018852,"Lrp8/Scarb1/Lrp1",3
+"GO:0050839","cell adhesion molecule binding","22/1565","241/22710",0.108442988946698,0.108442988946698,0.425950531632742,"Frmd5/Ptpn11/L1cam/Vcam1/Tbc1d2/Ctnnal1/Nos3/Emilin1/Adam8/Ccn6/Jam3/Nectin1/Thy1/Cib2/Neo1/Cldn7/Jup/Dsp/Esm1/Itga2/Ctnnd2/Afdn",22
+"GO:0050660","flavin adenine dinucleotide binding","9/1565","82/22710",0.11081580635564,0.11081580635564,0.428271053713306,"Aox1/Sqor/Acoxl/Maoa/Nos3/Nos1/Txnrd3/Gsr/Foxred2",9
+"GO:0003785","actin monomer binding","4/1565","27/22710",0.111557701894676,0.111557701894676,0.428271053713306,"Nos3/Mtss2/Myl4/Prkce",4
+"GO:0004683","calmodulin-dependent protein kinase activity","4/1565","27/22710",0.111557701894676,0.111557701894676,0.428271053713306,"Itpka/Mapkapk5/Camkk2/Camkk1",4
+"GO:0016645","oxidoreductase activity, acting on the CH-NH group of donors","4/1565","27/22710",0.111557701894676,0.111557701894676,0.428271053713306,"Mthfd1l/Pycr1/Dhfr/Mthfd1",4
+"GO:0051119","sugar transmembrane transporter activity","4/1565","27/22710",0.111557701894676,0.111557701894676,0.428271053713306,"Mfsd4b5/Gm5134/Slc23a1/Slc23a2",4
+"GO:0008199","ferric iron binding","3/1565","18/22710",0.12305409021753,0.12305409021753,0.458175233232682,"Trf/Rrm2/Fxn",3
+"GO:0050145","nucleoside monophosphate kinase activity","3/1565","18/22710",0.12305409021753,0.12305409021753,0.458175233232682,"Dtymk/Mpp6/Rad50",3
+"GO:0051184","cofactor transmembrane transporter activity","3/1565","18/22710",0.12305409021753,0.12305409021753,0.458175233232682,"Slc6a8/Slc23a1/Slc23a2",3
+"GO:0061608","nuclear import signal receptor activity","3/1565","18/22710",0.12305409021753,0.12305409021753,0.458175233232682,"Ipo9/Kpna3/Kpna2",3
+"GO:0001530","lipopolysaccharide binding","4/1565","28/22710",0.123442246004797,0.123442246004797,0.458175233232682,"H2bc21/Scarb1/Camp/Psma1",4
+"GO:0004725","protein tyrosine phosphatase activity","10/1565","96/22710",0.124582588648998,0.124582588648998,0.458175233232682,"Ptpn14/Ptpn11/Dnajc6/Ptpru/Ptpn5/Ptprk/Cdc25a/Dusp3/Pgp/Cdc25c",10
+"GO:0019829","cation-transporting ATPase activity","7/1565","61/22710",0.125210511905328,0.125210511905328,0.458175233232682,"Atp6v1g3/Atp1b1/Atp1a2/Atp1a3/Atp1b2/Atp6v0a1/Cpox",7
+"GO:0022853","active ion transmembrane transporter activity","7/1565","61/22710",0.125210511905328,0.125210511905328,0.458175233232682,"Atp6v1g3/Atp1b1/Atp1a2/Atp1a3/Atp1b2/Atp6v0a1/Cpox",7
+"GO:0042625","ATPase coupled ion transmembrane transporter activity","7/1565","61/22710",0.125210511905328,0.125210511905328,0.458175233232682,"Atp6v1g3/Atp1b1/Atp1a2/Atp1a3/Atp1b2/Atp6v0a1/Cpox",7
+"GO:0015293","symporter activity","14/1565","145/22710",0.126389748649646,0.126389748649646,0.458175233232682,"Slc12a5/Slc6a8/Slc17a7/Gm5134/Mfsd12/Slc12a4/Slc6a20a/Slc1a4/Slc18a1/Mfsd2b/Slc10a1/Slc23a1/Slc23a2/Slc1a1",14
+"GO:0001882","nucleoside binding","32/1565","376/22710",0.127048680156298,0.127048680156298,0.458175233232682,"Tuba4a/Dnm3/Tubb4b/Rp2/Pola1/Gspt2/Cplane2/Gnai1/Rasl11b/Dck/Sept11/Ran/Rasl2-9/Rasl11a/Rtkn/Ehd3/Ehd2/Tube1/Sept10/Gnao1/Tubb3/Cgas/Tubg1/H1f4/Atl1/Spag1/Rnd1/Tuba1b/Tuba1c/Srl/Sept5/Tubb5",32
+"GO:0031406","carboxylic acid binding","19/1565","208/22710",0.127713680333301,0.127713680333301,0.458175233232682,"Pam/Rxra/Acoxl/L1cam/Fabp5/S100a9/Padi4/Nos3/Tyms/P3h3/Grin2d/Hmbs/Hmmr/Shmt1/Ogfod3/Vcan/Dhfr/Ddah2/Slc1a1",19
+"GO:0005326","neurotransmitter transporter activity","6/1565","50/22710",0.127758313057311,0.127758313057311,0.458175233232682,"Slc6a8/Slc17a7/Cplx3/Slc6a20a/Slc18a1/Slc1a1",6
+"GO:0016763","transferase activity, transferring pentosyl groups","6/1565","50/22710",0.127758313057311,0.127758313057311,0.458175233232682,"Ppat/Gxylt2/Xylt1/Large1/Tymp/Umps",6
+"GO:0042169","SH2 domain binding","5/1565","39/22710",0.127987783824241,0.127987783824241,0.458175233232682,"Syp/Lat2/Nup62/Shcbp1/Afap1l2",5
+"GO:0098631","cell adhesion mediator activity","5/1565","39/22710",0.127987783824241,0.127987783824241,0.458175233232682,"Igsf9/Itga10/Emilin1/Itga2/Itga1",5
+"GO:0005267","potassium channel activity","12/1565","121/22710",0.129505876825008,0.129505876825008,0.461661816545583,"Kcna4/Kcnab1/Kcnd3/Kcnh2/Abcc9/Kcnk7/Kcnk6/Hcn2/Kcnk1/Kcnab3/Kcnk4/Kcnip2",12
+"GO:0044389","ubiquitin-like protein ligase binding","28/1565","325/22710",0.131425584869096,0.131425584869096,0.465265639267231,"Ube2t/Nek6/Aurka/Tgfbr1/Faf1/Rpa2/Kcnh2/Uchl1/Chek2/Rad18/Mc1r/Rb1/Usp2/Fancl/Trim37/Brca1/Hist1h2br/Nkd2/Slf1/Ccnb1/Smc6/Moap1/Tuba1b/Tnk2/Snx9/Cdkn1a/Hspa1l/Tubb5",28
+"GO:0004721","phosphoprotein phosphatase activity","16/1565","171/22710",0.131613605152517,0.131613605152517,0.465265639267231,"Ptpn14/Ptpn11/Dnajc6/Ptpru/Ppp2r2c/Ptpn5/Ptprk/Ppp1r3b/Dlgap5/Cdc25a/Ctdspl/Dusp3/Pdxp/Tns2/Pgp/Cdc25c",16
+"GO:0005080","protein kinase C binding","7/1565","62/22710",0.133280734906034,0.133280734906034,0.466221656163535,"Akt3/Pawr/Adcy4/Top2a/Srsf2/Dsp/Pard6g",7
+"GO:0030291","protein serine/threonine kinase inhibitor activity","4/1565","29/22710",0.135836879233254,0.135836879233254,0.466221656163535,"Pkig/Cdkn2a/Cdkn2c/Cdkn1a",4
+"GO:0043027","cysteine-type endopeptidase inhibitor activity involved in apoptotic process","4/1565","29/22710",0.135836879233254,0.135836879233254,0.466221656163535,"Gas6/Nol3/Birc5/Serpinb9",4
+"GO:0098918","structural constituent of synapse","4/1565","29/22710",0.135836879233254,0.135836879233254,0.466221656163535,"Dnm3/Mpp2/Dlgap1/Ina",4
+"GO:0043177","organic acid binding","20/1565","223/22710",0.13716109765948,0.13716109765948,0.466221656163535,"Pam/Rxra/Acoxl/L1cam/Fabp5/S100a9/Padi4/Nos3/Tyms/P3h3/Grin2d/Hmbs/Hba-a1/Hmmr/Shmt1/Ogfod3/Vcan/Dhfr/Ddah2/Slc1a1",20
+"GO:0015238","drug transmembrane transporter activity","9/1565","86/22710",0.137294020052902,0.137294020052902,0.466221656163535,"Slc19a2/Slc25a25/Slc6a8/Slc17a7/Slc6a20a/Slc1a4/Slc25a10/Abcb1a/Slc1a1",9
+"GO:0035091","phosphatidylinositol binding","22/1565","249/22710",0.13834536723301,0.13834536723301,0.466221656163535,"Pask/Dab2ip/Zfyve9/Adap1/Arhgap33/Plekhf1/Plekha4/Sytl2/Mtss2/Arhgap32/Thy1/C2cd2l/Cgas/Ccdc88a/Adap2/Plek2/Gpaa1/Racgap1/Sept5/Snx9/Tulp1/Snx15",22
+"GO:0043028","cysteine-type endopeptidase regulator activity involved in apoptotic process","5/1565","40/22710",0.138488445068652,0.138488445068652,0.466221656163535,"Casp8ap2/Gas6/Nol3/Birc5/Serpinb9",5
+"GO:0043531","ADP binding","5/1565","40/22710",0.138488445068652,0.138488445068652,0.466221656163535,"Gck/P2ry1/Myh10/H1f4/Msh6",5
+"GO:0050662","coenzyme binding","25/1565","288/22710",0.138851724371698,0.138851724371698,0.466221656163535,"Aox1/Pam/Lbr/Suv39h2/Sqor/Acoxl/Maoa/Kcnab1/Cth/Nos3/Nos1/Txnrd3/P3h3/Gsr/Gpt2/Hmbs/Shmt1/Ogfod3/Srd5a1/Dhfr/Nnt/Foxred2/Gcat/Cbr3/Pygm",25
+"GO:0015296","anion:cation symporter activity","3/1565","19/22710",0.139027760618989,0.139027760618989,0.466221656163535,"Slc12a5/Slc12a4/Slc18a1",3
+"GO:0031418","L-ascorbic acid binding","3/1565","19/22710",0.139027760618989,0.139027760618989,0.466221656163535,"Pam/P3h3/Ogfod3",3
+"GO:0043395","heparan sulfate proteoglycan binding","3/1565","19/22710",0.139027760618989,0.139027760618989,0.466221656163535,"Pla2g2d/Atp1a3/Itgam",3
+"GO:0005525","GTP binding","30/1565","354/22710",0.140858894049807,0.140858894049807,0.470502563630934,"Tuba4a/Dnm3/Tubb4b/Rp2/Gspt2/Cplane2/Gnai1/Rasl11b/Sept11/Ran/Rasl2-9/Rasl11a/Rtkn/Ehd3/Ehd2/Tube1/Sept10/Gnao1/Tubb3/Cgas/Tubg1/H1f4/Atl1/Spag1/Rnd1/Tuba1b/Tuba1c/Srl/Sept5/Tubb5",30
+"GO:0043130","ubiquitin binding","8/1565","75/22710",0.143795644216626,0.143795644216626,0.473445626659064,"Cks1b/Faf1/Uchl1/Nup62/Cks1brt/Top2a/Cks2/Rnf168",8
+"GO:0005041","low-density lipoprotein particle receptor activity","2/1565","10/22710",0.147878333140719,0.147878333140719,0.473445626659064,"Lrp8/Cxcl16",2
+"GO:0005049","nuclear export signal receptor activity","2/1565","10/22710",0.147878333140719,0.147878333140719,0.473445626659064,"Cse1l/Ranbp17",2
+"GO:0008035","high-density lipoprotein particle binding","2/1565","10/22710",0.147878333140719,0.147878333140719,0.473445626659064,"Lrp8/Scarb1",2
+"GO:0008331","high voltage-gated calcium channel activity","2/1565","10/22710",0.147878333140719,0.147878333140719,0.473445626659064,"Cacna1s/Cacnb3",2
+"GO:0015379","potassium:chloride symporter activity","2/1565","10/22710",0.147878333140719,0.147878333140719,0.473445626659064,"Slc12a5/Slc12a4",2
+"GO:0035620","ceramide transporter activity","2/1565","10/22710",0.147878333140719,0.147878333140719,0.473445626659064,"Gltp/Abcb1a",2
+"GO:0050308","sugar-phosphatase activity","2/1565","10/22710",0.147878333140719,0.147878333140719,0.473445626659064,"Pfkfb2/Pfkfb1",2
+"GO:0050897","cobalt ion binding","2/1565","10/22710",0.147878333140719,0.147878333140719,0.473445626659064,"Shmt1/Epas1",2
+"GO:0098505","G-rich strand telomeric DNA binding","2/1565","10/22710",0.147878333140719,0.147878333140719,0.473445626659064,"Rpa2/Ctc1",2
+"GO:0098879","structural constituent of postsynaptic specialization","2/1565","10/22710",0.147878333140719,0.147878333140719,0.473445626659064,"Mpp2/Dlgap1",2
+"GO:1990782","protein tyrosine kinase binding","10/1565","100/22710",0.150671119624665,0.150671119624665,0.478839510108076,"Ptpn14/Pcna/Cass4/Ptpn11/Sh2b2/Cblc/Itgax/Gas6/Dusp3/Tiam1",10
+"GO:0016791","phosphatase activity","23/1565","265/22710",0.150691863199645,0.150691863199645,0.478839510108076,"Pfkfb2/Ptpn14/Lpin3/Ptpn11/Pfkfb1/Dnajc6/Ptpru/Alpl/Ppp2r2c/Ptpn5/Ptprk/Nt5dc3/Ppp1r3b/Nt5dc2/Dlgap5/Pxylp1/Cdc25a/Ctdspl/Dusp3/Pdxp/Tns2/Pgp/Cdc25c",23
+"GO:0003714","transcription corepressor activity","17/1565","188/22710",0.152586786300837,0.152586786300837,0.481964247509771,"Casp8ap2/Tle1/Wnt4/Ezh2/Nanog/E2f8/Tle2/Tle6/E2f7/Sfmbt1/Cenpj/Aebp1/Gmnn/Basp1/Rbbp8/Hsbp1l1/Rcor2",17
+"GO:0001614","purinergic nucleotide receptor activity","3/1565","20/22710",0.155651729065501,0.155651729065501,0.481964247509771,"P2ry13/P2ry12/P2ry1",3
+"GO:0005402","carbohydrate:cation symporter activity","3/1565","20/22710",0.155651729065501,0.155651729065501,0.481964247509771,"Gm5134/Slc23a1/Slc23a2",3
+"GO:0008569","ATP-dependent microtubule motor activity, minus-end-directed","3/1565","20/22710",0.155651729065501,0.155651729065501,0.481964247509771,"Dnah14/Dnah11/Kifc1",3
+"GO:0016502","nucleotide receptor activity","3/1565","20/22710",0.155651729065501,0.155651729065501,0.481964247509771,"P2ry13/P2ry12/P2ry1",3
+"GO:0051428","peptide hormone receptor binding","3/1565","20/22710",0.155651729065501,0.155651729065501,0.481964247509771,"Ptpn11/Gnao1/Ucn2",3
+"GO:0070696","transmembrane receptor protein serine/threonine kinase binding","3/1565","20/22710",0.155651729065501,0.155651729065501,0.481964247509771,"Bmp8a/Neo1/Tdgf1",3
+"GO:0031625","ubiquitin protein ligase binding","26/1565","306/22710",0.157691607207485,0.157691607207485,0.482415457028448,"Ube2t/Nek6/Aurka/Tgfbr1/Faf1/Rpa2/Kcnh2/Uchl1/Chek2/Rad18/Mc1r/Rb1/Usp2/Fancl/Trim37/Brca1/Nkd2/Slf1/Smc6/Moap1/Tuba1b/Tnk2/Snx9/Cdkn1a/Hspa1l/Tubb5",26
+"GO:0005125","cytokine activity","19/1565","215/22710",0.158921095248249,0.158921095248249,0.482415457028448,"Il17a/Il17f/Il10/Fasl/Lefty1/Il12a/Bmp8a/Pf4/Hmgb1/Il11/Crlf1/Cmtm7/Cxcl16/Ccl1/Ccl5/Ccl3/Ccl4/Vegfa/Il33",19
+"GO:0004693","cyclin-dependent protein serine/threonine kinase activity","4/1565","31/22710",0.162029374488678,0.162029374488678,0.482415457028448,"Cdk14/Cdk1/Cdk2/Cdk20",4
+"GO:0043236","laminin binding","4/1565","31/22710",0.162029374488678,0.162029374488678,0.482415457028448,"Gpc1/Lgals3/Itga2/Lgals1",4
+"GO:0050699","WW domain binding","4/1565","31/22710",0.162029374488678,0.162029374488678,0.482415457028448,"Tceal9/Tnk2/Cdc25c/Kif20b",4
+"GO:0031072","heat shock protein binding","13/1565","139/22710",0.162077307926106,0.162077307926106,0.482415457028448,"Stau2/Faf1/Nos3/Nup62/Itgam/Cd24a/Cdk1/Ptges3/Dnajc9/Pdxp/Fkbp5/Hspa1l/Stip1",13
+"GO:0016410","N-acyltransferase activity","11/1565","114/22710",0.162115525336305,0.162115525336305,0.482415457028448,"Nmt2/Wdr5/Hat1/Pole3/Meaf6/Brca2/Dpf1/Esco2/Tada2a/Naa40/Taf5",11
+"GO:0051219","phosphoprotein binding","10/1565","102/22710",0.16467351449798,0.16467351449798,0.482415457028448,"Nck2/Ptpn11/Nos1/Cav2/Cblc/Ptpn5/Lrp11/Rb1/Shd/Dpysl3",10
+"GO:0032550","purine ribonucleoside binding","30/1565","361/22710",0.165744035610509,0.165744035610509,0.482415457028448,"Tuba4a/Dnm3/Tubb4b/Rp2/Gspt2/Cplane2/Gnai1/Rasl11b/Sept11/Ran/Rasl2-9/Rasl11a/Rtkn/Ehd3/Ehd2/Tube1/Sept10/Gnao1/Tubb3/Cgas/Tubg1/H1f4/Atl1/Spag1/Rnd1/Tuba1b/Tuba1c/Srl/Sept5/Tubb5",30
+"GO:0035591","signaling adaptor activity","6/1565","54/22710",0.165997506494225,0.165997506494225,0.482415457028448,"Nck2/Dab2ip/Ptpn11/Sh2b2/Socs2/Afap1l2",6
+"GO:0035064","methylated histone binding","10/1565","103/22710",0.171903015919569,0.171903015919569,0.482415457028448,"Ing5/Wdr5/Phf19/Ncapd3/Suz12/Cbx2/Ncapg2/Cbx5/Uhrf1/Msh6",10
+"GO:0140034","methylation-dependent protein binding","10/1565","103/22710",0.171903015919569,0.171903015919569,0.482415457028448,"Ing5/Wdr5/Phf19/Ncapd3/Suz12/Cbx2/Ncapg2/Cbx5/Uhrf1/Msh6",10
+"GO:0030246","carbohydrate binding","23/1565","270/22710",0.172009421501579,0.172009421501579,0.482415457028448,"Pam/Uap1/Galk1/Gck/Fbxo2/Stbd1/Grifin/Clec2l/Klrg1/P3h3/Klrb1/Klra7/Enpp3/Cd24a/Pkd1l3/Lgals3/Nectin1/Lman1l/Ogfod3/Vcan/Lgals1/Pygm/Atrnl1",23
+"GO:0001784","phosphotyrosine residue binding","5/1565","43/22710",0.172101486808267,0.172101486808267,0.482415457028448,"Nck2/Ptpn11/Cblc/Ptpn5/Shd",5
+"GO:0016408","C-acyltransferase activity","3/1565","21/22710",0.172851239634909,0.172851239634909,0.482415457028448,"Acaa1b/Gcat/Acat2",3
+"GO:0090482","vitamin transmembrane transporter activity","3/1565","21/22710",0.172851239634909,0.172851239634909,0.482415457028448,"Slc19a2/Slc23a1/Slc23a2",3
+"GO:0000014","single-stranded DNA endodeoxyribonuclease activity","2/1565","11/22710",0.172855563262799,0.172855563262799,0.482415457028448,"Rad50/Rbbp8",2
+"GO:0004312","fatty acid synthase activity","2/1565","11/22710",0.172855563262799,0.172855563262799,0.482415457028448,"Elovl4/Elovl7",2
+"GO:0008253","5'-nucleotidase activity","2/1565","11/22710",0.172855563262799,0.172855563262799,0.482415457028448,"Nt5dc3/Nt5dc2",2
+"GO:0015114","phosphate ion transmembrane transporter activity","2/1565","11/22710",0.172855563262799,0.172855563262799,0.482415457028448,"Slc17a7/Slc25a10",2
+"GO:0016813","hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amidines","2/1565","11/22710",0.172855563262799,0.172855563262799,0.482415457028448,"Padi4/Ddah2",2
+"GO:0016846","carbon-sulfur lyase activity","2/1565","11/22710",0.172855563262799,0.172855563262799,0.482415457028448,"Mgst3/Cth",2
+"GO:0019203","carbohydrate phosphatase activity","2/1565","11/22710",0.172855563262799,0.172855563262799,0.482415457028448,"Pfkfb2/Pfkfb1",2
+"GO:0030898","actin-dependent ATPase activity","2/1565","11/22710",0.172855563262799,0.172855563262799,0.482415457028448,"Myh10/Myo1d",2
+"GO:0042910","xenobiotic transmembrane transporter activity","2/1565","11/22710",0.172855563262799,0.172855563262799,0.482415457028448,"Slc18a1/Abcb1a",2
+"GO:0043522","leucine zipper domain binding","2/1565","11/22710",0.172855563262799,0.172855563262799,0.482415457028448,"Pmf1/Pawr",2
+"GO:0046974","histone methyltransferase activity (H3-K9 specific)","2/1565","11/22710",0.172855563262799,0.172855563262799,0.482415457028448,"Suv39h2/Suv39h1",2
+"GO:0048495","Roundabout binding","2/1565","11/22710",0.172855563262799,0.172855563262799,0.482415457028448,"Lgr4/Rtn4rl1",2
+"GO:0055102","lipase inhibitor activity","2/1565","11/22710",0.172855563262799,0.172855563262799,0.482415457028448,"Pinlyp/Anxa1",2
+"GO:0086008","voltage-gated potassium channel activity involved in cardiac muscle cell action potential repolarization","2/1565","11/22710",0.172855563262799,0.172855563262799,0.482415457028448,"Kcnd3/Kcnh2",2
+"GO:0030165","PDZ domain binding","11/1565","116/22710",0.175748327158122,0.175748327158122,0.485474965401898,"Kif14/Lzts3/Snta1/Cask/L1cam/Dlgap3/Cit/Hcn2/Nkd1/Mpp2/Igsf5",11
+"GO:0051959","dynein light intermediate chain binding","4/1565","32/22710",0.175760634242944,0.175760634242944,0.485474965401898,"Dnah14/Ccdc88a/Dynll2/Dnah11",4
+"GO:0016278","lysine N-methyltransferase activity","6/1565","55/22710",0.176240663618605,0.176240663618605,0.485474965401898,"Suv39h2/Wdr5/Suv39h1/Nsd2/Ezh2/Suz12",6
+"GO:0016279","protein-lysine N-methyltransferase activity","6/1565","55/22710",0.176240663618605,0.176240663618605,0.485474965401898,"Suv39h2/Wdr5/Suv39h1/Nsd2/Ezh2/Suz12",6
+"GO:0001883","purine nucleoside binding","30/1565","365/22710",0.18100024634114,0.18100024634114,0.496972231480018,"Tuba4a/Dnm3/Tubb4b/Rp2/Gspt2/Cplane2/Gnai1/Rasl11b/Sept11/Ran/Rasl2-9/Rasl11a/Rtkn/Ehd3/Ehd2/Tube1/Sept10/Gnao1/Tubb3/Cgas/Tubg1/H1f4/Atl1/Spag1/Rnd1/Tuba1b/Tuba1c/Srl/Sept5/Tubb5",30
+"GO:0032549","ribonucleoside binding","30/1565","366/22710",0.184928703475415,0.184928703475415,0.503640981433071,"Tuba4a/Dnm3/Tubb4b/Rp2/Gspt2/Cplane2/Gnai1/Rasl11b/Sept11/Ran/Rasl2-9/Rasl11a/Rtkn/Ehd3/Ehd2/Tube1/Sept10/Gnao1/Tubb3/Cgas/Tubg1/H1f4/Atl1/Spag1/Rnd1/Tuba1b/Tuba1c/Srl/Sept5/Tubb5",30
+"GO:0004713","protein tyrosine kinase activity","12/1565","130/22710",0.185274915573481,0.185274915573481,0.503640981433071,"Nrp2/Dyrk3/Srms/Melk/Epha8/Baz1b/Styk1/Hipk4/Wee1/Ttk/Tnk2/Ddr1",12
+"GO:0048365","Rac GTPase binding","7/1565","68/22710",0.18669446295333,0.18669446295333,0.503640981433071,"Itpka/Sbk2/Pak1/Mtss2/Arhgap44/Tiam1/Arhgdig",7
+"GO:0042054","histone methyltransferase activity","6/1565","56/22710",0.186732767214521,0.186732767214521,0.503640981433071,"Suv39h2/Wdr5/Suv39h1/Nsd2/Ezh2/Suz12",6
+"GO:0045182","translation regulator activity","6/1565","56/22710",0.186732767214521,0.186732767214521,0.503640981433071,"Boll/Dazl/Tyms/Shmt1/Dhfr/Ctif",6
+"GO:0022843","voltage-gated cation channel activity","13/1565","143/22710",0.187038900315024,0.187038900315024,0.503640981433071,"Cacna1s/Kcna4/Kcnab1/Kcnd3/Kcnh2/Grin2d/Hcn2/Gas6/Kcnk1/Kcnab3/Cacna1i/Cacnb3/Kcnip2",13
+"GO:0004252","serine-type endopeptidase activity","16/1565","182/22710",0.189269019198876,0.189269019198876,0.503640981433071,"Prss56/2210010C04Rik/Prss57/Plau/Cma1/Gzmf/Gzmc/Gzmb/Tmprss13/Tmprss11c/Rhbdl3/Gzma/Gzmk/Prss27/C2/Cfb",16
+"GO:0017080","sodium channel regulator activity","4/1565","33/22710",0.189869426284124,0.189869426284124,0.503640981433071,"Snta1/Ywhah/Nos1/Scn1b",4
+"GO:0036002","pre-mRNA binding","4/1565","33/22710",0.189869426284124,0.189869426284124,0.503640981433071,"Slbp/Eri1/Srsf2/Celf4",4
+"GO:0001223","transcription coactivator binding","3/1565","22/22710",0.190552502838728,0.190552502838728,0.503640981433071,"Tead2/Foxc1/Six1",3
+"GO:0031420","alkali metal ion binding","3/1565","22/22710",0.190552502838728,0.190552502838728,0.503640981433071,"Atp1b1/Atp1a2/Kcna4",3
+"GO:0050998","nitric-oxide synthase binding","3/1565","22/22710",0.190552502838728,0.190552502838728,0.503640981433071,"Dnm3/Snta1/Nos3",3
+"GO:0032813","tumor necrosis factor receptor superfamily binding","5/1565","45/22710",0.196080831293865,0.196080831293865,0.514758264401178,"Fasl/Dab2ip/Nol3/Trim37/Siva1",5
+"GO:0005283","amino acid:sodium symporter activity","2/1565","12/22710",0.198438655445111,0.198438655445111,0.514758264401178,"Slc6a8/Slc1a1",2
+"GO:0008525","phosphatidylcholine transporter activity","2/1565","12/22710",0.198438655445111,0.198438655445111,0.514758264401178,"Pctp/Abcb1a",2
+"GO:0039706","co-receptor binding","2/1565","12/22710",0.198438655445111,0.198438655445111,0.514758264401178,"Dkkl1/Neo1",2
+"GO:1990825","sequence-specific mRNA binding","2/1565","12/22710",0.198438655445111,0.198438655445111,0.514758264401178,"Tyms/Dhfr",2
+"GO:0015103","inorganic anion transmembrane transporter activity","12/1565","132/22710",0.199005800480654,0.199005800480654,0.514758264401178,"Clic3/Slc12a5/Gabrr1/Lrrc8b/Slc17a7/Pidd1/Slc12a4/Slc1a4/Slc18a1/Slc25a10/Clic5/Slc1a1",12
+"GO:0019842","vitamin binding","12/1565","132/22710",0.199005800480654,0.199005800480654,0.514758264401178,"Pam/S100g/Cth/Bspry/Tyms/P3h3/Gpt2/Shmt1/Ogfod3/Dhfr/Gcat/Pygm",12
+"GO:0015267","channel activity","35/1565","438/22710",0.202959480259186,0.202959480259186,0.521803320857749,"Tmem37/Cacna1s/Clic3/Kcna4/Trpc5/Kcnab1/Gja5/Kcnd3/Gabrr1/Kcnh2/Lrrc8b/Abcc9/Kcnk7/Kcnk6/Scn1b/Slc17a7/Grin2d/Xntrpc/Pidd1/Prf1/Hcn2/Mip/Gas6/Pkd1l3/Kcnk1/Trpc1/Slc1a4/Kcnab3/Cacna1i/Cacnb3/Clic5/Kcnk4/Tmem109/Trpm3/Kcnip2",35
+"GO:0022803","passive transmembrane transporter activity","35/1565","438/22710",0.202959480259186,0.202959480259186,0.521803320857749,"Tmem37/Cacna1s/Clic3/Kcna4/Trpc5/Kcnab1/Gja5/Kcnd3/Gabrr1/Kcnh2/Lrrc8b/Abcc9/Kcnk7/Kcnk6/Scn1b/Slc17a7/Grin2d/Xntrpc/Pidd1/Prf1/Hcn2/Mip/Gas6/Pkd1l3/Kcnk1/Trpc1/Slc1a4/Kcnab3/Cacna1i/Cacnb3/Clic5/Kcnk4/Tmem109/Trpm3/Kcnip2",35
+"GO:0015108","chloride transmembrane transporter activity","9/1565","95/22710",0.207236729040125,0.207236729040125,0.525374908853499,"Clic3/Slc12a5/Gabrr1/Slc17a7/Slc12a4/Slc1a4/Slc18a1/Clic5/Slc1a1",9
+"GO:0003924","GTPase activity","24/1565","291/22710",0.207565431795249,0.207565431795249,0.525374908853499,"Tuba4a/Dnm3/Tubb4b/Gspt2/Cplane2/Gnai1/Rasl11b/Sept11/Ran/Rasl2-9/Rasl11a/Tube1/Sept10/Gnao1/Tubb3/Gm5431/Tubg1/Atl1/Rnd1/Tuba1b/Tuba1c/Sept5/Gng13/Tubb5",24
+"GO:0048020","CCR chemokine receptor binding","5/1565","46/22710",0.208481531150609,0.208481531150609,0.525374908853499,"Ccl1/Ccl5/Ccl3/Ccl4/Nup85",5
+"GO:0051879","Hsp90 protein binding","5/1565","46/22710",0.208481531150609,0.208481531150609,0.525374908853499,"Nos3/Nup62/Cd24a/Ptges3/Stip1",5
+"GO:0008171","O-methyltransferase activity","3/1565","23/22710",0.20868334624001,0.20868334624001,0.525374908853499,"Henmt1/Tomt/Pcmt1",3
+"GO:0016725","oxidoreductase activity, acting on CH or CH2 groups","3/1565","23/22710",0.20868334624001,0.20868334624001,0.525374908853499,"Aox1/Rrm1/Rrm2",3
+"GO:0070840","dynein complex binding","3/1565","23/22710",0.20868334624001,0.20868334624001,0.525374908853499,"Gpsm2/Ccdc155/Smc3",3
+"GO:0019838","growth factor binding","13/1565","147/22710",0.21369219580854,0.21369219580854,0.531864403486627,"Il1r1/Gpc1/Il2ra/Tgfbr1/Igfbp7/Ccn6/Cep57/Trim16/Nkd2/Esm1/Pdxp/Acvr1b/Vegfa",13
+"GO:0032182","ubiquitin-like protein binding","9/1565","96/22710",0.215787157356448,0.215787157356448,0.531864403486627,"Cks1b/Casp8ap2/Faf1/Uchl1/Nup62/Cks1brt/Top2a/Cks2/Rnf168",9
+"GO:0002039","p53 binding","7/1565","71/22710",0.216236602570845,0.216236602570845,0.531864403486627,"Cdkn2a/Trp73/Mapkapk5/Blm/Ptges3/Rfwd3/Zfp385a",7
+"GO:0048306","calcium-dependent protein binding","7/1565","71/22710",0.216236602570845,0.216236602570845,0.531864403486627,"Spaca9/Stmn2/S100a11/Lrp8/Stx1a/Myo1d/Anxa1",7
+"GO:0005154","epidermal growth factor receptor binding","4/1565","35/22710",0.219079560369445,0.219079560369445,0.531864403486627,"Cnot9/Cblc/Tnk2/Hbegf",4
+"GO:0046915","transition metal ion transmembrane transporter activity","4/1565","35/22710",0.219079560369445,0.219079560369445,0.531864403486627,"Slc40a1/Slc39a8/Slc39a2/Trf",4
+"GO:0001540","amyloid-beta binding","6/1565","59/22710",0.219569264135303,0.219569264135303,0.531864403486627,"Lrp8/Dlgap3/Fbxo2/Scarb1/Atp1a3/Itga2",6
+"GO:0050840","extracellular matrix binding","6/1565","59/22710",0.219569264135303,0.219569264135303,0.531864403486627,"Gpc1/Adgrg1/Lgals3/Itga2/Lgals1/Vegfa",6
+"GO:0016860","intramolecular oxidoreductase activity","5/1565","47/22710",0.221128398229225,0.221128398229225,0.531864403486627,"Cyp2s1/Ptges3/Dct/Idi1/Pdia6",5
+"GO:0043178","alcohol binding","8/1565","84/22710",0.221274730121773,0.221274730121773,0.531864403486627,"Syp/Trpc5/Sult2b1/Xntrpc/Trpc1/Adap2/Prkce/Osbpl1a",8
+"GO:0003906","DNA-(apurinic or apyrimidinic site) endonuclease activity","2/1565","13/22710",0.224425662066752,0.224425662066752,0.531864403486627,"Aplf/Neil3",2
+"GO:0004303","estradiol 17-beta-dehydrogenase activity","2/1565","13/22710",0.224425662066752,0.224425662066752,0.531864403486627,"Hsd17b14/Hsd17b2",2
+"GO:0005313","L-glutamate transmembrane transporter activity","2/1565","13/22710",0.224425662066752,0.224425662066752,0.531864403486627,"Slc17a7/Slc1a1",2
+"GO:0005542","folic acid binding","2/1565","13/22710",0.224425662066752,0.224425662066752,0.531864403486627,"Tyms/Dhfr",2
+"GO:0008252","nucleotidase activity","2/1565","13/22710",0.224425662066752,0.224425662066752,0.531864403486627,"Nt5dc3/Nt5dc2",2
+"GO:0016653","oxidoreductase activity, acting on NAD(P)H, heme protein as acceptor","2/1565","13/22710",0.224425662066752,0.224425662066752,0.531864403486627,"Nos3/Nos1",2
+"GO:0031402","sodium ion binding","2/1565","13/22710",0.224425662066752,0.224425662066752,0.531864403486627,"Atp1b1/Atp1a2",2
+"GO:0033130","acetylcholine receptor binding","2/1565","13/22710",0.224425662066752,0.224425662066752,0.531864403486627,"Rapsn/Lynx1",2
+"GO:0036312","phosphatidylinositol 3-kinase regulatory subunit binding","2/1565","13/22710",0.224425662066752,0.224425662066752,0.531864403486627,"Dab2ip/Fbxl2",2
+"GO:0070700","BMP receptor binding","2/1565","13/22710",0.224425662066752,0.224425662066752,0.531864403486627,"Bmp8a/Neo1",2
+"GO:0072349","modified amino acid transmembrane transporter activity","2/1565","13/22710",0.224425662066752,0.224425662066752,0.531864403486627,"Slc6a8/Slc1a4",2
+"GO:0004540","ribonuclease activity","10/1565","110/22710",0.226399338535873,0.226399338535873,0.53233128710014,"Eri2/Eri1/Rnaseh2b/Dis3/Rexo2/Dbr1/Angel1/Dgcr8/Fen1/Rpp30",10
+"GO:0030371","translation repressor activity","3/1565","24/22710",0.227173741489644,0.227173741489644,0.53233128710014,"Tyms/Shmt1/Dhfr",3
+"GO:0031683","G-protein beta/gamma-subunit complex binding","3/1565","24/22710",0.227173741489644,0.227173741489644,0.53233128710014,"Gnai1/Gnao1/Adcy4",3
+"GO:0050780","dopamine receptor binding","3/1565","24/22710",0.227173741489644,0.227173741489644,0.53233128710014,"Ptpn11/Cav2/Atp1a3",3
+"GO:0044325","ion channel binding","12/1565","136/22710",0.227759856521692,0.227759856521692,0.53233128710014,"Snta1/Kcnab1/Kcnd3/Rims3/Ywhah/Nos1/Stx1a/Abcc9/Scn1b/Trpc1/Mpp2/Kcnip2",12
+"GO:0005249","voltage-gated potassium channel activity","8/1565","85/22710",0.230717330056214,0.230717330056214,0.534023402730364,"Kcna4/Kcnab1/Kcnd3/Kcnh2/Hcn2/Kcnk1/Kcnab3/Kcnip2",8
+"GO:0048029","monosaccharide binding","8/1565","85/22710",0.230717330056214,0.230717330056214,0.534023402730364,"Pam/Galk1/Gck/P3h3/Lgals3/Lman1l/Ogfod3/Lgals1",8
+"GO:0019001","guanyl nucleotide binding","30/1565","377/22710",0.231001562483798,0.231001562483798,0.534023402730364,"Tuba4a/Dnm3/Tubb4b/Rp2/Gspt2/Cplane2/Gnai1/Rasl11b/Sept11/Ran/Rasl2-9/Rasl11a/Rtkn/Ehd3/Ehd2/Tube1/Sept10/Gnao1/Tubb3/Cgas/Tubg1/H1f4/Atl1/Spag1/Rnd1/Tuba1b/Tuba1c/Srl/Sept5/Tubb5",30
+"GO:0032561","guanyl ribonucleotide binding","30/1565","377/22710",0.231001562483798,0.231001562483798,0.534023402730364,"Tuba4a/Dnm3/Tubb4b/Rp2/Gspt2/Cplane2/Gnai1/Rasl11b/Sept11/Ran/Rasl2-9/Rasl11a/Rtkn/Ehd3/Ehd2/Tube1/Sept10/Gnao1/Tubb3/Cgas/Tubg1/H1f4/Atl1/Spag1/Rnd1/Tuba1b/Tuba1c/Srl/Sept5/Tubb5",30
+"GO:0042805","actinin binding","5/1565","48/22710",0.234000194477512,0.234000194477512,0.539485574224469,"Csrp1/Trpc5/Alms1/Csrp2/Nrap",5
+"GO:0008236","serine-type peptidase activity","17/1565","204/22710",0.242147780377128,0.242147780377128,0.55543306330303,"Prss56/2210010C04Rik/Prss57/Plau/Cma1/Gzmf/Gzmc/Gzmb/Tmprss13/Tmprss11c/Cpd/Rhbdl3/Gzma/Gzmk/Prss27/C2/Cfb",17
+"GO:0051087","chaperone binding","9/1565","99/22710",0.242226701924336,0.242226701924336,0.55543306330303,"Atp1a2/Lbr/Fnip2/Atp1a3/Ptges3/Cdc25a/Birc5/Sdf2l1/Stip1",9
+"GO:0016798","hydrolase activity, acting on glycosyl bonds","11/1565","125/22710",0.243182304205591,0.243182304205591,0.556121257454126,"Chit1/Pcna/Chil5/Chia1/Mutyh/Man1c1/Ung/Mbd4/Neil3/Hyal1/Dnph1",11
+"GO:0001671","ATPase activator activity","3/1565","25/22710",0.245956223721535,0.245956223721535,0.556669841792609,"Atp1b1/Ncaph/Atp1b2",3
+"GO:0035586","purinergic receptor activity","3/1565","25/22710",0.245956223721535,0.245956223721535,0.556669841792609,"P2ry13/P2ry12/P2ry1",3
+"GO:0030544","Hsp70 protein binding","5/1565","49/22710",0.247075537796228,0.247075537796228,0.556669841792609,"Stau2/Nup62/Cd24a/Cdk1/Stip1",5
+"GO:0043394","proteoglycan binding","4/1565","37/22710",0.249379394214768,0.249379394214768,0.556669841792609,"Ctsk/Pla2g2d/Atp1a3/Itgam",4
+"GO:0005024","transforming growth factor beta-activated receptor activity","2/1565","14/22710",0.250639560281064,0.250639560281064,0.556669841792609,"Tgfbr1/Acvr1b",2
+"GO:0005161","platelet-derived growth factor receptor binding","2/1565","14/22710",0.250639560281064,0.250639560281064,0.556669841792609,"Il1r1/Vegfa",2
+"GO:0005344","oxygen carrier activity","2/1565","14/22710",0.250639560281064,0.250639560281064,0.556669841792609,"Hba-a1/Ngb",2
+"GO:0015172","acidic amino acid transmembrane transporter activity","2/1565","14/22710",0.250639560281064,0.250639560281064,0.556669841792609,"Slc17a7/Slc1a1",2
+"GO:0016595","glutamate binding","2/1565","14/22710",0.250639560281064,0.250639560281064,0.556669841792609,"Grin2d/Slc1a1",2
+"GO:0030021","extracellular matrix structural constituent conferring compression resistance","2/1565","14/22710",0.250639560281064,0.250639560281064,0.556669841792609,"Aspn/Vcan",2
+"GO:0042043","neurexin family protein binding","2/1565","14/22710",0.250639560281064,0.250639560281064,0.556669841792609,"Cask/Sytl2",2
+"GO:0016722","oxidoreductase activity, oxidizing metal ions","3/1565","26/22710",0.264966217501385,0.264966217501385,0.585424263448784,"Steap3/Cyb561/Fxn",3
+"GO:0031435","mitogen-activated protein kinase kinase kinase binding","3/1565","26/22710",0.264966217501385,0.264966217501385,0.585424263448784,"Dab2ip/Cav2/Marveld3",3
+"GO:0005178","integrin binding","11/1565","128/22710",0.267546388548983,0.267546388548983,0.589589580780534,"Frmd5/L1cam/Vcam1/Emilin1/Adam8/Ccn6/Jam3/Thy1/Cib2/Esm1/Itga2",11
+"GO:0005548","phospholipid transporter activity","5/1565","51/22710",0.273751241059167,0.273751241059167,0.59330722522003,"Prelid3b/Gltp/C2cd2l/Pctp/Abcb1a",5
+"GO:0030170","pyridoxal phosphate binding","5/1565","51/22710",0.273751241059167,0.273751241059167,0.59330722522003,"Cth/Gpt2/Shmt1/Gcat/Pygm",5
+"GO:0017171","serine hydrolase activity","17/1565","209/22710",0.273841960008469,0.273841960008469,0.59330722522003,"Prss56/2210010C04Rik/Prss57/Plau/Cma1/Gzmf/Gzmc/Gzmb/Tmprss13/Tmprss11c/Cpd/Rhbdl3/Gzma/Gzmk/Prss27/C2/Cfb",17
+"GO:0022838","substrate-specific channel activity","32/1565","414/22710",0.274412416005994,0.274412416005994,0.59330722522003,"Tmem37/Cacna1s/Clic3/Kcna4/Trpc5/Kcnab1/Kcnd3/Gabrr1/Kcnh2/Lrrc8b/Abcc9/Kcnk7/Kcnk6/Scn1b/Slc17a7/Grin2d/Xntrpc/Pidd1/Hcn2/Mip/Gas6/Pkd1l3/Kcnk1/Trpc1/Slc1a4/Kcnab3/Cacna1i/Cacnb3/Clic5/Kcnk4/Trpm3/Kcnip2",32
+"GO:0001972","retinoic acid binding","2/1565","15/22710",0.276925779314858,0.276925779314858,0.59330722522003,"Rxra/Fabp5",2
+"GO:0004089","carbonate dehydratase activity","2/1565","15/22710",0.276925779314858,0.276925779314858,0.59330722522003,"Car13/Car5a",2
+"GO:0005172","vascular endothelial growth factor receptor binding","2/1565","15/22710",0.276925779314858,0.276925779314858,0.59330722522003,"Dab2ip/Vegfa",2
+"GO:0010181","FMN binding","2/1565","15/22710",0.276925779314858,0.276925779314858,0.59330722522003,"Nos3/Nos1",2
+"GO:0016805","dipeptidase activity","2/1565","15/22710",0.276925779314858,0.276925779314858,0.59330722522003,"Scrn3/Naalad2",2
+"GO:0019215","intermediate filament binding","2/1565","15/22710",0.276925779314858,0.276925779314858,0.59330722522003,"Vim/Evpl",2
+"GO:0043176","amine binding","2/1565","15/22710",0.276925779314858,0.276925779314858,0.59330722522003,"Maoa/Hmbs",2
+"GO:0005048","signal sequence binding","4/1565","39/22710",0.280492903024775,0.280492903024775,0.596431288320719,"Lbr/Kdelr2/Kpna2/Kdelr3",4
+"GO:0015144","carbohydrate transmembrane transporter activity","4/1565","39/22710",0.280492903024775,0.280492903024775,0.596431288320719,"Mfsd4b5/Gm5134/Slc23a1/Slc23a2",4
+"GO:0060590","ATPase regulator activity","4/1565","39/22710",0.280492903024775,0.280492903024775,0.596431288320719,"Atp1b1/Ncaph/Fnip2/Atp1b2",4
+"GO:0005216","ion channel activity","31/1565","402/22710",0.282757720645749,0.282757720645749,0.598194277794155,"Tmem37/Cacna1s/Clic3/Kcna4/Trpc5/Kcnab1/Kcnd3/Gabrr1/Kcnh2/Lrrc8b/Abcc9/Kcnk7/Kcnk6/Scn1b/Slc17a7/Grin2d/Xntrpc/Pidd1/Hcn2/Gas6/Pkd1l3/Kcnk1/Trpc1/Slc1a4/Kcnab3/Cacna1i/Cacnb3/Clic5/Kcnk4/Trpm3/Kcnip2",31
+"GO:0005085","guanyl-nucleotide exchange factor activity","16/1565","197/22710",0.28379000554934,0.28379000554934,0.598194277794155,"Mycbp2/Fgd1/Ect2/Dennd2c/Rcc1/Dennd5a/Psd3/Dock5/Dis3/Rapgefl1/Plekhg3/Rapgef5/Dennd3/Tiam1/Arhgef33/Rasgrp2",16
+"GO:0005070","SH3/SH2 adaptor activity","3/1565","27/22710",0.284142281952223,0.284142281952223,0.598194277794155,"Nck2/Ptpn11/Sh2b2",3
+"GO:0051537","2 iron, 2 sulfur cluster binding","3/1565","27/22710",0.284142281952223,0.284142281952223,0.598194277794155,"Aox1/Cisd1/Fxn",3
+"GO:0070279","vitamin B6 binding","5/1565","52/22710",0.287309028076652,0.287309028076652,0.603363930770666,"Cth/Gpt2/Shmt1/Gcat/Pygm",5
+"GO:0042056","chemoattractant activity","4/1565","40/22710",0.296271176131011,0.296271176131011,0.617345921318509,"Hmgb2/Lgals3/Ccl5/Vegfa",4
+"GO:0051213","dioxygenase activity","8/1565","92/22710",0.300252441801201,0.300252441801201,0.617345921318509,"Ptgs1/Asph/Hpdl/P3h3/Asphd1/Bco1/Alox8/Ogfod3",8
+"GO:0004860","protein kinase inhibitor activity","5/1565","53/22710",0.300985391378922,0.300985391378922,0.617345921318509,"Pkig/Cdkn2a/Cdkn2c/Camk2n2/Cdkn1a",5
+"GO:0000146","microfilament motor activity","2/1565","16/22710",0.30314994986637,0.30314994986637,0.617345921318509,"Myh10/Myo1d",2
+"GO:0004953","icosanoid receptor activity","2/1565","16/22710",0.30314994986637,0.30314994986637,0.617345921318509,"Ptgir/Ltb4r1",2
+"GO:0005416","amino acid:cation symporter activity","2/1565","16/22710",0.30314994986637,0.30314994986637,0.617345921318509,"Slc6a8/Slc1a1",2
+"GO:0015271","outward rectifier potassium channel activity","2/1565","16/22710",0.30314994986637,0.30314994986637,0.617345921318509,"Kcnd3/Kcnip2",2
+"GO:0016018","cyclosporin A binding","2/1565","16/22710",0.30314994986637,0.30314994986637,0.617345921318509,"Ppih/Ppil1",2
+"GO:0016863","intramolecular oxidoreductase activity, transposing C=C bonds","2/1565","16/22710",0.30314994986637,0.30314994986637,0.617345921318509,"Dct/Idi1",2
+"GO:0051010","microtubule plus-end binding","2/1565","16/22710",0.30314994986637,0.30314994986637,0.617345921318509,"Kif18a/Kif2c",2
+"GO:0005520","insulin-like growth factor binding","3/1565","28/22710",0.303426286265915,0.303426286265915,0.617345921318509,"Igfbp7/Ccn6/Esm1",3
+"GO:0033612","receptor serine/threonine kinase binding","3/1565","28/22710",0.303426286265915,0.303426286265915,0.617345921318509,"Bmp8a/Neo1/Tdgf1",3
+"GO:0043325","phosphatidylinositol-3,4-bisphosphate binding","3/1565","28/22710",0.303426286265915,0.303426286265915,0.617345921318509,"Plekha4/Adap2/Plek2",3
+"GO:0032266","phosphatidylinositol-3-phosphate binding","4/1565","41/22710",0.312154225142064,0.312154225142064,0.632816887676426,"Dab2ip/Plekhf1/Plekha4/Plek2",4
+"GO:0005253","anion channel activity","7/1565","80/22710",0.312990198058266,0.312990198058266,0.632816887676426,"Clic3/Gabrr1/Lrrc8b/Slc17a7/Pidd1/Slc1a4/Clic5",7
+"GO:0005262","calcium channel activity","10/1565","120/22710",0.313598313235117,0.313598313235117,0.632816887676426,"Tmem37/Cacna1s/Trpc5/Grin2d/Xntrpc/Gas6/Pkd1l3/Trpc1/Cacna1i/Cacnb3",10
+"GO:0045296","cadherin binding","6/1565","67/22710",0.31459484750791,0.31459484750791,0.632816887676426,"Tbc1d2/Ctnnal1/Nos3/Neo1/Jup/Ctnnd2",6
+"GO:0004601","peroxidase activity","5/1565","54/22710",0.314759665346748,0.314759665346748,0.632816887676426,"Mgst3/Ptgs1/Prdx4/Hba-a1/Gpx8",5
+"GO:0005261","cation channel activity","24/1565","312/22710",0.317435068846975,0.317435068846975,0.636686986414487,"Tmem37/Cacna1s/Kcna4/Trpc5/Kcnab1/Kcnd3/Kcnh2/Abcc9/Kcnk7/Kcnk6/Scn1b/Grin2d/Xntrpc/Hcn2/Gas6/Pkd1l3/Kcnk1/Trpc1/Kcnab3/Cacna1i/Cacnb3/Kcnk4/Trpm3/Kcnip2",24
+"GO:0016702","oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen","3/1565","29/22710",0.322763525538914,0.322763525538914,0.643540772619985,"Hpdl/Bco1/Alox8",3
+"GO:0035254","glutamate receptor binding","6/1565","68/22710",0.326972304077708,0.326972304077708,0.643540772619985,"Il1r1/Dnm3/Rapsn/Map1a/Ptpn5/Neto2",6
+"GO:0004180","carboxypeptidase activity","4/1565","42/22710",0.328111137479499,0.328111137479499,0.643540772619985,"Naalad2/Aebp1/Cpd/Naaladl1",4
+"GO:0004521","endoribonuclease activity","5/1565","55/22710",0.328611565519562,0.328611565519562,0.643540772619985,"Rnaseh2b/Dbr1/Dgcr8/Fen1/Rpp30",5
+"GO:0045309","protein phosphorylated amino acid binding","5/1565","55/22710",0.328611565519562,0.328611565519562,0.643540772619985,"Nck2/Ptpn11/Cblc/Ptpn5/Shd",5
+"GO:0004675","transmembrane receptor protein serine/threonine kinase activity","2/1565","17/22710",0.3291958567633,0.3291958567633,0.643540772619985,"Tgfbr1/Acvr1b",2
+"GO:0016881","acid-amino acid ligase activity","2/1565","17/22710",0.3291958567633,0.3291958567633,0.643540772619985,"Paics/Ttll8",2
+"GO:0043295","glutathione binding","2/1565","17/22710",0.3291958567633,0.3291958567633,0.643540772619985,"Gstm5/Gsr",2
+"GO:0046703","natural killer cell lectin-like receptor binding","2/1565","17/22710",0.3291958567633,0.3291958567633,0.643540772619985,"Ulbp1/H60b",2
+"GO:0070492","oligosaccharide binding","2/1565","17/22710",0.3291958567633,0.3291958567633,0.643540772619985,"Lgals3/Lgals1",2
+"GO:1900750","oligopeptide binding","2/1565","17/22710",0.3291958567633,0.3291958567633,0.643540772619985,"Gstm5/Gsr",2
+"GO:0003712","transcription coregulator activity","34/1565","454/22710",0.331568324017658,0.331568324017658,0.646688612603103,"Ptpn14/Fam129b/Sox12/Lpin3/Cited1/Jade1/Med12l/Pmf1/Casp8ap2/Tle1/Med18/Wnt4/Ezh2/Nanog/E2f8/Nupr1/Tle2/Tle6/E2f7/Rbpms/Hmgb2/Sfmbt1/Cenpj/Aebp1/Tada2a/Jup/Psmc3ip/Brca1/Gmnn/Foxc1/Basp1/Rbbp8/Hsbp1l1/Rcor2",34
+"GO:0016701","oxidoreductase activity, acting on single donors with incorporation of molecular oxygen","3/1565","30/22710",0.342102785728937,0.342102785728937,0.662832864671423,"Hpdl/Bco1/Alox8",3
+"GO:1901682","sulfur compound transmembrane transporter activity","3/1565","30/22710",0.342102785728937,0.342102785728937,0.662832864671423,"Slc19a2/Slc25a10/Slc1a1",3
+"GO:0015291","secondary active transmembrane transporter activity","18/1565","233/22710",0.342189522319825,0.342189522319825,0.662832864671423,"Slc12a5/Slc6a8/Atp1a3/Slc17a7/Slc16a10/Gm5134/Mfsd12/Slc9a5/Slc12a4/Slc6a20a/Slc1a4/Slc18a1/Slc25a10/Mfsd2b/Slc10a1/Slc23a1/Slc23a2/Slc1a1",18
+"GO:0035255","ionotropic glutamate receptor binding","4/1565","43/22710",0.344112127291933,0.344112127291933,0.664464136022838,"Il1r1/Rapsn/Map1a/Neto2",4
+"GO:0016247","channel regulator activity","11/1565","137/22710",0.344598025877849,0.344598025877849,0.664464136022838,"Snta1/Kcnab1/Ywhah/Nos1/Stx1a/Abcc9/Scn1b/Lynx1/Cacnb3/Cnih2/Kcnip2",11
+"GO:0009055","electron transfer activity","6/1565","70/22710",0.35190050123177,0.35190050123177,0.675474646327237,"Aox1/AA467197/Cox4i2/Txnrd3/Gsr/Glrx",6
+"GO:0016597","amino acid binding","6/1565","70/22710",0.35190050123177,0.35190050123177,0.675474646327237,"Padi4/Nos3/Grin2d/Shmt1/Ddah2/Slc1a1",6
+"GO:0004550","nucleoside diphosphate kinase activity","2/1565","18/22710",0.354963577581522,0.354963577581522,0.676760836264237,"Dtymk/Nme6",2
+"GO:0016208","AMP binding","2/1565","18/22710",0.354963577581522,0.354963577581522,0.676760836264237,"H1f4/Pygm",2
+"GO:0055106","ubiquitin-protein transferase regulator activity","2/1565","18/22710",0.354963577581522,0.354963577581522,0.676760836264237,"Cdkn2a/Fbxo5",2
+"GO:0008276","protein methyltransferase activity","7/1565","84/22710",0.358404554330167,0.358404554330167,0.68026391331712,"Suv39h2/Wdr5/Suv39h1/Nsd2/Ezh2/Pcmt1/Suz12",7
+"GO:0038024","cargo receptor activity","7/1565","84/22710",0.358404554330167,0.358404554330167,0.68026391331712,"Lrp8/Scarb1/Enpp3/Lrp1/Tmprss13/Cxcl16/Scarf2",7
+"GO:0001968","fibronectin binding","3/1565","31/22710",0.36139636550468,0.36139636550468,0.6844113500864,"Ctsk/Fstl3/Vegfa",3
+"GO:0016684","oxidoreductase activity, acting on peroxide as acceptor","5/1565","58/22710",0.370437173146809,0.370437173146809,0.698237491693475,"Mgst3/Ptgs1/Prdx4/Hba-a1/Gpx8",5
+"GO:0019210","kinase inhibitor activity","5/1565","58/22710",0.370437173146809,0.370437173146809,0.698237491693475,"Pkig/Cdkn2a/Cdkn2c/Camk2n2/Cdkn1a",5
+"GO:0005201","extracellular matrix structural constituent","11/1565","140/22710",0.371166071111748,0.371166071111748,0.698237491693475,"Lamc1/Emilin1/Igfbp7/Spon1/Col23a1/Ntn1/Aspn/Vcan/Creld2/Muc4/Col11a2",11
+"GO:0016741","transferase activity, transferring one-carbon groups","16/1565","210/22710",0.375668020965019,0.375668020965019,0.698937456925799,"Suv39h2/Wdr5/Gatm/Suv39h1/Henmt1/Tyms/Nsd2/Ezh2/Tomt/Pcmt1/Prdm1/Gamt/Dnmt1/Shmt1/Suz12/Tfb1m",16
+"GO:0005044","scavenger receptor activity","4/1565","45/22710",0.376133273480354,0.376133273480354,0.698937456925799,"Enpp3/Tmprss13/Cxcl16/Scarf2",4
+"GO:0042626","ATPase activity, coupled to transmembrane movement of substances","9/1565","113/22710",0.376523311053965,0.376523311053965,0.698937456925799,"Atp6v1g3/Atp1b1/Atp1a2/Abcc9/Atp1a3/Atp1b2/Atp6v0a1/Cpox/Abcb1a",9
+"GO:0005088","Ras guanyl-nucleotide exchange factor activity","10/1565","127/22710",0.378574322265587,0.378574322265587,0.698937456925799,"Fgd1/Ect2/Dennd2c/Rcc1/Dennd5a/Plekhg3/Rapgef5/Dennd3/Tiam1/Arhgef33",10
+"GO:0008139","nuclear localization sequence binding","2/1565","19/22710",0.38036779134182,0.38036779134182,0.698937456925799,"Lbr/Kpna2",2
+"GO:0015035","protein disulfide oxidoreductase activity","2/1565","19/22710",0.38036779134182,0.38036779134182,0.698937456925799,"Txnrd3/Glrx",2
+"GO:0016500","protein-hormone receptor activity","2/1565","19/22710",0.38036779134182,0.38036779134182,0.698937456925799,"Lgr4/Tshr",2
+"GO:0038191","neuropilin binding","2/1565","19/22710",0.38036779134182,0.38036779134182,0.698937456925799,"Sema4a/Vegfa",2
+"GO:0047555","3',5'-cyclic-GMP phosphodiesterase activity","2/1565","19/22710",0.38036779134182,0.38036779134182,0.698937456925799,"Pde8a/Pde9a",2
+"GO:0004364","glutathione transferase activity","3/1565","32/22710",0.3806000618421,0.3806000618421,0.698937456925799,"Mgst3/Gstm5/Gsto2",3
+"GO:0030507","spectrin binding","3/1565","32/22710",0.3806000618421,0.3806000618421,0.698937456925799,"Sptbn5/Camsap3/Myo10",3
+"GO:0043492","ATPase activity, coupled to movement of substances","9/1565","114/22710",0.386494777979966,0.386494777979966,0.70822960339173,"Atp6v1g3/Atp1b1/Atp1a2/Abcc9/Atp1a3/Atp1b2/Atp6v0a1/Cpox/Abcb1a",9
+"GO:0072341","modified amino acid binding","8/1565","101/22710",0.395031432510159,0.395031432510159,0.720955559132559,"Gstm5/Tyms/Scarb1/Hmgb1/Sytl2/Gas6/Gsr/Dhfr",8
+"GO:0047485","protein N-terminus binding","10/1565","129/22710",0.39740731496457,0.39740731496457,0.720955559132559,"Dab2ip/Suv39h1/Cdkn2a/Lrp8/Rpa2/Stx1a/Glrx/Slc9a3r2/Banf1/Kcnip2",10
+"GO:0005164","tumor necrosis factor receptor binding","3/1565","33/22710",0.399673125397898,0.399673125397898,0.720955559132559,"Fasl/Trim37/Siva1",3
+"GO:0008200","ion channel inhibitor activity","3/1565","33/22710",0.399673125397898,0.399673125397898,0.720955559132559,"Stx1a/Scn1b/Lynx1",3
+"GO:0015175","neutral amino acid transmembrane transporter activity","3/1565","33/22710",0.399673125397898,0.399673125397898,0.720955559132559,"Slc6a20a/Slc1a4/Slc1a1",3
+"GO:0016831","carboxy-lyase activity","3/1565","33/22710",0.399673125397898,0.399673125397898,0.720955559132559,"Paics/Acod1/Umps",3
+"GO:0016782","transferase activity, transferring sulfur-containing groups","6/1565","74/22710",0.402065305294585,0.402065305294585,0.720955559132559,"Oxct2a/Oxct1/Tpst1/Sult2b1/Ust/Hs3st6",6
+"GO:0022804","active transmembrane transporter activity","26/1565","355/22710",0.402560398266272,0.402560398266272,0.720955559132559,"Atp6v1g3/Atp1b1/Atp1a2/Slc12a5/Slc6a8/Abcc9/Atp1a3/Slc17a7/Slc16a10/Gm5134/Mfsd12/Slc9a5/Slc12a4/Slc6a20a/Slc1a4/Atp1b2/Atp6v0a1/Slc18a1/Slc25a10/Mfsd2b/Slc10a1/Cpox/Abcb1a/Slc23a1/Slc23a2/Slc1a1",26
+"GO:0005126","cytokine receptor binding","24/1565","327/22710",0.404550457851752,0.404550457851752,0.720955559132559,"Il17f/Il10/Fasl/Lefty1/Dab2ip/Il12a/S100a14/Tgfbr1/Bmp8a/Rasl11b/Pf4/Il11/Socs2/Crlf1/Nol3/Cxcl16/Ccl1/Ccl5/Ccl3/Ccl4/Trim37/Nup85/Siva1/Vegfa",24
+"GO:0004602","glutathione peroxidase activity","2/1565","20/22710",0.405336242705855,0.405336242705855,0.720955559132559,"Mgst3/Gpx8",2
+"GO:0005242","inward rectifier potassium channel activity","2/1565","20/22710",0.405336242705855,0.405336242705855,0.720955559132559,"Kcnh2/Kcnk1",2
+"GO:0005385","zinc ion transmembrane transporter activity","2/1565","20/22710",0.405336242705855,0.405336242705855,0.720955559132559,"Slc39a8/Slc39a2",2
+"GO:0017049","GTP-Rho binding","2/1565","20/22710",0.405336242705855,0.405336242705855,0.720955559132559,"Rtkn/Anln",2
+"GO:0043274","phospholipase binding","2/1565","20/22710",0.405336242705855,0.405336242705855,0.720955559132559,"Ptpn11/Lmnb1",2
+"GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups","5/1565","61/22710",0.41227972005191,0.41227972005191,0.731771535701033,"Mgst3/Gstm5/Nans/Hmbs/Gsto2",5
+"GO:0015171","amino acid transmembrane transporter activity","6/1565","75/22710",0.414594288453887,0.414594288453887,0.734343471033585,"Slc6a8/Slc17a7/Slc16a10/Slc6a20a/Slc1a4/Slc1a1",6
+"GO:0008170","N-methyltransferase activity","7/1565","89/22710",0.415812566573119,0.415812566573119,0.734966948811259,"Suv39h2/Wdr5/Suv39h1/Nsd2/Ezh2/Suz12/Tfb1m",7
+"GO:0005310","dicarboxylic acid transmembrane transporter activity","3/1565","34/22710",0.41857819095439,0.41857819095439,0.735259936600716,"Slc17a7/Slc25a10/Slc1a1",3
+"GO:0031624","ubiquitin conjugating enzyme binding","3/1565","34/22710",0.41857819095439,0.41857819095439,0.735259936600716,"Siah1b/Rnf144b/Rnf144a",3
+"GO:0051019","mitogen-activated protein kinase binding","3/1565","34/22710",0.41857819095439,0.41857819095439,0.735259936600716,"Stau2/Mapkapk5/Ptpn5",3
+"GO:0070851","growth factor receptor binding","11/1565","146/22710",0.424839153231812,0.424839153231812,0.739672314985738,"Il1r1/Cnot9/Il10/Dab2ip/Il12a/Il11/Cblc/Esm1/Tnk2/Vegfa/Hbegf",11
+"GO:0001871","pattern binding","2/1565","21/22710",0.429808348292271,0.429808348292271,0.739672314985738,"Stbd1/Enpp3",2
+"GO:0005248","voltage-gated sodium channel activity","2/1565","21/22710",0.429808348292271,0.429808348292271,0.739672314985738,"Scn1b/Hcn2",2
+"GO:0005540","hyaluronic acid binding","2/1565","21/22710",0.429808348292271,0.429808348292271,0.739672314985738,"Hmmr/Vcan",2
+"GO:0008327","methyl-CpG binding","2/1565","21/22710",0.429808348292271,0.429808348292271,0.739672314985738,"Dnmt1/Uhrf1",2
+"GO:0016641","oxidoreductase activity, acting on the CH-NH2 group of donors, oxygen as acceptor","2/1565","21/22710",0.429808348292271,0.429808348292271,0.739672314985738,"Maoa/Vcam1",2
+"GO:0030247","polysaccharide binding","2/1565","21/22710",0.429808348292271,0.429808348292271,0.739672314985738,"Stbd1/Enpp3",2
+"GO:0031690","adrenergic receptor binding","2/1565","21/22710",0.429808348292271,0.429808348292271,0.739672314985738,"Uchl1/Aplp1",2
+"GO:0035259","glucocorticoid receptor binding","2/1565","21/22710",0.429808348292271,0.429808348292271,0.739672314985738,"Ywhah/Psmc3ip",2
+"GO:0044183","protein binding involved in protein folding","2/1565","21/22710",0.429808348292271,0.429808348292271,0.739672314985738,"Calr3/Hspa1l",2
+"GO:0008083","growth factor activity","11/1565","147/22710",0.433798989872103,0.433798989872103,0.743523627510717,"Lefty1/Il12a/Prok1/Bmp8a/Il11/Ccn6/Tdgf1/Jag2/Vegfa/Nrtn/Hbegf",11
+"GO:0008757","S-adenosylmethionine-dependent methyltransferase activity","11/1565","147/22710",0.433798989872103,0.433798989872103,0.743523627510717,"Suv39h2/Wdr5/Suv39h1/Nsd2/Ezh2/Tomt/Pcmt1/Gamt/Dnmt1/Suz12/Tfb1m",11
+"GO:0015405","P-P-bond-hydrolysis-driven transmembrane transporter activity","9/1565","119/22710",0.436433606033848,0.436433606033848,0.746475986832179,"Atp6v1g3/Atp1b1/Atp1a2/Abcc9/Atp1a3/Atp1b2/Atp6v0a1/Cpox/Abcb1a",9
+"GO:0016248","channel inhibitor activity","3/1565","35/22710",0.437281187571729,0.437281187571729,0.746475986832179,"Stx1a/Scn1b/Lynx1",3
+"GO:0016747","transferase activity, transferring acyl groups other than amino-acyl groups","17/1565","233/22710",0.439806101539534,0.439806101539534,0.749278625746913,"Mogat1/Nmt2/Wdr5/Hat1/Pole3/Meaf6/Brca2/Dpf1/Esco2/Elovl4/Acaa1b/Tada2a/Elovl7/Gcat/Acat2/Naa40/Taf5",17
+"GO:0042562","hormone binding","8/1565","106/22710",0.448254196780449,0.448254196780449,0.757936822392002,"Slc40a1/Atp1a2/Sult2b1/Mc1r/C2cd2l/Ucn2/Chrm3/Glp1r",8
+"GO:0042277","peptide binding","22/1565","306/22710",0.450121681151547,0.450121681151547,0.757936822392002,"Slc40a1/Lbr/Rxra/Gstm5/Lrp8/Ppih/Dlgap3/Fbxo2/Scarb1/Kdelr2/Atp1a3/Kiss1r/Gsr/Tubb3/Cma1/C2cd2l/Kpna2/Itga2/Kdelr3/Ppil1/Glp1r/H2-Q10",22
+"GO:0019865","immunoglobulin binding","2/1565","22/22710",0.453733932837625,0.453733932837625,0.757936822392002,"Fcer1g/Lgals3",2
+"GO:0022829","wide pore channel activity","2/1565","22/22710",0.453733932837625,0.453733932837625,0.757936822392002,"Gja5/Prf1",2
+"GO:0070530","K63-linked polyubiquitin modification-dependent protein binding","2/1565","22/22710",0.453733932837625,0.453733932837625,0.757936822392002,"Zranb3/Rnf168",2
+"GO:0001221","transcription cofactor binding","4/1565","50/22710",0.455116594005025,0.455116594005025,0.757936822392002,"Nek6/Tead2/Foxc1/Six1",4
+"GO:0005245","voltage-gated calcium channel activity","4/1565","50/22710",0.455116594005025,0.455116594005025,0.757936822392002,"Cacna1s/Gas6/Cacna1i/Cacnb3",4
+"GO:0016830","carbon-carbon lyase activity","4/1565","50/22710",0.455116594005025,0.455116594005025,0.757936822392002,"Paics/Acod1/Shmt1/Umps",4
+"GO:0071949","FAD binding","3/1565","36/22710",0.455751232495541,0.455751232495541,0.757936822392002,"Aox1/Sqor/Acoxl",3
+"GO:0015399","primary active transmembrane transporter activity","9/1565","121/22710",0.456329223802529,0.456329223802529,0.757936822392002,"Atp6v1g3/Atp1b1/Atp1a2/Abcc9/Atp1a3/Atp1b2/Atp6v0a1/Cpox/Abcb1a",9
+"GO:0042826","histone deacetylase binding","9/1565","121/22710",0.456329223802529,0.456329223802529,0.757936822392002,"Insm1/Ddx20/Prdm1/Dnmt1/Top2a/Kpna2/Gmnn/Cbx5/Rad9a",9
+"GO:0043621","protein self-association","5/1565","65/22710",0.467316869644704,0.467316869644704,0.757936822392002,"Sptbn5/Lzts3/L1cam/Gpsm2/Ccl5",5
+"GO:0019783","ubiquitin-like protein-specific protease activity","8/1565","108/22710",0.46936823355329,0.46936823355329,0.757936822392002,"Usp37/Alg13/Usp1/Uchl1/Ufsp1/Usp2/Usp53/Ggnbp1",8
+"GO:0015085","calcium ion transmembrane transporter activity","10/1565","137/22710",0.472679612562436,0.472679612562436,0.757936822392002,"Tmem37/Cacna1s/Trpc5/Grin2d/Xntrpc/Gas6/Pkd1l3/Trpc1/Cacna1i/Cacnb3",10
+"GO:0003899","DNA-directed 5'-3' RNA polymerase activity","3/1565","37/22710",0.473960512343844,0.473960512343844,0.757936822392002,"Prim2/Prim1/Primpol",3
+"GO:0017112","Rab guanyl-nucleotide exchange factor activity","3/1565","37/22710",0.473960512343844,0.473960512343844,0.757936822392002,"Dennd2c/Dennd5a/Dennd3",3
+"GO:0005546","phosphatidylinositol-4,5-bisphosphate binding","6/1565","80/22710",0.476567346358456,0.476567346358456,0.757936822392002,"Plekha4/Sytl2/Mtss2/Cgas/Adap2/Tulp1",6
+"GO:0016651","oxidoreductase activity, acting on NAD(P)H","6/1565","80/22710",0.476567346358456,0.476567346358456,0.757936822392002,"Nos3/Nos1/Txnrd3/Gsr/Nxn/Nnt",6
+"GO:0004129","cytochrome-c oxidase activity","2/1565","23/22710",0.47707208394216,0.47707208394216,0.757936822392002,"AA467197/Cox4i2",2
+"GO:0015002","heme-copper terminal oxidase activity","2/1565","23/22710",0.47707208394216,0.47707208394216,0.757936822392002,"AA467197/Cox4i2",2
+"GO:0016676","oxidoreductase activity, acting on a heme group of donors, oxygen as acceptor","2/1565","23/22710",0.47707208394216,0.47707208394216,0.757936822392002,"AA467197/Cox4i2",2
+"GO:0051787","misfolded protein binding","2/1565","23/22710",0.47707208394216,0.47707208394216,0.757936822392002,"Sdf2l1/Hspa1l",2
+"GO:0030276","clathrin binding","4/1565","52/22710",0.485822186118178,0.485822186118178,0.757936822392002,"Trpc5/Dnajc6/Nsg1/Lrp1",4
+"GO:0004712","protein serine/threonine/tyrosine kinase activity","3/1565","38/22710",0.491884154630099,0.491884154630099,0.757936822392002,"Dyrk3/Ttk/Tnk2",3
+"GO:0051721","protein phosphatase 2A binding","3/1565","38/22710",0.491884154630099,0.491884154630099,0.757936822392002,"Vim/Dab2ip/Cpd",3
+"GO:0033218","amide binding","26/1565","371/22710",0.493961593618011,0.493961593618011,0.757936822392002,"Slc40a1/Lbr/Rxra/Gstm5/Lrp8/Ppih/Dlgap3/Fbxo2/Tyms/Gltp/Scarb1/Kdelr2/Atp1a3/Kiss1r/Gsr/Tubb3/Cma1/C2cd2l/Kpna2/Srd5a1/Dhfr/Itga2/Kdelr3/Ppil1/Glp1r/H2-Q10",26
+"GO:0005355","glucose transmembrane transporter activity","2/1565","24/22710",0.499790115074206,0.499790115074206,0.757936822392002,"Mfsd4b5/Gm5134",2
+"GO:0015149","hexose transmembrane transporter activity","2/1565","24/22710",0.499790115074206,0.499790115074206,0.757936822392002,"Mfsd4b5/Gm5134",2
+"GO:0016628","oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor","2/1565","24/22710",0.499790115074206,0.499790115074206,0.757936822392002,"Lbr/Srd5a1",2
+"GO:0016638","oxidoreductase activity, acting on the CH-NH2 group of donors","2/1565","24/22710",0.499790115074206,0.499790115074206,0.757936822392002,"Maoa/Vcam1",2
+"GO:0016675","oxidoreductase activity, acting on a heme group of donors","2/1565","24/22710",0.499790115074206,0.499790115074206,0.757936822392002,"AA467197/Cox4i2",2
+"GO:0016769","transferase activity, transferring nitrogenous groups","2/1565","24/22710",0.499790115074206,0.499790115074206,0.757936822392002,"Gatm/Gpt2",2
+"GO:0048027","mRNA 5'-UTR binding","2/1565","24/22710",0.499790115074206,0.499790115074206,0.757936822392002,"Shmt1/Myh10",2
+"GO:0005160","transforming growth factor beta receptor binding","4/1565","53/22710",0.500910904056077,0.500910904056077,0.757936822392002,"Lefty1/Tgfbr1/Bmp8a/Rasl11b",4
+"GO:0005544","calcium-dependent phospholipid binding","4/1565","53/22710",0.500910904056077,0.500910904056077,0.757936822392002,"Cpne9/Cpne7/Cpne5/Anxa1",4
+"GO:0005254","chloride channel activity","5/1565","68/22710",0.507526499708067,0.507526499708067,0.757936822392002,"Clic3/Gabrr1/Slc17a7/Slc1a4/Clic5",5
+"GO:0008168","methyltransferase activity","14/1565","199/22710",0.507977873566388,0.507977873566388,0.757936822392002,"Suv39h2/Wdr5/Suv39h1/Henmt1/Tyms/Nsd2/Ezh2/Tomt/Pcmt1/Prdm1/Gamt/Dnmt1/Suz12/Tfb1m",14
+"GO:0034062","5'-3' RNA polymerase activity","3/1565","39/22710",0.509500092263876,0.509500092263876,0.757936822392002,"Prim2/Prim1/Primpol",3
+"GO:0044390","ubiquitin-like protein conjugating enzyme binding","3/1565","39/22710",0.509500092263876,0.509500092263876,0.757936822392002,"Siah1b/Rnf144b/Rnf144a",3
+"GO:0097747","RNA polymerase activity","3/1565","39/22710",0.509500092263876,0.509500092263876,0.757936822392002,"Prim2/Prim1/Primpol",3
+"GO:0004706","JUN kinase kinase kinase activity","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"Map3k13",1
+"GO:0004966","galanin receptor activity","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"Ltb4r1",1
+"GO:0005068","transmembrane receptor protein tyrosine kinase adaptor activity","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"Sh2b2",1
+"GO:0005347","ATP transmembrane transporter activity","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"Slc25a25",1
+"GO:0008046","axon guidance receptor activity","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"L1cam",1
+"GO:0008656","cysteine-type endopeptidase activator activity involved in apoptotic process","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"Casp8ap2",1
+"GO:0010857","calcium-dependent protein kinase activity","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"Mapkapk5",1
+"GO:0015378","sodium:chloride symporter activity","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"Slc18a1",1
+"GO:0015386","potassium:proton antiporter activity","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"Slc9a5",1
+"GO:0016868","intramolecular transferase activity, phosphotransferases","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"Pgm2l1",1
+"GO:0017070","U6 snRNA binding","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"Lsm3",1
+"GO:0019869","chloride channel inhibitor activity","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"Stx1a",1
+"GO:0019911","structural constituent of myelin sheath","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"Ncmap",1
+"GO:0031628","opioid receptor binding","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"Gnao1",1
+"GO:0031996","thioesterase binding","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"Haus7",1
+"GO:0033204","ribonuclease P RNA binding","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"Rpp30",1
+"GO:0034452","dynactin binding","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"Sptbn5",1
+"GO:0043208","glycosphingolipid binding","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"Lamc1",1
+"GO:0043995","histone acetyltransferase activity (H4-K5 specific)","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"Wdr5",1
+"GO:0043996","histone acetyltransferase activity (H4-K8 specific)","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"Wdr5",1
+"GO:0046972","histone acetyltransferase activity (H4-K16 specific)","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"Wdr5",1
+"GO:0050542","icosanoid binding","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"S100a9",1
+"GO:0050543","icosatetraenoic acid binding","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"S100a9",1
+"GO:0070990","snRNP binding","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"Snrpd1",1
+"GO:0071933","Arp2/3 complex binding","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"Snx9",1
+"GO:0140161","monocarboxylate:sodium symporter activity","1/1565","10/22710",0.510399512022569,0.510399512022569,0.757936822392002,"Slc10a1",1
+"GO:0140030","modification-dependent protein binding","13/1565","185/22710",0.512347613065785,0.512347613065785,0.757936822392002,"Ing5/Zranb3/Wdr5/Phf19/Rad18/Ncapd3/Suz12/Cbx2/Ncapg2/Cbx5/Rnf168/Uhrf1/Msh6",13
+"GO:0001102","RNA polymerase II activating transcription factor binding","4/1565","54/22710",0.515803003152823,0.515803003152823,0.757936822392002,"Tbr1/Rbl1/Rb1/Pou1f1",4
+"GO:0036459","thiol-dependent ubiquitinyl hydrolase activity","7/1565","98/22710",0.517318998210889,0.517318998210889,0.757936822392002,"Usp37/Alg13/Usp1/Uchl1/Usp2/Usp53/Ggnbp1",7
+"GO:0004181","metallocarboxypeptidase activity","2/1565","25/22710",0.521862627365743,0.521862627365743,0.757936822392002,"Aebp1/Cpd",2
+"GO:0005112","Notch binding","2/1565","25/22710",0.521862627365743,0.521862627365743,0.757936822392002,"Chac1/Jag2",2
+"GO:0005184","neuropeptide hormone activity","2/1565","25/22710",0.521862627365743,0.521862627365743,0.757936822392002,"Nppc/Cort",2
+"GO:0008307","structural constituent of muscle","2/1565","25/22710",0.521862627365743,0.521862627365743,0.757936822392002,"Csrp1/Csrp2",2
+"GO:0046625","sphingolipid binding","2/1565","25/22710",0.521862627365743,0.521862627365743,0.757936822392002,"Lamc1/Gltp",2
+"GO:0003725","double-stranded RNA binding","6/1565","84/22710",0.524712328502938,0.524712328502938,0.757936822392002,"Stau2/Vim/Tubb4b/Hmgb1/Tuba1b/Dgcr8",6
+"GO:0005272","sodium channel activity","3/1565","40/22710",0.526788923301675,0.526788923301675,0.757936822392002,"Scn1b/Hcn2/Kcnk1",3
+"GO:0101005","ubiquitinyl hydrolase activity","7/1565","99/22710",0.528244698275948,0.528244698275948,0.757936822392002,"Usp37/Alg13/Usp1/Uchl1/Usp2/Usp53/Ggnbp1",7
+"GO:0022839","ion gated channel activity","22/1565","319/22710",0.530482113033791,0.530482113033791,0.757936822392002,"Tmem37/Cacna1s/Clic3/Kcna4/Kcnab1/Kcnd3/Gabrr1/Kcnh2/Kcnk7/Scn1b/Slc17a7/Grin2d/Hcn2/Gas6/Kcnk1/Kcnab3/Cacna1i/Cacnb3/Clic5/Kcnk4/Tmem109/Kcnip2",22
+"GO:0005089","Rho guanyl-nucleotide exchange factor activity","5/1565","70/22710",0.533641960739661,0.533641960739661,0.757936822392002,"Fgd1/Ect2/Plekhg3/Tiam1/Arhgef33",5
+"GO:0017124","SH3 domain binding","9/1565","129/22710",0.534301090564824,0.534301090564824,0.757936822392002,"Dab2ip/Dnajc6/Cit/Cblc/Bcar1/Prkce/Dpysl3/Rad9a/Afap1l2",9
+"GO:0004709","MAP kinase kinase kinase activity","2/1565","26/22710",0.543270661521106,0.543270661521106,0.757936822392002,"Map3k20/Map3k13",2
+"GO:0017134","fibroblast growth factor binding","2/1565","26/22710",0.543270661521106,0.543270661521106,0.757936822392002,"Gpc1/Cep57",2
+"GO:0019825","oxygen binding","2/1565","26/22710",0.543270661521106,0.543270661521106,0.757936822392002,"Hba-a1/Ngb",2
+"GO:0046966","thyroid hormone receptor binding","2/1565","26/22710",0.543270661521106,0.543270661521106,0.757936822392002,"Nup62/Psmc3ip",2
+"GO:0050750","low-density lipoprotein particle receptor binding","2/1565","26/22710",0.543270661521106,0.543270661521106,0.757936822392002,"Hsp90b1/Slc9a3r2",2
+"GO:0005547","phosphatidylinositol-3,4,5-trisphosphate binding","3/1565","41/22710",0.543733767893224,0.543733767893224,0.757936822392002,"Adap1/Adap2/Racgap1",3
+"GO:0061631","ubiquitin conjugating enzyme activity","3/1565","41/22710",0.543733767893224,0.543733767893224,0.757936822392002,"Ube2t/Ube2e3/Ube2s",3
+"GO:0004526","ribonuclease P activity","1/1565","11/22710",0.544153906898547,0.544153906898547,0.757936822392002,"Rpp30",1
+"GO:0004955","prostaglandin receptor activity","1/1565","11/22710",0.544153906898547,0.544153906898547,0.757936822392002,"Ptgir",1
+"GO:0005221","intracellular cyclic nucleotide activated cation channel activity","1/1565","11/22710",0.544153906898547,0.544153906898547,0.757936822392002,"Hcn2",1
+"GO:0005451","monovalent cation:proton antiporter activity","1/1565","11/22710",0.544153906898547,0.544153906898547,0.757936822392002,"Slc9a5",1
+"GO:0008417","fucosyltransferase activity","1/1565","11/22710",0.544153906898547,0.544153906898547,0.757936822392002,"Fut4",1
+"GO:0015165","pyrimidine nucleotide-sugar transmembrane transporter activity","1/1565","11/22710",0.544153906898547,0.544153906898547,0.757936822392002,"Slc35b4",1
+"GO:0015250","water channel activity","1/1565","11/22710",0.544153906898547,0.544153906898547,0.757936822392002,"Mip",1
+"GO:0015355","secondary active monocarboxylate transmembrane transporter activity","1/1565","11/22710",0.544153906898547,0.544153906898547,0.757936822392002,"Slc10a1",1
+"GO:0015385","sodium:proton antiporter activity","1/1565","11/22710",0.544153906898547,0.544153906898547,0.757936822392002,"Slc9a5",1
+"GO:0016671","oxidoreductase activity, acting on a sulfur group of donors, disulfide as acceptor","1/1565","11/22710",0.544153906898547,0.544153906898547,0.757936822392002,"Glrx",1
+"GO:0030881","beta-2-microglobulin binding","1/1565","11/22710",0.544153906898547,0.544153906898547,0.757936822392002,"H2-Q10",1
+"GO:0034450","ubiquitin-ubiquitin ligase activity","1/1565","11/22710",0.544153906898547,0.544153906898547,0.757936822392002,"Anapc11",1
+"GO:0042610","CD8 receptor binding","1/1565","11/22710",0.544153906898547,0.544153906898547,0.757936822392002,"H2-Q10",1
+"GO:0043008","ATP-dependent protein binding","1/1565","11/22710",0.544153906898547,0.544153906898547,0.757936822392002,"Stx1a",1
+"GO:0043560","insulin receptor substrate binding","1/1565","11/22710",0.544153906898547,0.544153906898547,0.757936822392002,"Ptpn11",1
+"GO:0043855","cyclic nucleotide-gated ion channel activity","1/1565","11/22710",0.544153906898547,0.544153906898547,0.757936822392002,"Hcn2",1
+"GO:0046977","TAP binding","1/1565","11/22710",0.544153906898547,0.544153906898547,0.757936822392002,"H2-Q10",1
+"GO:0047372","acylglycerol lipase activity","1/1565","11/22710",0.544153906898547,0.544153906898547,0.757936822392002,"Mgll",1
+"GO:0051920","peroxiredoxin activity","1/1565","11/22710",0.544153906898547,0.544153906898547,0.757936822392002,"Prdx4",1
+"GO:0060229","lipase activator activity","1/1565","11/22710",0.544153906898547,0.544153906898547,0.757936822392002,"Ccl5",1
+"GO:0070410","co-SMAD binding","1/1565","11/22710",0.544153906898547,0.544153906898547,0.757936822392002,"Cited1",1
+"GO:0070411","I-SMAD binding","1/1565","11/22710",0.544153906898547,0.544153906898547,0.757936822392002,"Tgfbr1",1
+"GO:0008146","sulfotransferase activity","4/1565","56/22710",0.544943410144126,0.544943410144126,0.757936822392002,"Tpst1/Sult2b1/Ust/Hs3st6",4
+"GO:0008375","acetylglucosaminyltransferase activity","4/1565","56/22710",0.544943410144126,0.544943410144126,0.757936822392002,"Alg13/B3glct/Xylt1/Gcnt4",4
+"GO:0016627","oxidoreductase activity, acting on the CH-CH group of donors","4/1565","56/22710",0.544943410144126,0.544943410144126,0.757936822392002,"Lbr/Acoxl/Srd5a1/Cpox",4
+"GO:0008013","beta-catenin binding","6/1565","86/22710",0.548107656113507,0.548107656113507,0.761090138388296,"Med12l/Ptpru/Nos3/Ptprk/Ctnnd2/Slc9a3r2",6
+"GO:0008022","protein C-terminus binding","16/1565","234/22710",0.550193095694916,0.550193095694916,0.762737590523052,"Atp1b1/Rad51/Sptbn5/Mid1ip1/Cask/Cited1/Gpsm2/Brca2/Mad2l1/Mki67/Kpna3/Zbtb16/Top2a/Slc9a3r2/Banf1/Stip1",16
+"GO:0016874","ligase activity","10/1565","146/22710",0.554851856737606,0.554851856737606,0.764219666080221,"Dars2/Ctps/Uchl1/Paics/Lig1/Mthfd1l/Pfas/Aarsd1/Mthfd1/Ttll8",10
+"GO:0015179","L-amino acid transmembrane transporter activity","4/1565","57/22710",0.559167864951832,0.559167864951832,0.764219666080221,"Slc17a7/Slc6a20a/Slc1a4/Slc1a1",4
+"GO:0005109","frizzled binding","3/1565","42/22710",0.560320124078895,0.560320124078895,0.764219666080221,"Magi3/Wnt4/Bambi",3
+"GO:0015932","nucleobase-containing compound transmembrane transporter activity","3/1565","42/22710",0.560320124078895,0.560320124078895,0.764219666080221,"Slc25a25/Slc35b4/Slc29a1",3
+"GO:0008238","exopeptidase activity","7/1565","102/22710",0.56041862173892,0.56041862173892,0.764219666080221,"Scrn3/Uchl1/Ggt1/Naalad2/Aebp1/Cpd/Naaladl1",7
+"GO:0080025","phosphatidylinositol-3,5-bisphosphate binding","2/1565","27/22710",0.564000931886617,0.564000931886617,0.764219666080221,"Plekha4/Plek2",2
+"GO:0004620","phospholipase activity","6/1565","88/22710",0.570971312000995,0.570971312000995,0.764219666080221,"Plcd4/Pla2g2d/Ccr1/Ccl5/Plcd3/Lipg",6
+"GO:0000149","SNARE binding","8/1565","118/22710",0.571226052704859,0.571226052704859,0.764219666080221,"Syp/Stx1a/Cav2/Abcc9/Exoc3l/Cplx3/Sept5/Stx19",8
+"GO:0005342","organic acid transmembrane transporter activity","10/1565","148/22710",0.57245139365836,0.57245139365836,0.764219666080221,"Slc6a8/Slc17a7/Slc16a10/Slc6a20a/Slc1a4/Slc25a10/Slc10a1/Slc23a1/Slc23a2/Slc1a1",10
+"GO:0046943","carboxylic acid transmembrane transporter activity","10/1565","148/22710",0.57245139365836,0.57245139365836,0.764219666080221,"Slc6a8/Slc17a7/Slc16a10/Slc6a20a/Slc1a4/Slc25a10/Slc10a1/Slc23a1/Slc23a2/Slc1a1",10
+"GO:0016746","transferase activity, transferring acyl groups","18/1565","267/22710",0.573625673362568,0.573625673362568,0.764219666080221,"Mogat1/Nmt2/Wdr5/Hat1/Pole3/Meaf6/Brca2/Dpf1/Ggt1/Esco2/Elovl4/Acaa1b/Tada2a/Elovl7/Gcat/Acat2/Naa40/Taf5",18
+"GO:0051427","hormone receptor binding","12/1565","178/22710",0.574129776823771,0.574129776823771,0.764219666080221,"Nppc/Rxra/Pcna/Ptpn11/Ywhah/Nup62/Socs2/Gnao1/Dnmt1/Ucn2/Jup/Psmc3ip",12
+"GO:0004016","adenylate cyclase activity","1/1565","12/22710",0.575582566121586,0.575582566121586,0.764219666080221,"Adcy4",1
+"GO:0004115","3',5'-cyclic-AMP phosphodiesterase activity","1/1565","12/22710",0.575582566121586,0.575582566121586,0.764219666080221,"Pde8a",1
+"GO:0004596","peptide alpha-N-acetyltransferase activity","1/1565","12/22710",0.575582566121586,0.575582566121586,0.764219666080221,"Naa40",1
+"GO:0004954","prostanoid receptor activity","1/1565","12/22710",0.575582566121586,0.575582566121586,0.764219666080221,"Ptgir",1
+"GO:0005372","water transmembrane transporter activity","1/1565","12/22710",0.575582566121586,0.575582566121586,0.764219666080221,"Mip",1
+"GO:0005536","glucose binding","1/1565","12/22710",0.575582566121586,0.575582566121586,0.764219666080221,"Gck",1
+"GO:0015373","anion:sodium symporter activity","1/1565","12/22710",0.575582566121586,0.575582566121586,0.764219666080221,"Slc18a1",1
+"GO:0016505","peptidase activator activity involved in apoptotic process","1/1565","12/22710",0.575582566121586,0.575582566121586,0.764219666080221,"Casp8ap2",1
+"GO:0031543","peptidyl-proline dioxygenase activity","1/1565","12/22710",0.575582566121586,0.575582566121586,0.764219666080221,"P3h3",1
+"GO:0035256","G protein-coupled glutamate receptor binding","1/1565","12/22710",0.575582566121586,0.575582566121586,0.764219666080221,"Dnm3",1
+"GO:0036122","BMP binding","1/1565","12/22710",0.575582566121586,0.575582566121586,0.764219666080221,"Nbl1",1
+"GO:0043495","protein membrane anchor","1/1565","12/22710",0.575582566121586,0.575582566121586,0.764219666080221,"Rapsn",1
+"GO:0045294","alpha-catenin binding","1/1565","12/22710",0.575582566121586,0.575582566121586,0.764219666080221,"Jup",1
+"GO:0050700","CARD domain binding","1/1565","12/22710",0.575582566121586,0.575582566121586,0.764219666080221,"Card10",1
+"GO:0061629","RNA polymerase II sequence-specific DNA-binding transcription factor binding","1/1565","12/22710",0.575582566121586,0.575582566121586,0.764219666080221,"Nanog",1
+"GO:0061650","ubiquitin-like protein conjugating enzyme activity","3/1565","43/22710",0.576535723837917,0.576535723837917,0.764289133903555,"Ube2t/Ube2e3/Ube2s",3
+"GO:0004114","3',5'-cyclic-nucleotide phosphodiesterase activity","2/1565","28/22710",0.584045135395901,0.584045135395901,0.770631708486693,"Pde8a/Pde9a",2
+"GO:0071813","lipoprotein particle binding","2/1565","28/22710",0.584045135395901,0.584045135395901,0.770631708486693,"Lrp8/Scarb1",2
+"GO:0071814","protein-lipid complex binding","2/1565","28/22710",0.584045135395901,0.584045135395901,0.770631708486693,"Lrp8/Scarb1",2
+"GO:0030145","manganese ion binding","4/1565","59/22710",0.586874570175954,0.586874570175954,0.773139137588358,"Large1/Idi1/Tdp2/Fen1",4
+"GO:1901981","phosphatidylinositol phosphate binding","11/1565","165/22710",0.589746818911055,0.589746818911055,0.773139137588358,"Dab2ip/Adap1/Plekhf1/Plekha4/Sytl2/Mtss2/Cgas/Adap2/Plek2/Racgap1/Tulp1",11
+"GO:0022836","gated channel activity","22/1565","331/22710",0.60175086246964,0.60175086246964,0.773139137588358,"Tmem37/Cacna1s/Clic3/Kcna4/Kcnab1/Kcnd3/Gabrr1/Kcnh2/Kcnk7/Scn1b/Slc17a7/Grin2d/Hcn2/Gas6/Kcnk1/Kcnab3/Cacna1i/Cacnb3/Clic5/Kcnk4/Tmem109/Kcnip2",22
+"GO:0004112","cyclic-nucleotide phosphodiesterase activity","2/1565","29/22710",0.603399328718641,0.603399328718641,0.773139137588358,"Pde8a/Pde9a",2
+"GO:0043539","protein serine/threonine kinase activator activity","2/1565","29/22710",0.603399328718641,0.603399328718641,0.773139137588358,"Dbf4/Etaa1",2
+"GO:0045503","dynein light chain binding","2/1565","29/22710",0.603399328718641,0.603399328718641,0.773139137588358,"Dnah14/Dnah11",2
+"GO:0071889","14-3-3 protein binding","2/1565","29/22710",0.603399328718641,0.603399328718641,0.773139137588358,"Dab2ip/Prkce",2
+"GO:0002161","aminoacyl-tRNA editing activity","1/1565","13/22710",0.604845641459489,0.604845641459489,0.773139137588358,"Aarsd1",1
+"GO:0005523","tropomyosin binding","1/1565","13/22710",0.604845641459489,0.604845641459489,0.773139137588358,"Tmod2",1
+"GO:0008097","5S rRNA binding","1/1565","13/22710",0.604845641459489,0.604845641459489,0.773139137588358,"Mrpl18",1
+"GO:0008195","phosphatidate phosphatase activity","1/1565","13/22710",0.604845641459489,0.604845641459489,0.773139137588358,"Lpin3",1
+"GO:0008484","sulfuric ester hydrolase activity","1/1565","13/22710",0.604845641459489,0.604845641459489,0.773139137588358,"Arsb",1
+"GO:0015556","C4-dicarboxylate transmembrane transporter activity","1/1565","13/22710",0.604845641459489,0.604845641459489,0.773139137588358,"Slc25a10",1
+"GO:0016251","RNA polymerase II general transcription initiation factor activity","1/1565","13/22710",0.604845641459489,0.604845641459489,0.773139137588358,"Taf5",1
+"GO:0016832","aldehyde-lyase activity","1/1565","13/22710",0.604845641459489,0.604845641459489,0.773139137588358,"Shmt1",1
+"GO:0017166","vinculin binding","1/1565","13/22710",0.604845641459489,0.604845641459489,0.773139137588358,"Nrap",1
+"GO:0031720","haptoglobin binding","1/1565","13/22710",0.604845641459489,0.604845641459489,0.773139137588358,"Hba-a1",1
+"GO:0051378","serotonin binding","1/1565","13/22710",0.604845641459489,0.604845641459489,0.773139137588358,"Maoa",1
+"GO:0097001","ceramide binding","1/1565","13/22710",0.604845641459489,0.604845641459489,0.773139137588358,"Gltp",1
+"GO:0097153","cysteine-type endopeptidase activity involved in apoptotic process","1/1565","13/22710",0.604845641459489,0.604845641459489,0.773139137588358,"Casp7",1
+"GO:0005504","fatty acid binding","3/1565","45/22710",0.607815898924148,0.607815898924148,0.773139137588358,"Acoxl/Fabp5/S100a9",3
+"GO:0016229","steroid dehydrogenase activity","3/1565","45/22710",0.607815898924148,0.607815898924148,0.773139137588358,"Hsd17b14/Hsd17b2/Srd5a1",3
+"GO:0016709","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen","3/1565","45/22710",0.607815898924148,0.607815898924148,0.773139137588358,"Nos3/Nos1/Cyp27b1",3
+"GO:1901505","carbohydrate derivative transmembrane transporter activity","3/1565","45/22710",0.607815898924148,0.607815898924148,0.773139137588358,"Slc25a25/Slc35b4/Slc29a1",3
+"GO:0019199","transmembrane receptor protein kinase activity","5/1565","77/22710",0.619533528656759,0.619533528656759,0.77365326797716,"Nrp2/Tgfbr1/Epha8/Acvr1b/Ddr1",5
+"GO:0005496","steroid binding","7/1565","108/22710",0.621569412729458,0.621569412729458,0.77365326797716,"Atp1a2/Syp/S100g/Bspry/Sult2b1/Paqr5/Osbpl1a",7
+"GO:0099106","ion channel regulator activity","7/1565","108/22710",0.621569412729458,0.621569412729458,0.77365326797716,"Kcnab1/Stx1a/Abcc9/Scn1b/Lynx1/Cacnb3/Kcnip2",7
+"GO:0005251","delayed rectifier potassium channel activity","2/1565","30/22710",0.62206336750362,0.62206336750362,0.77365326797716,"Kcna4/Kcnh2",2
+"GO:0036442","proton-exporting ATPase activity","2/1565","30/22710",0.62206336750362,0.62206336750362,0.77365326797716,"Atp6v1g3/Atp6v0a1",2
+"GO:0070325","lipoprotein particle receptor binding","2/1565","30/22710",0.62206336750362,0.62206336750362,0.77365326797716,"Hsp90b1/Slc9a3r2",2
+"GO:0015485","cholesterol binding","3/1565","46/22710",0.622865837959563,0.622865837959563,0.77365326797716,"Syp/Sult2b1/Osbpl1a",3
+"GO:0001786","phosphatidylserine binding","4/1565","62/22710",0.626460340073762,0.626460340073762,0.77365326797716,"Scarb1/Hmgb1/Sytl2/Gas6",4
+"GO:0019905","syntaxin binding","5/1565","78/22710",0.631011370846603,0.631011370846603,0.77365326797716,"Syp/Cav2/Abcc9/Cplx3/Sept5",5
+"GO:0000295","adenine nucleotide transmembrane transporter activity","1/1565","14/22710",0.632092263088599,0.632092263088599,0.77365326797716,"Slc25a25",1
+"GO:0004559","alpha-mannosidase activity","1/1565","14/22710",0.632092263088599,0.632092263088599,0.77365326797716,"Man1c1",1
+"GO:0004707","MAP kinase activity","1/1565","14/22710",0.632092263088599,0.632092263088599,0.77365326797716,"Mapk15",1
+"GO:0005005","transmembrane-ephrin receptor activity","1/1565","14/22710",0.632092263088599,0.632092263088599,0.77365326797716,"Epha8",1
+"GO:0005159","insulin-like growth factor receptor binding","1/1565","14/22710",0.632092263088599,0.632092263088599,0.77365326797716,"Socs2",1
+"GO:0005243","gap junction channel activity","1/1565","14/22710",0.632092263088599,0.632092263088599,0.77365326797716,"Gja5",1
+"GO:0005338","nucleotide-sugar transmembrane transporter activity","1/1565","14/22710",0.632092263088599,0.632092263088599,0.77365326797716,"Slc35b4",1
+"GO:0005346","purine ribonucleotide transmembrane transporter activity","1/1565","14/22710",0.632092263088599,0.632092263088599,0.77365326797716,"Slc25a25",1
+"GO:0008432","JUN kinase binding","1/1565","14/22710",0.632092263088599,0.632092263088599,0.77365326797716,"Lmnb1",1
+"GO:0015216","purine nucleotide transmembrane transporter activity","1/1565","14/22710",0.632092263088599,0.632092263088599,0.77365326797716,"Slc25a25",1
+"GO:0017081","chloride channel regulator activity","1/1565","14/22710",0.632092263088599,0.632092263088599,0.77365326797716,"Stx1a",1
+"GO:0035325","Toll-like receptor binding","1/1565","14/22710",0.632092263088599,0.632092263088599,0.77365326797716,"S100a9",1
+"GO:0035613","RNA stem-loop binding","1/1565","14/22710",0.632092263088599,0.632092263088599,0.77365326797716,"Myh10",1
+"GO:0042800","histone methyltransferase activity (H3-K4 specific)","1/1565","14/22710",0.632092263088599,0.632092263088599,0.77365326797716,"Wdr5",1
+"GO:0046935","1-phosphatidylinositol-3-kinase regulator activity","1/1565","14/22710",0.632092263088599,0.632092263088599,0.77365326797716,"Socs2",1
+"GO:0051400","BH domain binding","1/1565","14/22710",0.632092263088599,0.632092263088599,0.77365326797716,"Bik",1
+"GO:0015459","potassium channel regulator activity","3/1565","47/22710",0.637515477979545,0.637515477979545,0.77365326797716,"Kcnab1/Abcc9/Kcnip2",3
+"GO:0046875","ephrin receptor binding","2/1565","31/22710",0.640040402124237,0.640040402124237,0.77365326797716,"Chn1/Tiam1",2
+"GO:0008234","cysteine-type peptidase activity","11/1565","172/22710",0.645063719614418,0.645063719614418,0.77365326797716,"Usp37/Alg13/Ctsk/Usp1/Uchl1/Ufsp1/Usp2/Usp53/Espl1/Ggnbp1/Casp7",11
+"GO:0020037","heme binding","10/1565","157/22710",0.647575033565717,0.647575033565717,0.77365326797716,"Ptgs1/Nos3/Nos1/Hebp1/Cyp2s1/Cyp27b1/Hba-a1/Ngb/Cyp2d22/Dgcr8",10
+"GO:1902936","phosphatidylinositol bisphosphate binding","7/1565","111/22710",0.650313174956437,0.650313174956437,0.77365326797716,"Plekha4/Sytl2/Mtss2/Cgas/Adap2/Plek2/Tulp1",7
+"GO:0030331","estrogen receptor binding","3/1565","48/22710",0.651761641859875,0.651761641859875,0.77365326797716,"Pcna/Dnmt1/Psmc3ip",3
+"GO:0008509","anion transmembrane transporter activity","20/1565","310/22710",0.653221551578182,0.653221551578182,0.77365326797716,"Clic3/Slc25a25/Slc12a5/Slc6a8/Gabrr1/Lrrc8b/Slc35b4/Slc17a7/Pidd1/Slc16a10/Slc12a4/Slc6a20a/Slc1a4/Slc18a1/Slc25a10/Slc10a1/Clic5/Slc23a1/Slc23a2/Slc1a1",20
+"GO:0004033","aldo-keto reductase (NADP) activity","2/1565","32/22710",0.657336424809712,0.657336424809712,0.77365326797716,"Kcnab1/Dhrs3",2
+"GO:0005501","retinoid binding","2/1565","32/22710",0.657336424809712,0.657336424809712,0.77365326797716,"Rxra/Fabp5",2
+"GO:0051059","NF-kappaB binding","2/1565","32/22710",0.657336424809712,0.657336424809712,0.77365326797716,"Cdkn2a/Faf1",2
+"GO:0001846","opsonin binding","1/1565","15/22710",0.657461297643866,0.657461297643866,0.77365326797716,"Itgam",1
+"GO:0003756","protein disulfide isomerase activity","1/1565","15/22710",0.657461297643866,0.657461297643866,0.77365326797716,"Pdia6",1
+"GO:0004697","protein kinase C activity","1/1565","15/22710",0.657461297643866,0.657461297643866,0.77365326797716,"Prkce",1
+"GO:0008381","mechanosensitive ion channel activity","1/1565","15/22710",0.657461297643866,0.657461297643866,0.77365326797716,"Kcnk4",1
+"GO:0015116","sulfate transmembrane transporter activity","1/1565","15/22710",0.657461297643866,0.657461297643866,0.77365326797716,"Slc25a10",1
+"GO:0015923","mannosidase activity","1/1565","15/22710",0.657461297643866,0.657461297643866,0.77365326797716,"Man1c1",1
+"GO:0016411","acylglycerol O-acyltransferase activity","1/1565","15/22710",0.657461297643866,0.657461297643866,0.77365326797716,"Mogat1",1
+"GO:0016755","transferase activity, transferring amino-acyl groups","1/1565","15/22710",0.657461297643866,0.657461297643866,0.77365326797716,"Ggt1",1
+"GO:0016864","intramolecular oxidoreductase activity, transposing S-S bonds","1/1565","15/22710",0.657461297643866,0.657461297643866,0.77365326797716,"Pdia6",1
+"GO:0022821","potassium ion antiporter activity","1/1565","15/22710",0.657461297643866,0.657461297643866,0.77365326797716,"Slc9a5",1
+"GO:0030159","receptor signaling complex scaffold activity","1/1565","15/22710",0.657461297643866,0.657461297643866,0.77365326797716,"Nup62",1
+"GO:0030548","acetylcholine receptor regulator activity","1/1565","15/22710",0.657461297643866,0.657461297643866,0.77365326797716,"Lynx1",1
+"GO:0033549","MAP kinase phosphatase activity","1/1565","15/22710",0.657461297643866,0.657461297643866,0.77365326797716,"Dusp3",1
+"GO:0034483","heparan sulfate sulfotransferase activity","1/1565","15/22710",0.657461297643866,0.657461297643866,0.77365326797716,"Hs3st6",1
+"GO:0043024","ribosomal small subunit binding","1/1565","15/22710",0.657461297643866,0.657461297643866,0.77365326797716,"Ung",1
+"GO:0045295","gamma-catenin binding","1/1565","15/22710",0.657461297643866,0.657461297643866,0.77365326797716,"Ptprk",1
+"GO:0047498","calcium-dependent phospholipase A2 activity","1/1565","15/22710",0.657461297643866,0.657461297643866,0.77365326797716,"Pla2g2d",1
+"GO:0048038","quinone binding","1/1565","15/22710",0.657461297643866,0.657461297643866,0.77365326797716,"Sqor",1
+"GO:0099602","neurotransmitter receptor regulator activity","1/1565","15/22710",0.657461297643866,0.657461297643866,0.77365326797716,"Lynx1",1
+"GO:0004197","cysteine-type endopeptidase activity","6/1565","97/22710",0.666085067172831,0.666085067172831,0.781632909865767,"Usp37/Ctsk/Usp1/Uchl1/Espl1/Casp7",6
+"GO:0051082","unfolded protein binding","6/1565","97/22710",0.666085067172831,0.666085067172831,0.781632909865767,"Ppih/Nudc/Hsp90b1/Ptges3/Calr3/Hspa1l",6
+"GO:0005484","SNAP receptor activity","2/1565","33/22710",0.673959863481442,0.673959863481442,0.786182793633894,"Stx1a/Stx19",2
+"GO:0008198","ferrous iron binding","2/1565","33/22710",0.673959863481442,0.673959863481442,0.786182793633894,"Trf/Fxn",2
+"GO:0035035","histone acetyltransferase binding","2/1565","33/22710",0.673959863481442,0.673959863481442,0.786182793633894,"Pcna/Epas1",2
+"GO:0001227","DNA-binding transcription repressor activity, RNA polymerase II-specific","15/1565","238/22710",0.677527427941601,0.677527427941601,0.786182793633894,"Msc/Ovol2/Insm1/E2f8/Sox6/Prdm1/E2f7/Hsf4/Klf12/Zbtb16/Aebp1/Hes7/Mxd3/E2f6/Osr2",15
+"GO:0004549","tRNA-specific ribonuclease activity","1/1565","16/22710",0.681082054162365,0.681082054162365,0.786182793633894,"Rpp30",1
+"GO:0005003","ephrin receptor activity","1/1565","16/22710",0.681082054162365,0.681082054162365,0.786182793633894,"Epha8",1
+"GO:0005521","lamin binding","1/1565","16/22710",0.681082054162365,0.681082054162365,0.786182793633894,"Tmem201",1
+"GO:0017160","Ral GTPase binding","1/1565","16/22710",0.681082054162365,0.681082054162365,0.786182793633894,"Lsm2",1
+"GO:0031005","filamin binding","1/1565","16/22710",0.681082054162365,0.681082054162365,0.786182793633894,"Dpysl3",1
+"GO:0042166","acetylcholine binding","1/1565","16/22710",0.681082054162365,0.681082054162365,0.786182793633894,"Chrm3",1
+"GO:0042608","T cell receptor binding","1/1565","16/22710",0.681082054162365,0.681082054162365,0.786182793633894,"H2-Q10",1
+"GO:0042813","Wnt-activated receptor activity","1/1565","16/22710",0.681082054162365,0.681082054162365,0.786182793633894,"Lrp5",1
+"GO:0015020","glucuronosyltransferase activity","2/1565","34/22710",0.689921218014383,0.689921218014383,0.794600663198143,"Large1/B4gat1",2
+"GO:0017046","peptide hormone binding","3/1565","51/22710",0.692068226461036,0.692068226461036,0.794600663198143,"Slc40a1/C2cd2l/Glp1r",3
+"GO:0019208","phosphatase regulator activity","5/1565","84/22710",0.695287103502828,0.695287103502828,0.794600663198143,"Anp32e/Ppp2r2c/Styxl1/Dmpk/Ppp1r3b",5
+"GO:0046332","SMAD binding","5/1565","84/22710",0.695287103502828,0.695287103502828,0.794600663198143,"Cited1/Tgfbr1/Zfyve9/Ranbp3l/Acvr1b",5
+"GO:0004322","ferroxidase activity","1/1565","17/22710",0.703074941499807,0.703074941499807,0.794600663198143,"Fxn",1
+"GO:0005086","ARF guanyl-nucleotide exchange factor activity","1/1565","17/22710",0.703074941499807,0.703074941499807,0.794600663198143,"Psd3",1
+"GO:0008329","signaling pattern recognition receptor activity","1/1565","17/22710",0.703074941499807,0.703074941499807,0.794600663198143,"Scarb1",1
+"GO:0010314","phosphatidylinositol-5-phosphate binding","1/1565","17/22710",0.703074941499807,0.703074941499807,0.794600663198143,"Plekhf1",1
+"GO:0015215","nucleotide transmembrane transporter activity","1/1565","17/22710",0.703074941499807,0.703074941499807,0.794600663198143,"Slc25a25",1
+"GO:0016724","oxidoreductase activity, oxidizing metal ions, oxygen as acceptor","1/1565","17/22710",0.703074941499807,0.703074941499807,0.794600663198143,"Fxn",1
+"GO:0030169","low-density lipoprotein particle binding","1/1565","17/22710",0.703074941499807,0.703074941499807,0.794600663198143,"Scarb1",1
+"GO:0030676","Rac guanyl-nucleotide exchange factor activity","1/1565","17/22710",0.703074941499807,0.703074941499807,0.794600663198143,"Tiam1",1
+"GO:0032183","SUMO binding","1/1565","17/22710",0.703074941499807,0.703074941499807,0.794600663198143,"Casp8ap2",1
+"GO:0043422","protein kinase B binding","1/1565","17/22710",0.703074941499807,0.703074941499807,0.794600663198143,"Ccdc88a",1
+"GO:0046527","glucosyltransferase activity","1/1565","17/22710",0.703074941499807,0.703074941499807,0.794600663198143,"Alg6",1
+"GO:0032934","sterol binding","3/1565","52/22710",0.704695535053456,0.704695535053456,0.794600663198143,"Syp/Sult2b1/Osbpl1a",3
+"GO:0003713","transcription coactivator activity","16/1565","258/22710",0.705115219385653,0.705115219385653,0.794600663198143,"Fam129b/Sox12/Lpin3/Cited1/Jade1/Med12l/Pmf1/Nupr1/Rbpms/Hmgb2/Cenpj/Tada2a/Jup/Psmc3ip/Brca1/Foxc1",16
+"GO:0070273","phosphatidylinositol-4-phosphate binding","2/1565","35/22710",0.705232735010908,0.705232735010908,0.794600663198143,"Dab2ip/Plekhf1",2
+"GO:0033293","monocarboxylic acid binding","4/1565","69/22710",0.708946708905961,0.708946708905961,0.797725879349721,"Rxra/Acoxl/Fabp5/S100a9",4
+"GO:0004175","endopeptidase activity","28/1565","443/22710",0.710817105624094,0.710817105624094,0.798771121830631,"Usp37/Prss56/Ctsk/Usp1/Uchl1/Mmp17/2210010C04Rik/Adam8/Pidd1/Prss57/Plau/Cma1/Gzmf/Gzmc/Gzmb/Mipep/Tmprss13/Tmprss11c/Rhbdl3/Gzma/Gzmk/Espl1/Lmln/Prss27/C2/Cfb/Psma1/Casp7",28
+"GO:0005506","iron ion binding","10/1565","166/22710",0.714801278810332,0.714801278810332,0.801126094307346,"Aox1/P3h3/Cyp2s1/Cisd1/Cyp27b1/Trf/Alox8/Ogfod3/Rrm2/Fxn",10
+"GO:0046906","tetrapyrrole binding","10/1565","166/22710",0.714801278810332,0.714801278810332,0.801126094307346,"Ptgs1/Nos3/Nos1/Hebp1/Cyp2s1/Cyp27b1/Hba-a1/Ngb/Cyp2d22/Dgcr8",10
+"GO:0008527","taste receptor activity","2/1565","36/22710",0.719908117511811,0.719908117511811,0.801405767385436,"Tas1r1/Pkd1l3",2
+"GO:0017147","Wnt-protein binding","2/1565","36/22710",0.719908117511811,0.719908117511811,0.801405767385436,"Tdgf1/Lrp5",2
+"GO:0042287","MHC protein binding","2/1565","36/22710",0.719908117511811,0.719908117511811,0.801405767385436,"March8/Tubb5",2
+"GO:0005319","lipid transporter activity","8/1565","135/22710",0.720126891136022,0.720126891136022,0.801405767385436,"Prelid3b/Gltp/C2cd2l/Pctp/Mfsd2b/Slc10a1/Abcb1a/Osbpl1a",8
+"GO:0008353","RNA polymerase II CTD heptapeptide repeat kinase activity","1/1565","18/22710",0.723552080553823,0.723552080553823,0.801405767385436,"Cdk1",1
+"GO:0015299","solute:proton antiporter activity","1/1565","18/22710",0.723552080553823,0.723552080553823,0.801405767385436,"Slc9a5",1
+"GO:0015929","hexosaminidase activity","1/1565","18/22710",0.723552080553823,0.723552080553823,0.801405767385436,"Hyal1",1
+"GO:0038187","pattern recognition receptor activity","1/1565","18/22710",0.723552080553823,0.723552080553823,0.801405767385436,"Scarb1",1
+"GO:0042288","MHC class I protein binding","1/1565","18/22710",0.723552080553823,0.723552080553823,0.801405767385436,"Tubb5",1
+"GO:0004869","cysteine-type endopeptidase inhibitor activity","4/1565","71/22710",0.729906145638949,0.729906145638949,0.805742401650304,"Gas6/Nol3/Birc5/Serpinb9",4
+"GO:0019888","protein phosphatase regulator activity","4/1565","71/22710",0.729906145638949,0.729906145638949,0.805742401650304,"Ppp2r2c/Styxl1/Dmpk/Ppp1r3b",4
+"GO:0033764","steroid dehydrogenase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor","2/1565","37/22710",0.733962266378553,0.733962266378553,0.805742401650304,"Hsd17b14/Hsd17b2",2
+"GO:0051393","alpha-actinin binding","2/1565","37/22710",0.733962266378553,0.733962266378553,0.805742401650304,"Alms1/Nrap",2
+"GO:0140098","catalytic activity, acting on RNA","22/1565","357/22710",0.737673908440363,0.737673908440363,0.805742401650304,"Prim2/Dars2/Rbmx2/Ddx20/Henmt1/Eri2/Prim1/Eri1/Primpol/Rnaseh2b/Dis3/Rexo2/Pif1/Ddx43/Dbr1/Aarsd1/Tdp2/Angel1/Dgcr8/Tfb1m/Fen1/Rpp30",22
+"GO:0031593","polyubiquitin modification-dependent protein binding","3/1565","55/22710",0.740191745135105,0.740191745135105,0.805742401650304,"Zranb3/Rad18/Rnf168",3
+"GO:0004890","GABA-A receptor activity","1/1565","19/22710",0.742617874398935,0.742617874398935,0.805742401650304,"Gabrr1",1
+"GO:0004970","ionotropic glutamate receptor activity","1/1565","19/22710",0.742617874398935,0.742617874398935,0.805742401650304,"Grin2d",1
+"GO:0008553","proton-exporting ATPase activity, phosphorylative mechanism","1/1565","19/22710",0.742617874398935,0.742617874398935,0.805742401650304,"Atp6v1g3",1
+"GO:0031434","mitogen-activated protein kinase kinase binding","1/1565","19/22710",0.742617874398935,0.742617874398935,0.805742401650304,"Dab2ip",1
+"GO:0035014","phosphatidylinositol 3-kinase regulator activity","1/1565","19/22710",0.742617874398935,0.742617874398935,0.805742401650304,"Socs2",1
+"GO:0036041","long-chain fatty acid binding","1/1565","19/22710",0.742617874398935,0.742617874398935,0.805742401650304,"S100a9",1
+"GO:0070300","phosphatidic acid binding","1/1565","19/22710",0.742617874398935,0.742617874398935,0.805742401650304,"Pacsin2",1
+"GO:0097602","cullin family protein binding","1/1565","19/22710",0.742617874398935,0.742617874398935,0.805742401650304,"Anapc11",1
+"GO:0140223","general transcription initiation factor activity","1/1565","19/22710",0.742617874398935,0.742617874398935,0.805742401650304,"Taf5",1
+"GO:0016298","lipase activity","7/1565","122/22710",0.743923492618961,0.743923492618961,0.805742401650304,"Plcd4/Pla2g2d/Mgll/Ccr1/Ccl5/Plcd3/Lipg",7
+"GO:0008391","arachidonic acid monooxygenase activity","2/1565","38/22710",0.747411050364578,0.747411050364578,0.805742401650304,"Cyp2s1/Cyp2d22",2
+"GO:0017069","snRNA binding","2/1565","38/22710",0.747411050364578,0.747411050364578,0.805742401650304,"Lsm3/Snrpa1",2
+"GO:0019840","isoprenoid binding","2/1565","38/22710",0.747411050364578,0.747411050364578,0.805742401650304,"Rxra/Fabp5",2
+"GO:0030020","extracellular matrix structural constituent conferring tensile strength","2/1565","38/22710",0.747411050364578,0.747411050364578,0.805742401650304,"Col23a1/Col11a2",2
+"GO:0043014","alpha-tubulin binding","2/1565","38/22710",0.747411050364578,0.747411050364578,0.805742401650304,"Racgap1/Trim36",2
+"GO:0004843","thiol-dependent ubiquitin-specific protease activity","5/1565","90/22710",0.751423175968365,0.751423175968365,0.807401157519608,"Usp37/Usp1/Uchl1/Usp2/Ggnbp1",5
+"GO:0033613","activating transcription factor binding","5/1565","90/22710",0.751423175968365,0.751423175968365,0.807401157519608,"Nek6/Tbr1/Rbl1/Rb1/Pou1f1",5
+"GO:0017022","myosin binding","4/1565","74/22710",0.759190805870238,0.759190805870238,0.807401157519608,"Sptbn5/Iqgap3/Stx1a/Nkd2",4
+"GO:0001222","transcription corepressor binding","1/1565","20/22710",0.760369539224886,0.760369539224886,0.807401157519608,"Nek6",1
+"GO:0001618","virus receptor activity","1/1565","20/22710",0.760369539224886,0.760369539224886,0.807401157519608,"Siva1",1
+"GO:0008373","sialyltransferase activity","1/1565","20/22710",0.760369539224886,0.760369539224886,0.807401157519608,"St3gal5",1
+"GO:0008649","rRNA methyltransferase activity","1/1565","20/22710",0.760369539224886,0.760369539224886,0.807401157519608,"Tfb1m",1
+"GO:0015125","bile acid transmembrane transporter activity","1/1565","20/22710",0.760369539224886,0.760369539224886,0.807401157519608,"Slc10a1",1
+"GO:0046961","proton-transporting ATPase activity, rotational mechanism","1/1565","20/22710",0.760369539224886,0.760369539224886,0.807401157519608,"Atp6v0a1",1
+"GO:0070064","proline-rich region binding","1/1565","20/22710",0.760369539224886,0.760369539224886,0.807401157519608,"Baiap2l1",1
+"GO:0104005","hijacked molecular function","1/1565","20/22710",0.760369539224886,0.760369539224886,0.807401157519608,"Siva1",1
+"GO:0140102","catalytic activity, acting on a rRNA","1/1565","20/22710",0.760369539224886,0.760369539224886,0.807401157519608,"Tfb1m",1
+"GO:0008514","organic anion transmembrane transporter activity","12/1565","206/22710",0.766538554521107,0.766538554521107,0.81049831591282,"Slc25a25/Slc6a8/Slc35b4/Slc17a7/Slc16a10/Slc6a20a/Slc1a4/Slc25a10/Slc10a1/Slc23a1/Slc23a2/Slc1a1",12
+"GO:0003730","mRNA 3'-UTR binding","5/1565","92/22710",0.768322706108067,0.768322706108067,0.81049831591282,"Boll/Dazl/Exosc8/Zfp385a/Carhsp1",5
+"GO:0004879","nuclear receptor activity","2/1565","40/22710",0.772559637882864,0.772559637882864,0.81049831591282,"Rxra/Rorb",2
+"GO:0098531","transcription factor activity, direct ligand regulated sequence-specific DNA binding","2/1565","40/22710",0.772559637882864,0.772559637882864,0.81049831591282,"Rxra/Rorb",2
+"GO:0004298","threonine-type endopeptidase activity","1/1565","21/22710",0.776897598771517,0.776897598771517,0.81049831591282,"Psma1",1
+"GO:0004745","retinol dehydrogenase activity","1/1565","21/22710",0.776897598771517,0.776897598771517,0.81049831591282,"Dhrs3",1
+"GO:0008157","protein phosphatase 1 binding","1/1565","21/22710",0.776897598771517,0.776897598771517,0.81049831591282,"Pawr",1
+"GO:0019789","SUMO transferase activity","1/1565","21/22710",0.776897598771517,0.776897598771517,0.81049831591282,"Cdkn2a",1
+"GO:0030552","cAMP binding","1/1565","21/22710",0.776897598771517,0.776897598771517,0.81049831591282,"Hcn2",1
+"GO:0042975","peroxisome proliferator activated receptor binding","1/1565","21/22710",0.776897598771517,0.776897598771517,0.81049831591282,"Dut",1
+"GO:0050431","transforming growth factor beta binding","1/1565","21/22710",0.776897598771517,0.776897598771517,0.81049831591282,"Tgfbr1",1
+"GO:0051371","muscle alpha-actinin binding","1/1565","21/22710",0.776897598771517,0.776897598771517,0.81049831591282,"Nrap",1
+"GO:0070003","threonine-type peptidase activity","1/1565","21/22710",0.776897598771517,0.776897598771517,0.81049831591282,"Psma1",1
+"GO:0099095","ligand-gated anion channel activity","1/1565","21/22710",0.776897598771517,0.776897598771517,0.81049831591282,"Slc17a7",1
+"GO:0016758","transferase activity, transferring hexosyl groups","12/1565","208/22710",0.777615815999236,0.777615815999236,0.81049831591282,"Alg13/Alg6/B3glct/Xylt1/Large1/Fut4/Hyal1/Gcnt4/Tymp/Sdf2l1/B4gat1/Pygm",12
+"GO:0004812","aminoacyl-tRNA ligase activity","2/1565","41/22710",0.784294297882333,0.784294297882333,0.811826587698075,"Dars2/Aarsd1",2
+"GO:0005246","calcium channel regulator activity","2/1565","41/22710",0.784294297882333,0.784294297882333,0.811826587698075,"Stx1a/Cacnb3",2
+"GO:0016875","ligase activity, forming carbon-oxygen bonds","2/1565","41/22710",0.784294297882333,0.784294297882333,0.811826587698075,"Dars2/Aarsd1",2
+"GO:0043548","phosphatidylinositol 3-kinase binding","2/1565","41/22710",0.784294297882333,0.784294297882333,0.811826587698075,"Dab2ip/Fbxl2",2
+"GO:0004857","enzyme inhibitor activity","23/1565","384/22710",0.786803093970768,0.786803093970768,0.811826587698075,"Pkig/Fnip2/Anp32e/Cdkn2a/Cdkn2c/Spink2/Styxl1/Rtkn/Pinlyp/Fbxo5/Gas6/Nol3/Birc5/Serpinb1a/Serpinb9/Serpinb9b/Pdia6/Serpina11/Serpina12/Camk2n2/Cdkn1a/Angptl4/Anxa1",23
+"GO:0004714","transmembrane receptor protein tyrosine kinase activity","3/1565","60/22710",0.791707884991166,0.791707884991166,0.811826587698075,"Nrp2/Epha8/Ddr1",3
+"GO:0005507","copper ion binding","3/1565","60/22710",0.791707884991166,0.791707884991166,0.811826587698075,"Gpc1/Pam/Mt1",3
+"GO:0001848","complement binding","1/1565","22/22710",0.792286344768369,0.792286344768369,0.811826587698075,"C3ar1",1
+"GO:0008483","transaminase activity","1/1565","22/22710",0.792286344768369,0.792286344768369,0.811826587698075,"Gpt2",1
+"GO:0015464","acetylcholine receptor activity","1/1565","22/22710",0.792286344768369,0.792286344768369,0.811826587698075,"Chrm3",1
+"GO:0016917","GABA receptor activity","1/1565","22/22710",0.792286344768369,0.792286344768369,0.811826587698075,"Gabrr1",1
+"GO:0030215","semaphorin receptor binding","1/1565","22/22710",0.792286344768369,0.792286344768369,0.811826587698075,"Sema4a",1
+"GO:0032947","protein-containing complex scaffold activity","1/1565","22/22710",0.792286344768369,0.792286344768369,0.811826587698075,"Nup62",1
+"GO:0140103","catalytic activity, acting on a glycoprotein","1/1565","22/22710",0.792286344768369,0.792286344768369,0.811826587698075,"Gcnt4",1
+"GO:0016757","transferase activity, transferring glycosyl groups","16/1565","276/22710",0.797360398251491,0.797360398251491,0.81604022727535,"Alg13/Alg6/Ppat/B3glct/St3gal5/Gxylt2/Xylt1/Large1/Fut4/Hyal1/Gcnt4/Tymp/Sdf2l1/Umps/B4gat1/Pygm",16
+"GO:0042165","neurotransmitter binding","3/1565","61/22710",0.800923613457714,0.800923613457714,0.818598713379882,"Maoa/Grin2d/Chrm3",3
+"GO:0019212","phosphatase inhibitor activity","2/1565","43/22710",0.806173849632729,0.806173849632729,0.818598713379882,"Anp32e/Styxl1",2
+"GO:0048487","beta-tubulin binding","2/1565","43/22710",0.806173849632729,0.806173849632729,0.818598713379882,"Racgap1/Smc3",2
+"GO:1901618","organic hydroxy compound transmembrane transporter activity","2/1565","43/22710",0.806173849632729,0.806173849632729,0.818598713379882,"Slc18a1/Slc10a1",2
+"GO:0015101","organic cation transmembrane transporter activity","1/1565","23/22710",0.806614265715015,0.806614265715015,0.818598713379882,"Slc6a8",1
+"GO:0030506","ankyrin binding","1/1565","23/22710",0.806614265715015,0.806614265715015,0.818598713379882,"Rhcg",1
+"GO:0031681","G-protein beta-subunit binding","1/1565","23/22710",0.806614265715015,0.806614265715015,0.818598713379882,"Gng13",1
+"GO:0001228","DNA-binding transcription activator activity, RNA polymerase II-specific","26/1565","439/22710",0.815943212672891,0.815943212672891,0.826207380446547,"Mybl1/Nucks1/Pbx3/Lhx2/Tbr1/Ovol2/Sox12/Mybl2/Plag1/E2f2/Trp73/Tfec/Nanog/Tfdp1/Hsf4/Zfp750/E2f3/Foxd1/Six1/Osr2/Mafa/Cebpd/Pou1f1/Runx1/Epas1/Rorb",26
+"GO:0015491","cation:cation antiporter activity","1/1565","24/22710",0.819954446177659,0.819954446177659,0.826207380446547,"Slc9a5",1
+"GO:0016922","nuclear receptor binding","1/1565","24/22710",0.819954446177659,0.819954446177659,0.826207380446547,"Rxra",1
+"GO:0030742","GTP-dependent protein binding","1/1565","24/22710",0.819954446177659,0.819954446177659,0.826207380446547,"Rapgef5",1
+"GO:0031210","phosphatidylcholine binding","1/1565","24/22710",0.819954446177659,0.819954446177659,0.826207380446547,"Pctp",1
+"GO:0050997","quaternary ammonium group binding","1/1565","24/22710",0.819954446177659,0.819954446177659,0.826207380446547,"Pctp",1
+"GO:0016810","hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds","7/1565","134/22710",0.824163924633019,0.824163924633019,0.827906707637803,"Padi4/Pdf/Naalad2/Mthfd1/Oplah/Ddah2/Dpysl3",7
+"GO:0008188","neuropeptide receptor activity","2/1565","45/22710",0.82605445825729,0.82605445825729,0.827906707637803,"Kiss1r/Ltb4r1",2
+"GO:0016706","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, 2-oxoglutarate as one donor, and incorporation of one atom each of oxygen into both donors","2/1565","45/22710",0.82605445825729,0.82605445825729,0.827906707637803,"Asph/P3h3",2
+"GO:0004553","hydrolase activity, hydrolyzing O-glycosyl compounds","5/1565","100/22710",0.827223979967301,0.827223979967301,0.827906707637803,"Chit1/Chil5/Chia1/Man1c1/Hyal1",5
+"GO:0008194","UDP-glycosyltransferase activity","8/1565","152/22710",0.829972600757154,0.829972600757154,0.827906707637803,"Alg13/B3glct/Gxylt2/Xylt1/Large1/Hyal1/Gcnt4/B4gat1",8
+"GO:0004867","serine-type endopeptidase inhibitor activity","6/1565","118/22710",0.830885285023541,0.830885285023541,0.827906707637803,"Spink2/Serpinb1a/Serpinb9/Serpinb9b/Serpina11/Serpina12",6
+"GO:0009975","cyclase activity","1/1565","25/22710",0.832374938628156,0.832374938628156,0.827906707637803,"Adcy4",1
+"GO:0015605","organophosphate ester transmembrane transporter activity","1/1565","25/22710",0.832374938628156,0.832374938628156,0.827906707637803,"Slc25a25",1
+"GO:0016849","phosphorus-oxygen lyase activity","1/1565","25/22710",0.832374938628156,0.832374938628156,0.827906707637803,"Adcy4",1
+"GO:0030515","snoRNA binding","1/1565","25/22710",0.832374938628156,0.832374938628156,0.827906707637803,"Nop56",1
+"GO:0042923","neuropeptide binding","1/1565","25/22710",0.832374938628156,0.832374938628156,0.827906707637803,"Kiss1r",1
+"GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen","11/1565","203/22710",0.834183004876012,0.834183004876012,0.828733516492131,"Pam/Ptgs1/Asph/Nos3/Nos1/P3h3/Cyp2s1/Cyp27b1/Ogfod3/Cyp2d22/Fads1",11
+"GO:0000030","mannosyltransferase activity","1/1565","26/22710",0.843939109712437,0.843939109712437,0.833545643561332,"Sdf2l1",1
+"GO:0005158","insulin receptor binding","1/1565","26/22710",0.843939109712437,0.843939109712437,0.833545643561332,"Ptpn11",1
+"GO:0005537","mannose binding","1/1565","26/22710",0.843939109712437,0.843939109712437,0.833545643561332,"Lman1l",1
+"GO:0016866","intramolecular transferase activity","1/1565","26/22710",0.843939109712437,0.843939109712437,0.833545643561332,"Pgm2l1",1
+"GO:0099604","ligand-gated calcium channel activity","1/1565","26/22710",0.843939109712437,0.843939109712437,0.833545643561332,"Grin2d",1
+"GO:0004806","triglyceride lipase activity","1/1565","27/22710",0.854705962705738,0.854705962705738,0.841241917133747,"Lipg",1
+"GO:0008143","poly(A) binding","1/1565","27/22710",0.854705962705738,0.854705962705738,0.841241917133747,"Rbpms",1
+"GO:0017075","syntaxin-1 binding","1/1565","27/22710",0.854705962705738,0.854705962705738,0.841241917133747,"Syp",1
+"GO:0035258","steroid hormone receptor binding","4/1565","87/22710",0.858314330032686,0.858314330032686,0.843814539252723,"Pcna/Ywhah/Dnmt1/Psmc3ip",4
+"GO:0008066","glutamate receptor activity","1/1565","28/22710",0.864730437791288,0.864730437791288,0.84717726128574,"Grin2d",1
+"GO:0035925","mRNA 3'-UTR AU-rich region binding","1/1565","28/22710",0.864730437791288,0.864730437791288,0.84717726128574,"Exosc8",1
+"GO:0045499","chemorepellent activity","1/1565","28/22710",0.864730437791288,0.864730437791288,0.84717726128574,"Sema4a",1
+"GO:0004497","monooxygenase activity","7/1565","143/22710",0.870271203997006,0.870271203997006,0.851075605955182,"Pam/Nos3/Nos1/Cyp2s1/Coq7/Cyp27b1/Cyp2d22",7
+"GO:0008106","alcohol dehydrogenase (NADP+) activity","1/1565","29/22710",0.874063691686739,0.874063691686739,0.851075605955182,"Dhrs3",1
+"GO:0015298","solute:cation antiporter activity","1/1565","29/22710",0.874063691686739,0.874063691686739,0.851075605955182,"Slc9a5",1
+"GO:0016814","hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in cyclic amidines","1/1565","29/22710",0.874063691686739,0.874063691686739,0.851075605955182,"Mthfd1",1
+"GO:0120013","intermembrane lipid transfer activity","1/1565","29/22710",0.874063691686739,0.874063691686739,0.851075605955182,"Gltp",1
+"GO:0005230","extracellular ligand-gated ion channel activity","3/1565","71/22710",0.875520557452526,0.875520557452526,0.851075605955182,"Gabrr1/Slc17a7/Grin2d",3
+"GO:0008235","metalloexopeptidase activity","2/1565","52/22710",0.881945138475283,0.881945138475283,0.851075605955182,"Aebp1/Cpd",2
+"GO:0099516","ion antiporter activity","2/1565","52/22710",0.881945138475283,0.881945138475283,0.851075605955182,"Atp1a3/Slc9a5",2
+"GO:1904315","transmitter-gated ion channel activity involved in regulation of postsynaptic membrane potential","2/1565","52/22710",0.881945138475283,0.881945138475283,0.851075605955182,"Gabrr1/Grin2d",2
+"GO:0004190","aspartic-type endopeptidase activity","1/1565","30/22710",0.882753358037881,0.882753358037881,0.851075605955182,"Casp7",1
+"GO:0017091","AU-rich element binding","1/1565","30/22710",0.882753358037881,0.882753358037881,0.851075605955182,"Exosc8",1
+"GO:0050681","androgen receptor binding","1/1565","30/22710",0.882753358037881,0.882753358037881,0.851075605955182,"Psmc3ip",1
+"GO:0070566","adenylyltransferase activity","1/1565","30/22710",0.882753358037881,0.882753358037881,0.851075605955182,"Coasy",1
+"GO:0098632","cell-cell adhesion mediator activity","1/1565","30/22710",0.882753358037881,0.882753358037881,0.851075605955182,"Igsf9",1
+"GO:0043021","ribonucleoprotein complex binding","7/1565","147/22710",0.887305487456607,0.887305487456607,0.854493366258469,"Stau2/Ppih/Ung/Ezh2/Eri1/Cbx5/Snrpd1",7
+"GO:0004623","phospholipase A2 activity","1/1565","31/22710",0.89084378990167,0.89084378990167,0.854989395880859,"Pla2g2d",1
+"GO:0015248","sterol transporter activity","1/1565","31/22710",0.89084378990167,0.89084378990167,0.854989395880859,"Osbpl1a",1
+"GO:0070001","aspartic-type peptidase activity","1/1565","31/22710",0.89084378990167,0.89084378990167,0.854989395880859,"Casp7",1
+"GO:0005217","intracellular ligand-gated ion channel activity","1/1565","32/22710",0.898376285549797,0.898376285549797,0.856819050477735,"Hcn2",1
+"GO:0043425","bHLH transcription factor binding","1/1565","32/22710",0.898376285549797,0.898376285549797,0.856819050477735,"Ncapg2",1
+"GO:0035257","nuclear hormone receptor binding","7/1565","150/22710",0.898814131440014,0.898814131440014,0.856819050477735,"Rxra/Pcna/Ywhah/Nup62/Dnmt1/Jup/Psmc3ip",7
+"GO:0003707","steroid hormone receptor activity","2/1565","55/22710",0.900382634543016,0.900382634543016,0.856819050477735,"Rxra/Rorb",2
+"GO:0099529","neurotransmitter receptor activity involved in regulation of postsynaptic membrane potential","2/1565","55/22710",0.900382634543016,0.900382634543016,0.856819050477735,"Gabrr1/Grin2d",2
+"GO:0015297","antiporter activity","3/1565","76/22710",0.902576696377891,0.902576696377891,0.856819050477735,"Atp1a3/Slc9a5/Slc25a10",3
+"GO:0015276","ligand-gated ion channel activity","6/1565","133/22710",0.902865256703891,0.902865256703891,0.856819050477735,"Gabrr1/Kcnh2/Slc17a7/Grin2d/Hcn2/Kcnk1",6
+"GO:0016504","peptidase activator activity","1/1565","33/22710",0.905389298739433,0.905389298739433,0.856819050477735,"Casp8ap2",1
+"GO:0042974","retinoic acid receptor binding","1/1565","33/22710",0.905389298739433,0.905389298739433,0.856819050477735,"Rxra",1
+"GO:0019003","GDP binding","3/1565","77/22710",0.907304756592149,0.907304756592149,0.856819050477735,"Gnai1/Ran/Sept5",3
+"GO:0098960","postsynaptic neurotransmitter receptor activity","2/1565","57/22710",0.911142373757433,0.911142373757433,0.856819050477735,"Gabrr1/Grin2d",2
+"GO:0008392","arachidonic acid epoxygenase activity","1/1565","34/22710",0.91191863451898,0.91191863451898,0.856819050477735,"Cyp2s1",1
+"GO:0044769","ATPase activity, coupled to transmembrane movement of ions, rotational mechanism","1/1565","34/22710",0.91191863451898,0.91191863451898,0.856819050477735,"Atp6v0a1",1
+"GO:0070330","aromatase activity","1/1565","34/22710",0.91191863451898,0.91191863451898,0.856819050477735,"Cyp2s1",1
+"GO:0022834","ligand-gated channel activity","6/1565","136/22710",0.913570721532352,0.913570721532352,0.856819050477735,"Gabrr1/Kcnh2/Slc17a7/Grin2d/Hcn2/Kcnk1",6
+"GO:0016903","oxidoreductase activity, acting on the aldehyde or oxo group of donors","2/1565","58/22710",0.916104217016321,0.916104217016321,0.856819050477735,"Aox1/Ogdhl",2
+"GO:0022824","transmitter-gated ion channel activity","2/1565","58/22710",0.916104217016321,0.916104217016321,0.856819050477735,"Gabrr1/Grin2d",2
+"GO:0022835","transmitter-gated channel activity","2/1565","58/22710",0.916104217016321,0.916104217016321,0.856819050477735,"Gabrr1/Grin2d",2
+"GO:0070063","RNA polymerase binding","2/1565","58/22710",0.916104217016321,0.916104217016321,0.856819050477735,"Wdhd1/Brca1",2
+"GO:0099094","ligand-gated cation channel activity","4/1565","99/22710",0.916618338527066,0.916618338527066,0.856819050477735,"Kcnh2/Grin2d/Hcn2/Kcnk1",4
+"GO:0001103","RNA polymerase II repressing transcription factor binding","1/1565","35/22710",0.917997631563335,0.917997631563335,0.856819050477735,"Rbbp8",1
+"GO:0001965","G-protein alpha-subunit binding","1/1565","35/22710",0.917997631563335,0.917997631563335,0.856819050477735,"Gpsm2",1
+"GO:0030551","cyclic nucleotide binding","1/1565","35/22710",0.917997631563335,0.917997631563335,0.856819050477735,"Hcn2",1
+"GO:0070717","poly-purine tract binding","1/1565","35/22710",0.917997631563335,0.917997631563335,0.856819050477735,"Rbpms",1
+"GO:1901567","fatty acid derivative binding","1/1565","35/22710",0.917997631563335,0.917997631563335,0.856819050477735,"S100a9",1
+"GO:0070405","ammonium ion binding","3/1565","80/22710",0.920266189904648,0.920266189904648,0.857122354144604,"Maoa/Pctp/Chrm3",3
+"GO:0004222","metalloendopeptidase activity","4/1565","100/22710",0.920343103467057,0.920343103467057,0.857122354144604,"Mmp17/Adam8/Mipep/Lmln",4
+"GO:0008237","metallopeptidase activity","8/1565","175/22710",0.921378258263563,0.921378258263563,0.85714551726735,"Mmp17/Adam8/Mipep/Naalad2/Aebp1/Cpd/Lmln/Naaladl1",8
+"GO:0015078","proton transmembrane transporter activity","5/1565","120/22710",0.92274286637055,0.92274286637055,0.857385476867022,"Atp6v1g3/AA467197/Cox4i2/Slc9a5/Atp6v0a1",5
+"GO:0005231","excitatory extracellular ligand-gated ion channel activity","1/1565","36/22710",0.923657331964808,0.923657331964808,0.857385476867022,"Slc17a7",1
+"GO:0016616","oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor","6/1565","140/22710",0.926239314021134,0.926239314021134,0.858842550590778,"Kcnab1/Dhrs3/Hsd17b14/Uevld/Hsd17b2/Cbr3",6
+"GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen","2/1565","62/22710",0.93346023137932,0.93346023137932,0.860187712783803,"Cyp2s1/Cyp2d22",2
+"GO:0043022","ribosome binding","2/1565","62/22710",0.93346023137932,0.93346023137932,0.860187712783803,"Stau2/Eri1",2
+"GO:0051287","NAD binding","2/1565","62/22710",0.93346023137932,0.93346023137932,0.860187712783803,"Aox1/Nnt",2
+"GO:0000979","RNA polymerase II core promoter sequence-specific DNA binding","1/1565","38/22710",0.933832466071329,0.933832466071329,0.860187712783803,"Ezh2",1
+"GO:0008138","protein tyrosine/serine/threonine phosphatase activity","1/1565","38/22710",0.933832466071329,0.933832466071329,0.860187712783803,"Dusp3",1
+"GO:0031369","translation initiation factor binding","1/1565","38/22710",0.933832466071329,0.933832466071329,0.860187712783803,"Angel1",1
+"GO:0008173","RNA methyltransferase activity","2/1565","63/22710",0.93723502169957,0.93723502169957,0.860187712783803,"Henmt1/Tfb1m",2
+"GO:0004864","protein phosphatase inhibitor activity","1/1565","39/22710",0.938399870384948,0.938399870384948,0.860187712783803,"Styxl1",1
+"GO:0003729","mRNA binding","13/1565","272/22710",0.940231665854478,0.940231665854478,0.860187712783803,"Boll/Dazl/Exosc8/Tyms/Slbp/Rbpms/Rbpms2/Shmt1/Myh10/Dhfr/Zfp385a/Carhsp1/Celf4",13
+"GO:0004866","endopeptidase inhibitor activity","9/1565","201/22710",0.94064229230637,0.94064229230637,0.860187712783803,"Spink2/Gas6/Nol3/Birc5/Serpinb1a/Serpinb9/Serpinb9b/Serpina11/Serpina12",9
+"GO:0002020","protease binding","6/1565","146/22710",0.942179427398668,0.942179427398668,0.860187712783803,"Il1r1/Casp8ap2/Brca2/Lrp1/Nol3/Serpinb9",6
+"GO:0017137","Rab GTPase binding","7/1565","165/22710",0.942452031196715,0.942452031196715,0.860187712783803,"Dennd2c/Tbc1d2/Rims3/Sytl2/Dennd5a/Tbc1d16/Dennd3",7
+"GO:0004993","G protein-coupled serotonin receptor activity","1/1565","40/22710",0.942652184038847,0.942652184038847,0.860187712783803,"Chrm3",1
+"GO:0099589","serotonin receptor activity","1/1565","40/22710",0.942652184038847,0.942652184038847,0.860187712783803,"Chrm3",1
+"GO:0001158","enhancer sequence-specific DNA binding","5/1565","127/22710",0.942898069782245,0.942898069782245,0.860187712783803,"Msc/Pbx3/Nanog/Hmgb2/Zbtb16",5
+"GO:0003724","RNA helicase activity","2/1565","66/22710",0.947376514216659,0.947376514216659,0.863344983276191,"Ddx20/Ddx43",2
+"GO:0016614","oxidoreductase activity, acting on CH-OH group of donors","6/1565","149/22710",0.948932760169769,0.948932760169769,0.863835333969769,"Kcnab1/Dhrs3/Hsd17b14/Uevld/Hsd17b2/Cbr3",6
+"GO:0004722","protein serine/threonine phosphatase activity","2/1565","68/22710",0.953247929630311,0.953247929630311,0.866112244471473,"Ppp2r2c/Ctdspl",2
+"GO:0008374","O-acyltransferase activity","1/1565","43/22710",0.953728441240746,0.953728441240746,0.866112244471473,"Mogat1",1
+"GO:0001085","RNA polymerase II transcription factor binding","7/1565","171/22710",0.954589094594712,0.954589094594712,0.866112244471473,"Tbr1/Rbl1/Nanog/Tead2/Rb1/Pou1f1/Rbbp8",7
+"GO:0061135","endopeptidase regulator activity","9/1565","209/22710",0.955517379384657,0.955517379384657,0.866112244471473,"Spink2/Gas6/Nol3/Birc5/Serpinb1a/Serpinb9/Serpinb9b/Serpina11/Serpina12",9
+"GO:0004177","aminopeptidase activity","1/1565","44/22710",0.956923173206081,0.956923173206081,0.866460796050217,"Naaladl1",1
+"GO:0030414","peptidase inhibitor activity","9/1565","212/22710",0.960176895556678,0.960176895556678,0.867484003345225,"Spink2/Gas6/Nol3/Birc5/Serpinb1a/Serpinb9/Serpinb9b/Serpina11/Serpina12",9
+"GO:0016790","thiolester hydrolase activity","1/1565","46/22710",0.962666510127695,0.962666510127695,0.867484003345225,"Ufsp1",1
+"GO:0042605","peptide antigen binding","1/1565","46/22710",0.962666510127695,0.962666510127695,0.867484003345225,"H2-Q10",1
+"GO:0099528","G protein-coupled neurotransmitter receptor activity","1/1565","46/22710",0.962666510127695,0.962666510127695,0.867484003345225,"Chrm3",1
+"GO:0019843","rRNA binding","2/1565","72/22710",0.963165551605015,0.963165551605015,0.867484003345225,"Eri1/Mrpl18",2
+"GO:0035326","enhancer binding","5/1565","138/22710",0.965135660014622,0.965135660014622,0.867631673768062,"Msc/Pbx3/Nanog/Hmgb2/Zbtb16",5
+"GO:0003727","single-stranded RNA binding","3/1565","96/22710",0.96537479532903,0.96537479532903,0.867631673768062,"Hmgb1/Rbpms/Anxa1",3
+"GO:0001046","core promoter sequence-specific DNA binding","1/1565","49/22710",0.969878939636145,0.969878939636145,0.870757366022537,"Ezh2",1
+"GO:0008395","steroid hydroxylase activity","2/1565","76/22710",0.971044332263704,0.971044332263704,0.870882087242178,"Cyp2s1/Cyp2d22",2
+"GO:0000980","RNA polymerase II distal enhancer sequence-specific DNA binding","3/1565","100/22710",0.972089197703797,0.972089197703797,0.870898564274173,"Msc/Pbx3/Zbtb16",3
+"GO:0008028","monocarboxylic acid transmembrane transporter activity","1/1565","51/22710",0.973895767635805,0.973895767635805,0.871596700771106,"Slc10a1",1
+"GO:0061134","peptidase regulator activity","10/1565","244/22710",0.97573096509198,0.97573096509198,0.872318959418929,"Casp8ap2/Spink2/Gas6/Nol3/Birc5/Serpinb1a/Serpinb9/Serpinb9b/Serpina11/Serpina12",10
+"GO:0016811","hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides","2/1565","84/22710",0.982213400595276,0.982213400595276,0.877190028675671,"Pdf/Naalad2",2
+"GO:0140101","catalytic activity, acting on a tRNA","3/1565","113/22710",0.986369679900778,0.986369679900778,0.879975606840474,"Dars2/Aarsd1/Rpp30",3
+"GO:0001047","core promoter binding","1/1565","62/22710",0.988122284558999,0.988122284558999,0.880182602060428,"Ezh2",1
+"GO:0030374","nuclear receptor transcription coactivator activity","1/1565","64/22710",0.9897071273886,0.9897071273886,0.880182602060428,"Psmc3ip",1
+"GO:0030594","neurotransmitter receptor activity","3/1565","118/22710",0.989714010232464,0.989714010232464,0.880182602060428,"Gabrr1/Grin2d/Chrm3",3
+"GO:0008227","G protein-coupled amine receptor activity","1/1565","73/22710",0.994597650474219,0.994597650474219,0.881934402345087,"Chrm3",1
+"GO:0052689","carboxylic ester hydrolase activity","4/1565","156/22710",0.995297603130778,0.995297603130778,0.881934402345087,"Pla2g2d/Mgll/Aarsd1/Lipg",4
+"GO:0008135","translation factor activity, RNA binding","1/1565","77/22710",0.995943778374979,0.995943778374979,0.881934402345087,"Gspt2",1
+"GO:0016503","pheromone receptor activity","1/1565","99/22710",0.999162126812975,0.999162126812975,0.881934402345087,"Vmn1r43",1
+"GO:0034987","immunoglobulin receptor binding","2/1565","143/22710",0.99958529152342,0.99958529152342,0.881934402345087,"Lgals3/Iglc1",2
+"GO:0003735","structural constituent of ribosome","3/1565","182/22710",0.999771212765932,0.999771212765932,0.881934402345087,"Gm15013/Mrpl18/Gm3550",3
+"GO:0003823","antigen binding","2/1565","204/22710",0.999992833580278,0.999992833580278,0.881934402345087,"Iglc1/H2-Q10",2
+"GO:0005550","pheromone binding","1/1565","216/22710",0.99999981427193,0.99999981427193,0.881934402345087,"Vmn1r43",1

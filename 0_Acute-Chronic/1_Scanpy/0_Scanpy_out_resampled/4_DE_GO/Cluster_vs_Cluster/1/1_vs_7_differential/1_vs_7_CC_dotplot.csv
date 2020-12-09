@@ -1,0 +1,643 @@
+"ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0000775","chromosome, centromeric region","84/2064","190/23436",1.1422150798777e-38,1.1422150798777e-38,5.85535519895198e-36,"Sgo2a/Hjurp/Cenpl/Nuf2/Cenpf/Nsl1/Nek2/Suv39h2/Spc25/Nup160/Ckap5/Kif18a/Bub1b/Knstrn/Knl1/Oip5/Bub1/Dsn1/Aurka/Suv39h1/Ercc6l/Cenpi/Smc1a/Pmf1/Cenpe/Kif2c/Cdca8/Cenps/Cenpa/Ncapg/Cenpc1/Kntc1/Stag3/Mad1l1/Cbx3/Mad2l1/Ncapd2/Aurkc/Plk1/Bub3/Mki67/Cenpw/Nup37/Sycp3/Nup107/Ppp2cb/Cenpu/Ctcf/Cenpt/Cenpn/Cdt1/Nup133/Ska3/Esco2/Dnmt1/Spc24/Ncapd3/Zw10/Zwilch/Ttk/Spdl1/Aurkb/Mis12/Spag5/Ska2/Nup85/Birc5/Cenpp/Cenph/Ccnb1/Cenpk/Mis18bp1/Rad21/Dscc1/Rangap1/Cenpm/Cbx5/Nde1/Mis18a/Sgo1/Ndc80/Ska1/Incenp/Smc3",84
+"GO:0044815","DNA packaging complex","56/2064","97/23436",4.4528539065838e-34,4.4528539065838e-34,8.07300341943926e-32,"Ncaph/Smc4/H2ac21/H2ac20/H2bc21/H3c15/H3c14/H4c14/H3c13/Smc2/Cenpa/Ncapg/Ncapd2/H4f16/Ncapd3/H2afx/H2bu2/H2aw/H3c10/H2bc14/H4c11/H4c12/H2ac15/H1f5/H3c11/Hist1h2bp/Hist1h4m/Hist1h4n/H2ac12/H2bc12/H4c9/H4c8/H2ac10/H3c8/H2bc9/H3c7/H4c6/H1f3/H3c6/H3c4/H4c4/H1f4/H1f6/H4c3/H1f2/H3c3/H2bc3/H3c2/H4c2/H4c1/H3c1/H1f1/Ncapg2/H1f0/Ncaph2/Prm1",56
+"GO:0098687","chromosomal region","101/2064","299/23436",4.72444758632482e-34,4.72444758632482e-34,8.07300341943926e-32,"Terf1/Sgo2a/Hjurp/Cenpl/Nuf2/Cenpf/Nsl1/Nek2/Suv39h2/Spc25/Nup160/Ckap5/Kif18a/Bub1b/Knstrn/Knl1/Rad51/Oip5/Bub1/Dsn1/Aurka/Rtel1/Suv39h1/Ercc6l/Cenpi/Smc1a/Pmf1/Cenpe/Kif2c/Cdca8/Cenps/Cenpa/Ncapg/Cenpc1/Chek2/Kntc1/Stag3/Mad1l1/Brca2/Ezh2/Cbx3/Mad2l1/Ncapd2/Aurkc/Pold1/Blm/Plk1/Bub3/Mki67/Cenpw/Eid3/Nup37/Sycp3/Nup107/Cdk2/Ppp2cb/Cenpu/Ctcf/Cenpt/Cenpn/Cdt1/Nup133/Tinf2/Ska3/Esco2/Dnmt1/Spc24/Ncapd3/H2afx/Zw10/Zwilch/Pif1/Ttk/Spdl1/Ctc1/Aurkb/Mis12/Spag5/Ska2/Nup85/Birc5/Cenpp/Cenph/Ccnb1/Cenpk/Mis18bp1/Rad21/Dscc1/Recql4/Dmc1/Rangap1/Cenpm/Cbx5/Nde1/Mis18a/Sgo1/Ndc80/Ska1/Incenp/Fen1/Smc3",101
+"GO:0000776","kinetochore","62/2064","132/23436",1.01387758063326e-30,1.01387758063326e-30,1.29936416254841e-28,"Sgo2a/Hjurp/Nuf2/Cenpf/Nsl1/Nek2/Spc25/Nup160/Ckap5/Kif18a/Bub1b/Knstrn/Knl1/Bub1/Dsn1/Ercc6l/Cenpi/Smc1a/Pmf1/Cenpe/Kif2c/Cenps/Cenpa/Cenpc1/Kntc1/Mad1l1/Mad2l1/Plk1/Bub3/Cenpw/Nup37/Nup107/Cenpu/Cenpt/Cenpn/Cdt1/Nup133/Ska3/Spc24/Ncapd3/Zw10/Zwilch/Ttk/Spdl1/Aurkb/Mis12/Spag5/Ska2/Nup85/Birc5/Cenph/Ccnb1/Cenpk/Mis18bp1/Rangap1/Cenpm/Cbx5/Nde1/Sgo1/Ndc80/Ska1/Incenp",62
+"GO:0000793","condensed chromosome","76/2064","209/23436",2.69533702849854e-28,2.69533702849854e-28,2.76342975342903e-26,"Sgo2a/Hjurp/Nuf2/Cenpf/Nsl1/Nek2/Spc25/Bub1b/Knl1/Rad51/Ncaph/Bub1/Dsn1/L3mbtl1/Aurka/Tex11/Smc1a/Smc4/Pmf1/Hormad1/Cenpe/Smc2/Rcc1/Cenpa/Ncapg/Cenpc1/Stag3/Brca2/Cbx3/Fancd2/Ncapd2/Aurkc/Blm/Plk1/Mki67/Syce1/Eid3/Sycp3/Cdk2/Hmgb2/Syce2/Ctcf/Nup133/Ccnb1ip1/Ska3/Ncapd3/H2afx/Mei4/Topbp1/Spdl1/Aurkb/Mis12/Ska2/Top2a/Tubg1/Brca1/Birc5/H1f6/Ccnb1/Cenpk/Mis18bp1/Hspa2/Ncapg2/Rad21/Dmc1/Ncaph2/Syce3/Msh5/Sgo1/Ndc80/Ska1/Rad9a/Banf1/Cdca5/Incenp/Smc3",76
+"GO:0005819","spindle","88/2064","273/23436",3.99376139392854e-28,3.99376139392854e-28,3.41221368218105e-26,"Terf1/Kif14/Aspm/Shcbp1l/Cenpf/Nek2/Ckap5/Kif18a/Katnbl1/Bub1b/Knstrn/Nusap1/Ckap2l/Cdc25b/Tpx2/Mapre1/Dsn1/Fam83d/Aurka/Smc1a/Ect2/Psrc1/Gpsm2/Cenpe/Cdca8/Cep85/Aunip/Tacc3/Haus3/Pkd2/Cdc7/Kntc1/Mad1l1/Katnal1/Cbx3/Mad2l1/Aurkc/Wdr62/Cep89/Nup62/Prc1/Plk1/Kif22/Cttn/Fbxo5/Cdk1/Nedd1/Poc1b/Ccsap/Dlgap5/Ska3/Bora/Cep295/Zw10/Kif23/Ttk/Poc1a/Fam161a/Spdl1/Myh10/Aurkb/Haspin/Spag5/Ska2/Tubg1/Tubg2/Kif18b/Cdc27/Birc5/Ccnb1/Hspa2/Cep128/Mapk15/Rangap1/Racgap1/Espl1/Aaas/Nde1/Kifc5b/Kifc1/Sgo1/Kif20a/Ska1/Sac3d1/Incenp/Kif20b/Kif11/Smc3",88
+"GO:0000786","nucleosome","48/2064","88/23436",7.30435354230124e-28,7.30435354230124e-28,5.34920327082813e-26,"H2ac21/H2ac20/H2bc21/H3c15/H3c14/H4c14/H3c13/Cenpa/H4f16/H2afx/H2bu2/H2aw/H3c10/H2bc14/H4c11/H4c12/H2ac15/H1f5/H3c11/Hist1h2bp/Hist1h4m/Hist1h4n/H2ac12/H2bc12/H4c9/H4c8/H2ac10/H3c8/H2bc9/H3c7/H4c6/H1f3/H3c6/H3c4/H4c4/H1f4/H1f6/H4c3/H1f2/H3c3/H2bc3/H3c2/H4c2/H4c1/H3c1/H1f1/H1f0/Prm1",48
+"GO:0000779","condensed chromosome, centromeric region","35/2064","51/23436",1.57784476824089e-25,1.57784476824089e-25,1.01106631859646e-23,"Sgo2a/Hjurp/Nuf2/Cenpf/Nsl1/Spc25/Bub1b/Knl1/Bub1/Dsn1/Aurka/Pmf1/Cenpe/Cenpa/Ncapg/Cenpc1/Cbx3/Ncapd2/Aurkc/Plk1/Sycp3/Nup133/Ska3/Ncapd3/Spdl1/Aurkb/Mis12/Ska2/Birc5/Ccnb1/Cenpk/Mis18bp1/Sgo1/Ndc80/Ska1",35
+"GO:0032993","protein-DNA complex","63/2064","186/23436",8.71561577621214e-22,8.71561577621214e-22,4.96433319650914e-20,"Terf1/Prim2/Gins1/Pola1/H2ac21/H2ac20/H2bc21/H3c15/H3c14/H4c14/H3c13/Cenpa/Rpa3/H4f16/Pold1/Nupr1/Nfyb/Prim1/Gins2/Tinf2/H2afx/H2bu2/H2aw/Ctc1/Suz12/H3c10/H2bc14/H4c11/H4c12/H2ac15/H1f5/H3c11/Hist1h2bp/Hist1h4m/Hist1h4n/H2ac12/H2bc12/H4c9/H4c8/H2ac10/H3c8/H2bc9/H3c7/H4c6/H1f3/H3c6/H3c4/H4c4/H1f4/H1f6/H4c3/H1f2/H3c3/H2bc3/H3c2/H4c2/H4c1/H3c1/H1f1/H1f0/Prm1/Cdc45/Nfya",63
+"GO:0000777","condensed chromosome kinetochore","26/2064","35/23436",1.02231914479856e-20,1.02231914479856e-20,5.24073077386208e-19,"Hjurp/Nuf2/Cenpf/Nsl1/Spc25/Bub1b/Knl1/Bub1/Dsn1/Pmf1/Cenpe/Cenpa/Cenpc1/Plk1/Nup133/Ska3/Ncapd3/Spdl1/Mis12/Ska2/Birc5/Ccnb1/Cenpk/Mis18bp1/Ndc80/Ska1",26
+"GO:0000788","nuclear nucleosome","26/2064","38/23436",3.01529851768793e-19,3.01529851768793e-19,1.40521567283639e-17,"H3c15/H3c14/H4c14/H3c13/Cenpa/H4f16/H2aw/H3c10/H4c11/H4c12/H3c11/Hist1h4m/Hist1h4n/H4c9/H4c8/H3c8/H4c6/H3c6/H3c4/H4c4/H1f4/H4c3/H3c2/H4c2/H4c1/H3c1",26
+"GO:0005874","microtubule","96/2064","420/23436",1.60368690763196e-18,1.60368690763196e-18,6.8508379299716e-17,"Stau2/Tuba4a/Kif14/Aspm/Dnm3/Nek2/Tubb4b/Odf2/Ttll11/Ckap5/Kif18a/Knstrn/Nusap1/Map1a/Ttl/Tpx2/Mapre1/Aurka/Hdac6/Haus7/Kif4/Dclk2/Psrc1/Cenpe/Kif24/Kif2c/Tekt2/Nudc/Stmn1/Haus3/Trpv4/Kntc1/Katnal1/Aurkc/Gsk3a/Haus5/Prc1/Plk1/Kif22/Tube1/Cep57l1/Cdk1/Pcnt/Odf3l2/Apc2/Gas2l3/Mdm1/Ncoa2/Rassf3/Ckap2/Haus8/Tppp3/Enkd1/Tubb3/Ccsap/Haus4/Cenpj/Ska3/Reep4/Cep57/Cep295/Clmp/Zw10/Kif23/Kif15/Fam161a/Aurkb/Spag5/Tubd1/Ska2/Tubg1/Tubg2/Kif18b/Cdc27/Kif19a/Hid1/Birc5/Iqgap2/Dnal1/Fam161b/Cep170b/Gtse1/Tuba1b/Tuba1a/Tuba1c/Nde1/Spag6l/Kifc5b/Kifc1/Tubb5/Trip10/Kif20a/Ska1/Incenp/Kif20b/Kif11",96
+"GO:0072686","mitotic spindle","41/2064","107/23436",7.60892523865907e-17,7.60892523865907e-17,3.00044258398945e-15,"Aspm/Kif18a/Katnbl1/Knstrn/Nusap1/Ckap2l/Tpx2/Mapre1/Fam83d/Aurka/Smc1a/Ect2/Gpsm2/Cenpe/Tacc3/Haus3/Pkd2/Cdc7/Mad1l1/Mad2l1/Nup62/Kif22/Cttn/Cdk1/Ccsap/Cep295/Kif23/Fam161a/Aurkb/Spag5/Kif18b/Rangap1/Racgap1/Espl1/Aaas/Kifc5b/Kifc1/Ska1/Kif20b/Kif11/Smc3",41
+"GO:0000780","condensed nuclear chromosome, centromeric region","20/2064","29/23436",3.32341461179492e-15,3.32341461179492e-15,1.16375460067515e-13,"Sgo2a/Nuf2/Bub1b/Bub1/Dsn1/Aurka/Pmf1/Cenpe/Cenpa/Cenpc1/Aurkc/Plk1/Sycp3/Aurkb/Mis12/Ccnb1/Cenpk/Mis18bp1/Sgo1/Ndc80",20
+"GO:0000794","condensed nuclear chromosome","48/2064","155/23436",3.40523676788929e-15,3.40523676788929e-15,1.16375460067515e-13,"Sgo2a/Nuf2/Nek2/Bub1b/Rad51/Ncaph/Bub1/Dsn1/Aurka/Tex11/Pmf1/Hormad1/Cenpe/Rcc1/Cenpa/Cenpc1/Stag3/Brca2/Ncapd2/Aurkc/Blm/Plk1/Syce1/Sycp3/Syce2/Ccnb1ip1/Ncapd3/H2afx/Mei4/Topbp1/Aurkb/Mis12/Tubg1/Brca1/H1f6/Ccnb1/Cenpk/Mis18bp1/Hspa2/Rad21/Dmc1/Syce3/Msh5/Sgo1/Ndc80/Rad9a/Incenp/Smc3",48
+"GO:0000922","spindle pole","43/2064","129/23436",4.91483651738644e-15,4.91483651738644e-15,1.57468775261e-13,"Aspm/Cenpf/Nek2/Ckap5/Katnbl1/Cdc25b/Tpx2/Dsn1/Fam83d/Aurka/Smc1a/Psrc1/Gpsm2/Cep85/Aunip/Kntc1/Mad1l1/Katnal1/Mad2l1/Aurkc/Wdr62/Cep89/Nup62/Plk1/Nedd1/Poc1b/Dlgap5/Zw10/Poc1a/Fam161a/Spdl1/Aurkb/Spag5/Tubg1/Ccnb1/Cep128/Aaas/Nde1/Kifc1/Sgo1/Kif20b/Kif11/Smc3",43
+"GO:0005814","centriole","40/2064","115/23436",8.55713433018801e-15,8.55713433018801e-15,2.58038663702883e-13,"Odf2/Agbl2/Ccdc120/Rp2/Plk4/Sass6/Kif24/Cntln/Stil/Crocc/Ccdc146/Mphosph9/Ran/Alms1/Cep89/Tsks/Ccp110/Plk1/Pcnt/Nedd1/Poc1b/Mdm1/Ccsap/Cenpj/Cep295/Hyls1/Poc1a/Fam161a/Cntrob/Top2a/Tubg1/Birc5/Cep128/Mapk15/Ccnf/Ccdc78/Wdr90/Cchcr1/Cep76/Rttn",40
+"GO:0044450","microtubule organizing center part","48/2064","164/23436",3.82149013909562e-14,3.82149013909562e-14,1.04635703384489e-12,"Odf2/Agbl2/Ckap5/Ccdc120/Rp2/Plk4/Sass6/Odf2l/Kif24/Cntln/Stil/Cep85/Crocc/Ccdc146/Mphosph9/Ran/Alms1/Cep89/Tsks/Ccp110/Plk1/Pcnt/Nedd1/Poc1b/Mdm1/Ccsap/Cenpj/Cep295/Hyls1/Poc1a/Fam161a/Cntrob/Spag5/Top2a/Tubg1/Tubg2/Birc5/Cep131/Cep72/Cep128/Mapk15/Ccdc14/Ccnf/Ccdc78/Wdr90/Cchcr1/Cep76/Rttn",48
+"GO:0000790","nuclear chromatin","85/2064","407/23436",3.87818161414791e-14,3.87818161414791e-14,1.04635703384489e-12,"Nucks1/Tbx19/Suv39h2/Gata3/Nacc2/Zeb2/Hat1/Ssrp1/Pax6/Rad51/Suv39h1/Hmgb3/Scml2/Rbbp7/H2ac21/H2ac20/H3c15/H3c14/H4c14/H3c13/Nasp/Rcc1/Chd5/Cenpa/Cenpc1/Hmgb1/Ezh2/Cbx3/Rad51ap1/H4f16/Hey2/Timeless/Sap30/Hmgb2/Hmgxb4/Asf1b/Klf1/Esco2/Ncapd3/H2afx/Tipin/H2aw/Suz12/Eme1/Rara/H3c10/H4c11/H4c12/H2ac15/H1f5/H3c11/Hist1h4m/Hist1h4n/H2ac12/H4c9/H4c8/H2ac10/H3c8/H4c6/H1f3/H3c6/H3c4/H4c4/H1f4/H2ac6/H1f6/H4c3/H1f2/H3c2/H4c2/H4c1/H3c1/H1f1/Foxc1/H1f0/Cbx5/Zfp385a/Chaf1b/Bicral/Chaf1a/Uhrf1/Brd8/Brms1/Cdca5/Taf5",85
+"GO:0005876","spindle microtubule","26/2064","54/23436",5.165030886772e-14,5.165030886772e-14,1.32387896939893e-12,"Kif18a/Nusap1/Tpx2/Mapre1/Aurka/Psrc1/Cenpe/Kntc1/Aurkc/Plk1/Cdk1/Ccsap/Ska3/Cep295/Zw10/Fam161a/Aurkb/Spag5/Ska2/Tubg1/Tubg2/Kif18b/Cdc27/Birc5/Ska1/Kif11",26
+"GO:0000778","condensed nuclear chromosome kinetochore","14/2064","16/23436",1.6414891747024e-13,1.6414891747024e-13,4.00704374977478e-12,"Nuf2/Bub1b/Bub1/Dsn1/Pmf1/Cenpe/Cenpa/Cenpc1/Plk1/Mis12/Ccnb1/Cenpk/Mis18bp1/Ndc80",14
+"GO:0005657","replication fork","27/2064","71/23436",1.73485885759926e-11,1.73485885759926e-11,4.0424701610088e-10,"Prim2/Zranb3/Mcm10/Pcna/Pola1/Mms22l/Xrcc2/Rfc5/Rfc2/Rpa3/Rad18/Pold1/Blm/Prim1/Timeless/Gins2/Dnmt1/H2afx/Tipin/Pif1/Rad51c/Rad51b/Xrcc3/Cdc45/Rfc4/Polh/Uhrf1",27
+"GO:0000940","condensed chromosome outer kinetochore","12/2064","15/23436",7.47190320779697e-11,7.47190320779697e-11,1.6653624083282e-09,"Cenpf/Bub1b/Bub1/Cenpe/Plk1/Nup133/Ska3/Spdl1/Ska2/Ccnb1/Ndc80/Ska1",12
+"GO:0005635","nuclear envelope","73/2064","407/23436",3.5057575810273e-09,3.5057575810273e-09,7.48817518403639e-08,"Stau2/Plcd4/Nos1ap/Lbr/Cenpf/Sephs1/Ptgs1/Nup35/Nup160/Gchfr/Nxt1/Cse1l/Pola1/Ndc1/Faf1/Rcc1/Gabrb1/Wdfy3/Nos1/Ran/Pom121/Sun1/Gper1/Mad1l1/Cav2/Nup205/Osbpl3/Cbx3/Hoxa7/Mad2l1/Lmntd1/Dmpk/Hpn/Nup62/Rrm1/Mapk3/Ak9/Lmnb2/Fzr1/Nup37/Tmpo/Nup107/Nemp1/Nutf2/Tnrc18/Nup133/Uaca/Mns1/Sh3bgrl2/Cep70/P2rx1/Rap1gap2/Tmem97/Brip1/Ngfr/Jpt1/Nup85/Bicd2/Rrm2/Syne2/Clmn/Syne3/Nup155/Ranbp3l/Rangap1/Aaas/Ranbp1/Pcyt1a/Tubb5/Nrm/Lmnb1/Scgb1a1/Tmem109",73
+"GO:0015629","actin cytoskeleton","82/2064","490/23436",1.08105354024902e-08,1.08105354024902e-08,2.21672873305799e-07,"Obsl1/Csrp1/Tnni1/Neb/Corin/Myl9/Src/Ptpn11/Gdpd2/Tmsb15b2/Amot/Tmod4/Tpm2/Ndc1/Lurap1/Crocc/Abcb4/Ablim2/Crmp1/Limch1/Sept11/Pkd2/Coro1c/Trpv4/Cit/Kntc1/Auts2/Baiap2l1/Dennd2a/Zyx/Lancl2/Scnn1a/Myadm/Foxa3/Actn4/Tlnrd1/Mylpf/Tnni2/Tnnt3/Cttn/Ulbp1/Marcks/Apc2/Gas2l3/Myom2/Tpm4/Mtss2/Bcar1/Acta1/Synpo2l/Dmtn/Anln/Arhgap32/Cib2/Coro2b/Anxa2/Filip1/Pls1/Topbp1/Myrip/Smtn/Sh3pxd2b/Mprip/Myh10/Myo1d/Srcin1/Rara/Cap2/Dbn1/Arc/Triobp/H1f0/Parvb/Myh11/Sept5/Snx9/Notch3/Clic5/Myom1/Myoz3/Anxa1/Taf5",82
+"GO:0005875","microtubule associated complex","35/2064","147/23436",4.06889409677921e-08,4.06889409677921e-08,7.74943439702303e-07,"Kif14/Dnah14/Kif18a/Map1a/Aurka/Hdac6/Haus7/Kif4/Cenpe/Kif24/Haus6/Lrp8/Kif2c/Cdca8/Haus3/Aurkc/Haus5/Kif22/Haus8/Haus4/Kif23/Kif15/Aurkb/Kif18b/Kif19a/Birc5/Dnal1/Dnah11/Nde1/Tcte3/Kifc5b/Kifc1/Kif20a/Kif20b/Kif11",35
+"GO:0005643","nuclear pore","22/2064","68/23436",4.08158095038277e-08,4.08158095038277e-08,7.74943439702303e-07,"Lbr/Nup35/Nup160/Nxt1/Ndc1/Ran/Pom121/Mad1l1/Nup205/Mad2l1/Nup62/Nup37/Nup107/Nutf2/Nup133/Nup85/Bicd2/Nup155/Ranbp3l/Rangap1/Aaas/Ranbp1",22
+"GO:0030496","midbody","33/2064","139/23436",1.0569095682849e-07,1.0569095682849e-07,1.93501864569454e-06,"Kif14/Aspm/Cenpf/Nek2/Kif4/Chmp4c/Ect2/Psrc1/Cenpe/Cdca8/Gnai1/Crmp1/Cenpc1/Cit/Ran/Aurkc/Nup62/Prc1/Plk1/Cdk1/Apc2/Hsp90b1/Anln/Kif23/Anxa2/Myh10/Aurkb/Birc5/Racgap1/Kif20a/Incenp/Kif20b/Cep55",33
+"GO:0098589","membrane region","64/2064","377/23436",2.56559397226302e-07,2.56559397226302e-07,4.53518789289324e-06,"Gpc1/Fasl/Atp1b1/Nos1ap/Fcer1g/Cd48/Atp1a2/Cel/Stom/Lrp4/Kif18a/Mal/Src/Sdc4/Hdac6/L1cam/Btk/P2ry12/Pdzk1/Arid3c/Tgfbr1/Lrp8/Gnai1/Nos3/Coro1c/Nos1/Adam1a/Lat2/Cav2/Myadm/Ehd2/Nup62/Cavin3/Mapk3/Itgam/Oprm1/Cd24a/Unc5b/Grip1/Plvap/Ltb4r1/Ldlr/Thy1/Anxa2/Trpc1/Tdgf1/Plcd1/P2rx1/Rtn4rl1/Myo1d/Ngfr/Bicd2/Drd1/F2r/Itga1/Arc/Pacsin2/Tuba1a/Tuba1c/Faim2/Emp2/Prkn/Mdga1/Tubb5",64
+"GO:0045121","membrane raft","62/2064","364/23436",3.4845059932517e-07,3.4845059932517e-07,5.95422603057396e-06,"Gpc1/Fasl/Atp1b1/Nos1ap/Fcer1g/Cd48/Atp1a2/Cel/Stom/Lrp4/Kif18a/Mal/Src/Sdc4/Hdac6/L1cam/Btk/P2ry12/Pdzk1/Arid3c/Tgfbr1/Lrp8/Gnai1/Nos3/Coro1c/Nos1/Adam1a/Lat2/Cav2/Myadm/Ehd2/Cavin3/Mapk3/Itgam/Oprm1/Cd24a/Unc5b/Grip1/Plvap/Ltb4r1/Ldlr/Thy1/Anxa2/Trpc1/Tdgf1/Plcd1/P2rx1/Rtn4rl1/Myo1d/Ngfr/Drd1/F2r/Itga1/Arc/Pacsin2/Tuba1a/Tuba1c/Faim2/Emp2/Prkn/Mdga1/Tubb5",62
+"GO:0098857","membrane microdomain","62/2064","365/23436",3.84354070903237e-07,3.84354070903237e-07,6.35587207232178e-06,"Gpc1/Fasl/Atp1b1/Nos1ap/Fcer1g/Cd48/Atp1a2/Cel/Stom/Lrp4/Kif18a/Mal/Src/Sdc4/Hdac6/L1cam/Btk/P2ry12/Pdzk1/Arid3c/Tgfbr1/Lrp8/Gnai1/Nos3/Coro1c/Nos1/Adam1a/Lat2/Cav2/Myadm/Ehd2/Cavin3/Mapk3/Itgam/Oprm1/Cd24a/Unc5b/Grip1/Plvap/Ltb4r1/Ldlr/Thy1/Anxa2/Trpc1/Tdgf1/Plcd1/P2rx1/Rtn4rl1/Myo1d/Ngfr/Drd1/F2r/Itga1/Arc/Pacsin2/Tuba1a/Tuba1c/Faim2/Emp2/Prkn/Mdga1/Tubb5",62
+"GO:0000307","cyclin-dependent protein kinase holoenzyme complex","15/2064","42/23436",1.40457876154789e-06,1.40457876154789e-06,2.25009821340074e-05,"Pcna/Ccna2/Cks1b/Ccng2/Ccne1/Cdk1/Cdk2/Cks1brt/Cdkn2d/Ccnb2/Cks2/Ccnb1/Ccno/Ccnf/Cdkn1a",15
+"GO:0005881","cytoplasmic microtubule","21/2064","78/23436",2.496326392882e-06,2.496326392882e-06,3.85677479098994e-05,"Kif18a/Mapre1/Hdac6/Trpv4/Odf3l2/Apc2/Ckap2/Enkd1/Ccsap/Clmp/Fam161a/Tubg1/Tubg2/Kif18b/Hid1/Birc5/Fam161b/Gtse1/Tuba1b/Tuba1a/Tuba1c",21
+"GO:0031965","nuclear membrane","43/2064","233/23436",2.56974939524364e-06,2.56974939524364e-06,3.85677479098994e-05,"Stau2/Plcd4/Nos1ap/Lbr/Sephs1/Nup35/Gchfr/Ndc1/Rcc1/Nos1/Pom121/Sun1/Cav2/Nup205/Osbpl3/Hoxa7/Dmpk/Hpn/Nup62/Ak9/Lmnb2/Fzr1/Tmpo/Nup107/Nutf2/Tnrc18/Nup133/Sh3bgrl2/Cep70/P2rx1/Rap1gap2/Tmem97/Brip1/Jpt1/Syne2/Clmn/Syne3/Nup155/Rangap1/Aaas/Nrm/Lmnb1/Tmem109",43
+"GO:0097431","mitotic spindle pole","12/2064","29/23436",2.63321892813995e-06,2.63321892813995e-06,3.85677479098994e-05,"Aspm/Katnbl1/Fam83d/Aurka/Smc1a/Gpsm2/Mad1l1/Fam161a/Aurkb/Spag5/Kif20b/Smc3",12
+"GO:0051233","spindle midzone","13/2064","34/23436",2.92037331343939e-06,2.92037331343939e-06,4.15854328551164e-05,"Kif14/Kif18a/Mapre1/Aurka/Cenpe/Cdca8/Aurkc/Plk1/Cttn/Aurkb/Kif18b/Racgap1/Kif20b",13
+"GO:0005871","kinesin complex","17/2064","56/23436",3.76379810509891e-06,3.76379810509891e-06,5.20241117536512e-05,"Kif14/Kif18a/Kif4/Cenpe/Kif24/Kif2c/Kif22/Kif23/Kif15/Kif18b/Kif19a/Nde1/Kifc5b/Kifc1/Kif20a/Kif20b/Kif11",17
+"GO:0005680","anaphase-promoting complex","10/2064","21/23436",3.90554105546664e-06,3.90554105546664e-06,5.20241117536512e-05,"Ube2c/Cdc20/Anapc5/Ube2s/Anapc15/Anapc2/Fzr1/Cdc27/Anapc11/Cdc23",10
+"GO:0000800","lateral element","9/2064","17/23436",3.95789186955396e-06,3.95789186955396e-06,5.20241117536512e-05,"Rad51/Stag3/Brca2/Blm/Sycp3/Mei4/Brca1/Incenp/Smc3",9
+"GO:0045171","intercellular bridge","17/2064","58/23436",6.39955544065306e-06,6.39955544065306e-06,8.20153552525801e-05,"Rbm44/Cd34/Tpx2/Kif4/Cdca8/Haus3/Cenpc1/Cdc7/Ehd2/Ppp1r13l/Pcnt/Apc2/Kif23/Cep131/Ncaph2/Kif20a/Cep55",17
+"GO:0072687","meiotic spindle","8/2064","14/23436",6.60271345857757e-06,6.60271345857757e-06,8.25551079416503e-05,"Aspm/Shcbp1l/Aurka/Aurkc/Fbxo5/Bora/Hspa2/Mapk15",8
+"GO:0005901","caveola","22/2064","94/23436",1.7111692723411e-05,1.7111692723411e-05,0.000208857001411056,"Fasl/Atp1b1/Nos1ap/Atp1a2/Kif18a/Src/Hdac6/P2ry12/Tgfbr1/Lrp8/Nos3/Coro1c/Nos1/Cav2/Ehd2/Cavin3/Mapk3/Plvap/Ldlr/Drd1/F2r/Pacsin2",22
+"GO:0044853","plasma membrane raft","26/2064","123/23436",2.14534372022194e-05,2.14534372022194e-05,0.000255760683414464,"Fasl/Atp1b1/Nos1ap/Atp1a2/Lrp4/Kif18a/Mal/Src/Hdac6/P2ry12/Tgfbr1/Lrp8/Nos3/Coro1c/Nos1/Cav2/Ehd2/Cavin3/Mapk3/Itgam/Plvap/Ldlr/Myo1d/Drd1/F2r/Pacsin2",26
+"GO:0043596","nuclear replication fork","13/2064","40/23436",2.29011985253146e-05,2.29011985253146e-05,0.0002668153990868,"Prim2/Zranb3/Mcm10/Pcna/Pola1/Mms22l/Rpa3/Pold1/Prim1/Timeless/Gins2/Tipin/Cdc45",13
+"GO:0010369","chromocenter","8/2064","16/23436",2.40827902739734e-05,2.40827902739734e-05,0.000270432024972766,"Oip5/Cdca8/Cbx3/Tinf2/Esco2/Aurkb/Cbx5/Incenp",8
+"GO:0044441","ciliary part","67/2064","457/23436",2.42666930006363e-05,2.42666930006363e-05,0.000270432024972766,"D1Ertd622e/Atp2b4/Opn3/Cenpf/Enkur/Ssna1/Ak8/Odf2/Ptgs1/Agbl2/Map1a/Mertk/Spef1/Ccdc120/Rp2/Mlf1/Gnat2/Slc9b1/Odf2l/Cfap57/Crocc/Nphp4/Wrap73/Evc/Prom1/Pkd2/Gngt1/Opn1sw/Alms1/Scnn1a/Ehd3/Gapdhs/Cep89/Spef1l/Cd24a/Pcnt/Tspear/Nedd1/Poc1b/Ccsap/Dlg5/Cenpj/Cib2/Mns1/Nphp3/Poc1a/Myrip/Wdpcp/Fam161a/Tmem107/Tubg1/Rgs9/Prcd/Cep131/Drd1/Adgrv1/Dnal1/Cep128/Dnah11/Odf1/Mapk15/Prph/Spag6l/Wdr90/Tulp1/Rttn/Rom1",67
+"GO:0043073","germ cell nucleus","11/2064","30/23436",2.7092070924892e-05,2.7092070924892e-05,0.000295494704152797,"Aurka/Ran/Stag3/Blm/Marcks/Sycp3/Ncapd3/H2afx/Topbp1/Trip13/Hspa2",11
+"GO:0090734","site of DNA damage","16/2064","65/23436",0.000123808553326497,0.000123808553326497,0.00132225362872816,"Rad51/Wdr76/Rnf138rt1/Aunip/Rpa3/Cbx3/Aplf/Rad18/Timeless/Rfwd3/Esco2/H2afx/Cgas/Cbx5/Gm28043/Polh",16
+"GO:0005865","striated muscle thin filament","10/2064","30/23436",0.000158913825665327,0.000158913825665327,0.00166253561974252,"Obsl1/Tnni1/Neb/Tmod4/Tpm2/Tnni2/Tnnt3/Myom2/Acta1/Myom1",10
+"GO:0031253","cell projection membrane","45/2064","295/23436",0.000201440262248618,0.000201440262248618,0.00206529279400162,"Entpd2/Slc27a4/Fap/Cybrd1/Tirap/Mapre1/Src/Slc12a5/Bmx/P2ry12/Pdzk1/Abcb1a/Evc/Prom1/Pkd2/Trpv4/Gper1/Atp6v0a4/Cntnap2/Scnn1a/Eps8/Ehd3/Oprm1/Pcmt1/Cd24a/Tspear/Hcn2/Apc2/Ank1/Psd3/Ndrg4/Mtss2/Dmtn/Thy1/Myo1d/Ngfr/Mpp2/Prcd/Drd1/Syne2/Prph/Muc4/Epb41l3/Jcad/Rom1",45
+"GO:1902554","serine/threonine protein kinase complex","18/2064","82/23436",0.000231181111438714,0.000231181111438714,0.00232373996430658,"Pcna/Phka1/Ccna2/Cks1b/Tgfbr1/Ccng2/Ccne1/Pycard/Cdk1/Cdk2/Cks1brt/Cdkn2d/Ccnb2/Cks2/Ccnb1/Ccno/Ccnf/Cdkn1a",18
+"GO:0000152","nuclear ubiquitin ligase complex","12/2064","43/23436",0.000242921733195845,0.000242921733195845,0.00234961040846825,"Bard1/Ube2c/Cdc20/Anapc5/Ube2s/Anapc15/Anapc2/Fzr1/Brca1/Cdc27/Anapc11/Cdc23",12
+"GO:0005720","nuclear heterochromatin","12/2064","43/23436",0.000242921733195845,0.000242921733195845,0.00234961040846825,"Suv39h2/Suv39h1/Cenpa/Cenpc1/Cbx3/Esco2/Ncapd3/Suz12/Eme1/Foxc1/Cbx5/Uhrf1",12
+"GO:0005818","aster","6/2064","12/23436",0.000268339704895783,0.000268339704895783,0.00246658440106868,"Kif18a/Tpx2/Mapre1/Ccsap/Fam161a/Kif18b",6
+"GO:0008278","cohesin complex","6/2064","12/23436",0.000268339704895783,0.000268339704895783,0.00246658440106868,"Sgo2a/Smc1a/Stag3/Rad21/Cdca5/Smc3",6
+"GO:0097730","non-motile cilium","27/2064","150/23436",0.000269450287755347,0.000269450287755347,0.00246658440106868,"Opn3/Ptgs1/Map1a/Mertk/Mlf1/Gnat2/Nphp4/Prom1/Pkd2/Gngt1/Opn1sw/Cep89/Mdm1/Gpr83/Hyls1/Cib2/Myrip/Fam161a/Tubg1/Rgs9/Prcd/Drd1/Adgrv1/Prph/Glis2/Tulp1/Rom1",27
+"GO:0036379","myofilament","10/2064","32/23436",0.000289785954154707,0.000289785954154707,0.00260620054798416,"Obsl1/Tnni1/Neb/Tmod4/Tpm2/Tnni2/Tnnt3/Myom2/Acta1/Myom1",10
+"GO:0005652","nuclear lamina","6/2064","13/23436",0.000461213853770293,0.000461213853770293,0.00407642734639079,"Lbr/Nup35/Pcna/Lmnb2/Nrm/Lmnb1",6
+"GO:0001673","male germ cell nucleus","8/2064","23/23436",0.000523356296976404,0.000523356296976404,0.00454727059103495,"Ran/Stag3/Blm/Sycp3/H2afx/Topbp1/Trip13/Hspa2",8
+"GO:0032432","actin filament bundle","19/2064","95/23436",0.000550488886015048,0.000550488886015048,0.00470329978051453,"Myl9/Ptpn11/Tmsb15b2/Amot/Limch1/Sept11/Zyx/Actn4/Tlnrd1/Marcks/Tpm4/Acta1/Coro2b/Anxa2/Pls1/Mprip/Myh10/Myh11/Sept5",19
+"GO:0005721","pericentric heterochromatin","8/2064","24/23436",0.000724830394097785,0.000724830394097785,0.00607913094266345,"Cenpa/Cenpc1/Cbx3/Esco2/Dnmt1/Ncapd3/Cbx5/Incenp",8
+"GO:0043240","Fanconi anaemia nuclear complex","6/2064","14/23436",0.00074709648237866,0.00074709648237866,0.00607913094266345,"Fancb/Fancg/Cenps/Faap24/Fanci/Fanca",6
+"GO:1990023","mitotic spindle midzone","6/2064","14/23436",0.00074709648237866,0.00074709648237866,0.00607913094266345,"Kif18a/Cenpe/Cttn/Aurkb/Kif18b/Kif20b",6
+"GO:0031234","extrinsic component of cytoplasmic side of plasma membrane","19/2064","98/23436",0.000821271871481574,0.000821271871481574,0.00657827962847905,"Rgs1/Src/Gnat2/Cnr2/Errfi1/Gnai1/Gngt1/Cav2/Styk1/Plekha4/Gna15/Gna11/Stac3/Esyt3/Alox15/Stac2/Racgap1/Snx9/Gng13",19
+"GO:0031080","nuclear pore outer ring","5/2064","10/23436",0.000910431482850831,0.000910431482850831,0.00718024505503408,"Nup160/Nup37/Nup107/Nup133/Nup85",5
+"GO:0042383","sarcolemma","27/2064","163/23436",0.00102676888458171,0.00102676888458171,0.00797506294722954,"Atp2b4/Atp1b1/Nos1ap/Atp1a2/Snta1/Agrn/Nos3/Stbd1/Nos1/Cav2/Clcn1/Kcnj8/Abcc9/Prx/Scn1b/Oprm1/Col6a2/Ank1/Kcnj3/Cib2/Anxa2/Tgfb3/Cacnb3/Ccdc78/Pde9a/Prkce/Anxa1",27
+"GO:0036064","ciliary basal body","25/2064","147/23436",0.00105291106626264,0.00105291106626264,0.00805605167745332,"Cenpf/Ssna1/Odf2/Agbl2/Rp2/Mlf1/Odf2l/Nphp4/Wrap73/Evc/Pkd2/Alms1/Pcnt/Nedd1/Poc1b/Ccsap/Dlg5/Cenpj/Poc1a/Fam161a/Tubg1/Cep131/Mapk15/Wdr90/Rttn",25
+"GO:1902911","protein kinase complex","19/2064","101/23436",0.00119916824738447,0.00119916824738447,0.00884082593600104,"Pcna/Phka1/Ccna2/Insrr/Cks1b/Tgfbr1/Ccng2/Ccne1/Pycard/Cdk1/Cdk2/Cks1brt/Cdkn2d/Ccnb2/Cks2/Ccnb1/Ccno/Ccnf/Cdkn1a",19
+"GO:0001725","stress fiber","17/2064","86/23436",0.00120721750460794,0.00120721750460794,0.00884082593600104,"Myl9/Ptpn11/Tmsb15b2/Amot/Limch1/Sept11/Zyx/Actn4/Tlnrd1/Tpm4/Acta1/Coro2b/Anxa2/Mprip/Myh10/Myh11/Sept5",17
+"GO:0097517","contractile actin filament bundle","17/2064","86/23436",0.00120721750460794,0.00120721750460794,0.00884082593600104,"Myl9/Ptpn11/Tmsb15b2/Amot/Limch1/Sept11/Zyx/Actn4/Tlnrd1/Tpm4/Acta1/Coro2b/Anxa2/Mprip/Myh10/Myh11/Sept5",17
+"GO:0000795","synaptonemal complex","18/2064","94/23436",0.00129106331668017,0.00129106331668017,0.0091243347103369,"Rad51/Tex11/Hormad1/Stag3/Brca2/Blm/Plk1/Syce1/Sycp3/Syce2/Ccnb1ip1/Mei4/Brca1/Hspa2/Syce3/Msh5/Incenp/Smc3",18
+"GO:0099086","synaptonemal structure","18/2064","94/23436",0.00129106331668017,0.00129106331668017,0.0091243347103369,"Rad51/Tex11/Hormad1/Stag3/Brca2/Blm/Plk1/Syce1/Sycp3/Syce2/Ccnb1ip1/Mei4/Brca1/Hspa2/Syce3/Msh5/Incenp/Smc3",18
+"GO:0035861","site of double-strand break","12/2064","51/23436",0.00129932774571225,0.00129932774571225,0.0091243347103369,"Rad51/Rnf138rt1/Rpa3/Aplf/Rad18/Timeless/Rfwd3/Esco2/H2afx/Cgas/Gm28043/Polh",12
+"GO:0062023","collagen-containing extracellular matrix","49/2064","359/23436",0.00141598662159671,0.00141598662159671,0.00980918185942529,"Gpc1/Lamc2/Lamc1/Entpd2/Col5a1/Sema6d/Tgm2/Muc1/S100a11/Megf9/Agrn/Emilin1/Igfbp7/Pf4/Gpc2/Prss2/Ltbp4/Cd151/Col10a1/Col6a2/Igf1/Rtbdn/Lgals3/Ang/Anxa2/Col12a1/Emid1/Serpinf2/Serpinb1a/Serpinb9/Aspn/Omd/Ogn/Vcan/Tgfb3/Matn2/Col14a1/Lgals1/Plxnb2/Muc4/Impg2/Runx1/Ntn3/Col11a2/Vegfa/Emilin2/Anxa1/Entpd1/Smc3",49
+"GO:0000235","astral microtubule","5/2064","11/23436",0.00154829714550836,0.00154829714550836,0.0105827468050887,"Kif18a/Mapre1/Ccsap/Fam161a/Kif18b",5
+"GO:0019897","extrinsic component of plasma membrane","29/2064","186/23436",0.0018017780947552,0.0018017780947552,0.0121532677582518,"Rgs1/Src/Gnat2/Cnr2/Errfi1/Gnai1/Gngt1/Cav2/Styk1/Plekha4/Sytl2/Apc2/Gna15/Gna11/Stac3/Rtbdn/Olfm2/Anxa2/Esyt3/Tdgf1/Alox15/Stac2/Kpna2/Racgap1/Ppl/Snx9/Prss27/Gng13/Anxa1",29
+"GO:0042641","actomyosin","18/2064","97/23436",0.00186982891213919,0.00186982891213919,0.0124484850336539,"Myl9/Ptpn11/Tmsb15b2/Amot/Lurap1/Limch1/Sept11/Zyx/Actn4/Tlnrd1/Tpm4/Acta1/Coro2b/Anxa2/Mprip/Myh10/Myh11/Sept5",18
+"GO:0017146","NMDA selective glutamate receptor complex","5/2064","12/23436",0.00246255246023163,0.00246255246023163,0.01597952096113,"Grin3a/Dlgap3/Eps8/Grin2d/Grin3b",5
+"GO:0042555","MCM complex","5/2064","12/23436",0.00246255246023163,0.00246255246023163,0.01597952096113,"Mcm3/Mcm8/Mms22l/Mcm7/Mcm5",5
+"GO:0043292","contractile fiber","33/2064","226/23436",0.00274888373344346,0.00274888373344346,0.0174727972976583,"Fhl2/Obsl1/Atp2b4/Csrp1/Tnni1/Nos1ap/Neb/Myl9/Sdc4/Tmod4/Tpm2/Ablim2/Nos1/Kcnj8/Abcc9/Actn4/Csrp3/Tnni2/Tnnt3/Smpx/Csrp2/Myom2/Ank1/Acta1/Synpo2l/Trpc1/Dek/Syne2/Myh11/Stub1/Myom1/Myoz3/Pygm",33
+"GO:0031252","cell leading edge","50/2064","380/23436",0.00276084548676551,0.00276084548676551,0.0174727972976583,"Srgap2/Vim/Fap/Kif18a/Tirap/Src/Slc12a5/Hdac6/Gdpd2/Amot/Fgd1/Bmx/Stmn2/Pld1/Bspry/Pkd2/Coro1c/Trpv4/Cit/Gper1/Cntnap2/Eps8/Myadm/Cttn/Oprm1/Wasf1/S100b/Hcn2/Apc2/Ank1/Psd3/Mtss2/Bcar1/Tubb3/Thy1/Anxa2/Myh10/Myo1d/Ngfr/Srcin1/Tubg1/Mpp2/Amph/Dbn1/Iqgap2/Syne2/Parvb/Epb41l3/Jcad/Fam89b",50
+"GO:0031012","extracellular matrix","60/2064","475/23436",0.00292103563868437,0.00292103563868437,0.0182611598978086,"Gpc1/Lamc2/Lamc1/Entpd2/Col5a1/Sema6d/Tgm2/Muc1/S100a11/Megf9/Agrn/Emilin1/Spon2/Igfbp7/Pf4/Gpc2/Prss2/Ltbp4/Cd151/Col10a1/Col6a2/Igf1/Mmp19/Rtbdn/Mmp15/Lgals3/Ang/Mmp14/Mmp13/Lingo1/Thsd4/Anxa2/Col12a1/Emid1/Serpinf2/Serpinb1a/Serpinb9/Dspp/Aspn/Omd/Ogn/Vcan/Tgfb3/Matn2/Col14a1/Lrrc24/Elfn2/Lgals1/Plxnb2/Muc4/Impg2/Runx1/Serac1/Ntn3/Col11a2/Vegfa/Emilin2/Anxa1/Entpd1/Smc3",60
+"GO:0001750","photoreceptor outer segment","15/2064","79/23436",0.00343613525988913,0.00343613525988913,0.0212225475151047,"Opn3/Ptgs1/Map1a/Mertk/Gnat2/Prom1/Gngt1/Opn1sw/Cib2/Myrip/Rgs9/Prcd/Prph/Tulp1/Rom1",15
+"GO:0044449","contractile fiber part","30/2064","203/23436",0.00347955462365026,0.00347955462365026,0.0212348759613744,"Fhl2/Obsl1/Atp2b4/Csrp1/Tnni1/Nos1ap/Neb/Myl9/Sdc4/Tmod4/Tpm2/Nos1/Abcc9/Actn4/Csrp3/Tnni2/Tnnt3/Smpx/Csrp2/Myom2/Ank1/Acta1/Synpo2l/Trpc1/Syne2/Myh11/Stub1/Myom1/Myoz3/Pygm",30
+"GO:0030016","myofibril","31/2064","212/23436",0.00354417364457162,0.00354417364457162,0.0213747686056518,"Fhl2/Obsl1/Atp2b4/Csrp1/Tnni1/Nos1ap/Neb/Myl9/Sdc4/Tmod4/Tpm2/Ablim2/Nos1/Kcnj8/Abcc9/Actn4/Csrp3/Tnni2/Tnnt3/Smpx/Csrp2/Myom2/Ank1/Acta1/Synpo2l/Trpc1/Syne2/Stub1/Myom1/Myoz3/Pygm",31
+"GO:0060170","ciliary membrane","11/2064","50/23436",0.00359062325504,0.00359062325504,0.0214031031236778,"Evc/Prom1/Pkd2/Scnn1a/Ehd3/Cd24a/Tspear/Prcd/Drd1/Prph/Rom1",11
+"GO:0000792","heterochromatin","17/2064","95/23436",0.00365769299083048,0.00365769299083048,0.0215522865884385,"Suv39h2/Wdr76/Suv39h1/Cdkn2a/Chd5/Cenpa/Cenpc1/Cbx3/Esco2/Dnmt1/Ncapd3/Suz12/Eme1/Foxc1/Cbx5/Uhrf1/Incenp",17
+"GO:0005938","cell cortex","42/2064","312/23436",0.00381756595667462,0.00381756595667462,0.0222386916375663,"Lamc2/Sapcd2/Ermn/Cd302/Mapre1/Gpsm2/Melk/Rims3/Gnai1/Sept11/Pkd2/Trpv4/Fry/Lancl2/Scnn1a/Eps8/Myadm/Actn4/Ppfia3/Cttn/Col10a1/Marcks/Sept10/Stox1/Ank1/Tpm4/Mtss2/Dmtn/Anln/Arhgap32/Usp2/C2cd2l/Cib2/Anxa2/Pls1/Myrip/Myh10/Cap2/Dbn1/Triobp/Sept5/Snx9",42
+"GO:0019898","extrinsic component of membrane","42/2064","314/23436",0.00428060865231507,0.00428060865231507,0.0246559008122701,"Pik3c2b/Rgs1/Mal/Src/Gnat2/Cnr2/Errfi1/Gnai1/Wdfy3/Gngt1/Cav2/Styk1/Ehd2/Plekha4/Sytl2/Apc2/Gna15/Gna11/Socs2/Stac3/Rtbdn/Syt15/Olfm2/Anxa2/Esyt3/Cish/Tdgf1/Pik3r6/Alox15/Stac2/Kpna2/Hid1/Amph/Pik3cg/Pacsin2/Racgap1/Ppl/Snx9/Tcte3/Prss27/Gng13/Anxa1",42
+"GO:0030017","sarcomere","28/2064","189/23436",0.00448767107575112,0.00448767107575112,0.0255613545484304,"Fhl2/Obsl1/Atp2b4/Csrp1/Tnni1/Nos1ap/Neb/Myl9/Tmod4/Tpm2/Nos1/Abcc9/Actn4/Csrp3/Tnni2/Tnnt3/Smpx/Csrp2/Myom2/Ank1/Acta1/Synpo2l/Trpc1/Syne2/Stub1/Myom1/Myoz3/Pygm",28
+"GO:0099568","cytoplasmic region","59/2064","475/23436",0.0045434479641874,0.0045434479641874,0.0255946692719406,"Lamc2/Cenpf/Sapcd2/Ak8/Ermn/Cd302/Spef1/Mapre1/Gria2/Gpsm2/Melk/Cfap57/Rims3/Gnai1/Sept11/Pkd2/Trpv4/Fry/Lancl2/Scnn1a/Eps8/Myadm/Actn4/Ppfia3/Spef1l/Cttn/Oprm1/Col10a1/Marcks/Sept10/Stox1/Ank1/Tpm4/Mtss2/Ccsap/Dmtn/Anln/Arhgap32/Usp2/C2cd2l/Cib2/Anxa2/Mns1/Pls1/Myrip/Wdpcp/Myh10/Cap2/Dbn1/Dnal1/Dnah11/Triobp/Rangap1/Spag6l/Ranbp1/Sept5/Snx9/Wdr90/Cntf",59
+"GO:0031616","spindle pole centrosome","6/2064","20/23436",0.00608451718384571,0.00608451718384571,0.0335388779686798,"Aurka/Aurkc/Dlgap5/Aurkb/Nde1/Kifc1",6
+"GO:0043083","synaptic cleft","6/2064","20/23436",0.00608451718384571,0.00608451718384571,0.0335388779686798,"Lamc1/Dnm3/Agrn/Cbln1/C1ql1/Lgi1",6
+"GO:0031461","cullin-RING ubiquitin ligase complex","24/2064","159/23436",0.00641825546896571,0.00641825546896571,0.0350021322887604,"Dtl/Ube2c/Cks1b/Cdc20/Fbxo2/Anapc5/Spsb2/Ube2s/Nccrp1/Anapc15/Anapc2/Fzr1/Dcaf15/Cks1brt/Fbxl2/Fbxo39/Cdc27/Anapc11/Cks2/Fbxl21/Asb2/Ccnf/Fbxl16/Cdc23",24
+"GO:0000781","chromosome, telomeric region","18/2064","110/23436",0.00746545796987636,0.00746545796987636,0.0398658095841364,"Terf1/Rad51/Rtel1/Chek2/Brca2/Ezh2/Pold1/Blm/Eid3/Cdk2/Tinf2/H2afx/Pif1/Ctc1/Recql4/Dmc1/Cbx5/Fen1",18
+"GO:0090543","Flemming body","5/2064","15/23436",0.00746563004943169,0.00746563004943169,0.0398658095841364,"Kif14/Chmp4c/Cenpc1/Nup62/Cep55",5
+"GO:0001917","photoreceptor inner segment","11/2064","56/23436",0.0088007166810324,0.0088007166810324,0.0465105699800627,"Dnm3/Gnat2/Crocc/Nos1/Gngt1/Cib2/Fam161a/Aipl1/Rgs9/Rdh11/Tulp1",11
+"GO:0097733","photoreceptor cell cilium","18/2064","112/23436",0.0089838005510913,0.0089838005510913,0.0469177908897247,"Opn3/Ptgs1/Map1a/Mertk/Gnat2/Nphp4/Prom1/Gngt1/Opn1sw/Cib2/Myrip/Fam161a/Rgs9/Prcd/Adgrv1/Prph/Tulp1/Rom1",18
+"GO:0044448","cell cortex part","29/2064","208/23436",0.00906081772726613,0.00906081772726613,0.0469177908897247,"Sapcd2/Mapre1/Gpsm2/Rims3/Gnai1/Sept11/Pkd2/Trpv4/Lancl2/Scnn1a/Myadm/Actn4/Ppfia3/Cttn/Sept10/Ank1/Tpm4/Mtss2/Dmtn/Anln/C2cd2l/Cib2/Pls1/Myrip/Cap2/Dbn1/Triobp/Sept5/Snx9",29
+"GO:0031430","M band","6/2064","22/23436",0.0100590271476751,0.0100590271476751,0.051176191935329,"Fhl2/Obsl1/Smpx/Myom2/Ank1/Myom1",6
+"GO:0044327","dendritic spine head","5/2064","16/23436",0.0100828657416731,0.0100828657416731,0.051176191935329,"Srgap2/Dnm3/Gper1/Ppp1r1b/Drd1",5
+"GO:0031225","anchored component of membrane","27/2064","192/23436",0.0103068310388423,0.0103068310388423,0.0518000693077005,"Gpc1/Lypd1/Cd48/Lypd6b/Xpnpep2/Smpdl3b/Gpc2/Art4/Art1/Otoa/Ulbp1/Raet1d/Cd24a/Mmp19/Rtbdn/Nrn1l/Thy1/Ncam1/Plet1/Tdgf1/Rtn4rl1/Omg/Mpp2/Lynx1/Ly6g/Prss27/Mdga1",27
+"GO:0030863","cortical cytoskeleton","20/2064","131/23436",0.0107171784032019,0.0107171784032019,0.0524353164361308,"Mapre1/Rims3/Trpv4/Lancl2/Scnn1a/Myadm/Actn4/Cttn/Ank1/Tpm4/Mtss2/Dmtn/Anln/Cib2/Pls1/Myrip/Cap2/Dbn1/Triobp/Snx9",20
+"GO:0005581","collagen trimer","14/2064","81/23436",0.010732145941452,0.010732145941452,0.0524353164361308,"Col5a1/C1qa/Emilin1/Col10a1/Col6a2/C1qtnf9/Col12a1/Emid1/C1ql1/Colec11/Col14a1/C1qtnf6/Col11a2/Emilin2",14
+"GO:0097731","9+0 non-motile cilium","18/2064","114/23436",0.0107400879147927,0.0107400879147927,0.0524353164361308,"Opn3/Ptgs1/Map1a/Mertk/Gnat2/Nphp4/Prom1/Gngt1/Opn1sw/Cib2/Myrip/Fam161a/Rgs9/Prcd/Adgrv1/Prph/Tulp1/Rom1",18
+"GO:0031256","leading edge membrane","22/2064","149/23436",0.0112909359941918,0.0112909359941918,0.0537996420265129,"Tirap/Src/Slc12a5/Bmx/Trpv4/Gper1/Cntnap2/Eps8/Oprm1/Hcn2/Apc2/Ank1/Psd3/Mtss2/Thy1/Myo1d/Ngfr/Mpp2/Amph/Syne2/Epb41l3/Jcad",22
+"GO:0005924","cell-substrate adherens junction","23/2064","158/23436",0.0114803851567409,0.0114803851567409,0.0537996420265129,"Mapre1/Sdc4/Cass4/Abcb4/Arhgap24/Trpv4/Cav2/Zyx/Mapk3/Cttn/Oprm1/Tle2/Smpx/Bcar1/Cib2/Coro2b/Itga2/Itga1/Syne2/Parvb/Tns2/Lmln/Lims2",23
+"GO:0005719","nuclear euchromatin","8/2064","36/23436",0.01154790008108,0.01154790008108,0.0537996420265129,"Cbx3/H1f5/H1f3/H1f4/H1f6/H1f2/H1f1/H1f0",8
+"GO:0017053","transcriptional repressor complex","14/2064","82/23436",0.0119220708875466,0.0119220708875466,0.0537996420265129,"Lin9/Insm1/Suv39h1/Rbbp7/Hdgf/Ddx20/Depdc1a/Akirin2/Coro2a/Chd5/Hey2/Zbtb16/H1f0/Cbx5",14
+"GO:0034992","microtubule organizing center attachment site","4/2064","11/23436",0.0119446227510387,0.0119446227510387,0.0537996420265129,"Sun1/Syne2/Clmn/Syne3",4
+"GO:0034993","meiotic nuclear membrane microtubule tethering complex","4/2064","11/23436",0.0119446227510387,0.0119446227510387,0.0537996420265129,"Sun1/Syne2/Clmn/Syne3",4
+"GO:0106083","nuclear membrane protein complex","4/2064","11/23436",0.0119446227510387,0.0119446227510387,0.0537996420265129,"Sun1/Syne2/Clmn/Syne3",4
+"GO:0106094","nuclear membrane microtubule tethering complex","4/2064","11/23436",0.0119446227510387,0.0119446227510387,0.0537996420265129,"Sun1/Syne2/Clmn/Syne3",4
+"GO:0046658","anchored component of plasma membrane","13/2064","74/23436",0.0119640682371075,0.0119640682371075,0.0537996420265129,"Gpc1/Cd48/Gpc2/Ulbp1/Raet1d/Cd24a/Rtbdn/Nrn1l/Thy1/Rtn4rl1/Mpp2/Prss27/Mdga1",13
+"GO:0035371","microtubule plus-end","6/2064","23/23436",0.0126151932211661,0.0126151932211661,0.0557495381007974,"Ckap5/Knstrn/Mapre1/Kif2c/Spag5/Kif18b",6
+"GO:0045120","pronucleus","6/2064","23/23436",0.0126151932211661,0.0126151932211661,0.0557495381007974,"Cenpf/Aurka/Ccna2/Ezh2/Ncapd2/Blm",6
+"GO:0045177","apical part of cell","50/2064","416/23436",0.0151803349426071,0.0151803349426071,0.0665121288083639,"Aspm/Atp1b1/Kcnj10/Cd34/Sapcd2/Fap/Mal/Pld1/Muc1/Pdzk1/Gpsm2/Tgfbr1/Abcb4/Abcb1a/Nos3/Otof/Prom1/Atp6v0a4/Scnn1a/Rhcg/Slco2b1/Tomt/Otoa/Nedd1/Mip/Atp7b/Plat/Slc12a3/Ldlr/Thy1/C2cd2l/Plet1/Tdgf1/Myrip/Slc6a20a/Atp1b2/Tubg1/Birc5/F2rl2/Vash1/Pdzd2/Cacnb3/Emp2/Muc4/Muc13/Slc9a3r2/Slc29a1/Dsg2/Naaladl1/Anxa1",50
+"GO:1990752","microtubule end","7/2064","31/23436",0.0162462438159574,0.0162462438159574,0.0705791323672725,"Aspm/Ckap5/Knstrn/Mapre1/Kif2c/Spag5/Kif18b",7
+"GO:0000791","euchromatin","9/2064","46/23436",0.0174269602057785,0.0174269602057785,0.0750723540045479,"Cbx3/H1f5/H1f3/H1f4/H1f6/H1f2/H1f1/H1f0/Uhrf1",9
+"GO:0030315","T-tubule","12/2064","70/23436",0.0184863383065427,0.0184863383065427,0.0781596067242237,"Atp2b4/Nos1ap/Atp1a2/Stbd1/Nos1/Abcc9/Prx/Scn1b/Kcnj3/Tgfb3/Cacnb3/Prkce",12
+"GO:0030027","lamellipodium","23/2064","165/23436",0.0186010234483317,0.0186010234483317,0.0781596067242237,"Srgap2/Fap/Gdpd2/Amot/Fgd1/Stmn2/Pld1/Pkd2/Coro1c/Trpv4/Cttn/Wasf1/Apc2/Mtss2/Bcar1/Tubb3/Myh10/Srcin1/Dbn1/Iqgap2/Syne2/Parvb/Fam89b",23
+"GO:0030055","cell-substrate junction","23/2064","165/23436",0.0186010234483317,0.0186010234483317,0.0781596067242237,"Mapre1/Sdc4/Cass4/Abcb4/Arhgap24/Trpv4/Cav2/Zyx/Mapk3/Cttn/Oprm1/Tle2/Smpx/Bcar1/Cib2/Coro2b/Itga2/Itga1/Syne2/Parvb/Tns2/Lmln/Lims2",23
+"GO:0030018","Z disc","19/2064","130/23436",0.0194715859913084,0.0194715859913084,0.0811524379783242,"Fhl2/Obsl1/Atp2b4/Csrp1/Nos1ap/Neb/Myl9/Nos1/Actn4/Csrp3/Csrp2/Myom2/Ank1/Synpo2l/Syne2/Stub1/Myom1/Myoz3/Pygm",19
+"GO:0005911","cell-cell junction","55/2064","477/23436",0.0238648507362244,0.0238648507362244,0.0986602912439838,"Atp1b1/Atp1a2/Cadm3/Sapcd2/Amot/Ect2/Iqgap3/Gja5/Gja8/Magi3/Tgfbr1/Ptpru/Nphp4/Cldn12/Abcb4/Abcb1a/Ywhah/Pkd2/Zyx/Cdca3/Myadm/Prkcg/Actn4/Hpn/Scn1b/Fzd4/Plekha7/Mip/Atp7b/Marveld3/Dlg5/Tgm1/Gjb2/Mmp13/Jam3/Esam/Clmp/Ncam1/Cldn7/Ngfr/Usp53/Plxdc1/Dsp/Dbn1/Pdzd2/Grhl2/Mapk15/Pacsin2/Jam2/Vegfa/Epb41l3/Jcad/Dsg2/Lims2/Pcdhgc3",55
+"GO:0032154","cleavage furrow","8/2064","41/23436",0.0246836139738155,0.0246836139738155,0.101228800044195,"Mastl/Ect2/Cenpc1/Cit/Myh10/Racgap1/Sept5/Kif20a",8
+"GO:0005925","focal adhesion","21/2064","152/23436",0.0259044050289172,0.0259044050289172,0.105392190886238,"Mapre1/Sdc4/Cass4/Abcb4/Arhgap24/Trpv4/Cav2/Zyx/Mapk3/Cttn/Oprm1/Tle2/Bcar1/Coro2b/Itga2/Itga1/Syne2/Parvb/Tns2/Lmln/Lims2",21
+"GO:0009898","cytoplasmic side of plasma membrane","22/2064","163/23436",0.029140700756218,0.029140700756218,0.116383356203499,"Rgs1/Src/Gnat2/Cnr2/Errfi1/Gnai1/Gngt1/Cav2/Styk1/Plekha4/Gna15/Gna11/Stac3/Ank1/C2cd2l/Esyt3/Alox15/Stac2/Nptxr/Racgap1/Snx9/Gng13",22
+"GO:0042622","photoreceptor outer segment membrane","4/2064","14/23436",0.0292870232089092,0.0292870232089092,0.116383356203499,"Prom1/Prcd/Prph/Rom1",4
+"GO:0098871","postsynaptic actin cytoskeleton","4/2064","14/23436",0.0292870232089092,0.0292870232089092,0.116383356203499,"Cttn/Filip1/Myh10/Dbn1",4
+"GO:0016323","basolateral plasma membrane","29/2064","229/23436",0.0301207722384928,0.0301207722384928,0.118711877376217,"Slc40a1/Atp2b4/Atp1b1/Kcnj10/Cd34/P2ry12/Tgfbr1/Slc4a4/Pkd2/Rhcg/Slco2b1/Pcmt1/Atp7b/Hpgd/Nod2/Ndrg4/Ldlr/Anxa2/Aqp9/Trpc1/Cldn7/Myo1d/Dsp/Slc51a/Muc20/Slc29a1/Alpk2/Best1/Entpd1",29
+"GO:0016529","sarcoplasmic reticulum","12/2064","75/23436",0.0303361255430599,0.0303361255430599,0.118711877376217,"Nos1ap/Nos1/Dmpk/Art1/Hsp90b1/Ank1/Syne2/H6pd/Srl/Ccdc78/Pygm/Tmem109",12
+"GO:0019005","SCF ubiquitin ligase complex","11/2064","67/23436",0.0313965198440982,0.0313965198440982,0.12101389128671,"Cks1b/Fbxo2/Spsb2/Nccrp1/Cks1brt/Fbxl2/Fbxo39/Cks2/Fbxl21/Ccnf/Fbxl16",11
+"GO:0043198","dendritic shaft","11/2064","67/23436",0.0313965198440982,0.0313965198440982,0.12101389128671,"Stau2/Map1a/Slc12a5/Gria2/Gper1/Hcn2/Mpp2/Drd1/Dbn1/Syngap1/Cnih2",11
+"GO:0032155","cell division site part","9/2064","51/23436",0.0324786979743632,0.0324786979743632,0.121685681213097,"Mastl/Ect2/Cenpc1/Cit/Anln/Myh10/Racgap1/Sept5/Kif20a",9
+"GO:0000242","pericentriolar material","5/2064","21/23436",0.0325203109032539,0.0325203109032539,0.121685681213097,"Cep85/Pcnt/Nedd1/Tubg1/Tubg2",5
+"GO:0001741","XY body","5/2064","21/23436",0.0325203109032539,0.0325203109032539,0.121685681213097,"Scml2/Plk4/Rad18/Esco2/H2afx",5
+"GO:0030673","axolemma","5/2064","21/23436",0.0325203109032539,0.0325203109032539,0.121685681213097,"Cntnap2/Ank1/Thy1/Myo1d/Epb41l3",5
+"GO:1902495","transmembrane transporter complex","37/2064","308/23436",0.0330590996601253,0.0330590996601253,0.122805351140206,"Kcnq5/Atp1b1/Nos1ap/Atp1a2/Clic3/Chrna1/Gria2/Gabrr1/Grin3a/Dlgap3/Gabrb1/Pkd2/Clcn1/Cntnap2/Scnn1a/Eps8/Kcnj8/Abcc9/Scn1b/Grin2d/Pidd1/Cttn/Hcn2/Grin3b/Stac3/Olfm2/Kcnj3/Chrna5/Trpc1/Atp1b2/Hspa2/Cacna1i/Cacnb3/Clic5/Calm2/Cnih2/Best1",37
+"GO:0032589","neuron projection membrane","11/2064","68/23436",0.0345847349000799,0.0345847349000799,0.127548397548951,"Slc12a5/Gper1/Cntnap2/Oprm1/Hcn2/Ank1/Thy1/Myo1d/Ngfr/Mpp2/Epb41l3",11
+"GO:0055038","recycling endosome membrane","8/2064","44/23436",0.036287402265435,0.036287402265435,0.132617233050118,"Pigr/Sorcs2/Nsg1/Ehd3/Ehd2/Scamp4/Ldlr/Pacsin2",8
+"GO:0005923","bicellular tight junction","17/2064","121/23436",0.0364765469549555,0.0364765469549555,0.132617233050118,"Sapcd2/Amot/Ect2/Magi3/Tgfbr1/Nphp4/Cldn12/Atp7b/Marveld3/Jam3/Esam/Clmp/Cldn7/Usp53/Plxdc1/Mapk15/Jam2",17
+"GO:0032156","septin cytoskeleton","4/2064","15/23436",0.037222075266901,0.037222075266901,0.133435043466918,"Sept11/Mapkapk5/Sept10/Sept5",4
+"GO:0097449","astrocyte projection","4/2064","15/23436",0.037222075266901,0.037222075266901,0.133435043466918,"Kcnj10/Slc17a8/Adgrg1/Gjb2",4
+"GO:0034399","nuclear periphery","16/2064","113/23436",0.039057367522297,0.039057367522297,0.139041944322797,"Lbr/Cenpf/Nup35/Pcna/Pola1/Smc1a/Nup205/Blm/Lmnb2/Nup107/Rad21/Hes1/Nrm/Uhrf1/Lmnb1/Smc3",16
+"GO:0000151","ubiquitin ligase complex","34/2064","283/23436",0.0395925897352149,0.0395925897352149,0.139975253728128,"Bard1/Dtl/Ube2c/Cks1b/Cdc20/Med18/Fbxo2/Anapc5/Rad18/Spsb2/Ube2s/Nccrp1/Anapc15/Derl3/Anapc2/Fzr1/Dcaf15/Cks1brt/Fbxl2/Med7/Fbxo39/Brca1/Cdc27/Anapc11/Cks2/Fbxl21/Asb2/Med30/Prkn/Ccnf/Fbxl16/Stub1/Gm28043/Cdc23",34
+"GO:0061695","transferase complex, transferring phosphorus-containing groups","30/2064","245/23436",0.0410323284322506,0.0410323284322506,0.144071693918573,"Prim2/Pik3c2b/Pcna/Pola1/Phka1/Ccna2/Insrr/Cks1b/Tgfbr1/Ccng2/Pole/Ccne1/Pold1/Pycard/Cdk1/Socs2/Prim1/Cdk2/Cks1brt/Cdkn2d/Ccnb2/Cish/Pik3r6/Cks2/Ccnb1/Ccno/Pik3cg/Ccnf/Cdkn1a/Taf5",30
+"GO:0031674","I band","19/2064","142/23436",0.0435596365962513,0.0435596365962513,0.151905069977618,"Fhl2/Obsl1/Atp2b4/Csrp1/Nos1ap/Neb/Myl9/Nos1/Actn4/Csrp3/Csrp2/Myom2/Ank1/Synpo2l/Syne2/Stub1/Myom1/Myoz3/Pygm",19
+"GO:1990351","transporter complex","37/2064","315/23436",0.0440330670661705,0.0440330670661705,0.152518518216394,"Kcnq5/Atp1b1/Nos1ap/Atp1a2/Clic3/Chrna1/Gria2/Gabrr1/Grin3a/Dlgap3/Gabrb1/Pkd2/Clcn1/Cntnap2/Scnn1a/Eps8/Kcnj8/Abcc9/Scn1b/Grin2d/Pidd1/Cttn/Hcn2/Grin3b/Stac3/Olfm2/Kcnj3/Chrna5/Trpc1/Atp1b2/Hspa2/Cacna1i/Cacnb3/Clic5/Calm2/Cnih2/Best1",37
+"GO:0031594","neuromuscular junction","14/2064","97/23436",0.0446640905329701,0.0446640905329701,0.153665927866877,"Syt2/Lamc1/Chrna1/Lrp4/Snta1/Syp/Dlgap3/Dok7/Syngr4/Cib2/Myh10/F2r/Tuba1a/Prkce",14
+"GO:0098562","cytoplasmic side of membrane","23/2064","180/23436",0.0450796870014826,0.0450796870014826,0.154061807506821,"Rgs1/Src/Gnat2/Cnr2/Errfi1/Gnai1/Pkd2/Gngt1/Cav2/Styk1/Plekha4/Gna15/Gna11/Stac3/Ank1/C2cd2l/Esyt3/Alox15/Stac2/Nptxr/Racgap1/Snx9/Gng13",23
+"GO:0016324","apical plasma membrane","37/2064","316/23436",0.0458003941549099,0.0458003941549099,0.154757622992551,"Aspm/Atp1b1/Kcnj10/Cd34/Mal/Pld1/Muc1/Pdzk1/Tgfbr1/Abcb4/Abcb1a/Prom1/Atp6v0a4/Scnn1a/Rhcg/Slco2b1/Otoa/Mip/Slc12a3/Thy1/C2cd2l/Plet1/Tdgf1/Myrip/Slc6a20a/Atp1b2/Birc5/F2rl2/Cacnb3/Emp2/Muc4/Muc13/Slc9a3r2/Slc29a1/Dsg2/Naaladl1/Anxa1",37
+"GO:0016460","myosin II complex","4/2064","16/23436",0.046268478441977,0.046268478441977,0.154757622992551,"Myl9/Limch1/Myh10/Myh11",4
+"GO:0035098","ESC/E(Z) complex","4/2064","16/23436",0.046268478441977,0.046268478441977,0.154757622992551,"Phf19/Rbbp7/Ezh2/Suz12",4
+"GO:0043601","nuclear replisome","5/2064","23/23436",0.0464908423897539,0.0464908423897539,0.154757622992551,"Prim2/Pola1/Rpa3/Pold1/Prim1",5
+"GO:0005604","basement membrane","15/2064","107/23436",0.0481163968337615,0.0481163968337615,0.159135383755802,"Lamc2/Lamc1/Entpd2/Col5a1/Megf9/Agrn/Cd151/Ang/Anxa2/Matn2/Runx1/Ntn3/Vegfa/Entpd1/Smc3",15
+"GO:0034451","centriolar satellite","6/2064","31/23436",0.0504761610822591,0.0504761610822591,0.161386951617146,"Odf2l/Plk1/Spag5/Cep131/Cep72/Ccdc14",6
+"GO:0046540","U4/U6 x U5 tri-snRNP complex","6/2064","31/23436",0.0504761610822591,0.0504761610822591,0.161386951617146,"Ppih/Lsm5/Lsm3/Snrpn/Lsm2/Snrpd1",6
+"GO:0097526","spliceosomal tri-snRNP complex","6/2064","31/23436",0.0504761610822591,0.0504761610822591,0.161386951617146,"Ppih/Lsm5/Lsm3/Snrpn/Lsm2/Snrpd1",6
+"GO:0099572","postsynaptic specialization","48/2064","429/23436",0.0509882291039077,0.0509882291039077,0.161386951617146,"Nck2/Srgap2/Dnm3/Chrna1/Lrp4/Map1a/Lzts3/Src/Syp/Drp2/Gria2/Grin3a/Lrp8/Dlgap3/Sorcs2/Sept11/Nos1/Gper1/Lrrc4/Eps8/Prkcg/Grin2d/Ifngr1/Grin3b/Ncoa2/Grip1/Neto2/Dlg5/Dmtn/Arhgap32/Adcy1/Efnb3/Ngfr/Srcin1/Mpp2/Kpna2/Rgs9/Cap2/Dbn1/Pdzd2/Arc/Dgcr8/Prkn/Syngap1/Epb41l3/Dlgap1/Cnih2/Entpd1",48
+"GO:0046581","intercellular canaliculus","3/2064","10/23436",0.0511343358756748,0.0511343358756748,0.161386951617146,"Abcb4/Abcb1a/Mmp13",3
+"GO:0097197","tetraspanin-enriched microdomain","3/2064","10/23436",0.0511343358756748,0.0511343358756748,0.161386951617146,"Tspan33/Tspan9/Tspan15",3
+"GO:0097539","ciliary transition fiber","3/2064","10/23436",0.0511343358756748,0.0511343358756748,0.161386951617146,"Cenpf/Odf2/Cep89",3
+"GO:0000803","sex chromosome","7/2064","39/23436",0.0515906502140289,0.0515906502140289,0.161386951617146,"Scml2/Plk4/Rad18/Cdk2/Esco2/H2afx/Suz12",7
+"GO:0030864","cortical actin cytoskeleton","14/2064","99/23436",0.051630568915711,0.051630568915711,0.161386951617146,"Trpv4/Lancl2/Scnn1a/Myadm/Cttn/Mtss2/Anln/Cib2/Pls1/Myrip/Cap2/Dbn1/Triobp/Snx9",14
+"GO:0014069","postsynaptic density","44/2064","390/23436",0.053322501982366,0.053322501982366,0.165230770060437,"Nck2/Srgap2/Dnm3/Lrp4/Map1a/Lzts3/Src/Syp/Drp2/Gria2/Grin3a/Lrp8/Sorcs2/Nos1/Gper1/Lrrc4/Eps8/Prkcg/Grin2d/Ifngr1/Grin3b/Ncoa2/Grip1/Neto2/Dlg5/Dmtn/Arhgap32/Adcy1/Efnb3/Ngfr/Srcin1/Mpp2/Rgs9/Cap2/Dbn1/Pdzd2/Arc/Dgcr8/Prkn/Syngap1/Epb41l3/Dlgap1/Cnih2/Entpd1",44
+"GO:0045211","postsynaptic membrane","42/2064","370/23436",0.0535049126047863,0.0535049126047863,0.165230770060437,"Nrp2/Srgap2/Dnm3/Chrna1/Lzts3/Snta1/Slc6a8/Drp2/Gria2/Gabrr1/Grin3a/Dlgap3/Nsg1/Gabrb1/Gper1/Lrrc4/Grin2d/Oprm1/Grin3b/Grip1/Ank1/Psd3/Cbln1/Dlg5/Arhgap32/Ncam1/Chrna5/Adcy1/Efnb3/P2rx1/Srcin1/Mpp2/Kpna2/Rgs9/Drd1/Dbn1/F2r/Arc/Faim2/Prkn/Dlgap1/Cnih2",42
+"GO:0030894","replisome","5/2064","24/23436",0.0546215099265253,0.0546215099265253,0.167069931473474,"Prim2/Pola1/Rpa3/Pold1/Prim1",5
+"GO:0032153","cell division site","9/2064","56/23436",0.0547522814438736,0.0547522814438736,0.167069931473474,"Mastl/Ect2/Cenpc1/Cit/Anln/Myh10/Racgap1/Sept5/Kif20a",9
+"GO:0005640","nuclear outer membrane","4/2064","17/23436",0.0564231744582483,0.0564231744582483,0.170142947127969,"Nutf2/Syne2/Clmn/Syne3",4
+"GO:0033270","paranode region of axon","4/2064","17/23436",0.0564231744582483,0.0564231744582483,0.170142947127969,"Ermn/Ncmap/Cntnap2/Epb41l3",4
+"GO:0070160","tight junction","17/2064","128/23436",0.057201571353731,0.057201571353731,0.171481472756337,"Sapcd2/Amot/Ect2/Magi3/Tgfbr1/Nphp4/Cldn12/Atp7b/Marveld3/Jam3/Esam/Clmp/Cldn7/Usp53/Plxdc1/Mapk15/Jam2",17
+"GO:0097228","sperm principal piece","6/2064","32/23436",0.0576807956332304,0.0576807956332304,0.171802747519005,"Atp2b4/Enkur/Slc9b1/Scnn1a/Gapdhs/Spag6l",6
+"GO:0016235","aggresome","7/2064","40/23436",0.0579790175662185,0.0579790175662185,0.171802747519005,"Hdac6/Pold1/Tdp2/Syne2/Rangap1/Hoxc9/Prkn",7
+"GO:0032279","asymmetric synapse","44/2064","393/23436",0.0589617475460845,0.0589617475460845,0.173710653689916,"Nck2/Srgap2/Dnm3/Lrp4/Map1a/Lzts3/Src/Syp/Drp2/Gria2/Grin3a/Lrp8/Sorcs2/Nos1/Gper1/Lrrc4/Eps8/Prkcg/Grin2d/Ifngr1/Grin3b/Ncoa2/Grip1/Neto2/Dlg5/Dmtn/Arhgap32/Adcy1/Efnb3/Ngfr/Srcin1/Mpp2/Rgs9/Cap2/Dbn1/Pdzd2/Arc/Dgcr8/Prkn/Syngap1/Epb41l3/Dlgap1/Cnih2/Entpd1",44
+"GO:0034702","ion channel complex","34/2064","293/23436",0.0594035521347749,0.0594035521347749,0.174012209862468,"Kcnq5/Nos1ap/Clic3/Chrna1/Gria2/Gabrr1/Grin3a/Dlgap3/Gabrb1/Pkd2/Clcn1/Cntnap2/Scnn1a/Eps8/Kcnj8/Abcc9/Scn1b/Grin2d/Pidd1/Cttn/Hcn2/Grin3b/Stac3/Olfm2/Kcnj3/Chrna5/Trpc1/Hspa2/Cacna1i/Cacnb3/Clic5/Calm2/Cnih2/Best1",34
+"GO:0045178","basal part of cell","10/2064","66/23436",0.0622559108079579,0.0622559108079579,0.181331510547102,"Cd34/Fap/P2ry12/Otof/Pkd2/Rhcg/Slco2b1/Itga2/Itga1/Muc20",10
+"GO:0016528","sarcoplasm","12/2064","84/23436",0.0638868544901226,0.0638868544901226,0.183406424089475,"Nos1ap/Nos1/Dmpk/Art1/Hsp90b1/Ank1/Syne2/H6pd/Srl/Ccdc78/Pygm/Tmem109",12
+"GO:0005637","nuclear inner membrane","7/2064","41/23436",0.0648339535999486,0.0648339535999486,0.183406424089475,"Lbr/Sun1/Cav2/Tmpo/P2rx1/Nrm/Lmnb1",7
+"GO:0005834","heterotrimeric G-protein complex","6/2064","33/23436",0.0654687713069057,0.0654687713069057,0.183406424089475,"Gnat2/Gnai1/Gngt1/Gna15/Gna11/Gng13",6
+"GO:1905360","GTPase complex","6/2064","33/23436",0.0654687713069057,0.0654687713069057,0.183406424089475,"Gnat2/Gnai1/Gngt1/Gna15/Gna11/Gng13",6
+"GO:0000782","telomere cap complex","3/2064","11/23436",0.0658304782974133,0.0658304782974133,0.183406424089475,"Terf1/Tinf2/Ctc1",3
+"GO:0000783","nuclear telomere cap complex","3/2064","11/23436",0.0658304782974133,0.0658304782974133,0.183406424089475,"Terf1/Tinf2/Ctc1",3
+"GO:0044615","nuclear pore nuclear basket","3/2064","11/23436",0.0658304782974133,0.0658304782974133,0.183406424089475,"Nup35/Mad1l1/Mad2l1",3
+"GO:0090533","cation-transporting ATPase complex","3/2064","11/23436",0.0658304782974133,0.0658304782974133,0.183406424089475,"Atp1b1/Atp1a2/Atp1b2",3
+"GO:0033267","axon part","49/2064","448/23436",0.0672215454710097,0.0672215454710097,0.186269659427492,"Ermn/Map1a/Tpx2/Aurka/Syp/L1cam/Stmn2/Gria2/Ncmap/Agrn/Crmp1/Trpv4/Nos1/Auts2/Gper1/Opn1sw/Cntnap2/Prkcg/Scn1b/Tshz3/Calca/Cttn/Slc17a8/Ank1/Tubb3/Sncg/Ang/Pnoc/Thy1/Ncam1/Dixdc1/Myh10/Myo1d/Ccl2/Amph/Drd1/Dbn1/Itga2/Ankrd9/Nptxr/Rangap1/Prph/Ranbp1/Sept5/Tnk2/Prkn/Tulp1/Epb41l3/Calm2",49
+"GO:0098984","neuron to neuron synapse","46/2064","418/23436",0.0685212769114015,0.0685212769114015,0.188850378357966,"Nck2/Srgap2/Dnm3/Lrp4/Map1a/Lzts3/Src/Syp/Drp2/Gria2/Grin3a/Lrp8/Sorcs2/Sept11/Nos1/Prkar1b/Gper1/Lrrc4/Eps8/Prkcg/Grin2d/Ifngr1/Grin3b/Ncoa2/Grip1/Neto2/Dlg5/Dmtn/Arhgap32/Adcy1/Efnb3/Ngfr/Srcin1/Mpp2/Rgs9/Cap2/Dbn1/Pdzd2/Arc/Dgcr8/Prkn/Syngap1/Epb41l3/Dlgap1/Cnih2/Entpd1",46
+"GO:0043296","apical junction complex","18/2064","141/23436",0.0703514865397073,0.0703514865397073,0.192857719925907,"Sapcd2/Amot/Ect2/Magi3/Tgfbr1/Nphp4/Cldn12/Plekha7/Atp7b/Marveld3/Jam3/Esam/Clmp/Cldn7/Usp53/Plxdc1/Mapk15/Jam2",18
+"GO:0000118","histone deacetylase complex","9/2064","59/23436",0.0719721546313158,0.0719721546313158,0.196251059940934,"Hdac6/Rbbp7/Chd5/Hey2/Sap30/Hr/Hdac9/Cbx5/Brms1",9
+"GO:0070161","anchoring junction","35/2064","311/23436",0.079546375800994,0.079546375800994,0.215756530298435,"Fam129b/Frmd5/Mapre1/Sdc4/Cass4/Abcb4/Arhgap24/Trpv4/Cav2/Zyx/Cdca3/Plekha7/Mapk3/Cttn/Oprm1/Tle2/Smpx/Bcar1/Dlg5/Tgm1/Jam3/Esam/Cib2/Coro2b/Dsp/Itga2/Itga1/Syne2/Parvb/Tns2/Lmln/Vegfa/Jcad/Dsg2/Lims2",35
+"GO:0099571","postsynaptic cytoskeleton","4/2064","19/23436",0.0799773735550967,0.0799773735550967,0.215783827819014,"Cttn/Filip1/Myh10/Dbn1",4
+"GO:0005882","intermediate filament","16/2064","127/23436",0.0922012825864773,0.0922012825864773,0.246483230857126,"Vim/Upp2/Nes/Gper1/Lmntd1/Lmnb2/Mns1/Slc1a4/Krt222/Evpl/Dsp/Fam83h/Prph/Krt80/Ppl/Lmnb1",16
+"GO:0016592","mediator complex","6/2064","36/23436",0.0923173332820119,0.0923173332820119,0.246483230857126,"Med12l/Med18/Cdk19/Med7/Havcr2/Med30",6
+"GO:0000930","gamma-tubulin complex","4/2064","20/23436",0.0933075230087643,0.0933075230087643,0.247836180557776,"Ckap5/Nedd1/Tubg1/Tubg2",4
+"GO:0005942","phosphatidylinositol 3-kinase complex","5/2064","28/23436",0.0947469216880581,0.0947469216880581,0.249078277258215,"Pik3c2b/Socs2/Cish/Pik3r6/Pik3cg",5
+"GO:0097386","glial cell projection","5/2064","28/23436",0.0947469216880581,0.0947469216880581,0.249078277258215,"Kcnj10/Slc17a8/Adgrg1/Lgals3/Gjb2",5
+"GO:0005912","adherens junction","33/2064","297/23436",0.0983935509412463,0.0983935509412463,0.254134256394796,"Fam129b/Frmd5/Mapre1/Sdc4/Cass4/Abcb4/Arhgap24/Trpv4/Cav2/Zyx/Cdca3/Plekha7/Mapk3/Cttn/Oprm1/Tle2/Smpx/Bcar1/Dlg5/Tgm1/Esam/Cib2/Coro2b/Dsp/Itga2/Itga1/Syne2/Parvb/Tns2/Lmln/Vegfa/Jcad/Lims2",33
+"GO:0032420","stereocilium","8/2064","54/23436",0.0990656340367592,0.0990656340367592,0.254134256394796,"Prom1/Eps8/Tspear/Cib2/Adgrv1/Triobp/Slc9a3r2/Clic5",8
+"GO:0005940","septin ring","3/2064","13/23436",0.100140377417169,0.100140377417169,0.254134256394796,"Sept11/Sept10/Sept5",3
+"GO:0031105","septin complex","3/2064","13/23436",0.100140377417169,0.100140377417169,0.254134256394796,"Sept11/Sept10/Sept5",3
+"GO:0032437","cuticular plate","3/2064","13/23436",0.100140377417169,0.100140377417169,0.254134256394796,"Cib2/Triobp/Snx9",3
+"GO:0070938","contractile ring","3/2064","13/23436",0.100140377417169,0.100140377417169,0.254134256394796,"Prc1/Anln/Kif20b",3
+"GO:0098533","ATPase dependent transmembrane transport complex","3/2064","13/23436",0.100140377417169,0.100140377417169,0.254134256394796,"Atp1b1/Atp1a2/Atp1b2",3
+"GO:0008328","ionotropic glutamate receptor complex","8/2064","55/23436",0.107473523023158,0.107473523023158,0.271400600011811,"Gria2/Grin3a/Dlgap3/Eps8/Grin2d/Grin3b/Olfm2/Cnih2",8
+"GO:0031514","motile cilium","23/2064","199/23436",0.10850799375063,0.10850799375063,0.271402535469517,"Atp2b4/Enkur/Ak8/Odf2/Fsip1/Sord/Spef1/Mlf1/Slc9b1/Tekt2/Pkd2/Iqcd/Ran/Scnn1a/Gapdhs/Cep89/Pcnt/Mns1/Dnah11/Odf1/Spag6l/Tcte3/Anxa1",23
+"GO:0034703","cation channel complex","25/2064","219/23436",0.108533149451106,0.108533149451106,0.271402535469517,"Kcnq5/Nos1ap/Gria2/Grin3a/Dlgap3/Pkd2/Cntnap2/Scnn1a/Eps8/Kcnj8/Abcc9/Scn1b/Grin2d/Cttn/Hcn2/Grin3b/Stac3/Olfm2/Kcnj3/Trpc1/Hspa2/Cacna1i/Cacnb3/Calm2/Cnih2",25
+"GO:0043235","receptor complex","42/2064","394/23436",0.11323180079998,0.11323180079998,0.281777654520135,"Pigr/Cr2/Eng/Pla2r1/Chrna1/Mertk/Gria2/Insrr/Gabrr1/Tgfbr1/Grin3a/Lrp8/Epha10/Csf3r/Dlgap3/Epha8/Il6/Emilin1/Gabrb1/Eps8/Caprin2/Grin2d/Itgax/Itgad/Col10a1/Grin3b/Il12rb1/Olfm2/Ldlr/Chrna5/Trpc1/Plxdc1/Adgrv1/Il31ra/Itga2/Itga1/Plxnb2/Impg2/Epha3/Notch3/Lrp5/Cnih2",42
+"GO:0032590","dendrite membrane","7/2064","47/23436",0.115746481406029,0.115746481406029,0.286643968699396,"Slc12a5/Gper1/Oprm1/Hcn2/Thy1/Ngfr/Mpp2",7
+"GO:0098878","neurotransmitter receptor complex","8/2064","57/23436",0.125419447949182,0.125419447949182,0.309105623235078,"Gria2/Grin3a/Dlgap3/Eps8/Grin2d/Grin3b/Olfm2/Cnih2",8
+"GO:0005884","actin filament","15/2064","124/23436",0.129440864369765,0.129440864369765,0.316155980371147,"Src/Gdpd2/Tmsb15b2/Amot/Tpm2/Pkd2/Cttn/Apc2/Tpm4/Acta1/Dmtn/Pls1/Smtn/Dbn1/Anxa1",15
+"GO:0016234","inclusion body","10/2064","76/23436",0.129513589494956,0.129513589494956,0.316155980371147,"Hdac6/Wdfy3/Rad18/Pold1/Tdp2/Syne2/Rangap1/Hoxc9/Prkn/Stub1",10
+"GO:0001726","ruffle","17/2064","144/23436",0.131540380365163,0.131540380365163,0.319581767212942,"Kif18a/Tirap/Src/Amot/Fgd1/Bmx/Trpv4/Cit/Eps8/Myadm/Cttn/S100b/Psd3/Mtss2/Bcar1/Anxa2/Jcad",17
+"GO:0016328","lateral plasma membrane","8/2064","58/23436",0.134942534253481,0.134942534253481,0.32630096415812,"Iqgap3/Cldn12/Nsg1/Coro1c/Gjb2/Cldn7/Dsg2/Anxa1",8
+"GO:0031672","A band","6/2064","40/23436",0.135908115450158,0.135908115450158,0.327092919319136,"Fhl2/Obsl1/Smpx/Myom2/Ank1/Myom1",6
+"GO:0071782","endoplasmic reticulum tubular network","4/2064","23/23436",0.138900220563748,0.138900220563748,0.332319367402692,"Lnpk/C2cd2l/Atl2/Reep5",4
+"GO:0034719","SMN-Sm protein complex","3/2064","15/23436",0.140024505525734,0.140024505525734,0.332319367402692,"Ddx20/Gemin6/Snrpd1",3
+"GO:0043220","Schmidt-Lanterman incisure","3/2064","15/23436",0.140024505525734,0.140024505525734,0.332319367402692,"Ncmap/Jam3/Anxa2",3
+"GO:0008305","integrin complex","5/2064","32/23436",0.146204245204237,0.146204245204237,0.345386696165235,"Emilin1/Itgax/Itgad/Itga2/Itga1",5
+"GO:0043204","perikaryon","16/2064","137/23436",0.149620710122734,0.149620710122734,0.351836242538732,"Ass1/Slc12a5/Hdac6/Gria2/Bglap/Ptpn5/Oprm1/Pcmt1/Slc17a8/Tmprss11c/Ccl2/Ngfr/Naip6/Itga1/Ngb/Pde9a",16
+"GO:0098858","actin-based cell projection","23/2064","209/23436",0.157448319165742,0.157448319165742,0.368552422175998,"Kcnj10/Slc27a4/Ermn/Cd302/Pdzk1/Prom1/Trpv4/Eps8/Cd24a/Tspear/Tubb3/Cib2/Srcin1/Aoc3/Dbn1/Adgrv1/Iqgap2/Syne2/Triobp/Nptxr/Muc4/Slc9a3r2/Clic5",23
+"GO:0044420","extracellular matrix component","7/2064","51/23436",0.158519042775521,0.158519042775521,0.36937212359655,"Lamc2/Lamc1/Col5a1/Emilin1/Thsd4/Col12a1/Vcan",7
+"GO:0005921","gap junction","5/2064","33/23436",0.160621294114474,0.160621294114474,0.372577138527025,"Gja5/Gja8/Mip/Gjb2/Dbn1",5
+"GO:0098862","cluster of actin-based cell projections","21/2064","191/23436",0.171490886066431,0.171490886066431,0.395998395041971,"Slc9a2/Slc27a4/Cybrd1/Pdzk1/Coro2a/Abcb1a/Prom1/Atp6v0a4/Eps8/Pcmt1/Tspear/Cib2/Lctl/Pls1/Myh10/Myo1d/Adgrv1/Triobp/Myh11/Slc9a3r2/Clic5",21
+"GO:0009925","basal plasma membrane","6/2064","43/23436",0.173850124463213,0.173850124463213,0.399646026025889,"Cd34/P2ry12/Pkd2/Rhcg/Slco2b1/Muc20",6
+"GO:0031985","Golgi cisterna","8/2064","62/23436",0.17646937146086,0.17646937146086,0.403109148730184,"Pld1/Cit/Rab30/Xylt1/Hid1/H2-Q1/H2-Q10/Ggta1",8
+"GO:0030672","synaptic vesicle membrane","13/2064","111/23436",0.177715676041829,0.177715676041829,0.403109148730184,"Tmem163/Syt2/Syp/Gria2/Otof/Syt5/Slc17a7/Syngr4/Slc17a8/Atp6v0a1/Amph/Prkn/Calm2",13
+"GO:0099501","exocytic vesicle membrane","13/2064","111/23436",0.177715676041829,0.177715676041829,0.403109148730184,"Tmem163/Syt2/Syp/Gria2/Otof/Syt5/Slc17a7/Syngr4/Slc17a8/Atp6v0a1/Amph/Prkn/Calm2",13
+"GO:0043209","myelin sheath","23/2064","213/23436",0.179991705979141,0.179991705979141,0.406473270632235,"Atp1b1/Igsf8/Atp1a2/Tubb4b/Ass1/Ermn/Tspan2/Ncmap/Ehd3/Prx/Jam3/Thy1/Ncam1/Anxa2/Hba-a1/Omg/Myo1d/Srd5a1/Hspa2/Tuba1b/Tuba1a/Calm2/Stip1",23
+"GO:0099738","cell cortex region","7/2064","53/23436",0.182249371889064,0.182249371889064,0.409766593305513,"Sapcd2/Gpsm2/Rims3/Gnai1/Pkd2/Ppfia3/Anln",7
+"GO:0032982","myosin filament","3/2064","17/23436",0.184211369772457,0.184211369772457,0.410576371071791,"Myh10/Myh11/Myom1",3
+"GO:0070822","Sin3-type complex","3/2064","17/23436",0.184211369772457,0.184211369772457,0.410576371071791,"Hey2/Sap30/Brms1",3
+"GO:0043679","axon terminus","20/2064","183/23436",0.185490934392954,0.185490934392954,0.411638573931959,"Syp/L1cam/Gria2/Nos1/Gper1/Opn1sw/Prkcg/Calca/Slc17a8/Sncg/Pnoc/Dixdc1/Ccl2/Amph/Drd1/Itga2/Prph/Sept5/Prkn/Tulp1",20
+"GO:0098636","protein complex involved in cell adhesion","5/2064","35/23436",0.191048776197332,0.191048776197332,0.420369967082,"Emilin1/Itgax/Itgad/Itga2/Itga1",5
+"GO:0016605","PML body","9/2064","73/23436",0.191065487091583,0.191065487091583,0.420369967082,"Rad51/Wdfy3/Chek2/Blm/Zbtb16/Topbp1/Trim16/Tdp2/Cbx5",9
+"GO:0032421","stereocilium bundle","8/2064","64/23436",0.199118818955226,0.199118818955226,0.434598224395347,"Prom1/Eps8/Tspear/Cib2/Adgrv1/Triobp/Slc9a3r2/Clic5",8
+"GO:0005903","brush border","15/2064","134/23436",0.200660307464111,0.200660307464111,0.434598224395347,"Slc9a2/Slc27a4/Cybrd1/Pdzk1/Coro2a/Abcb1a/Prom1/Atp6v0a4/Eps8/Pcmt1/Lctl/Pls1/Myh10/Myo1d/Myh11",15
+"GO:0030285","integral component of synaptic vesicle membrane","6/2064","45/23436",0.201285125931725,0.201285125931725,0.434598224395347,"Tmem163/Syt2/Syp/Slc17a7/Slc17a8/Atp6v0a1",6
+"GO:0034707","chloride channel complex","6/2064","45/23436",0.201285125931725,0.201285125931725,0.434598224395347,"Clic3/Gabrr1/Gabrb1/Clcn1/Clic5/Best1",6
+"GO:0120114","Sm-like protein family complex","9/2064","74/23436",0.201771372763425,0.201771372763425,0.434598224395347,"Rbmx2/Ddx20/Ppih/Lsm5/Lsm3/Snrpn/Lsm2/Gemin6/Snrpd1",9
+"GO:0045111","intermediate filament cytoskeleton","18/2064","165/23436",0.202858836581361,0.202858836581361,0.435112325105144,"Vim/Upp2/Nes/Gper1/Lmntd1/Lmnb2/Mmp14/Mns1/Slc1a4/Krt222/Evpl/Dsp/Syne2/Fam83h/Prph/Krt80/Ppl/Lmnb1",18
+"GO:0000159","protein phosphatase type 2A complex","3/2064","18/23436",0.207519796908721,0.207519796908721,0.44141577241558,"Ppp2r2c/Ppp2cb/Nkd1",3
+"GO:0031528","microvillus membrane","3/2064","18/23436",0.207519796908721,0.207519796908721,0.44141577241558,"Pdzk1/Cd24a/Muc4",3
+"GO:0002102","podosome","4/2064","27/23436",0.210303821041754,0.210303821041754,0.443659211975399,"Src/Cttn/Tpm4/Sh3pxd2b",4
+"GO:0000784","nuclear chromosome, telomeric region","9/2064","75/23436",0.212719067313196,0.212719067313196,0.443659211975399,"Terf1/Rad51/Brca2/Pold1/Tinf2/Pif1/Ctc1/Cbx5/Fen1",9
+"GO:0098839","postsynaptic density membrane","11/2064","95/23436",0.213368650921001,0.213368650921001,0.443659211975399,"Gria2/Grin3a/Lrrc4/Grin2d/Grin3b/Adcy1/Efnb3/Mpp2/Rgs9/Arc/Cnih2",11
+"GO:0044309","neuron spine","21/2064","198/23436",0.216111450273994,0.216111450273994,0.443659211975399,"Srgap2/Dnm3/Atp1a2/Itpka/Lzts3/Syp/Gria2/Palmd/Dlgap3/Fbxo2/Gper1/Lrrc4/Arhgap33/Oprm1/Ncoa2/Myh10/Ppp1r1b/Mpp2/Drd1/Dbn1/Cnih2",21
+"GO:0005687","U4 snRNP","2/2064","10/23436",0.218094487365319,0.218094487365319,0.443659211975399,"Snrpn/Snrpd1",2
+"GO:0005775","vacuolar lumen","2/2064","10/23436",0.218094487365319,0.218094487365319,0.443659211975399,"Nsg1/Prss57",2
+"GO:0030681","multimeric ribonuclease P complex","2/2064","10/23436",0.218094487365319,0.218094487365319,0.443659211975399,"Rpp25/Rpp30",2
+"GO:0032797","SMN complex","2/2064","10/23436",0.218094487365319,0.218094487365319,0.443659211975399,"Ddx20/Gemin6",2
+"GO:0043256","laminin complex","2/2064","10/23436",0.218094487365319,0.218094487365319,0.443659211975399,"Lamc2/Lamc1",2
+"GO:0044224","juxtaparanode region of axon","2/2064","10/23436",0.218094487365319,0.218094487365319,0.443659211975399,"Cntnap2/Epb41l3",2
+"GO:1904115","axon cytoplasm","2/2064","10/23436",0.218094487365319,0.218094487365319,0.443659211975399,"Rangap1/Ranbp1",2
+"GO:1904949","ATPase complex","11/2064","96/23436",0.223248441429809,0.223248441429809,0.451925054586872,"Atp1b1/Atp1a2/Rbbp7/Chd5/Hmgxb4/Atp1b2/Suz12/Atad5/Rfc4/Bicral/Brd8",11
+"GO:0044304","main axon","10/2064","86/23436",0.223920976738834,0.223920976738834,0.451925054586872,"Ermn/Map1a/Ncmap/Cntnap2/Scn1b/Ank1/Thy1/Myo1d/Ankrd9/Epb41l3",10
+"GO:0031045","dense core granule","4/2064","28/23436",0.22956330426737,0.22956330426737,0.454560833341499,"Syt2/Syt5/Plat/Myrip",4
+"GO:0031091","platelet alpha granule","3/2064","19/23436",0.231434001287525,0.231434001287525,0.454560833341499,"Selp/Pf4/Igf1",3
+"GO:0043034","costamere","3/2064","19/23436",0.231434001287525,0.231434001287525,0.454560833341499,"Sdc4/Smpx/Trpc1",3
+"GO:0043186","P granule","3/2064","19/23436",0.231434001287525,0.231434001287525,0.454560833341499,"Tdrkh/Ddx4/Carhsp1",3
+"GO:0043218","compact myelin","3/2064","19/23436",0.231434001287525,0.231434001287525,0.454560833341499,"Ncmap/Jam3/Anxa2",3
+"GO:0045495","pole plasm","3/2064","19/23436",0.231434001287525,0.231434001287525,0.454560833341499,"Tdrkh/Ddx4/Carhsp1",3
+"GO:0060293","germ plasm","3/2064","19/23436",0.231434001287525,0.231434001287525,0.454560833341499,"Tdrkh/Ddx4/Carhsp1",3
+"GO:0099146","intrinsic component of postsynaptic density membrane","9/2064","77/23436",0.235288788962111,0.235288788962111,0.460368180894126,"Gria2/Grin3a/Lrrc4/Grin2d/Grin3b/Adcy1/Efnb3/Mpp2/Cnih2",9
+"GO:0044298","cell body membrane","5/2064","38/23436",0.240018880607442,0.240018880607442,0.467837481912444,"Dab2ip/P2ry12/Thy1/Cx3cr1/Ngfr",5
+"GO:0098802","plasma membrane receptor complex","19/2064","181/23436",0.244006806695365,0.244006806695365,0.473809070417236,"Chrna1/Gria2/Insrr/Tgfbr1/Grin3a/Dlgap3/Il6/Emilin1/Eps8/Grin2d/Itgax/Itgad/Grin3b/Il12rb1/Olfm2/Chrna5/Itga2/Itga1/Cnih2",19
+"GO:0097525","spliceosomal snRNP complex","7/2064","58/23436",0.247203606235864,0.247203606235864,0.478205188627074,"Rbmx2/Ppih/Lsm5/Lsm3/Snrpn/Lsm2/Snrpd1",7
+"GO:0090568","nuclear transcriptional repressor complex","4/2064","29/23436",0.249235622348732,0.249235622348732,0.480103168744684,"Suv39h1/Rbbp7/Ddx20/Chd5",4
+"GO:0002177","manchette","2/2064","11/23436",0.251930933824854,0.251930933824854,0.480103168744684,"1110017D15Rik/Ran",2
+"GO:0070852","cell body fiber","2/2064","11/23436",0.251930933824854,0.251930933824854,0.480103168744684,"Ass1/Srd5a1",2
+"GO:1990454","L-type voltage-gated calcium channel complex","2/2064","11/23436",0.251930933824854,0.251930933824854,0.480103168744684,"Nos1ap/Cacnb3",2
+"GO:0043197","dendritic spine","20/2064","193/23436",0.25503255242874,0.25503255242874,0.48389633199472,"Srgap2/Dnm3/Atp1a2/Itpka/Lzts3/Gria2/Palmd/Dlgap3/Fbxo2/Gper1/Lrrc4/Arhgap33/Oprm1/Ncoa2/Myh10/Ppp1r1b/Mpp2/Drd1/Dbn1/Cnih2",20
+"GO:0005922","connexin complex","3/2064","20/23436",0.255809262160248,0.255809262160248,0.48389633199472,"Gja5/Gja8/Gjb2",3
+"GO:0055037","recycling endosome","15/2064","141/23436",0.259289189218792,0.259289189218792,0.486953059724453,"Pigr/Sorcs2/Nsg1/Ran/Gper1/Rep15/Ehd3/Ehd2/Scamp4/Grip1/Ldlr/Tubg1/Pheta2/Pacsin2/Tuba1a",15
+"GO:0098686","hippocampal mossy fiber to CA3 synapse","6/2064","49/23436",0.260251499915639,0.260251499915639,0.486953059724453,"Prkar1b/Gper1/Grin2d/Grin3b/Adcy1/Efnb3",6
+"GO:0032587","ruffle membrane","8/2064","69/23436",0.2602749105673,0.2602749105673,0.486953059724453,"Tirap/Src/Bmx/Trpv4/Eps8/Psd3/Mtss2/Jcad",8
+"GO:0044306","neuron projection terminus","21/2064","205/23436",0.265481885527811,0.265481885527811,0.494888720581986,"Syp/L1cam/Gria2/Nos1/Gper1/Opn1sw/Prkcg/Calca/Fstl3/Slc17a8/Sncg/Pnoc/Dixdc1/Ccl2/Amph/Drd1/Itga2/Prph/Sept5/Prkn/Tulp1",21
+"GO:0099522","region of cytosol","5/2064","40/23436",0.274354053754259,0.274354053754259,0.508890645721019,"Rims3/Prkcg/Hnrnpab/Dbn1/Prkce",5
+"GO:0016459","myosin complex","7/2064","60/23436",0.274978590187857,0.274978590187857,0.508890645721019,"Myl9/Limch1/Mylpf/Myh10/Myo1d/Myh11/Myom1",7
+"GO:0005686","U2 snRNP","3/2064","21/23436",0.28050907311273,0.28050907311273,0.512973579681387,"Rbmx2/Snrpn/Snrpd1",3
+"GO:0031362","anchored component of external side of plasma membrane","3/2064","21/23436",0.28050907311273,0.28050907311273,0.512973579681387,"Cd24a/Rtbdn/Thy1",3
+"GO:0150034","distal axon","36/2064","369/23436",0.283380695794781,0.283380695794781,0.512973579681387,"Syp/L1cam/Stmn2/Gria2/Agrn/Crmp1/Trpv4/Nos1/Auts2/Gper1/Opn1sw/Prkcg/Tshz3/Calca/Cttn/Slc17a8/Tubb3/Sncg/Ang/Pnoc/Thy1/Ncam1/Dixdc1/Myh10/Ccl2/Amph/Drd1/Dbn1/Itga2/Nptxr/Prph/Sept5/Tnk2/Prkn/Tulp1/Calm2",36
+"GO:0020005","symbiont-containing vacuole membrane","2/2064","12/23436",0.285874703570278,0.285874703570278,0.512973579681387,"Gbp2b/Pf4",2
+"GO:0031143","pseudopodium","2/2064","12/23436",0.285874703570278,0.285874703570278,0.512973579681387,"Actn4/Mapk3",2
+"GO:0042405","nuclear inclusion body","2/2064","12/23436",0.285874703570278,0.285874703570278,0.512973579681387,"Rad18/Stub1",2
+"GO:0042612","MHC class I protein complex","2/2064","12/23436",0.285874703570278,0.285874703570278,0.512973579681387,"H2-Q1/H2-Q10",2
+"GO:0098992","neuronal dense core vesicle","2/2064","12/23436",0.285874703570278,0.285874703570278,0.512973579681387,"Syt5/Plat",2
+"GO:0099061","integral component of postsynaptic density membrane","8/2064","71/23436",0.286190804105611,0.286190804105611,0.512973579681387,"Gria2/Grin3a/Lrrc4/Grin2d/Grin3b/Adcy1/Efnb3/Cnih2",8
+"GO:0032588","trans-Golgi network membrane","4/2064","31/23436",0.289524408363606,0.289524408363606,0.517140608373652,"Nsg1/Scamp4/Atp7b/Cabp7",4
+"GO:0043230","extracellular organelle","12/2064","113/23436",0.291765768274747,0.291765768274747,0.517758629711604,"Fasl/Sord/Xpnpep2/Gbp2b/Prom1/Pf4/Scnn1a/Ppfia3/Slc12a3/Anxa2/Arc/Anxa1",12
+"GO:0005891","voltage-gated calcium channel complex","5/2064","41/23436",0.291890414347681,0.291890414347681,0.517758629711604,"Nos1ap/Stac3/Hspa2/Cacna1i/Cacnb3",5
+"GO:0005791","rough endoplasmic reticulum","10/2064","93/23436",0.30210389117231,0.30210389117231,0.534027568061397,"Cel/Bglap/Arl6ip1/Derl3/Ncoa2/Tmem97/Ccl2/Ngfr/Arsb/Scgb1a1",10
+"GO:0014704","intercalated disc","7/2064","62/23436",0.303499991436356,0.303499991436356,0.534651820689114,"Atp1b1/Atp1a2/Gja5/Ywhah/Scn1b/Dsp/Dsg2",7
+"GO:0043194","axon initial segment","3/2064","22/23436",0.30540592291586,0.30540592291586,0.536166850973409,"Map1a/Ank1/Ankrd9",3
+"GO:0097729","9+2 motile cilium","13/2064","126/23436",0.316850161292383,0.316850161292383,0.544385070720916,"Atp2b4/Enkur/Ak8/Odf2/Slc9b1/Ran/Scnn1a/Gapdhs/Mns1/Dnah11/Odf1/Spag6l/Tcte3",13
+"GO:0030532","small nuclear ribonucleoprotein complex","7/2064","63/23436",0.31798142233189,0.31798142233189,0.544385070720916,"Rbmx2/Ppih/Lsm5/Lsm3/Snrpn/Lsm2/Snrpd1",7
+"GO:0005766","primary lysosome","2/2064","13/23436",0.319644581052661,0.319644581052661,0.544385070720916,"Nos1/Prss57",2
+"GO:0005833","hemoglobin complex","2/2064","13/23436",0.319644581052661,0.319644581052661,0.544385070720916,"Hbb-bt/Hba-a1",2
+"GO:0016580","Sin3 complex","2/2064","13/23436",0.319644581052661,0.319644581052661,0.544385070720916,"Hey2/Sap30",2
+"GO:0030677","ribonuclease P complex","2/2064","13/23436",0.319644581052661,0.319644581052661,0.544385070720916,"Rpp25/Rpp30",2
+"GO:0034362","low-density lipoprotein particle","2/2064","13/23436",0.319644581052661,0.319644581052661,0.544385070720916,"Ldlr/Apoa1",2
+"GO:0034663","endoplasmic reticulum chaperone complex","2/2064","13/23436",0.319644581052661,0.319644581052661,0.544385070720916,"Hsp90b1/Sdf2l1",2
+"GO:0042582","azurophil granule","2/2064","13/23436",0.319644581052661,0.319644581052661,0.544385070720916,"Nos1/Prss57",2
+"GO:0001669","acrosomal vesicle","13/2064","127/23436",0.327052748287868,0.327052748287868,0.552218573047665,"Enkur/Knl1/Sun1/Cav2/Scnn1a/Abcc9/Tsks/Ppfia3/Izumo1/Acrv1/Cep131/Itga1/Trim36",13
+"GO:0008287","protein serine/threonine phosphatase complex","5/2064","43/23436",0.327475819088636,0.327475819088636,0.552218573047665,"Ppp2r2c/Ppp2cb/Ppp1r3b/Nkd1/Ppp4r4",5
+"GO:1903293","phosphatase complex","5/2064","43/23436",0.327475819088636,0.327475819088636,0.552218573047665,"Ppp2r2c/Ppp2cb/Ppp1r3b/Nkd1/Ppp4r4",5
+"GO:0005797","Golgi medial cisterna","3/2064","23/23436",0.330381778268676,0.330381778268676,0.553477557677487,"Hid1/H2-Q1/H2-Q10",3
+"GO:0046930","pore complex","3/2064","23/23436",0.330381778268676,0.330381778268676,0.553477557677487,"Cd34/Tspan33/Plekha7",3
+"GO:0032838","plasma membrane bounded cell projection cytoplasm","17/2064","171/23436",0.336918151839446,0.336918151839446,0.562589199197018,"Cenpf/Ak8/Spef1/Gria2/Cfap57/Spef1l/Oprm1/Ccsap/Mns1/Wdpcp/Dnal1/Dnah11/Rangap1/Spag6l/Ranbp1/Wdr90/Cntf",17
+"GO:0005795","Golgi stack","9/2064","86/23436",0.345205664257437,0.345205664257437,0.562917203592276,"Pld1/Cit/Rab30/Xylt1/Galnt2/Hid1/H2-Q1/H2-Q10/Ggta1",9
+"GO:0000177","cytoplasmic exosome (RNase complex)","2/2064","14/23436",0.353008007982443,0.353008007982443,0.562917203592276,"Exosc8/Carhsp1",2
+"GO:0005639","integral component of nuclear inner membrane","2/2064","14/23436",0.353008007982443,0.353008007982443,0.562917203592276,"Sun1/P2rx1",2
+"GO:0020003","symbiont-containing vacuole","2/2064","14/23436",0.353008007982443,0.353008007982443,0.562917203592276,"Gbp2b/Pf4",2
+"GO:0031229","intrinsic component of nuclear inner membrane","2/2064","14/23436",0.353008007982443,0.353008007982443,0.562917203592276,"Sun1/P2rx1",2
+"GO:0031838","haptoglobin-hemoglobin complex","2/2064","14/23436",0.353008007982443,0.353008007982443,0.562917203592276,"Hbb-bt/Hba-a1",2
+"GO:0042575","DNA polymerase complex","2/2064","14/23436",0.353008007982443,0.353008007982443,0.562917203592276,"Pole/Pold1",2
+"GO:0042824","MHC class I peptide loading complex","2/2064","14/23436",0.353008007982443,0.353008007982443,0.562917203592276,"H2-Q1/H2-Q10",2
+"GO:0060076","excitatory synapse","8/2064","76/23436",0.353340163574525,0.353340163574525,0.562917203592276,"Cadm3/Syp/Lrrc4/Slc17a7/Slc17a8/Cbln1/Kcnj3/Dbn1",8
+"GO:0002080","acrosomal membrane","3/2064","24/23436",0.355328323351174,0.355328323351174,0.562917203592276,"Sun1/Cav2/Izumo1",3
+"GO:0018995","host","3/2064","24/23436",0.355328323351174,0.355328323351174,0.562917203592276,"Gbp2b/Pf4/Top2a",3
+"GO:0030057","desmosome","3/2064","24/23436",0.355328323351174,0.355328323351174,0.562917203592276,"Jam3/Dsp/Dsg2",3
+"GO:0031233","intrinsic component of external side of plasma membrane","3/2064","24/23436",0.355328323351174,0.355328323351174,0.562917203592276,"Cd24a/Rtbdn/Thy1",3
+"GO:0033017","sarcoplasmic reticulum membrane","3/2064","24/23436",0.355328323351174,0.355328323351174,0.562917203592276,"Nos1ap/Nos1/Dmpk",3
+"GO:0043657","host cell","3/2064","24/23436",0.355328323351174,0.355328323351174,0.562917203592276,"Gbp2b/Pf4/Top2a",3
+"GO:0099523","presynaptic cytosol","3/2064","24/23436",0.355328323351174,0.355328323351174,0.562917203592276,"Prkcg/Hnrnpab/Prkce",3
+"GO:0036126","sperm flagellum","12/2064","119/23436",0.355782166870026,0.355782166870026,0.562917203592276,"Atp2b4/Enkur/Ak8/Odf2/Slc9b1/Ran/Scnn1a/Gapdhs/Mns1/Odf1/Spag6l/Tcte3",12
+"GO:1903561","extracellular vesicle","10/2064","98/23436",0.361571295104444,0.361571295104444,0.57031650434288,"Fasl/Sord/Xpnpep2/Prom1/Scnn1a/Ppfia3/Slc12a3/Anxa2/Arc/Anxa1",10
+"GO:0097223","sperm part","23/2064","240/23436",0.367016708028621,0.367016708028621,0.575503109030825,"Atp2b4/Enkur/Ak8/Odf2/Knl1/Slc9b1/Ran/Sun1/Cav2/Scnn1a/Abcc9/Gapdhs/Tsks/Ppfia3/Izumo1/Acrv1/Mns1/Cep131/Itga1/Odf1/Spag6l/Tcte3/Trim36",23
+"GO:0016607","nuclear speck","30/2064","317/23436",0.367104806612784,0.367104806612784,0.575503109030825,"Bard1/Nsl1/Oip5/Trim69/Smc4/Plag1/Haus6/Ppih/Chd5/Mbd4/Kif22/Sgk1/E2f7/Ddx39/Hsf4/Synpo2l/H2afx/Zbtb16/Atp6v0a1/Srsf2/Ncapg2/Basp1/Gcat/Pacsin2/Glis2/Rmi2/Prkn/Srsf3/Epas1/Cdc25c",30
+"GO:0016363","nuclear matrix","9/2064","88/23436",0.370786587641708,0.370786587641708,0.577741379560109,"Cenpf/Pola1/Smc1a/Blm/Rad21/Hes1/Uhrf1/Lmnb1/Smc3",9
+"GO:0034705","potassium channel complex","9/2064","88/23436",0.370786587641708,0.370786587641708,0.577741379560109,"Kcnq5/Nos1ap/Cntnap2/Kcnj8/Abcc9/Cttn/Hcn2/Kcnj3/Calm2",9
+"GO:0015030","Cajal body","4/2064","35/23436",0.371945620517831,0.371945620517831,0.577791123420044,"Oip5/Zfp473/Cdk2/Hinfp",4
+"GO:0044453","nuclear membrane part","2/2064","15/23436",0.38577470066809,0.38577470066809,0.593874756520816,"Sun1/P2rx1",2
+"GO:0061702","inflammasome complex","2/2064","15/23436",0.38577470066809,0.38577470066809,0.593874756520816,"Pycard/Naip6",2
+"GO:0098845","postsynaptic endosome","2/2064","15/23436",0.38577470066809,0.38577470066809,0.593874756520816,"Nsg1/Arc",2
+"GO:0032809","neuronal cell body membrane","4/2064","36/23436",0.39256717277331,0.39256717277331,0.602521944975109,"Dab2ip/Thy1/Cx3cr1/Ngfr",4
+"GO:0071005","U2-type precatalytic spliceosome","5/2064","47/23436",0.399508103257787,0.399508103257787,0.610389994809814,"Rbmx2/Lsm5/Lsm3/Lsm2/Snrpd1",5
+"GO:0099634","postsynaptic specialization membrane","13/2064","134/23436",0.400074920622778,0.400074920622778,0.610389994809814,"Chrna1/Gria2/Grin3a/Lrrc4/Grin2d/Grin3b/Adcy1/Efnb3/Mpp2/Kpna2/Rgs9/Arc/Cnih2",13
+"GO:0097440","apical dendrite","3/2064","26/23436",0.404748909328323,0.404748909328323,0.613675836253119,"Rgs12/Slc17a8/Myo1d",3
+"GO:0099524","postsynaptic cytosol","3/2064","26/23436",0.404748909328323,0.404748909328323,0.613675836253119,"Rims3/Prkcg/Dbn1",3
+"GO:0030175","filopodium","9/2064","91/23436",0.409428463576571,0.409428463576571,0.613675836253119,"Ermn/Cd302/Trpv4/Tubb3/Srcin1/Dbn1/Iqgap2/Syne2/Nptxr",9
+"GO:0098685","Schaffer collateral - CA1 synapse","11/2064","113/23436",0.410522321429146,0.410522321429146,0.613675836253119,"Syp/L1cam/Gria2/Prkar1b/Lrrc4/Plat/Pde4a/Ncam1/Adcy1/Adora2b/Mpp2",11
+"GO:0031941","filamentous actin","4/2064","37/23436",0.413082973478762,0.413082973478762,0.613675836253119,"Tmsb15b2/Pkd2/Apc2/Smtn",4
+"GO:0099091","postsynaptic specialization, intracellular component","4/2064","37/23436",0.413082973478762,0.413082973478762,0.613675836253119,"Src/Nos1/Syngap1/Dlgap1",4
+"GO:0071011","precatalytic spliceosome","5/2064","48/23436",0.417465462556582,0.417465462556582,0.613675836253119,"Rbmx2/Lsm5/Lsm3/Lsm2/Snrpd1",5
+"GO:0005682","U5 snRNP","2/2064","16/23436",0.417791013366985,0.417791013366985,0.613675836253119,"Snrpn/Snrpd1",2
+"GO:0005892","acetylcholine-gated channel complex","2/2064","16/23436",0.417791013366985,0.417791013366985,0.613675836253119,"Chrna1/Chrna5",2
+"GO:0016581","NuRD complex","2/2064","16/23436",0.417791013366985,0.417791013366985,0.613675836253119,"Rbbp7/Chd5",2
+"GO:0065010","extracellular membrane-bounded organelle","2/2064","16/23436",0.417791013366985,0.417791013366985,0.613675836253119,"Gbp2b/Pf4",2
+"GO:0090545","CHD-type complex","2/2064","16/23436",0.417791013366985,0.417791013366985,0.613675836253119,"Rbbp7/Chd5",2
+"GO:0098981","cholinergic synapse","2/2064","16/23436",0.417791013366985,0.417791013366985,0.613675836253119,"Pld1/Dlgap3",2
+"GO:0048786","presynaptic active zone","9/2064","92/23436",0.422324412407819,0.422324412407819,0.618562372458971,"Atp2b4/Syp/Rims3/Otof/Gper1/Slc17a7/Ppfia3/Ncoa2/P2rx1",9
+"GO:0031227","intrinsic component of endoplasmic reticulum membrane","14/2064","149/23436",0.440976324312945,0.440976324312945,0.644040995472797,"Lnpk/Pkd2/Dgat2/Arl6ip1/Derl3/Elovl4/Esyt3/Pgap3/Elovl2/Gpaa1/H2-Q1/H2-Q10/Scd3/Elovl3",14
+"GO:0005614","interstitial matrix","2/2064","17/23436",0.448934965846255,0.448934965846255,0.649040195686972,"Igf1/Col14a1",2
+"GO:0030430","host cell cytoplasm","2/2064","17/23436",0.448934965846255,0.448934965846255,0.649040195686972,"Gbp2b/Pf4",2
+"GO:0033655","host cell cytoplasm part","2/2064","17/23436",0.448934965846255,0.448934965846255,0.649040195686972,"Gbp2b/Pf4",2
+"GO:0044291","cell-cell contact zone","8/2064","83/23436",0.449463667341748,0.449463667341748,0.649040195686972,"Atp1b1/Atp1a2/Gja5/Ywhah/Scn1b/Jam3/Dsp/Dsg2",8
+"GO:0035869","ciliary transition zone","7/2064","72/23436",0.450816646190838,0.450816646190838,0.649165306608333,"D1Ertd622e/Nphp4/Ccsap/Fam161a/Tmem107/Cep131/Adgrv1",7
+"GO:0044447","axoneme part","4/2064","39/23436",0.453602899967524,0.453602899967524,0.651226753642005,"Wdpcp/Dnal1/Dnah11/Spag6l",4
+"GO:0005930","axoneme","12/2064","128/23436",0.454788950541368,0.454788950541368,0.651226753642005,"Cenpf/Ak8/Spef1/Cfap57/Spef1l/Ccsap/Mns1/Wdpcp/Dnal1/Dnah11/Spag6l/Wdr90",12
+"GO:0097014","ciliary plasm","12/2064","129/23436",0.465775554281557,0.465775554281557,0.665100996731032,"Cenpf/Ak8/Spef1/Cfap57/Spef1l/Ccsap/Mns1/Wdpcp/Dnal1/Dnah11/Spag6l/Wdr90",12
+"GO:0044305","calyx of Held","3/2064","29/23436",0.476504017981952,0.476504017981952,0.674746896403119,"Nos1/Prkcg/Sept5",3
+"GO:0016471","vacuolar proton-transporting V-type ATPase complex","2/2064","18/23436",0.479111861963447,0.479111861963447,0.674746896403119,"Atp6v0a4/Atp6v0a1",2
+"GO:0030867","rough endoplasmic reticulum membrane","2/2064","18/23436",0.479111861963447,0.479111861963447,0.674746896403119,"Arl6ip1/Derl3",2
+"GO:0034361","very-low-density lipoprotein particle","2/2064","18/23436",0.479111861963447,0.479111861963447,0.674746896403119,"Apoc4/Apoa1",2
+"GO:0034385","triglyceride-rich plasma lipoprotein particle","2/2064","18/23436",0.479111861963447,0.479111861963447,0.674746896403119,"Apoc4/Apoa1",2
+"GO:0030658","transport vesicle membrane","13/2064","142/23436",0.484464216360876,0.484464216360876,0.680415496374179,"Tmem163/Syt2/Syp/Gria2/Otof/Syt5/Slc17a7/Syngr4/Slc17a8/Atp6v0a1/Amph/Prkn/Calm2",13
+"GO:0043195","terminal bouton","8/2064","86/23436",0.490152391699183,0.490152391699183,0.686523482190112,"Syp/L1cam/Gria2/Opn1sw/Calca/Prph/Sept5/Prkn",8
+"GO:0120111","neuron projection cytoplasm","4/2064","41/23436",0.493155008607339,0.493155008607339,0.686531334868453,"Gria2/Oprm1/Rangap1/Ranbp1",4
+"GO:0098563","intrinsic component of synaptic vesicle membrane","6/2064","64/23436",0.49940329064364,0.49940329064364,0.686531334868453,"Tmem163/Syt2/Syp/Slc17a7/Slc17a8/Atp6v0a1",6
+"GO:0032281","AMPA glutamate receptor complex","3/2064","30/23436",0.499532604744633,0.499532604744633,0.686531334868453,"Gria2/Olfm2/Cnih2",3
+"GO:0044215","other organism","3/2064","30/23436",0.499532604744633,0.499532604744633,0.686531334868453,"Gbp2b/Pf4/Top2a",3
+"GO:0044216","other organism cell","3/2064","30/23436",0.499532604744633,0.499532604744633,0.686531334868453,"Gbp2b/Pf4/Top2a",3
+"GO:0044217","other organism part","3/2064","30/23436",0.499532604744633,0.499532604744633,0.686531334868453,"Gbp2b/Pf4/Top2a",3
+"GO:1902555","endoribonuclease complex","3/2064","30/23436",0.499532604744633,0.499532604744633,0.686531334868453,"Rpp25/Dgcr8/Rpp30",3
+"GO:0098936","intrinsic component of postsynaptic membrane","16/2064","178/23436",0.50424081745328,0.50424081745328,0.691101385632658,"Nrp2/Chrna1/Slc6a8/Gria2/Grin3a/Lrrc4/Grin2d/Oprm1/Grin3b/Ncam1/Adcy1/Efnb3/P2rx1/Mpp2/Drd1/Cnih2",16
+"GO:0030141","secretory granule","34/2064","383/23436",0.507062267455288,0.507062267455288,0.691101385632658,"Syt2/Selp/Enkur/Cel/Knl1/Pf4/Nos1/Sun1/Brca2/Cav2/Scnn1a/Abcc9/Syt5/Klk1b9/Tsks/Ppfia3/Izumo1/Fstl3/Prss57/Igf1/Plat/Cma1/Angptl6/Acrv1/Ngp/Myrip/Cep131/Itga1/Tgfb3/Chga/Vegfa/Trim36/Gal/Scgb1a1",34
+"GO:0030663","COPI-coated vesicle membrane","2/2064","19/23436",0.508250433807673,0.508250433807673,0.691101385632658,"Copz2/Kdelr3",2
+"GO:1902711","GABA-A receptor complex","2/2064","19/23436",0.508250433807673,0.508250433807673,0.691101385632658,"Gabrr1/Gabrb1",2
+"GO:0098948","intrinsic component of postsynaptic specialization membrane","10/2064","111/23436",0.518513872558177,0.518513872558177,0.699637543205091,"Chrna1/Gria2/Grin3a/Lrrc4/Grin2d/Grin3b/Adcy1/Efnb3/Mpp2/Cnih2",10
+"GO:0042470","melanosome","3/2064","31/23436",0.522033482928315,0.522033482928315,0.699637543205091,"Gchfr/Sytl2/Myrip",3
+"GO:0048770","pigment granule","3/2064","31/23436",0.522033482928315,0.522033482928315,0.699637543205091,"Gchfr/Sytl2/Myrip",3
+"GO:0099092","postsynaptic density, intracellular component","3/2064","31/23436",0.522033482928315,0.522033482928315,0.699637543205091,"Nos1/Syngap1/Dlgap1",3
+"GO:1905348","endonuclease complex","3/2064","31/23436",0.522033482928315,0.522033482928315,0.699637543205091,"Rpp25/Dgcr8/Rpp30",3
+"GO:0008076","voltage-gated potassium channel complex","7/2064","77/23436",0.52295061099875,0.52295061099875,0.699637543205091,"Kcnq5/Nos1ap/Cntnap2/Cttn/Hcn2/Kcnj3/Calm2",7
+"GO:0030426","growth cone","18/2064","203/23436",0.524081675074368,0.524081675074368,0.699637543205091,"L1cam/Stmn2/Gria2/Agrn/Crmp1/Trpv4/Auts2/Tshz3/Cttn/Tubb3/Ang/Thy1/Ncam1/Myh10/Dbn1/Nptxr/Tnk2/Calm2",18
+"GO:0099055","integral component of postsynaptic membrane","15/2064","169/23436",0.526933069202667,0.526933069202667,0.701616964324535,"Nrp2/Chrna1/Slc6a8/Gria2/Grin3a/Lrrc4/Grin2d/Oprm1/Grin3b/Ncam1/Adcy1/Efnb3/P2rx1/Drd1/Cnih2",15
+"GO:0005685","U1 snRNP","2/2064","20/23436",0.536299452879609,0.536299452879609,0.70674559207785,"Snrpn/Snrpd1",2
+"GO:0033646","host intracellular part","2/2064","20/23436",0.536299452879609,0.536299452879609,0.70674559207785,"Gbp2b/Pf4",2
+"GO:0043656","intracellular region of host","2/2064","20/23436",0.536299452879609,0.536299452879609,0.70674559207785,"Gbp2b/Pf4",2
+"GO:0044232","organelle membrane contact site","2/2064","20/23436",0.536299452879609,0.536299452879609,0.70674559207785,"Esyt3/Serac1",2
+"GO:0070062","extracellular exosome","8/2064","90/23436",0.542983653498506,0.542983653498506,0.713719404193718,"Fasl/Sord/Xpnpep2/Prom1/Scnn1a/Slc12a3/Anxa2/Anxa1",8
+"GO:0005902","microvillus","8/2064","91/23436",0.555856442888572,0.555856442888572,0.728771268506487,"Kcnj10/Slc27a4/Pdzk1/Prom1/Cd24a/Aoc3/Iqgap2/Muc4",8
+"GO:0098831","presynaptic active zone cytoplasmic component","2/2064","21/23436",0.563224756012965,0.563224756012965,0.732809126845615,"Rims3/Ppfia3",2
+"GO:0101031","chaperone complex","2/2064","21/23436",0.563224756012965,0.563224756012965,0.732809126845615,"Stub1/Stip1",2
+"GO:1902710","GABA receptor complex","2/2064","21/23436",0.563224756012965,0.563224756012965,0.732809126845615,"Gabrr1/Gabrb1",2
+"GO:0098688","parallel fiber to Purkinje cell synapse","3/2064","33/23436",0.565304675240427,0.565304675240427,0.733653236088176,"Cadm3/Cbln1/Kcnj3",3
+"GO:0030427","site of polarized growth","18/2064","208/23436",0.567028732881327,0.567028732881327,0.734032410720911,"L1cam/Stmn2/Gria2/Agrn/Crmp1/Trpv4/Auts2/Tshz3/Cttn/Tubb3/Ang/Thy1/Ncam1/Myh10/Dbn1/Nptxr/Tnk2/Calm2",18
+"GO:0030286","dynein complex","5/2064","57/23436",0.571468258346297,0.571468258346297,0.73791605943165,"Dnah14/Hdac6/Dnal1/Dnah11/Tcte3",5
+"GO:0001650","fibrillar center","11/2064","128/23436",0.579521420086587,0.579521420086587,0.742228606228341,"Terf1/Dsn1/Rps6ka6/Selenbp1/Btbd10/Stox1/Nfic/Cc2d1a/Orc6/Arhgap32/Rai14",11
+"GO:0090575","RNA polymerase II transcription factor complex","14/2064","163/23436",0.579656358048477,0.579656358048477,0.742228606228341,"Med18/E2f2/Pparg/E2f8/Nfyb/E2f7/Cbfb/Hnrnpab/Rara/Mxd3/Runx1/Nfya/Taf5/Mxi1",14
+"GO:0099060","integral component of postsynaptic specialization membrane","9/2064","105/23436",0.584209357833592,0.584209357833592,0.742228606228341,"Chrna1/Gria2/Grin3a/Lrrc4/Grin2d/Grin3b/Adcy1/Efnb3/Cnih2",9
+"GO:0008180","COP9 signalosome","3/2064","34/23436",0.58601754425215,0.58601754425215,0.742228606228341,"Amot/Basp1/Hspa1l",3
+"GO:0034358","plasma lipoprotein particle","3/2064","34/23436",0.58601754425215,0.58601754425215,0.742228606228341,"Apoc4/Ldlr/Apoa1",3
+"GO:1990777","lipoprotein particle","3/2064","34/23436",0.58601754425215,0.58601754425215,0.742228606228341,"Apoc4/Ldlr/Apoa1",3
+"GO:0033643","host cell part","2/2064","22/23436",0.589006639322674,0.589006639322674,0.742228606228341,"Gbp2b/Pf4",2
+"GO:0030176","integral component of endoplasmic reticulum membrane","12/2064","141/23436",0.592960837382724,0.592960837382724,0.742228606228341,"Lnpk/Pkd2/Dgat2/Arl6ip1/Derl3/Elovl4/Elovl2/Gpaa1/H2-Q1/H2-Q10/Scd3/Elovl3",12
+"GO:0000805","X chromosome","1/2064","10/23436",0.602317751912609,0.602317751912609,0.742228606228341,"Cdk2",1
+"GO:0000813","ESCRT I complex","1/2064","10/23436",0.602317751912609,0.602317751912609,0.742228606228341,"Ubap1l",1
+"GO:0005883","neurofilament","1/2064","10/23436",0.602317751912609,0.602317751912609,0.742228606228341,"Prph",1
+"GO:0030877","beta-catenin destruction complex","1/2064","10/23436",0.602317751912609,0.602317751912609,0.742228606228341,"Apc2",1
+"GO:0031010","ISWI-type complex","1/2064","10/23436",0.602317751912609,0.602317751912609,0.742228606228341,"Hmgxb4",1
+"GO:0031464","Cul4A-RING E3 ubiquitin ligase complex","1/2064","10/23436",0.602317751912609,0.602317751912609,0.742228606228341,"Dtl",1
+"GO:0034709","methylosome","1/2064","10/23436",0.602317751912609,0.602317751912609,0.742228606228341,"Snrpd1",1
+"GO:0048500","signal recognition particle","1/2064","10/23436",0.602317751912609,0.602317751912609,0.742228606228341,"Derl3",1
+"GO:0098554","cytoplasmic side of endoplasmic reticulum membrane","1/2064","10/23436",0.602317751912609,0.602317751912609,0.742228606228341,"Pkd2",1
+"GO:0098850","extrinsic component of synaptic vesicle membrane","1/2064","10/23436",0.602317751912609,0.602317751912609,0.742228606228341,"Amph",1
+"GO:0099569","presynaptic cytoskeleton","1/2064","10/23436",0.602317751912609,0.602317751912609,0.742228606228341,"Rims3",1
+"GO:0097546","ciliary base","3/2064","35/23436",0.606086787102242,0.606086787102242,0.743664304380287,"Mlf1/Nphp4/Nphp3",3
+"GO:0000178","exosome (RNase complex)","2/2064","23/23436",0.613637578470674,0.613637578470674,0.743664304380287,"Exosc8/Carhsp1",2
+"GO:0034364","high-density lipoprotein particle","2/2064","23/23436",0.613637578470674,0.613637578470674,0.743664304380287,"Apoc4/Apoa1",2
+"GO:0042611","MHC protein complex","2/2064","23/23436",0.613637578470674,0.613637578470674,0.743664304380287,"H2-Q1/H2-Q10",2
+"GO:0097470","ribbon synapse","2/2064","23/23436",0.613637578470674,0.613637578470674,0.743664304380287,"Nphp4/Amph",2
+"GO:0099243","extrinsic component of synaptic membrane","2/2064","23/23436",0.613637578470674,0.613637578470674,0.743664304380287,"Olfm2/Kpna2",2
+"GO:1905354","exoribonuclease complex","2/2064","23/23436",0.613637578470674,0.613637578470674,0.743664304380287,"Exosc8/Carhsp1",2
+"GO:0034704","calcium channel complex","5/2064","60/23436",0.617944730050132,0.617944730050132,0.744257482849333,"Nos1ap/Stac3/Hspa2/Cacna1i/Cacnb3",5
+"GO:0031519","PcG protein complex","4/2064","48/23436",0.620296450985884,0.620296450985884,0.744257482849333,"Phf19/Rbbp7/Ezh2/Suz12",4
+"GO:0005790","smooth endoplasmic reticulum","3/2064","36/23436",0.625497661132145,0.625497661132145,0.744257482849333,"Prdx4/Hsp90b1/Myo1d",3
+"GO:0032994","protein-lipid complex","3/2064","36/23436",0.625497661132145,0.625497661132145,0.744257482849333,"Apoc4/Ldlr/Apoa1",3
+"GO:0033177","proton-transporting two-sector ATPase complex, proton-transporting domain","2/2064","24/23436",0.637120238026993,0.637120238026993,0.744257482849333,"Atp6v0a4/Atp6v0a1",2
+"GO:0034706","sodium channel complex","2/2064","24/23436",0.637120238026993,0.637120238026993,0.744257482849333,"Scnn1a/Scn1b",2
+"GO:0000138","Golgi trans cisterna","1/2064","11/23436",0.637356433721385,0.637356433721385,0.744257482849333,"Hid1",1
+"GO:0001527","microfibril","1/2064","11/23436",0.637356433721385,0.637356433721385,0.744257482849333,"Thsd4",1
+"GO:0005583","fibrillar collagen trimer","1/2064","11/23436",0.637356433721385,0.637356433721385,0.744257482849333,"Col5a1",1
+"GO:0005751","mitochondrial respiratory chain complex IV","1/2064","11/23436",0.637356433721385,0.637356433721385,0.744257482849333,"AA467197",1
+"GO:0005952","cAMP-dependent protein kinase complex","1/2064","11/23436",0.637356433721385,0.637356433721385,0.744257482849333,"Prkar1b",1
+"GO:0031932","TORC2 complex","1/2064","11/23436",0.637356433721385,0.637356433721385,0.744257482849333,"Prr5",1
+"GO:0032591","dendritic spine membrane","1/2064","11/23436",0.637356433721385,0.637356433721385,0.744257482849333,"Gper1",1
+"GO:0044666","MLL3/4 complex","1/2064","11/23436",0.637356433721385,0.637356433721385,0.744257482849333,"Pagr1a",1
+"GO:0098643","banded collagen fibril","1/2064","11/23436",0.637356433721385,0.637356433721385,0.744257482849333,"Col5a1",1
+"GO:1990909","Wnt signalosome","1/2064","11/23436",0.637356433721385,0.637356433721385,0.744257482849333,"Adgra2",1
+"GO:0031526","brush border membrane","6/2064","74/23436",0.643968838459108,0.643968838459108,0.75026991466408,"Slc27a4/Cybrd1/Pdzk1/Abcb1a/Atp6v0a4/Pcmt1",6
+"GO:0031901","early endosome membrane","4/2064","50/23436",0.652708860572905,0.652708860572905,0.758728285234526,"Tmem163/Zfyve9/Sorcs2/Nsg1",4
+"GO:0033176","proton-transporting V-type ATPase complex","2/2064","25/23436",0.659465736724535,0.659465736724535,0.764848330042506,"Atp6v0a4/Atp6v0a1",2
+"GO:0000812","Swr1 complex","1/2064","12/23436",0.669309318280576,0.669309318280576,0.767581862716686,"Brd8",1
+"GO:0036128","CatSper complex","1/2064","12/23436",0.669309318280576,0.669309318280576,0.767581862716686,"Hspa2",1
+"GO:0042627","chylomicron","1/2064","12/23436",0.669309318280576,0.669309318280576,0.767581862716686,"Apoa1",1
+"GO:0044294","dendritic growth cone","1/2064","12/23436",0.669309318280576,0.669309318280576,0.767581862716686,"L1cam",1
+"GO:0098684","photoreceptor ribbon synapse","1/2064","12/23436",0.669309318280576,0.669309318280576,0.767581862716686,"Amph",1
+"GO:0005689","U12-type spliceosomal complex","2/2064","26/23436",0.680692139007552,0.680692139007552,0.767658282377474,"Snrnp35/Snrpd1",2
+"GO:0097038","perinuclear endoplasmic reticulum","2/2064","26/23436",0.680692139007552,0.680692139007552,0.767658282377474,"Osbpl3/Dgat2",2
+"GO:0099059","integral component of presynaptic active zone membrane","2/2064","26/23436",0.680692139007552,0.680692139007552,0.767658282377474,"Atp2b4/P2rx1",2
+"GO:0070382","exocytic vesicle","20/2064","247/23436",0.68636425419831,0.68636425419831,0.767658282377474,"Slc40a1/Tmem163/Syt2/Syp/Gria2/Otof/Syt5/Slc17a7/Syngr4/Ptpn5/Sytl2/Igf1/Slc17a8/Syt15/Atp6v0a1/Amph/Sept5/Prkn/Calm2/Entpd1",20
+"GO:0070603","SWI/SNF superfamily-type complex","6/2064","78/23436",0.694162772744579,0.694162772744579,0.767658282377474,"Rbbp7/Chd5/Hmgxb4/Suz12/Bicral/Brd8",6
+"GO:0000109","nucleotide-excision repair complex","1/2064","13/23436",0.698448046382902,0.698448046382902,0.767658282377474,"Pold1",1
+"GO:0000137","Golgi cis cisterna","1/2064","13/23436",0.698448046382902,0.698448046382902,0.767658282377474,"Xylt1",1
+"GO:0000346","transcription export complex","1/2064","13/23436",0.698448046382902,0.698448046382902,0.767658282377474,"Ddx39",1
+"GO:0002199","zona pellucida receptor complex","1/2064","13/23436",0.698448046382902,0.698448046382902,0.767658282377474,"Hspa1l",1
+"GO:0005641","nuclear envelope lumen","1/2064","13/23436",0.698448046382902,0.698448046382902,0.767658282377474,"Tubb5",1
+"GO:0005916","fascia adherens","1/2064","13/23436",0.698448046382902,0.698448046382902,0.767658282377474,"Dsp",1
+"GO:0031680","G-protein beta/gamma-subunit complex","1/2064","13/23436",0.698448046382902,0.698448046382902,0.767658282377474,"Gngt1",1
+"GO:0032045","guanyl-nucleotide exchange factor complex","1/2064","13/23436",0.698448046382902,0.698448046382902,0.767658282377474,"Rasgrp3",1
+"GO:0035253","ciliary rootlet","1/2064","13/23436",0.698448046382902,0.698448046382902,0.767658282377474,"Crocc",1
+"GO:0044233","Mitochondria-associated ER Membrane","1/2064","13/23436",0.698448046382902,0.698448046382902,0.767658282377474,"Serac1",1
+"GO:0071014","post-mRNA release spliceosomal complex","1/2064","13/23436",0.698448046382902,0.698448046382902,0.767658282377474,"Myef2",1
+"GO:0098833","presynaptic endocytic zone","1/2064","13/23436",0.698448046382902,0.698448046382902,0.767658282377474,"Amph",1
+"GO:1990124","messenger ribonucleoprotein complex","1/2064","13/23436",0.698448046382902,0.698448046382902,0.767658282377474,"Stau2",1
+"GO:0005732","small nucleolar ribonucleoprotein complex","2/2064","27/23436",0.700823146499025,0.700823146499025,0.767658282377474,"Rpp25/Rpp30",2
+"GO:0032839","dendrite cytoplasm","2/2064","27/23436",0.700823146499025,0.700823146499025,0.767658282377474,"Gria2/Oprm1",2
+"GO:0070971","endoplasmic reticulum exit site","2/2064","27/23436",0.700823146499025,0.700823146499025,0.767658282377474,"H2-Q1/H2-Q10",2
+"GO:0099056","integral component of presynaptic membrane","9/2064","116/23436",0.702612934199477,0.702612934199477,0.767977777926484,"Atp2b4/Cadm3/Gria2/Oprm1/Kcnj3/Ncam1/Efnb3/P2rx1/Drd1",9
+"GO:0099699","integral component of synaptic membrane","18/2064","226/23436",0.7070842513439,0.7070842513439,0.771096121146904,"Nrp2/Atp2b4/Cadm3/Chrna1/Slc6a8/Gria2/Grin3a/Lrrc4/Grin2d/Oprm1/Grin3b/Kcnj3/Ncam1/Adcy1/Efnb3/P2rx1/Drd1/Cnih2",18
+"GO:0035097","histone methyltransferase complex","7/2064","92/23436",0.711024819471282,0.711024819471282,0.771096121146904,"Phf19/Rbbp7/Ezh2/Pagr1a/Suz12/Hdac9/Cbx5",7
+"GO:0030137","COPI-coated vesicle","2/2064","28/23436",0.719886965899276,0.719886965899276,0.771096121146904,"Copz2/Kdelr3",2
+"GO:0000153","cytoplasmic ubiquitin ligase complex","1/2064","14/23436",0.725020357029091,0.725020357029091,0.771096121146904,"Derl3",1
+"GO:0001518","voltage-gated sodium channel complex","1/2064","14/23436",0.725020357029091,0.725020357029091,0.771096121146904,"Scn1b",1
+"GO:0030126","COPI vesicle coat","1/2064","14/23436",0.725020357029091,0.725020357029091,0.771096121146904,"Copz2",1
+"GO:0033276","transcription factor TFTC complex","1/2064","14/23436",0.725020357029091,0.725020357029091,0.771096121146904,"Taf5",1
+"GO:0036038","MKS complex","1/2064","14/23436",0.725020357029091,0.725020357029091,0.771096121146904,"Tmem107",1
+"GO:0038201","TOR complex","1/2064","14/23436",0.725020357029091,0.725020357029091,0.771096121146904,"Prr5",1
+"GO:0042581","specific granule","1/2064","14/23436",0.725020357029091,0.725020357029091,0.771096121146904,"Ngp",1
+"GO:0071004","U2-type prespliceosome","1/2064","14/23436",0.725020357029091,0.725020357029091,0.771096121146904,"Snrpn",1
+"GO:0071010","prespliceosome","1/2064","14/23436",0.725020357029091,0.725020357029091,0.771096121146904,"Snrpn",1
+"GO:0071437","invadopodium","1/2064","14/23436",0.725020357029091,0.725020357029091,0.771096121146904,"Fap",1
+"GO:0045095","keratin filament","3/2064","42/23436",0.727848831909449,0.727848831909449,0.77250164790215,"Gper1/Fam83h/Krt80",3
+"GO:0010008","endosome membrane","16/2064","207/23436",0.743478412601307,0.743478412601307,0.787070354503906,"Tmem163/Pigr/Mrc1/Zfyve9/Sorcs2/Nsg1/Coro1c/Rep15/Ehd3/Ehd2/Scamp4/Ldlr/Ubap1l/Anxa2/Laptm4b/Pacsin2",16
+"GO:0099240","intrinsic component of synaptic membrane","19/2064","244/23436",0.746026994050337,0.746026994050337,0.787070354503906,"Nrp2/Atp2b4/Cadm3/Chrna1/Slc6a8/Gria2/Grin3a/Lrrc4/Grin2d/Oprm1/Grin3b/Kcnj3/Ncam1/Adcy1/Efnb3/P2rx1/Mpp2/Drd1/Cnih2",19
+"GO:0005662","DNA replication factor A complex","1/2064","15/23436",0.749252189626306,0.749252189626306,0.787070354503906,"Rpa3",1
+"GO:0033391","chromatoid body","1/2064","15/23436",0.749252189626306,0.749252189626306,0.787070354503906,"Ddx4",1
+"GO:0035686","sperm fibrous sheath","1/2064","15/23436",0.749252189626306,0.749252189626306,0.787070354503906,"Gapdhs",1
+"GO:0044295","axonal growth cone","3/2064","44/23436",0.756666190370558,0.756666190370558,0.792421170489534,"L1cam/Agrn/Dbn1",3
+"GO:0030667","secretory granule membrane","6/2064","84/23436",0.760157687430185,0.760157687430185,0.792421170489534,"Selp/Sun1/Cav2/Syt5/Izumo1/Myrip",6
+"GO:0030139","endocytic vesicle","13/2064","173/23436",0.764216359990779,0.764216359990779,0.792421170489534,"Srgap2/Pik3c2b/Vim/Dab2ip/Tirap/Amot/Pld1/Zyx/Ehd3/Apoa1/Ccl2/Ngfr/Kifc1",13
+"GO:0042734","presynaptic membrane","15/2064","198/23436",0.765574269402277,0.765574269402277,0.792421170489534,"Atp2b4/Cadm3/Syp/L1cam/Gria2/Rims3/Otof/Gper1/Oprm1/Kcnj3/Ncam1/Efnb3/P2rx1/Drd1/Nrxn2",15
+"GO:0032391","photoreceptor connecting cilium","3/2064","45/23436",0.770124129745311,0.770124129745311,0.792421170489534,"Nphp4/Fam161a/Adgrv1",3
+"GO:0098945","intrinsic component of presynaptic active zone membrane","2/2064","31/23436",0.771005372665888,0.771005372665888,0.792421170489534,"Atp2b4/P2rx1",2
+"GO:0000176","nuclear exosome (RNase complex)","1/2064","16/23436",0.771349601376927,0.771349601376927,0.792421170489534,"Exosc8",1
+"GO:0031527","filopodium membrane","1/2064","16/23436",0.771349601376927,0.771349601376927,0.792421170489534,"Syne2",1
+"GO:0098644","complex of collagen trimers","1/2064","16/23436",0.771349601376927,0.771349601376927,0.792421170489534,"Col5a1",1
+"GO:0098691","dopaminergic synapse","1/2064","16/23436",0.771349601376927,0.771349601376927,0.792421170489534,"Chrna5",1
+"GO:0098890","extrinsic component of postsynaptic membrane","1/2064","16/23436",0.771349601376927,0.771349601376927,0.792421170489534,"Kpna2",1
+"GO:0080008","Cul4-RING E3 ubiquitin ligase complex","2/2064","32/23436",0.786141189920517,0.786141189920517,0.798491548725502,"Dtl/Dcaf15",2
+"GO:0016514","SWI/SNF complex","1/2064","17/23436",0.791500516097594,0.791500516097594,0.798491548725502,"Bicral",1
+"GO:0031231","intrinsic component of peroxisomal membrane","1/2064","17/23436",0.791500516097594,0.791500516097594,0.798491548725502,"Slc22a21",1
+"GO:0008021","synaptic vesicle","17/2064","227/23436",0.791541111362988,0.791541111362988,0.798491548725502,"Slc40a1/Tmem163/Syt2/Syp/Gria2/Otof/Syt5/Slc17a7/Syngr4/Ptpn5/Slc17a8/Atp6v0a1/Amph/Sept5/Prkn/Calm2/Entpd1",17
+"GO:0048787","presynaptic active zone membrane","3/2064","47/23436",0.795210704633795,0.795210704633795,0.798491548725502,"Atp2b4/Otof/P2rx1",3
+"GO:0005684","U2-type spliceosomal complex","6/2064","88/23436",0.79794147541878,0.79794147541878,0.798491548725502,"Rbmx2/Lsm5/Lsm3/Snrpn/Lsm2/Snrpd1",6
+"GO:0005681","spliceosomal complex","14/2064","191/23436",0.800236665313625,0.800236665313625,0.798491548725502,"Myef2/Rbmx2/Ttf2/Snrnp35/Lsm5/Lsm3/Eif4a3l2/U2af1l4/Snrpn/Lgals3/Srsf2/Alyref/Lsm2/Snrpd1",14
+"GO:0098889","intrinsic component of presynaptic membrane","9/2064","128/23436",0.804421210458382,0.804421210458382,0.798491548725502,"Atp2b4/Cadm3/Gria2/Oprm1/Kcnj3/Ncam1/Efnb3/P2rx1/Drd1",9
+"GO:0000145","exocyst","1/2064","18/23436",0.809876319281956,0.809876319281956,0.798491548725502,"Myrip",1
+"GO:0099144","anchored component of synaptic membrane","1/2064","18/23436",0.809876319281956,0.809876319281956,0.798491548725502,"Mpp2",1
+"GO:0034708","methyltransferase complex","8/2064","116/23436",0.811693175593524,0.811693175593524,0.798491548725502,"Phf19/Rbbp7/Ezh2/Pagr1a/Suz12/Hdac9/Cbx5/Snrpd1",8
+"GO:0044440","endosomal part","17/2064","231/23436",0.813659369747861,0.813659369747861,0.798491548725502,"Tmem163/Pigr/Mrc1/Rragd/Zfyve9/Sorcs2/Nsg1/Coro1c/Rep15/Ehd3/Ehd2/Scamp4/Ldlr/Ubap1l/Anxa2/Laptm4b/Pacsin2",17
+"GO:0044452","nucleolar part","13/2064","181/23436",0.816067381504466,0.816067381504466,0.798491548725502,"Terf1/Dsn1/Rps6ka6/Selenbp1/Cdkn2a/Btbd10/Stox1/Nfic/Cc2d1a/Orc6/Arhgap32/Rai14/Rpp30",13
+"GO:0005801","cis-Golgi network","3/2064","49/23436",0.817967337650166,0.817967337650166,0.798491548725502,"Rab30/Pcnt/Kdelr3",3
+"GO:0012506","vesicle membrane","25/2064","332/23436",0.82152009046976,0.82152009046976,0.798491548725502,"Nck2/Tmem163/Syt2/Selp/Syp/Gria2/Nos3/Otof/Nos1/Sun1/Gper1/Cav2/Syt5/Slc17a7/Izumo1/Syngr4/Slc17a8/Myrip/Copz2/Atp6v0a1/Amph/Kdelr3/Snx9/Prkn/Calm2",25
+"GO:0005764","lysosome","33/2064","431/23436",0.824863355273576,0.824863355273576,0.798491548725502,"Cxcr2/Chit1/Fasl/Cd34/Ass1/Cybrd1/Src/Ctsk/Rragd/Nppa/Nsg1/Nos1/Pde1c/Plekhf1/Siglecf/Il4i1/Prf1/Prss57/Mt1/Pla2g15/Gzmb/Mmp13/Ldlr/Anxa2/Tmem97/Cyb561/Epdr1/Prss16/Arsb/Laptm4b/Trip10/March3/Anxa1",33
+"GO:0033268","node of Ranvier","1/2064","19/23436",0.826633312919416,0.826633312919416,0.798491548725502,"Scn1b",1
+"GO:0045277","respiratory chain complex IV","1/2064","19/23436",0.826633312919416,0.826633312919416,0.798491548725502,"AA467197",1
+"GO:0000323","lytic vacuole","33/2064","432/23436",0.828623488012336,0.828623488012336,0.798491548725502,"Cxcr2/Chit1/Fasl/Cd34/Ass1/Cybrd1/Src/Ctsk/Rragd/Nppa/Nsg1/Nos1/Pde1c/Plekhf1/Siglecf/Il4i1/Prf1/Prss57/Mt1/Pla2g15/Gzmb/Mmp13/Ldlr/Anxa2/Tmem97/Cyb561/Epdr1/Prss16/Arsb/Laptm4b/Trip10/March3/Anxa1",33
+"GO:0005811","lipid droplet","5/2064","79/23436",0.836052490167856,0.836052490167856,0.798491548725502,"Cav2/Dgat2/Anxa2/Alox15/Lmln",5
+"GO:0005839","proteasome core complex","1/2064","20/23436",0.841914042395196,0.841914042395196,0.798491548725502,"Psma8",1
+"GO:0016010","dystrophin-associated glycoprotein complex","1/2064","20/23436",0.841914042395196,0.841914042395196,0.798491548725502,"Snta1",1
+"GO:0030904","retromer complex","1/2064","20/23436",0.841914042395196,0.841914042395196,0.798491548725502,"Dennd5a",1
+"GO:0032426","stereocilium tip","1/2064","20/23436",0.841914042395196,0.841914042395196,0.798491548725502,"Eps8",1
+"GO:0044292","dendrite terminus","1/2064","20/23436",0.841914042395196,0.841914042395196,0.798491548725502,"L1cam",1
+"GO:0090665","glycoprotein complex","1/2064","20/23436",0.841914042395196,0.841914042395196,0.798491548725502,"Snta1",1
+"GO:0005769","early endosome","19/2064","263/23436",0.846802437405421,0.846802437405421,0.798491548725502,"Tmem163/Zfyve9/Sorcs2/Nsg1/Gper1/Hmgb1/Cntnap2/Mapk3/Ifitm1/Ldlr/Anxa2/Havcr2/Aoc3/F2r/Laptm4b/Pheta2/Epha3/Neurl1b/Lipg",19
+"GO:1990391","DNA repair complex","2/2064","37/23436",0.849274004241654,0.849274004241654,0.798491548725502,"Pold1/Msh5",2
+"GO:0016327","apicolateral plasma membrane","1/2064","21/23436",0.855848506714307,0.855848506714307,0.798491548725502,"Cldn7",1
+"GO:0035267","NuA4 histone acetyltransferase complex","1/2064","21/23436",0.855848506714307,0.855848506714307,0.798491548725502,"Brd8",1
+"GO:0043189","H4/H2A histone acetyltransferase complex","1/2064","21/23436",0.855848506714307,0.855848506714307,0.798491548725502,"Brd8",1
+"GO:0001772","immunological synapse","2/2064","38/23436",0.859660981126884,0.859660981126884,0.798491548725502,"Lgals3/Havcr2",2
+"GO:0008023","transcription elongation factor complex","3/2064","54/23436",0.865608652114309,0.865608652114309,0.798491548725502,"Ssrp1/Mms22l/Nelfe",3
+"GO:0030659","cytoplasmic vesicle membrane","22/2064","306/23436",0.867447678551136,0.867447678551136,0.798491548725502,"Tmem163/Syt2/Selp/Syp/Gria2/Otof/Sun1/Gper1/Cav2/Syt5/Slc17a7/Izumo1/Syngr4/Slc17a8/Myrip/Copz2/Atp6v0a1/Amph/Kdelr3/Snx9/Prkn/Calm2",22
+"GO:0031307","integral component of mitochondrial outer membrane","1/2064","22/23436",0.868555262304385,0.868555262304385,0.798491548725502,"Dmpk",1
+"GO:0071013","catalytic step 2 spliceosome","5/2064","84/23436",0.872502760333205,0.872502760333205,0.798491548725502,"Lsm3/Eif4a3l2/Snrpn/Lsm2/Snrpd1",5
+"GO:0005913","cell-cell adherens junction","7/2064","112/23436",0.873271892542104,0.873271892542104,0.798491548725502,"Zyx/Cdca3/Plekha7/Dlg5/Tgm1/Dsp/Vegfa",7
+"GO:0001533","cornified envelope","3/2064","55/23436",0.873700858992899,0.873700858992899,0.798491548725502,"Evpl/Dsp/Anxa1",3
+"GO:0044798","nuclear transcription factor complex","14/2064","206/23436",0.877007622393626,0.877007622393626,0.798491548725502,"Med18/E2f2/Pparg/E2f8/Nfyb/E2f7/Cbfb/Hnrnpab/Rara/Mxd3/Runx1/Nfya/Taf5/Mxi1",14
+"GO:0000421","autophagosome membrane","1/2064","23/23436",0.880142429751372,0.880142429751372,0.798491548725502,"Wdfy3",1
+"GO:0005838","proteasome regulatory particle","1/2064","23/23436",0.880142429751372,0.880142429751372,0.798491548725502,"Psmd3",1
+"GO:0005858","axonemal dynein complex","1/2064","23/23436",0.880142429751372,0.880142429751372,0.798491548725502,"Dnal1",1
+"GO:0031306","intrinsic component of mitochondrial outer membrane","1/2064","23/23436",0.880142429751372,0.880142429751372,0.798491548725502,"Dmpk",1
+"GO:0031312","extrinsic component of organelle membrane","3/2064","56/23436",0.881358198717893,0.881358198717893,0.798491548725502,"Wdfy3/Hid1/Amph",3
+"GO:0030133","transport vesicle","23/2064","324/23436",0.885845335336618,0.885845335336618,0.798491548725502,"Slc40a1/Tmem163/Pigr/Syt2/Syp/Gria2/Otof/Cav2/Syt5/Slc17a7/Syngr4/Ptpn5/Sytl2/Scamp4/Igf1/Slc17a8/Syt15/Atp6v0a1/Amph/Sept5/Prkn/Calm2/Entpd1",23
+"GO:0036452","ESCRT complex","1/2064","24/23436",0.890708612000258,0.890708612000258,0.798491548725502,"Ubap1l",1
+"GO:0042588","zymogen granule","1/2064","24/23436",0.890708612000258,0.890708612000258,0.798491548725502,"Cel",1
+"GO:0060077","inhibitory synapse","1/2064","24/23436",0.890708612000258,0.890708612000258,0.798491548725502,"Igsf9",1
+"GO:0097346","INO80-type complex","1/2064","24/23436",0.890708612000258,0.890708612000258,0.798491548725502,"Brd8",1
+"GO:0005771","multivesicular body","2/2064","42/23436",0.894964393457445,0.894964393457445,0.798491548725502,"Slc17a8/Laptm4b",2
+"GO:0036464","cytoplasmic ribonucleoprotein granule","13/2064","198/23436",0.897434301578432,0.897434301578432,0.798491548725502,"Stau2/Bard1/Tstd1/Tdrkh/Shb/Lsm3/Rbpms/Kpna2/Ddx4/Tuba1a/Carhsp1/Lsm2/Tubb5",13
+"GO:0098982","GABA-ergic synapse","6/2064","103/23436",0.899831893005794,0.899831893005794,0.798491548725502,"Gabrr1/Gabrb1/Sept11/Drd1/Epha3/Mdga1",6
+"GO:0022624","proteasome accessory complex","1/2064","25/23436",0.900343731803413,0.900343731803413,0.798491548725502,"Psmd3",1
+"GO:0035327","transcriptionally active chromatin","1/2064","25/23436",0.900343731803413,0.900343731803413,0.798491548725502,"H1f2",1
+"GO:0070461","SAGA-type complex","1/2064","25/23436",0.900343731803413,0.900343731803413,0.798491548725502,"Taf5",1
+"GO:0005667","transcription factor complex","30/2064","421/23436",0.908979132023575,0.908979132023575,0.798491548725502,"Pbx3/Pax6/Rbl1/Med18/E2f2/Mlxipl/Pparg/E2f8/Hey2/Tle2/Nfyb/E2f7/Cdk2/Cbfb/Zfhx3/Med7/Hnrnpab/Lhx1/Hoxb13/Rara/Mxd3/Hdac9/Glis2/Pou1f1/Runx1/Tead3/Nfya/Epas1/Taf5/Mxi1",30
+"GO:0005868","cytoplasmic dynein complex","1/2064","26/23436",0.909129795515247,0.909129795515247,0.798491548725502,"Tcte3",1
+"GO:0071007","U2-type catalytic step 2 spliceosome","1/2064","27/23436",0.917141589708179,0.917141589708179,0.798491548725502,"Snrpd1",1
+"GO:0016342","catenin complex","1/2064","28/23436",0.924447316515916,0.924447316515916,0.798491548725502,"Apc2",1
+"GO:0005905","clathrin-coated pit","3/2064","64/23436",0.929103702563831,0.929103702563831,0.798491548725502,"Cttn/Ldlr/Tnk2",3
+"GO:0010494","cytoplasmic stress granule","3/2064","64/23436",0.929103702563831,0.929103702563831,0.798491548725502,"Stau2/Rbpms/Kpna2",3
+"GO:0035770","ribonucleoprotein granule","13/2064","209/23436",0.932310658163773,0.932310658163773,0.798491548725502,"Stau2/Bard1/Tstd1/Tdrkh/Shb/Lsm3/Rbpms/Kpna2/Ddx4/Tuba1a/Carhsp1/Lsm2/Tubb5",13
+"GO:0045334","clathrin-coated endocytic vesicle","1/2064","30/23436",0.937183880090685,0.937183880090685,0.798491548725502,"Ngfr",1
+"GO:0070069","cytochrome complex","1/2064","30/23436",0.937183880090685,0.937183880090685,0.798491548725502,"AA467197",1
+"GO:0016469","proton-transporting two-sector ATPase complex","2/2064","49/23436",0.93760639919151,0.93760639919151,0.798491548725502,"Atp6v0a4/Atp6v0a1",2
+"GO:0019867","outer membrane","11/2064","185/23436",0.941279789363075,0.941279789363075,0.798491548725502,"Ass1/Nos1/Dmpk/Wasf1/Nutf2/Bcl2a1c/Acsl6/Syne2/Clmn/Syne3/Cpt1b",11
+"GO:0031968","organelle outer membrane","11/2064","185/23436",0.941279789363075,0.941279789363075,0.798491548725502,"Ass1/Nos1/Dmpk/Wasf1/Nutf2/Bcl2a1c/Acsl6/Syne2/Clmn/Syne3/Cpt1b",11
+"GO:0044437","vacuolar part","10/2064","176/23436",0.952971487561164,0.952971487561164,0.798491548725502,"Cybrd1/Rragd/Nsg1/Wdfy3/Atp6v0a4/Prss57/Anxa2/Atp6v0a1/Cyb561/Laptm4b",10
+"GO:0031902","late endosome membrane","2/2064","53/23436",0.95397146980506,0.95397146980506,0.798491548725502,"Anxa2/Laptm4b",2
+"GO:0031970","organelle envelope lumen","4/2064","88/23436",0.957110544535258,0.957110544535258,0.798491548725502,"Gatm/Timm8a2/Glrx/Tubb5",4
+"GO:0005844","polysome","3/2064","74/23436",0.96388814932685,0.96388814932685,0.798491548725502,"Vim/Dazl/Myh10",3
+"GO:0000139","Golgi membrane","14/2064","239/23436",0.964732347429473,0.964732347429473,0.798491548725502,"Man1c1/Abcb4/Nsg1/Rab30/Xylt1/Pycard/Chst3/Scamp4/Atp7b/Cabp7/Hid1/Kdelr3/Prkn/Prkce",14
+"GO:0005758","mitochondrial intermembrane space","3/2064","75/23436",0.966298570489909,0.966298570489909,0.798491548725502,"Gatm/Timm8a2/Glrx",3
+"GO:0005669","transcription factor TFIID complex","1/2064","37/23436",0.967085381913739,0.967085381913739,0.798491548725502,"Taf5",1
+"GO:0000315","organellar large ribosomal subunit","2/2064","60/23436",0.973226280457463,0.973226280457463,0.798491548725502,"Mrpl53/Mrpl51",2
+"GO:0005762","mitochondrial large ribosomal subunit","2/2064","60/23436",0.973226280457463,0.973226280457463,0.798491548725502,"Mrpl53/Mrpl51",2
+"GO:0005802","trans-Golgi network","12/2064","219/23436",0.975430601994557,0.975430601994557,0.798491548725502,"Slc24a5/Nsg1/Gper1/Rab30/Dennd5a/Chst3/Scamp4/Atp7b/Cabp7/Cpd/Pheta2/Snx9",12
+"GO:0099023","tethering complex","2/2064","62/23436",0.977110917471647,0.977110917471647,0.798491548725502,"Zw10/Myrip",2
+"GO:0030136","clathrin-coated vesicle","4/2064","98/23436",0.977341066358594,0.977341066358594,0.798491548725502,"Ngfr/Pheta2/Tnk2/Snx9",4
+"GO:0030660","Golgi-associated vesicle membrane","2/2064","63/23436",0.978842715491075,0.978842715491075,0.798491548725502,"Copz2/Kdelr3",2
+"GO:0005778","peroxisomal membrane","1/2064","42/23436",0.979258144186122,0.979258144186122,0.798491548725502,"Slc22a21",1
+"GO:0031903","microbody membrane","1/2064","42/23436",0.979258144186122,0.979258144186122,0.798491548725502,"Slc22a21",1
+"GO:0000123","histone acetyltransferase complex","3/2064","82/23436",0.979369589590471,0.979369589590471,0.798491548725502,"Brpf3/Brd8/Taf5",3
+"GO:0055029","nuclear DNA-directed RNA polymerase complex","4/2064","100/23436",0.980117734571306,0.980117734571306,0.798491548725502,"Prim2/Pola1/Prim1/Taf5",4
+"GO:1902562","H4 histone acetyltransferase complex","1/2064","43/23436",0.981088151470035,0.981088151470035,0.798491548725502,"Brd8",1
+"GO:0000428","DNA-directed RNA polymerase complex","4/2064","101/23436",0.981382454166235,0.981382454166235,0.798491548725502,"Prim2/Pola1/Prim1/Taf5",4
+"GO:0005774","vacuolar membrane","8/2064","166/23436",0.982059308830051,0.982059308830051,0.798491548725502,"Cybrd1/Rragd/Wdfy3/Atp6v0a4/Anxa2/Atp6v0a1/Cyb561/Laptm4b",8
+"GO:0044445","cytosolic part","17/2064","299/23436",0.983174593609275,0.983174593609275,0.798491548725502,"Ubl4a/Gm6525/Rims3/Prkcg/Rrm1/Hbb-bt/Pycard/Uaca/Hba-a1/Hnrnpab/Rpl9-ps1/Dbn1/Naip6/Rrm2/Prkce/Gm3550/Fxn",17
+"GO:0000502","proteasome complex","2/2064","66/23436",0.983309549377484,0.983309549377484,0.798491548725502,"Psmd3/Psma8",2
+"GO:0005770","late endosome","10/2064","198/23436",0.983518024148783,0.983518024148783,0.798491548725502,"Src/Nsg1/Mapk3/Slc17a8/Atp7b/Ldlr/Anxa2/F2r/Laptm4b/Osbpl1a",10
+"GO:1905369","endopeptidase complex","2/2064","67/23436",0.984583627846325,0.984583627846325,0.798491548725502,"Psmd3/Psma8",2
+"GO:0030880","RNA polymerase complex","4/2064","104/23436",0.984735377446887,0.984735377446887,0.798491548725502,"Prim2/Pola1/Prim1/Taf5",4
+"GO:0030119","AP-type membrane coat adaptor complex","1/2064","47/23436",0.986930424133058,0.986930424133058,0.798491548725502,"Ap5b1",1
+"GO:0022625","cytosolic large ribosomal subunit","3/2064","89/23436",0.987513847054666,0.987513847054666,0.798491548725502,"Gm6525/Rpl9-ps1/Gm3550",3
+"GO:0045335","phagocytic vesicle","3/2064","89/23436",0.987513847054666,0.987513847054666,0.798491548725502,"Srgap2/Vim/Zyx",3
+"GO:0030118","clathrin coat","1/2064","48/23436",0.988083769919084,0.988083769919084,0.798491548725502,"Kcnq5",1
+"GO:0005765","lysosomal membrane","4/2064","108/23436",0.988322493730413,0.988322493730413,0.798491548725502,"Cybrd1/Anxa2/Cyb561/Laptm4b",4
+"GO:0000932","P-body","2/2064","71/23436",0.988797550358467,0.988797550358467,0.798491548725502,"Lsm3/Lsm2",2
+"GO:0005776","autophagosome","2/2064","71/23436",0.988797550358467,0.988797550358467,0.798491548725502,"Wdfy3/Mapk15",2
+"GO:0098852","lytic vacuole membrane","4/2064","109/23436",0.989084730709372,0.989084730709372,0.798491548725502,"Cybrd1/Anxa2/Cyb561/Laptm4b",4
+"GO:0005777","peroxisome","6/2064","143/23436",0.989089700424066,0.989089700424066,0.798491548725502,"Vim/Acoxl/Tmem35a/Slc22a21/Acsl6/Nudt12",6
+"GO:0042579","microbody","6/2064","143/23436",0.989089700424066,0.989089700424066,0.798491548725502,"Vim/Acoxl/Tmem35a/Slc22a21/Acsl6/Nudt12",6
+"GO:0031248","protein acetyltransferase complex","3/2064","92/23436",0.989962689181289,0.989962689181289,0.798491548725502,"Brpf3/Brd8/Taf5",3
+"GO:1902493","acetyltransferase complex","3/2064","92/23436",0.989962689181289,0.989962689181289,0.798491548725502,"Brpf3/Brd8/Taf5",3
+"GO:0098791","Golgi subcompartment","26/2064","438/23436",0.990161030788359,0.990161030788359,0.798491548725502,"Slc24a5/Pld1/Man1c1/Abcb4/Nsg1/Cit/Gper1/Rab30/Dennd5a/Xylt1/Pycard/Chst3/Scamp4/Atp7b/Galnt2/Cabp7/Cpd/Hid1/Kdelr3/Pheta2/Snx9/Prkn/H2-Q1/H2-Q10/Prkce/Ggta1",26
+"GO:0022627","cytosolic small ribosomal subunit","1/2064","54/23436",0.99315512616615,0.99315512616615,0.798491548725502,"Hba-a1",1
+"GO:0005741","mitochondrial outer membrane","7/2064","168/23436",0.993458565938606,0.993458565938606,0.798491548725502,"Ass1/Nos1/Dmpk/Wasf1/Bcl2a1c/Acsl6/Cpt1b",7
+"GO:0030662","coated vesicle membrane","2/2064","78/23436",0.993630548172102,0.993630548172102,0.798491548725502,"Copz2/Kdelr3",2
+"GO:0030117","membrane coat","3/2064","99/23436",0.994008123495728,0.994008123495728,0.798491548725502,"Kcnq5/Copz2/Ap5b1",3
+"GO:0048475","coated membrane","3/2064","99/23436",0.994008123495728,0.994008123495728,0.798491548725502,"Kcnq5/Copz2/Ap5b1",3
+"GO:0030120","vesicle coat","1/2064","57/23436",0.994812543627009,0.994812543627009,0.798491548725502,"Copz2",1
+"GO:0044438","microbody part","1/2064","57/23436",0.994812543627009,0.994812543627009,0.798491548725502,"Slc22a21",1
+"GO:0044439","peroxisomal part","1/2064","57/23436",0.994812543627009,0.994812543627009,0.798491548725502,"Slc22a21",1
+"GO:0031301","integral component of organelle membrane","10/2064","222/23436",0.995288452083989,0.995288452083989,0.798491548725502,"Tmem163/Syt2/Syp/Sun1/Syt5/Dmpk/Slc17a7/Slc17a8/P2rx1/Atp6v0a1",10
+"GO:0005788","endoplasmic reticulum lumen","1/2064","60/23436",0.996068780634158,0.996068780634158,0.798491548725502,"Hsp90b1",1
+"GO:0044431","Golgi apparatus part","28/2064","491/23436",0.996243904635957,0.996243904635957,0.798491548725502,"Slc24a5/Pld1/Man1c1/Abcb4/Nsg1/Cit/Gper1/Rab30/Dennd5a/Xylt1/Pycard/Chst3/Pcnt/Scamp4/Atp7b/Galnt2/Cabp7/Cpd/Copz2/Hid1/Kdelr3/Pheta2/Snx9/Prkn/H2-Q1/H2-Q10/Prkce/Ggta1",28
+"GO:1990204","oxidoreductase complex","3/2064","108/23436",0.996950084339413,0.996950084339413,0.798491548725502,"Rrm1/Rrm2/Gpd1",3
+"GO:0031300","intrinsic component of organelle membrane","11/2064","249/23436",0.997433769963899,0.997433769963899,0.798491548725502,"Tmem163/Syt2/Syp/Sun1/Syt5/Dmpk/Slc17a7/Slc17a8/Slc22a21/P2rx1/Atp6v0a1",11
+"GO:0015934","large ribosomal subunit","5/2064","150/23436",0.997706432051751,0.997706432051751,0.798491548725502,"Gm6525/Mrpl53/Mrpl51/Rpl9-ps1/Gm3550",5
+"GO:0000313","organellar ribosome","2/2064","92/23436",0.997978841330205,0.997978841330205,0.798491548725502,"Mrpl53/Mrpl51",2
+"GO:0005761","mitochondrial ribosome","2/2064","92/23436",0.997978841330205,0.997978841330205,0.798491548725502,"Mrpl53/Mrpl51",2
+"GO:1905368","peptidase complex","2/2064","92/23436",0.997978841330205,0.997978841330205,0.798491548725502,"Psmd3/Psma8",2
+"GO:0005793","endoplasmic reticulum-Golgi intermediate compartment","1/2064","69/23436",0.99828939960501,0.99828939960501,0.798491548725502,"Prom1",1
+"GO:0032592","integral component of mitochondrial membrane","1/2064","71/23436",0.998578252789677,0.998578252789677,0.798491548725502,"Dmpk",1
+"GO:0098573","intrinsic component of mitochondrial membrane","1/2064","73/23436",0.998818349623561,0.998818349623561,0.798491548725502,"Dmpk",1
+"GO:0030135","coated vesicle","6/2064","181/23436",0.999031455876856,0.999031455876856,0.798491548725502,"Ngfr/Copz2/Kdelr3/Pheta2/Tnk2/Snx9",6
+"GO:0005746","mitochondrial respiratory chain","1/2064","77/23436",0.999183792452298,0.999183792452298,0.798491548725502,"AA467197",1
+"GO:0016591","RNA polymerase II, holoenzyme","1/2064","77/23436",0.999183792452298,0.999183792452298,0.798491548725502,"Taf5",1
+"GO:0022626","cytosolic ribosome","4/2064","148/23436",0.999314530941303,0.999314530941303,0.798491548725502,"Gm6525/Hba-a1/Rpl9-ps1/Gm3550",4
+"GO:0098803","respiratory chain complex","1/2064","81/23436",0.999436254115865,0.999436254115865,0.798491548725502,"AA467197",1
+"GO:0015935","small ribosomal subunit","1/2064","85/23436",0.999610652562925,0.999610652562925,0.798491548725502,"Hba-a1",1
+"GO:0070469","respiratory chain","1/2064","89/23436",0.999731117582343,0.999731117582343,0.798491548725502,"AA467197",1
+"GO:0005759","mitochondrial matrix","9/2064","264/23436",0.999855376288976,0.999855376288976,0.798491548725502,"Ak4/Tyms/Mrpl53/Mrpl51/Acsm3/Cdk1/Csl/Brca1/Ccnb1",9
+"GO:0019866","organelle inner membrane","21/2064","475/23436",0.999930404307614,0.999930404307614,0.798491548725502,"Efhd1/Srgap2/Lbr/Slc25a25/Gatm/AA467197/Src/Slc25a43/Slc25a34/Tyms/Sun1/Cav2/Tmpo/Lgals3/Timm8a2/P2rx1/Slc25a10/Tst/Gcat/Nrm/Lmnb1",21
+"GO:0005798","Golgi-associated vesicle","2/2064","136/23436",0.999950895497739,0.999950895497739,0.798491548725502,"Copz2/Kdelr3",2
+"GO:0044391","ribosomal subunit","6/2064","230/23436",0.999968023225767,0.999968023225767,0.798491548725502,"Gm6525/Mrpl53/Mrpl51/Hba-a1/Rpl9-ps1/Gm3550",6
+"GO:0098800","inner mitochondrial membrane protein complex","1/2064","128/23436",0.999992747415046,0.999992747415046,0.798491548725502,"AA467197",1
+"GO:0042571","immunoglobulin complex, circulating","1/2064","138/23436",0.99999713104213,0.99999713104213,0.798491548725502,"Ighg2b",1
+"GO:0005840","ribosome","6/2064","265/23436",0.999997564779642,0.999997564779642,0.798491548725502,"Gm6525/Mrpl53/Mrpl51/Hba-a1/Rpl9-ps1/Gm3550",6
+"GO:0019814","immunoglobulin complex","1/2064","142/23436",0.99999802045223,0.99999802045223,0.798491548725502,"Ighg2b",1
+"GO:0005743","mitochondrial inner membrane","14/2064","433/23436",0.999999102044272,0.999999102044272,0.798491548725502,"Efhd1/Srgap2/Slc25a25/Gatm/AA467197/Src/Slc25a43/Slc25a34/Tyms/Lgals3/Timm8a2/Slc25a10/Tst/Gcat",14
+"GO:0044455","mitochondrial membrane part","2/2064","216/23436",0.999999954945022,0.999999954945022,0.798491548725502,"AA467197/Dmpk",2
+"GO:0098798","mitochondrial protein complex","3/2064","263/23436",0.999999990898735,0.999999990898735,0.798491548725502,"AA467197/Mrpl53/Mrpl51",3
