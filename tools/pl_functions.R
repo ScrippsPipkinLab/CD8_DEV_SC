@@ -270,6 +270,7 @@ get_gs_genes <- function(gs_use=c(" ")) {
     }  
 }
 
+
 ###----- Volcano plot - highlight GSEA
 volcano_plot_highlightGSEA <- function(comp_df, h_genes, gs_vec, gs_col_vec,
                                        log2fc_c, nlog10p_c, log2fc_range=c(-6,6), nlog10pval_max=300) {
@@ -289,7 +290,11 @@ volcano_plot_highlightGSEA <- function(comp_df, h_genes, gs_vec, gs_col_vec,
     
     #--- Assign categories for plotting
     volcano_df <- comp_df  %>% filter( ! gene_name %in% c("Xist", "Tsix", "Eif2s3y", "Ddx3y")) 
+    
+    #--- Add significance annotation
     h_df <- volcano_df %>% filter(gene_name %in% h_genes)
+    volcano_df <- volcano_df %>% 
+        mutate(significant = abs(volcano_df$log2fc) >= log2fc_c & volcano_df$nlog10pval >= nlog10p_c)
     
     #--- Plotting
     # All genes
@@ -308,21 +313,20 @@ volcano_plot_highlightGSEA <- function(comp_df, h_genes, gs_vec, gs_col_vec,
             axis.title.y = element_blank()) +
       scale_y_sqrt() +
       coord_cartesian(xlim=log2fc_range, ylim=c(0, nlog10pval_max)) # will not remove dots that are out of scale
-    # Genes to annotate
-    vol_gsea_plot <- vol_gsea_plot +
-      geom_point(data=h_df, size=2, alpha=1, color="black")
+    
     # Add each GSEA set
     for (i in c(1:length(gs_vec))) {
         gs_i <- gs_vec[i]
         gsea_genes <- unlist(gsea_genes_list[gs_i])
+        volcano_df[gs_i] <- volcano_df$gene_name %in% gsea_genes
         gsea_df <- volcano_df %>% filter(gene_name %in% gsea_genes)
-        gsea_sig_df <- gsea_df %>% filter( abs(log2fc) >= log2fc_c ) %>% filter( nlog10pval >= nlog10p_c)
+        gsea_sig_df <- gsea_df %>% filter(significant == TRUE)
         gsea_sig_df_up <- gsea_sig_df %>% filter(log2fc > 0)
         gsea_sig_df_dn <- gsea_sig_df %>% filter(log2fc < 0)
         
         # Add in hightlight scatter plot
         vol_gsea_plot <- vol_gsea_plot + 
-          geom_point(data=gsea_df, size=3, alpha=0.5, color=gs_col_vec[i])
+          geom_point(data=gsea_df, size=2, alpha=0.1, color=gs_col_vec[i])
         vol_gsea_plot <- vol_gsea_plot +
           geom_point(data=gsea_sig_df, size=3, alpha=1, color=gs_col_vec[i])
         
@@ -330,7 +334,7 @@ volcano_plot_highlightGSEA <- function(comp_df, h_genes, gs_vec, gs_col_vec,
         gs_i_sum_nu <- c(nrow(gsea_sig_df_up), nrow(gsea_sig_df_dn))
         sig_nu_sum_df[gs_i] <- gs_i_sum_nu
         
-        # Create text annotations
+        # Create text annotations on the corners
         padding <- paste(rep("\n",i-1), collapse="")
         text_with_padding <- paste(padding, as.character(gs_i_sum_nu), sep="")
         annotations <- data.frame(xpos = c(Inf,-Inf), 
@@ -340,13 +344,32 @@ volcano_plot_highlightGSEA <- function(comp_df, h_genes, gs_vec, gs_col_vec,
                                   vjustvar = c(1,1))
         vol_gsea_plot <- vol_gsea_plot +
           geom_text(data=annotations,aes(x=xpos,y=ypos,hjust=hjustvar,vjust=vjustvar,
-                                         label=annotateText), size=7.5, color=gs_col_vec[i])
+                                         label=annotateText), size=7, fontface = "bold",
+                                         color=gs_col_vec[i])
         
+        # Select extra genes in gsea for text annotation
+        text_anno_direction <- sig_nu_sum_df %>% 
+            arrange( desc(.[[gs_i]]) ) %>% .$side %>% as.character(unlist(.)) %>% .[1]
+        if (text_anno_direction == "up") {
+            gsea_anno_genes <- volcano_df %>% filter(!!sym(gs_i) == TRUE) %>% filter(significant == TRUE) %>% 
+            arrange(desc(log2fc)) %>% .$gene_name %>% .[1:2]
+        } else {
+            gsea_anno_genes <- volcano_df %>% filter(!!sym(gs_i) == TRUE) %>% filter(significant == TRUE) %>% 
+            arrange(log2fc) %>% .$gene_name %>% .[1:2]            
+        }
+        h_genes <- c(h_genes, gsea_anno_genes)
     }
     
     print(sig_nu_sum_df)
+    
     # Gene name text anno
+    h_df <- volcano_df %>% filter(gene_name %in% h_genes)
     vol_gsea_plot <- vol_gsea_plot + 
-      geom_text_repel(data=h_df, size=7.5, nudge_y=-1.5, aes(x=log2fc, y=nlog10pval, label=gene_name))
-    return(list("plot"=vol_gsea_plot, "sum"=sig_nu_sum_df))
+      # Genes to annotate
+      geom_point(data=h_df, size=1, alpha=1, color="black") + 
+      geom_text_repel(data=h_df, size=8,
+                      force=60, max.iter=500000, segment.alpha=0.5,
+                      aes(x=log2fc, y=nlog10pval, label=gene_name),
+                      ylim=c(0, sqrt(nlog10pval_max)*0.86)) #set label plotting range
+    return(list("plot"=vol_gsea_plot, "sum"=sig_nu_sum_df, "volcano_gseaAnno_df"=volcano_df))
 }
