@@ -1,0 +1,41 @@
+the local scratch directory for this session is:  /scratch/hdiao/1421127[12].garibaldi01-adm.cluster.net
+the distributed scratch directory for this session is:  /gpfs/work/hdiao/1421127[12].garibaldi01-adm.cluster.net
+[1m[2018-07-29 14:46:15.898] [jointLog] [info] parsing read library format
+[00m[1m[2018-07-29 14:46:15.898] [jointLog] [info] There is 1 library.
+[00m[1m[2018-07-29 14:46:15.957] [jointLog] [info] Loading Quasi index
+[00m[1m[2018-07-29 14:46:15.957] [jointLog] [info] Loading 32-bit quasi index
+[00m[1m[2018-07-29 14:46:15.957] [stderrLog] [info] Loading Suffix Array 
+[00m[1m[2018-07-29 14:46:26.972] [stderrLog] [info] Loading Transcript Info 
+[00m[1m[2018-07-29 14:46:30.821] [stderrLog] [info] Loading Rank-Select Bit Array
+[00m[1m[2018-07-29 14:46:31.936] [stderrLog] [info] There were 107368 set bits in the bit array
+[00m[1m[2018-07-29 14:46:31.983] [stderrLog] [info] Computing transcript lengths
+[00m[1m[2018-07-29 14:46:31.983] [stderrLog] [info] Waiting to finish loading hash
+[00m[1m[2018-07-29 14:46:38.682] [jointLog] [info] done
+[00m[1m[2018-07-29 14:46:38.682] [jointLog] [info] Index contained 107368 targets
+[00m[1m[2018-07-29 14:46:38.682] [stderrLog] [info] Successfully loaded position hash
+[00m[1m[2018-07-29 14:46:38.682] [stderrLog] [info] Done loading index
+[00m[1m[2018-07-29 14:46:39.051] [jointLog] [info] Automatically detected most likely library type as IU
+[00m[1m[2018-07-29 14:47:35.582] [jointLog] [info] Computed 180845 rich equivalence classes for further processing
+[00m[1m[2018-07-29 14:47:35.583] [jointLog] [info] Counted 17556187 total reads in the equivalence classes 
+[00m[1m[2018-07-29 14:47:35.672] [jointLog] [info] Mapping rate = 87.7428%
+
+[00m[1m[2018-07-29 14:47:35.672] [jointLog] [info] finished quantifyLibrary()
+[00m[1m[2018-07-29 14:47:35.674] [jointLog] [info] Starting optimizer
+[00m[1m[2018-07-29 14:47:35.750] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[00m[1m[2018-07-29 14:47:35.756] [jointLog] [info] iteration = 0 | max rel diff. = 44.4969
+[00m[1m[2018-07-29 14:47:36.436] [jointLog] [info] iteration = 100 | max rel diff. = 0.108884
+[00m[1m[2018-07-29 14:47:37.111] [jointLog] [info] iteration = 200 | max rel diff. = 0.0509955
+[00m[1m[2018-07-29 14:47:37.784] [jointLog] [info] iteration = 300 | max rel diff. = 0.037894
+[00m[1m[2018-07-29 14:47:38.458] [jointLog] [info] iteration = 400 | max rel diff. = 0.0282849
+[00m[1m[2018-07-29 14:47:39.133] [jointLog] [info] iteration = 500 | max rel diff. = 0.0229284
+[00m[1m[2018-07-29 14:47:39.806] [jointLog] [info] iteration = 600 | max rel diff. = 0.0192222
+[00m[1m[2018-07-29 14:47:40.482] [jointLog] [info] iteration = 700 | max rel diff. = 0.0160703
+[00m[1m[2018-07-29 14:47:41.156] [jointLog] [info] iteration = 800 | max rel diff. = 0.0137515
+[00m[1m[2018-07-29 14:47:41.825] [jointLog] [info] iteration = 900 | max rel diff. = 0.0137515
+[00m[1m[2018-07-29 14:47:42.502] [jointLog] [info] iteration = 1000 | max rel diff. = 0.0137515
+[00m[1m[2018-07-29 14:47:43.175] [jointLog] [info] iteration = 1100 | max rel diff. = 0.0154927
+[00m[1m[2018-07-29 14:47:43.780] [jointLog] [info] iteration = 1191 | max rel diff. = 0.00871133
+[00m[1m[2018-07-29 14:47:43.790] [jointLog] [info] Finished optimizer
+[00m[1m[2018-07-29 14:47:43.790] [jointLog] [info] writing output 
+
+[00m

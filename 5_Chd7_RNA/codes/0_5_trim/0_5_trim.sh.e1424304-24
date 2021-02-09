@@ -1,0 +1,227 @@
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> 276_24_R1.fastq <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	564	CTGTCTCTTATA	1000000	0.06
+smallRNA	0	TGGAATTCTCGG	1000000	0.00
+Illumina	0	AGATCGGAAGAGC	1000000	0.00
+Using Nextera adapter for trimming (count: 564). Second best hit was smallRNA (count: 0)
+
+Writing report to '276_24_R1.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: 276_24_R1.fastq
+Trimming mode: paired-end
+Trim Galore version: 0.4.1
+Cutadapt version: 1.16
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 3 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 24 bp
+
+Writing final adapter and quality trimmed output to 276_24_R1_trimmed.fq
+
+
+  >>> Now performing quality (cutoff 20) and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file 276_24_R1.fastq <<< 
+10000000 sequences processed
+This is cutadapt 1.16 with Python 2.7.11
+Command line parameters: -f fastq -e 0.1 -q 20 -O 3 -a CTGTCTCTTATA 276_24_R1.fastq
+Running on 1 core
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 359.26 s (19 us/read; 3.16 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              18,940,117
+Reads with adapters:                 1,125,125 (5.9%)
+Reads written (passing filters):    18,940,117 (100.0%)
+
+Total basepairs processed:   757,604,680 bp
+Quality-trimmed:               1,522,757 bp (0.2%)
+Total written (filtered):    750,858,878 bp (99.1%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 1125125 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 17.4%
+  C: 32.3%
+  G: 26.1%
+  T: 24.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	571229	295939.3	0	571229
+4	199303	73984.8	0	199303
+5	90731	18496.2	0	90731
+6	58385	4624.1	0	58385
+7	48290	1156.0	0	48290
+8	45483	289.0	0	45483
+9	45241	72.3	0	44750 491
+10	38352	18.1	1	37098 1254
+11	10742	4.5	1	10223 519
+12	6609	1.1	1	6390 219
+13	3877	1.1	1	3122 755
+14	727	1.1	1	526 201
+15	198	1.1	1	141 57
+16	152	1.1	1	68 84
+17	174	1.1	1	99 75
+18	226	1.1	1	43 183
+19	403	1.1	1	55 348
+20	1152	1.1	1	37 1115
+21	356	1.1	1	17 339
+22	227	1.1	1	10 217
+23	172	1.1	1	4 168
+24	46	1.1	1	2 44
+25	138	1.1	1	6 132
+26	120	1.1	1	1 119
+27	77	1.1	1	4 73
+28	340	1.1	1	5 335
+29	67	1.1	1	1 66
+30	545	1.1	1	7 538
+31	412	1.1	1	2 410
+32	332	1.1	1	4 328
+33	170	1.1	1	1 169
+34	160	1.1	1	0 160
+35	90	1.1	1	4 86
+36	62	1.1	1	8 54
+37	221	1.1	1	10 211
+38	84	1.1	1	2 82
+39	45	1.1	1	2 43
+40	187	1.1	1	0 187
+
+
+RUN STATISTICS FOR INPUT FILE: 276_24_R1.fastq
+=============================================
+18940117 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '276_24_R2.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: 276_24_R2.fastq
+Trimming mode: paired-end
+Trim Galore version: 0.4.1
+Cutadapt version: 1.16
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 3 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 24 bp
+
+Writing final adapter and quality trimmed output to 276_24_R2_trimmed.fq
+
+
+  >>> Now performing quality (cutoff 20) and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file 276_24_R2.fastq <<< 
+10000000 sequences processed
+This is cutadapt 1.16 with Python 2.7.11
+Command line parameters: -f fastq -e 0.1 -q 20 -O 3 -a CTGTCTCTTATA 276_24_R2.fastq
+Running on 1 core
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 295.94 s (16 us/read; 3.84 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              18,940,117
+Reads with adapters:                 1,122,914 (5.9%)
+Reads written (passing filters):    18,940,117 (100.0%)
+
+Total basepairs processed:   757,604,680 bp
+Quality-trimmed:               5,384,260 bp (0.7%)
+Total written (filtered):    747,030,585 bp (98.6%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 1122914 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 17.6%
+  C: 31.4%
+  G: 26.6%
+  T: 24.4%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	573929	295939.3	0	573929
+4	201435	73984.8	0	201435
+5	87230	18496.2	0	87230
+6	59336	4624.1	0	59336
+7	45815	1156.0	0	45815
+8	44679	289.0	0	44679
+9	48598	72.3	0	48090 508
+10	33875	18.1	1	32528 1347
+11	10882	4.5	1	10336 546
+12	6374	1.1	1	6107 267
+13	3804	1.1	1	3071 733
+14	669	1.1	1	491 178
+15	240	1.1	1	147 93
+16	138	1.1	1	64 74
+17	198	1.1	1	95 103
+18	239	1.1	1	40 199
+19	492	1.1	1	56 436
+20	1050	1.1	1	42 1008
+21	307	1.1	1	6 301
+22	223	1.1	1	5 218
+23	176	1.1	1	6 170
+24	43	1.1	1	2 41
+25	159	1.1	1	6 153
+26	157	1.1	1	3 154
+27	76	1.1	1	4 72
+28	368	1.1	1	6 362
+29	80	1.1	1	2 78
+30	572	1.1	1	4 568
+31	484	1.1	1	4 480
+32	280	1.1	1	4 276
+33	160	1.1	1	3 157
+34	140	1.1	1	1 139
+35	79	1.1	1	4 75
+36	64	1.1	1	9 55
+37	214	1.1	1	10 204
+38	90	1.1	1	2 88
+39	56	1.1	1	2 54
+40	203	1.1	1	0 203
+
+
+RUN STATISTICS FOR INPUT FILE: 276_24_R2.fastq
+=============================================
+18940117 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 276_24_R1_trimmed.fq and 276_24_R2_trimmed.fq
+file_1: 276_24_R1_trimmed.fq, file_2: 276_24_R2_trimmed.fq
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 276_24_R1_trimmed.fq and 276_24_R2_trimmed.fq <<<<<
+Writing validated paired-end read 1 reads to 276_24_R1_val_1.fq
+Writing validated paired-end read 2 reads to 276_24_R2_val_2.fq
+
+Total number of sequences analysed: 18940117
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (24 bp): 104649 (0.55%)
+
+Deleting both intermediate output files 276_24_R1_trimmed.fq and 276_24_R2_trimmed.fq
+
+====================================================================================================
+
