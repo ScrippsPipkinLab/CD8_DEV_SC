@@ -48,6 +48,10 @@ GSEA_analysis <- function(in.file, use.group, out_name, gs_file, zscore_cutoff) 
  
   file.name.simp <- out_name
   in.tb <- read_csv(in.file)
+  # Handle DEseq2 output files with no colnames for gene names
+  if (colnames(in.tb)[1] == "X1"){
+      colnames(in.tb)[1] = "gene_name"
+  }
   use.col <- c("gene_name", "gene_names", use.group)
   use.tb <- in.tb %>% dplyr::select(one_of(use.col))
   colnames(use.tb) <- c("gene_name", "z")
@@ -198,6 +202,10 @@ GO_run <- function(z_file, use.group, out_name, z_cutoff, subdirs){
   ### subdirs: if TRUE, create "BP", "MF", "CC" subdirs
     
   tab.i <- read_csv(z_file)
+  # Handle DEseq2 output files with no colnames for gene names
+  if (colnames(tab.i)[1] == "X1"){
+      colnames(tab.i)[1] = "gene_name"
+  }
   use.col <- c("gene_name", "gene_names", use.group)
   tab.i <- tab.i %>% dplyr::select(one_of(use.col))
   colnames(tab.i) <- c("gene_name", "z")
