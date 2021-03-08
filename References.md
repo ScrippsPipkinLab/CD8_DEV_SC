@@ -4,4 +4,6 @@
 
 2. **[ 2021_NAT_IMMUNOL_Yao ]** [BACH2 enforces the transcriptional and epigenetic programs of stem-like CD8+ T cells](https://www.nature.com/articles/s41590-021-00868-7?proof=t)
 
-3. **[ 2008_Bioinformatics_Jin ]** [scEpath: energy landscape-based inference of transition probabilities and cellular trajectories from single-cell transcriptomic data](https://academic.oup.com/bioinformatics/article/34/12/2077/4838235?login=true)
+3. **[ 2018_Bioinformatics_Jin ]** [scEpath: energy landscape-based inference of transition probabilities and cellular trajectories from single-cell transcriptomic data](https://academic.oup.com/bioinformatics/article/34/12/2077/4838235?login=true)
+
+4. **[ 2020_PNAS_Maslova ]** [Deep learning of immune cell differentiation](https://www.pnas.org/content/117/41/25655)
