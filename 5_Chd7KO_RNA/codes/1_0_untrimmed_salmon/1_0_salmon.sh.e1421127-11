@@ -1,69 +1,0 @@
-Version Info: ### A newer version of Salmon is available. ####
-###
-The newest version, available at https://github.com/COMBINE-lab/salmon/releases 
-contains new features, improvements, and minor bug fixes; please upgrade at your
-earliest convenience.
-###
-### salmon (mapping-based) v0.7.2
-### [ program ] => salmon 
-### [ command ] => quant 
-### [ index ] => { /gpfs/home/hdiao/resources/Transcript/Ensembl_5_17_mm10_qusai_salmon_index }
-### [ libType ] => { A }
-### [ threads ] => { 16 }
-### [ mates1 ] => { 276_11_R1.fastq }
-### [ mates2 ] => { 276_11_R2.fastq }
-### [ output ] => { /gpfs/home/hdiao/Exp276/276_11 }
-Logs will be written to /gpfs/home/hdiao/Exp276/276_11/logs
-
-
-
-
-[A[32mprocessed[31m 500002 [32mfragments[0m
-hits: 1349620, hits per frag:  3.14606[A[32mprocessed[31m 1000000 [32mfragments[0m
-hits: 2694026, hits per frag:  2.86123[A[32mprocessed[31m 1500000 [32mfragments[0m
-hits: 4038010, hits per frag:  2.80664[A[32mprocessed[31m 2000000 [32mfragments[0m
-hits: 5383648, hits per frag:  2.73917[A[32mprocessed[31m 2500000 [32mfragments[0m
-hits: 6731952, hits per frag:  2.71031[A[32mprocessed[31m 3000000 [32mfragments[0m
-hits: 8076700, hits per frag:  2.74713[A[32mprocessed[31m 3500000 [32mfragments[0m
-hits: 9429010, hits per frag:  2.75493[A[32mprocessed[31m 4000000 [32mfragments[0m
-hits: 10772730, hits per frag:  2.7434[A[32mprocessed[31m 4500000 [32mfragments[0m
-hits: 12113623, hits per frag:  2.72705[A[32mprocessed[31m 5000000 [32mfragments[0m
-hits: 13458621, hits per frag:  2.72282[A[32mprocessed[31m 5500000 [32mfragments[0m
-hits: 14805562, hits per frag:  2.71622[A[32mprocessed[31m 6000000 [32mfragments[0m
-hits: 16153126, hits per frag:  2.71156[A[32mprocessed[31m 6500000 [32mfragments[0m
-hits: 17494494, hits per frag:  2.71635[A[32mprocessed[31m 7000000 [32mfragments[0m
-hits: 18843346, hits per frag:  2.73723[A[32mprocessed[31m 7500001 [32mfragments[0m
-hits: 20183138, hits per frag:  2.73078[A[32mprocessed[31m 8000000 [32mfragments[0m
-hits: 21537169, hits per frag:  2.72815[A[32mprocessed[31m 8500000 [32mfragments[0m
-hits: 22886835, hits per frag:  2.70043[A[32mprocessed[31m 9000000 [32mfragments[0m
-hits: 24237938, hits per frag:  2.83471[A[32mprocessed[31m 9500000 [32mfragments[0m
-hits: 25583997, hits per frag:  2.70734[A[32mprocessed[31m 10000000 [32mfragments[0m
-hits: 26930269, hits per frag:  2.77705[A[32mprocessed[31m 10500000 [32mfragments[0m
-hits: 28279369, hits per frag:  2.69721[A[32mprocessed[31m 11000000 [32mfragments[0m
-hits: 29627632, hits per frag:  2.70106[A[32mprocessed[31m 11500000 [32mfragments[0m
-hits: 30967411, hits per frag:  2.70603[A[32mprocessed[31m 12000000 [32mfragments[0m
-hits: 32306977, hits per frag:  2.69392[A[32mprocessed[31m 12500001 [32mfragments[0m
-hits: 33652958, hits per frag:  2.70344[A[32mprocessed[31m 13000001 [32mfragments[0m
-hits: 35002468, hits per frag:  2.69949[A[32mprocessed[31m 13500000 [32mfragments[0m
-hits: 36350917, hits per frag:  2.70511[A[32mprocessed[31m 14000000 [32mfragments[0m
-hits: 37695495, hits per frag:  2.69598[A[32mprocessed[31m 14500001 [32mfragments[0m
-hits: 39042649, hits per frag:  2.69731[A[32mprocessed[31m 15000000 [32mfragments[0m
-hits: 40382433, hits per frag:  2.70736[A[32mprocessed[31m 15500000 [32mfragments[0m
-hits: 41728786, hits per frag:  2.70334[A[32mprocessed[31m 16000002 [32mfragments[0m
-hits: 43072660, hits per frag:  2.70268[A[32mprocessed[31m 16500000 [32mfragments[0m
-hits: 44422165, hits per frag:  2.6985[A[32mprocessed[31m 17000000 [32mfragments[0m
-hits: 45765159, hits per frag:  2.69424[A[32mprocessed[31m 17500000 [32mfragments[0m
-hits: 47107758, hits per frag:  2.69632[A[32mprocessed[31m 18000000 [32mfragments[0m
-hits: 48454050, hits per frag:  2.70322[A[32mprocessed[31m 18500000 [32mfragments[0m
-hits: 49799850, hits per frag:  2.6949[A[32mprocessed[31m 19000000 [32mfragments[0m
-hits: 51142638, hits per frag:  2.69582[A[32mprocessed[31m 19500000 [32mfragments[0m
-hits: 52487204, hits per frag:  2.69807[A[32mprocessed[31m 20000000 [32mfragments[0m
-hits: 53835634, hits per frag:  2.69634[A[32mprocessed[31m 20500000 [32mfragments[0m
-hits: 55176035, hits per frag:  2.70883
-
-
-
-
-
-
-

@@ -1,0 +1,94 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: 276_3_R2.fastq
+Trimming mode: paired-end
+Trim Galore version: 0.4.1
+Cutadapt version: 1.16
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 3 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 24 bp
+
+
+This is cutadapt 1.16 with Python 2.7.11
+Command line parameters: -f fastq -e 0.1 -q 20 -O 3 -a CTGTCTCTTATA 276_3_R2.fastq
+Running on 1 core
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 404.13 s (19 us/read; 3.17 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              21,325,912
+Reads with adapters:                 1,310,614 (6.1%)
+Reads written (passing filters):    21,325,912 (100.0%)
+
+Total basepairs processed:   853,036,480 bp
+Quality-trimmed:               5,819,852 bp (0.7%)
+Total written (filtered):    841,117,036 bp (98.6%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 1310614 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 17.1%
+  C: 31.9%
+  G: 26.6%
+  T: 24.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	657481	333217.4	0	657481
+4	235995	83304.3	0	235995
+5	104377	20826.1	0	104377
+6	71641	5206.5	0	71641
+7	54659	1301.6	0	54659
+8	51624	325.4	0	51624
+9	55844	81.4	0	55357 487
+10	41229	20.3	1	39672 1557
+11	16286	5.1	1	15691 595
+12	9593	1.3	1	9231 362
+13	5165	1.3	1	4481 684
+14	956	1.3	1	787 169
+15	289	1.3	1	210 79
+16	190	1.3	1	99 91
+17	259	1.3	1	150 109
+18	238	1.3	1	82 156
+19	341	1.3	1	82 259
+20	946	1.3	1	66 880
+21	288	1.3	1	24 264
+22	154	1.3	1	8 146
+23	153	1.3	1	8 145
+24	67	1.3	1	7 60
+25	99	1.3	1	6 93
+26	118	1.3	1	5 113
+27	95	1.3	1	6 89
+28	292	1.3	1	3 289
+29	81	1.3	1	14 67
+30	497	1.3	1	7 490
+31	386	1.3	1	10 376
+32	358	1.3	1	10 348
+33	110	1.3	1	5 105
+34	156	1.3	1	2 154
+35	87	1.3	1	11 76
+36	92	1.3	1	22 70
+37	201	1.3	1	11 190
+38	102	1.3	1	2 100
+39	37	1.3	1	1 36
+40	128	1.3	1	0 128
+
+
+RUN STATISTICS FOR INPUT FILE: 276_3_R2.fastq
+=============================================
+21325912 sequences processed in total
+
+Total number of sequences analysed for the sequence pair length validation: 21325912
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (24 bp): 108877 (0.51%)

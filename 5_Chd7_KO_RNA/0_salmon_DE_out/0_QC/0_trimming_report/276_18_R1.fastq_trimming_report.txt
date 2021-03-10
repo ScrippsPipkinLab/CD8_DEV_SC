@@ -1,0 +1,91 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: 276_18_R1.fastq
+Trimming mode: paired-end
+Trim Galore version: 0.4.1
+Cutadapt version: 1.16
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 3 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 24 bp
+
+
+This is cutadapt 1.16 with Python 2.7.11
+Command line parameters: -f fastq -e 0.1 -q 20 -O 3 -a CTGTCTCTTATA 276_18_R1.fastq
+Running on 1 core
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 430.71 s (21 us/read; 2.86 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              20,515,017
+Reads with adapters:                 1,268,166 (6.2%)
+Reads written (passing filters):    20,515,017 (100.0%)
+
+Total basepairs processed:   820,600,680 bp
+Quality-trimmed:               1,613,723 bp (0.2%)
+Total written (filtered):    813,046,465 bp (99.1%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 1268166 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 16.7%
+  C: 30.9%
+  G: 26.4%
+  T: 26.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	633794	320547.1	0	633794
+4	226730	80136.8	0	226730
+5	103734	20034.2	0	103734
+6	68339	5008.5	0	68339
+7	57874	1252.1	0	57874
+8	51716	313.0	0	51716
+9	49079	78.3	0	48420 659
+10	43259	19.6	1	41746 1513
+11	13068	4.9	1	12405 663
+12	7554	1.2	1	7273 281
+13	4054	1.2	1	2922 1132
+14	811	1.2	1	582 229
+15	208	1.2	1	134 74
+16	145	1.2	1	64 81
+17	203	1.2	1	115 88
+18	279	1.2	1	54 225
+19	422	1.2	1	50 372
+20	1607	1.2	1	41 1566
+21	491	1.2	1	24 467
+22	319	1.2	1	13 306
+23	239	1.2	1	6 233
+24	52	1.2	1	0 52
+25	151	1.2	1	5 146
+26	176	1.2	1	4 172
+27	78	1.2	1	0 78
+28	375	1.2	1	1 374
+29	98	1.2	1	6 92
+30	875	1.2	1	6 869
+31	611	1.2	1	6 605
+32	415	1.2	1	4 411
+33	165	1.2	1	0 165
+34	269	1.2	1	4 265
+35	122	1.2	1	3 119
+36	69	1.2	1	3 66
+37	314	1.2	1	10 304
+38	131	1.2	1	2 129
+39	69	1.2	1	0 69
+40	271	1.2	1	1 270
+
+
+RUN STATISTICS FOR INPUT FILE: 276_18_R1.fastq
+=============================================
+20515017 sequences processed in total
+
