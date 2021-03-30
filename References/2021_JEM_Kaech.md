@@ -130,7 +130,6 @@ chronic infection
 	- Eomes: TE, TCM, Texterm
 	- *How does a CD8+ T cell commit to one cell fate over another if similar TFs are being used?*
 - 5.2 What are the context-dependent specifiers that differentially control the activity of the same TF in discrete differentiation states?
-	- *TFs can be understood as nodes in neural network. The weights associated with TFs determine the contextual function*
 	- TF gradient: differential function at different concentration e.g. T-bet, Tox
 	- Localization of TF: e.g. T-bet nuclear localization
 	- Posttranslational modifications
