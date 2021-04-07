@@ -8,3 +8,4 @@
 
 4. **[ 2020_PNAS_Maslova ]** [Deep learning of immune cell differentiation](https://www.pnas.org/content/117/41/25655)
 5. **[ 2021_JEM_Kaech ]** [The architectural design of CD8+ T cell responses in acute and chronic infection: Parallel structures with divergent fates](https://rupress.org/jem/article-abstract/218/4/e20201730/211912)
+6. **[ 2021_BioRxiv_Cruz ]** [A stochastic pooling motif mediates information transfer from receptor assemblies into NF-κB](https://www.biorxiv.org/content/10.1101/2021.03.29.437543v1)
