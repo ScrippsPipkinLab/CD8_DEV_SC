@@ -73,7 +73,7 @@ GSEA_analysis <- function(in.file, use.group, out_name, gs_file, zscore_cutoff) 
   
   #####---------- RUN GSEA
   em <- enricher(deg.list, TERM2GENE=gs.tb)
-  em2 <- GSEA(gene.list, TERM2GENE=gs.tb,  nPerm = 10000, minGSSize = 1, maxGSSize = 5000,  pvalueCutoff = 1, by="DOSE")
+  em2 <- GSEA(gene.list, TERM2GENE=gs.tb,  nPerm = 10000, minGSSize = 1, maxGSSize = 5000,  pvalueCutoff = 1) #, by="DOSE"
   
   #####---------- Export results
   tb.name <- paste(file.name.simp, "---", gs.name.simp, ".csv", sep="")
