@@ -1,10 +1,33 @@
 # References
 
+## 1. CD8 T cell development
+
+### 1.1 Review
+**[ 2021_JEM_Kaech ]** [The architectural design of CD8+ T cell responses in acute and chronic infection: Parallel structures with divergent fates](https://rupress.org/jem/article-abstract/218/4/e20201730/211912)
+
+### 1.2 Acute
+**[ 2020_NAT_IMMUNOL_Utzschneider ]** [Early precursor T cells establish and propagate T cell exhaustion in chronic infection](https://www.nature.com/articles/s41590-020-0760-z)
+
+### 1.3 Chronic
+
+
+
+## 2. IL2 signaling
+
+## 3. Chromatin remodeling
+
+## 4. Single cell
+
+## 5. Other
+### 5.1 Viral infection models
+**[ 2011_CURR_PROTOC_MICROBIOL_Welsh ]** [LCMV: Propagation, quantitation, and storage](https://currentprotocols.onlinelibrary.wiley.com/doi/10.1002/9780471729259.mc15a01s8)
+
+
 1. **[ 2020_NAT_IMMUNOL_Schober ]** [Reverse TCR repertoire evolution toward dominant low-affinity clones during chronic CMV infection](https://www.nature.com/articles/s41590-020-0628-2)
 2. **[ 2021_NAT_IMMUNOL_Yao ]** [BACH2 enforces the transcriptional and epigenetic programs of stem-like CD8+ T cells](https://www.nature.com/articles/s41590-021-00868-7?proof=t)
 3. **[ 2018_Bioinformatics_Jin ]** [scEpath: energy landscape-based inference of transition probabilities and cellular trajectories from single-cell transcriptomic data](https://academic.oup.com/bioinformatics/article/34/12/2077/4838235?login=true)
 4. **[ 2020_PNAS_Maslova ]** [Deep learning of immune cell differentiation](https://www.pnas.org/content/117/41/25655)
-5. **[ 2021_JEM_Kaech ]** [The architectural design of CD8+ T cell responses in acute and chronic infection: Parallel structures with divergent fates](https://rupress.org/jem/article-abstract/218/4/e20201730/211912)
+
 6. **[ 2021_BioRxiv_Cruz ]** [A stochastic pooling motif mediates information transfer from receptor assemblies into NF-κB](https://www.biorxiv.org/content/10.1101/2021.03.29.437543v1)
 7. **[ 2012_Blood_Gil ]** [Regulating type 1 IFN effects in CD8 T cells during viral infections: changing STAT4 and STAT1 expression for function](https://ashpublications.org/blood/article/120/18/3718/30702)
 8. **[ 2006_Blood_Gil ]** [Modulation of STAT1 protein levels: a mechanism shaping CD8 T-cell responses in vivo](https://ashpublications.org/blood/article/107/3/987/22144)
