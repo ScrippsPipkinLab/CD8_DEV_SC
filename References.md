@@ -15,6 +15,9 @@
 ## 2. IL2 signaling
 
 ## 3. Chromatin remodeling
+**[ 2019_JEM_Yukawa ]** [AP-1 activity induced by co-stimulation is required for chromatin opening during T cell activation](https://rupress.org/jem/article/217/1/e20182009/132593/AP-1-activity-induced-by-co-stimulation-is)
+
+**[2011_NAR_Helenius]** [Requirement of TFIIH kinase subunit Mat1 for RNA Pol II C-terminal domain Ser5 phosphorylation, transcription and mRNA turnover](https://academic.oup.com/nar/article/39/12/5025/2411484)
 
 ## 4. Single cell
 
@@ -32,4 +35,4 @@
 7. **[ 2012_Blood_Gil ]** [Regulating type 1 IFN effects in CD8 T cells during viral infections: changing STAT4 and STAT1 expression for function](https://ashpublications.org/blood/article/120/18/3718/30702)
 8. **[ 2006_Blood_Gil ]** [Modulation of STAT1 protein levels: a mechanism shaping CD8 T-cell responses in vivo](https://ashpublications.org/blood/article/107/3/987/22144)
 9. **[ 2019_J_VIROL_Qian ]** [A Human STAT1 Gain-of-Function Mutation Impairs CD8+ T Cell Responses against Gammaherpesvirus 68](https://jvi.asm.org/content/93/19/e00307-19.abstract)
-10. **[2011_NAR_Helenius]** [Requirement of TFIIH kinase subunit Mat1 for RNA Pol II C-terminal domain Ser5 phosphorylation, transcription and mRNA turnover](https://academic.oup.com/nar/article/39/12/5025/2411484)
+
