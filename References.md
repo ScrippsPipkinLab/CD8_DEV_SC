@@ -19,6 +19,8 @@
 
 **[2011_NAR_Helenius]** [Requirement of TFIIH kinase subunit Mat1 for RNA Pol II C-terminal domain Ser5 phosphorylation, transcription and mRNA turnover](https://academic.oup.com/nar/article/39/12/5025/2411484)
 
+**[2018_NAT_REV_IMMUNOL_Henning]** [Epigenetic control of CD8+ T cell differentiation](https://www.nature.com/articles/nri.2017.146)
+
 ## 4. Single cell
 
 ## 5. Other
