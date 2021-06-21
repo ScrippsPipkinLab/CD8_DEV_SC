@@ -253,7 +253,7 @@ volcano_plot <- function(comp_df, h_genes, log2fc_c, nlog10p_c, log2fc_range=c(-
 ##########---------- Get named lists of signature genes based on abbreviations of gene signatures
 gs.anno.file <- '/media/pipkin/ROCKET-PRO/T_cell_signature_Reference/Y_annotated/anno_plotuse_gs_20210621.csv'
 gs.anno.df <- read_csv(gs.anno.file) %>% filter(plot_use != "NA")
-all.gs.file <- '/media/pipkin/ROCKET-PRO/T_cell_signature_Reference/X_GeneSignatures_mm/all_mouse_T_cell_signatures_with_nascent_il2.csv'
+all.gs.file <- '/media/pipkin/ROCKET-PRO/T_cell_signature_Reference/X_GeneSignatures_mm/all_mouse_T_cell_signatures_with_il2.csv'
 all.gs.df <- read_csv(all.gs.file)
 
 get_gs_genes <- function(gs_use=c(" ")) {
