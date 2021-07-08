@@ -22,6 +22,8 @@ label_df = pd.read_csv(label_file)
 label_dict = {str(x):str(y) for index, (x,y) in 
               enumerate(zip(label_df['old_label'].tolist(), 
                             label_df['new_label'].tolist()))}
+print(label_dict)
+print(input_dir)
 
 for path in Path(input_dir).rglob('*'):
     if path.is_file():
@@ -39,19 +41,32 @@ for path in Path(input_dir).rglob('*'):
         if new_relative_path != relative_path:
             new_folder = input_dir+"/".join(new_relative_path_list[:-1])
             Path(new_folder).mkdir(parents=True, exist_ok=True)
-        
-            # Relabel column and index if it is csv file
-            if ".csv" in new_relative_path:
-                df = pd.read_csv(path)
-                df_cols = [label_dict[x] if x in label_dict.keys()
-                           else x for x in df.columns]
-                df_firstcol = [label_dict[x] if x in label_dict.keys()
-                               else x for x in df.iloc[:,0]]
-                df.columns = df_cols
-                df.iloc[:,0] = df_firstcol
-                df.to_csv(input_dir+new_relative_path, index=False)
-            # Otherwise just copy it to a new name
-            else:
-                copyfile(path, input_dir+new_relative_path)
+        else:
+            new_relative_path = relative_path
+        new_relative_path = new_relative_path.replace('.csv', '_relabeled.csv')
+        print(input_dir + new_relative_path)
+            
+        # Relabel column and index if it is csv file
+        if ".csv" in new_relative_path:
+            df = pd.read_csv(path)
+
+            df_cols = []
+            for i in df.columns:
+                i_list = i.split("_")
+                i_list = [label_dict[str(x)] if str(x) in label_dict.keys() else str(x) for x in i_list]
+                df_cols.append("_".join(i_list))
+            df_idx = []
+            for i in df.iloc[:,0]:
+                i_list = i.split("_")
+                i_list = [label_dict[str(x)] if str(x) in label_dict.keys() else str(x) for x in i_list]
+                df_idx.append("_".join(i_list))
+            #print(df.columns)
+            #print(df_cols)
+            df.columns = df_cols
+            df.iloc[:,0] = df_idx
+            df.to_csv(input_dir + new_relative_path, index=False)
+        # Otherwise just copy it to a new name
+        else:
+            copyfile(path, input_dir+new_relative_path)
 
 print("Done!")
