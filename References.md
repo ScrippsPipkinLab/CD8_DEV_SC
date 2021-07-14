@@ -26,6 +26,7 @@
 ## 5. Other
 ### 5.1 Viral infection models
 **[ 2011_CURR_PROTOC_MICROBIOL_Welsh ]** [LCMV: Propagation, quantitation, and storage](https://currentprotocols.onlinelibrary.wiley.com/doi/10.1002/9780471729259.mc15a01s8)
+**[ 2003_J_VIRAL_Wherry ]** [Viral persistence alters CD8 T-cell immunodominance and tissue distribution and results in distinct stages of functional impairment](https://pubmed.ncbi.nlm.nih.gov/12663797/)
 
 
 1. **[ 2020_NAT_IMMUNOL_Schober ]** [Reverse TCR repertoire evolution toward dominant low-affinity clones during chronic CMV infection](https://www.nature.com/articles/s41590-020-0628-2)
